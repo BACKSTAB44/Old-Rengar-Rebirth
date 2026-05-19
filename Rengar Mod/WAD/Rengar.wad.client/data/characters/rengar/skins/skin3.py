@@ -85,7 +85,6 @@ entries: map[hash,embed] = {
                 { 180, 250, 180 }
             }
             reflectionFresnelColor: rgba = { 0, 0, 0, 255 }
-            initialSubmeshToHide: string = "Hood"
             rigPoseModifierData: list[pointer] = {
                 ConformToPathRigPoseModifierData {
                     mStartingJointName: hash = "tail1"
