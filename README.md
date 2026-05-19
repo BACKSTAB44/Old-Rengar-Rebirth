@@ -46,4 +46,4 @@ This project is not affiliated with or endorsed by Riot Games.
 League of Legends and all associated assets are property of Riot Games.
 
 This repository only contains original code, modifications, configuration edits,
-or fan-made assets unless otherwise stated.
+or fan-made assets unless otherwise stated. 
