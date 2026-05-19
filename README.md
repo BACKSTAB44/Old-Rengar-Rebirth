@@ -3,7 +3,7 @@
 
 * Animation reverts/bugfixes, SFX reverts/bugfixes, VFX reverts/bugfixes, structure improvements.
 * Rebirth mod is built on Renghub's V1.3 ["Old Rengar Remastered"](https://youtu.be/uycBm-iuUGA) mod by BACKSTAB. It combines Renghub's VFX with ZedVeZed's animations and my SFX, as well as fixing bugs and repolishing everything.
-* Both the quality and technical improvements. More future-proof and file count reduced from 417 to 193.
+* Both the quality and technical improvements. More future-proof and file count reduced from 417 to 186.
 
 **Bug-free, stable, lightweight, debloated and as future-proof as it can be.**
 #
