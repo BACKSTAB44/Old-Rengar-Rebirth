@@ -1,2 +1,41 @@
 # Old Rengar Rebirth
-Complete restoration of Old Rengar
+## Season 6 Rengar Fully Restored
+
+* Animation reverts/bugfixes, SFX reverts/bugfixes, VFX reverts/bugfixes, structure improvements.
+* Rebirth mod is built on Renghub's V1.3 ["Old Rengar Remastered"](https://youtu.be/uycBm-iuUGA) mod by BACKSTAB. It combines Renghub's VFX with ZedVeZed's animations and my SFX, as well as fixing bugs and repolishing everything.
+* Both the quality and technical improvements. More future-proof and file count reduced from 417 to 193.
+
+**Bug-free, stable, lightweight, debloated and as future-proof as it can be.**
+#
+
+## [FULL CHANGELIST](https://www.reddit.com/r/Rengarmains/comments/1og28um/old_rengar_rebirth_mod_showcase_download/)
+ _List of all changes since Renghub's mod_
+#
+
+## Coming to Live?
+The “Rebirth” mod is special because Riot Games will attempt to apply its animations onto the Live Rengar.
+#
+
+# CREDITS
+
+ - **Animations:** [ZedVeZed](https://www.reddit.com/u/ZedveZed/s/QkHzyq8OmH), [Renghub](https://youtube.com/@renghub?si=3_gHb5NiVaICRaB-)
+ - **Visuals:** [Renghub](https://youtube.com/@renghub?si=3_gHb5NiVaICRaB-)
+ - **Sounds & Misc:** [BACKSTAB](https://youtube.com/@backstab44?si=c0_3TbJ7E0hWylRW)
+ - **Honorable Mentions:** [Riot KDan](https://x.com/riotkdan?s=21), [Runeforge Community](https://discord.com/invite/runeforge), [Vespertine](https://www.reddit.com/u/Vespertine_F/s/wGGvQGGTmn)
+#
+# Socials
+ - **Twitter:** [@BACKSTAB44](https://x.com/BACKSTAB44)
+
+ - **Reddit:** [u/Ryo_Marufuji](https://www.reddit.com/user/Ryo_Marufuji/)
+
+_The mod is managed by me (BACKSTAB), if you find any bugs you can contact me._
+#
+
+# **Mod Archives**
+
+To secure the longevity of the Rebirth mod, I’m publishing its archive and a repository containing files related to it. In case I'm unable to maintain it, others will be able to continue the work and keep the mod alive. 
+
+Hopefully this will be useful someday.
+ - [**Archive**](https://drive.google.com/drive/folders/1fdFs-jmjTvH34S1yLzE9JP-wabCWr38X) _(mod & wwise iterations)_
+ - [**Extra**](https://drive.google.com/drive/folders/17wvzPI16-7v2034s4K1XfgrLlE1PdZ7m) _(my repository, very useful stuff)_
+#
