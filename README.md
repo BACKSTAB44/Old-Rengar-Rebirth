@@ -39,3 +39,11 @@ Hopefully this will be useful someday.
  - [**Archive**](https://drive.google.com/drive/folders/1fdFs-jmjTvH34S1yLzE9JP-wabCWr38X) _(mod & wwise iterations)_
  - [**Extra**](https://drive.google.com/drive/folders/17wvzPI16-7v2034s4K1XfgrLlE1PdZ7m) _(my repository, very useful stuff)_
 #
+## Legal
+
+This project is not affiliated with or endorsed by Riot Games.
+
+League of Legends and all associated assets are property of Riot Games.
+
+This repository only contains original code, modifications, configuration edits,
+or fan-made assets unless otherwise stated.

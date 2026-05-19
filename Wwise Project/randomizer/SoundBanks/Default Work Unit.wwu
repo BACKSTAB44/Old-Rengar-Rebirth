@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EE11B6A5-99E9-4EDE-868D-54FA36C5FCC3}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{EE11B6A5-99E9-4EDE-868D-54FA36C5FCC3}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="old_sfx_audio" ID="{1B116D7F-384A-4ACD-A1FA-2C4B87E03614}">
+					<ObjectInclusionList>
+						<ObjectRef Name="P_Dash" ID="{970529E7-3645-4130-8376-0E1AA07EDDEB}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}" Origin="Manual" Filter="4"/>
+						<ObjectRef Name="Q_OnCast" ID="{4F727C24-790A-4517-AC68-7C16725406E0}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}" Origin="Manual" Filter="4"/>
+						<ObjectRef Name="W_Roar" ID="{7ABD76D2-1222-45AB-8231-8E9812C5BC8E}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}" Origin="Manual" Filter="4"/>
+						<ObjectRef Name="Q_OnAttack" ID="{D366819F-4870-4629-BF39-E288FFF1BCB4}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}" Origin="Manual" Filter="4"/>
+						<ObjectRef Name="WEmp_Heal" ID="{6974BFF9-61A1-4903-B4AB-E50D2360E022}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}" Origin="Manual" Filter="4"/>
+						<ObjectRef Name="W_Armor" ID="{C454E10D-CE56-49A2-B5E2-F9A877E2DB3C}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}" Origin="Manual" Filter="4"/>
+						<ObjectRef Name="Q_Stab" ID="{3A52AAA0-7A32-4DCC-9EAA-70E81DF319F7}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}" Origin="Manual" Filter="4"/>
+						<ObjectRef Name="P_Leap_Grass" ID="{5B144A0C-0F1C-4F5E-BFCC-0097C69D4C84}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}" Origin="Manual" Filter="4"/>
+						<ObjectRef Name="QEmp_Stab" ID="{D1362494-2C7F-4F75-AD96-C58FF81DB285}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}" Origin="Manual" Filter="4"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="old_sfx_events" ID="{19994558-0773-4151-A315-296DE26C939B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_sfx_Old_RengarP_Leap_Grass" ID="{36A171A8-7D72-4186-BDC9-F256D947D131}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="Stop_sfx_Rengar_RengarQ_buffactivate" ID="{E7E1ECB9-47C8-4234-8809-0D7420A9BDE2}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="Play_sfx_Rengar_RengarQ_OnCast" ID="{D3814E8F-0B78-44EF-A8FF-94AB79C09D1F}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="Play_sfx_Old_RengarQEmp_Stab" ID="{F3093717-CFAA-46C8-923B-400AB44C035D}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="Play_sfx_Rengar_RengarP_cast" ID="{D05D6535-4CA1-4834-B3B3-75C89850149B}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="Play_sfx_Rengar_RengarQAttack_OnCast" ID="{095F9C75-F69C-4920-9472-8E58CC9C70DF}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="Play_sfx_Rengar_RengarWEmp_OnCast" ID="{D76D0221-8671-4933-8EFC-ED7167ADB732}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="Play_sfx_Rengar_RengarQEmpAttack_OnHit" ID="{E96012DC-6F17-4AB8-811F-317B12FBEDF5}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="Play_sfx_Rengar_RengarQAttack_OnHit" ID="{772A2038-F06B-4C49-9B05-A55CB47D11FC}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="Play_sfx_Old_RengarQ_Stab" ID="{FD099423-1E9A-4CCB-B62B-D3CD9371C095}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="Play_sfx_Rengar_RengarQEmp_OnCast" ID="{17241C1D-2B14-4DE0-832C-7D3F7EA46F06}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="Play_sfx_Rengar_RengarW_OnCast" ID="{AAFF0DE3-1DA0-4E61-93A8-EAB3B5498771}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="Play_sfx_Rengar_RengarQEmpAttack_OnCast" ID="{7987F6D2-87CF-4EFF-BD87-D57D89202DB3}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

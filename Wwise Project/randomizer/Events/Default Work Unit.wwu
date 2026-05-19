@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_sfx_Old_RengarP_Leap_Grass" ID="{36A171A8-7D72-4186-BDC9-F256D947D131}">
+					<ChildrenList>
+						<Action Name="" ID="{48DC14D4-D04D-46CC-8F9E-0CA731FE176A}" ShortID="718093795">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="P_Leap_Grass" ID="{5B144A0C-0F1C-4F5E-BFCC-0097C69D4C84}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_Old_RengarQ_Stab" ID="{FD099423-1E9A-4CCB-B62B-D3CD9371C095}">
+					<ChildrenList>
+						<Action Name="" ID="{CCD89880-D5BD-4DC1-8788-491216D3E454}" ShortID="902996520">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Q_Stab" ID="{3A52AAA0-7A32-4DCC-9EAA-70E81DF319F7}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_Old_RengarQEmp_Stab" ID="{F3093717-CFAA-46C8-923B-400AB44C035D}">
+					<ChildrenList>
+						<Action Name="" ID="{349B2CF1-A19C-4F99-ACA2-60778AC3D740}" ShortID="954505763">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="QEmp_Stab" ID="{D1362494-2C7F-4F75-AD96-C58FF81DB285}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_Rengar_RengarQEmpAttack_OnHit" ID="{E96012DC-6F17-4AB8-811F-317B12FBEDF5}"/>
+				<Event Name="Stop_sfx_Rengar_RengarQ_buffactivate" ID="{E7E1ECB9-47C8-4234-8809-0D7420A9BDE2}"/>
+				<Event Name="Play_sfx_Rengar_RengarQAttack_OnHit" ID="{772A2038-F06B-4C49-9B05-A55CB47D11FC}"/>
+				<Event Name="Play_sfx_Rengar_RengarW_OnCast" ID="{AAFF0DE3-1DA0-4E61-93A8-EAB3B5498771}">
+					<ChildrenList>
+						<Action Name="" ID="{BBE17B31-CE3E-430E-AF49-BD2DB6673930}" ShortID="640297441">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="W_Armor" ID="{C454E10D-CE56-49A2-B5E2-F9A877E2DB3C}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9DF09117-653E-4BE6-84CA-F3299BEFA784}" ShortID="819195152">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="W_Roar" ID="{7ABD76D2-1222-45AB-8231-8E9812C5BC8E}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_Rengar_RengarQ_OnCast" ID="{D3814E8F-0B78-44EF-A8FF-94AB79C09D1F}">
+					<ChildrenList>
+						<Action Name="" ID="{88BA5031-F35A-4168-8660-A5E8F0C6AF98}" ShortID="970888959">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Q_OnCast" ID="{4F727C24-790A-4517-AC68-7C16725406E0}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_Rengar_RengarP_cast" ID="{D05D6535-4CA1-4834-B3B3-75C89850149B}">
+					<ChildrenList>
+						<Action Name="" ID="{B6F967C0-A649-4D5E-88B6-235B7AE9A475}" ShortID="433988883">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="P_Dash" ID="{970529E7-3645-4130-8376-0E1AA07EDDEB}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_Rengar_RengarQAttack_OnCast" ID="{095F9C75-F69C-4920-9472-8E58CC9C70DF}">
+					<ChildrenList>
+						<Action Name="" ID="{D54894CA-7396-48A5-8BE6-06D4A46733BC}" ShortID="527095373">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Q_OnAttack" ID="{D366819F-4870-4629-BF39-E288FFF1BCB4}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_Rengar_RengarQEmpAttack_OnCast" ID="{7987F6D2-87CF-4EFF-BD87-D57D89202DB3}">
+					<ChildrenList>
+						<Action Name="" ID="{652253F1-AD88-43BC-A289-9D5790E42942}" ShortID="577125061">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Q_OnAttack" ID="{D366819F-4870-4629-BF39-E288FFF1BCB4}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_Rengar_RengarWEmp_OnCast" ID="{D76D0221-8671-4933-8EFC-ED7167ADB732}">
+					<ChildrenList>
+						<Action Name="" ID="{D66280F4-F439-4FAF-A594-16B6091370C5}" ShortID="98147574">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="W_Armor" ID="{C454E10D-CE56-49A2-B5E2-F9A877E2DB3C}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{34A56CAA-61BA-4B46-A12F-14C7DC8D272A}" ShortID="373868428">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="W_Roar" ID="{7ABD76D2-1222-45AB-8231-8E9812C5BC8E}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6C57F956-9014-4E44-99E5-2D126F712F45}" ShortID="742475459">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WEmp_Heal" ID="{6974BFF9-61A1-4903-B4AB-E50D2360E022}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_Rengar_RengarQEmp_OnCast" ID="{17241C1D-2B14-4DE0-832C-7D3F7EA46F06}">
+					<ChildrenList>
+						<Action Name="" ID="{E722222E-CDF5-47AF-A2B6-C5855B3DB677}" ShortID="113119799">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Q_OnCast" ID="{4F727C24-790A-4517-AC68-7C16725406E0}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
