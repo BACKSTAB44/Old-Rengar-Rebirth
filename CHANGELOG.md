@@ -17,7 +17,7 @@
 **- R** reverted to changing Rengar's Run animation only after entering stealth.  
 **-** Restored Night Hunter's old "**R** Run" animation details.
 
-**- VISUALS -**
+**- VISUALS -** 
 
 >**- Leap** range indicator reverted back to the old one for Night Hunter skin.  
 **-** "**Q** on-hit" visuals' positioning adjusted.  
