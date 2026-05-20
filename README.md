@@ -15,9 +15,9 @@
   2. Download the Rengar mod (.fantome) from [**Releases**](https://github.com/BACKSTAB44/Old-Rengar-Rebirth/releases/) page.
   3. Launch LTK Manager and drag the downloaded .fantome into it.
   4. Press "Start Patcher" at the top right of LTK Manager.
-EXTRA: In case you're running the "NoSkin" mod - in LTK Manager make sure to select "Priority" sorting order and place the Rengar mod above it if you want skins. 
    
 [**Installation Tutorial**](https://youtu.be/_UNsweJ9h-g)
+**EXTRA:** In case you're running the "NoSkin" mod - in LTK Manager make sure to select "Priority" sorting order and place the Rengar mod above it if you want skins. 
 
 #
 
