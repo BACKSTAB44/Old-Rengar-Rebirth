@@ -1,4 +1,4 @@
-# Old Rengar Rebirth
+# Old Rengar Rebirth Mod
 ## Season 6 Rengar Fully Restored
 
 * Animation reverts/bugfixes, SFX reverts/bugfixes, VFX reverts/bugfixes, structure improvements.
