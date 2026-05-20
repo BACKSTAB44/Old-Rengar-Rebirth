@@ -1,3 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Exclude "Old Season Files" folder completely from language statistics
 Old\ Season\ Files/** linguist-generated=true
