@@ -8,12 +8,10 @@
 **Open source, bug-free, stable, lightweight, debloated and as future-proof as it can be.**
 #
 
-## [FULL CHANGELIST](https://www.reddit.com/r/Rengarmains/comments/1og28um/old_rengar_rebirth_mod_showcase_download/)
- _List of all changes since Renghub's mod_
-#
+# Installation
+ - **Requirements:** [LTK Manager](https://github.com/LeagueToolkit/ltk-manager) (Mod-Loader)
+ - [**Tutorial**](https://youtu.be/_UNsweJ9h-g)
 
-## Coming to Live?
-The “Rebirth” mod is special because Riot Games will attempt to apply its animations onto the Live Rengar.
 #
 
 # CREDITS
