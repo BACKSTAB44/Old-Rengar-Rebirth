@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="rengare"}}, 
+{Function=BBPreloadSpell, Params={Name="rengareslow"}}, 
+{Function=BBPreloadModule, Params={Name="Rengar.RengarFerocityFunction"}}, 
+}

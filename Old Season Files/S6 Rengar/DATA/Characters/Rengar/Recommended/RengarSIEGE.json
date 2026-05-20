@@ -1,0 +1,162 @@
+{
+  "champion": "Rengar", 
+  "title": "RengarSIEGE", 
+  "map": "SR", 
+  "mode": "SIEGE", 
+  "type": "riot", 
+  "customTag": "", 
+  "extensionPage": false, 
+  "customPanel": null, 
+  "blocks": [
+    {
+      "type": "siegeOffense", 
+      "recMath": false, 
+      "recSteps": false, 
+      "minSummonerLevel": -1, 
+      "maxSummonerLevel": -1, 
+      "showIfSummonerSpell": "", 
+      "hideIfSummonerSpell": "", 
+      "items": [
+        {
+          "id": "3631", 
+          "count": 1, 
+          "hideCount": false
+        }, 
+        {
+          "id": "3641", 
+          "count": 1, 
+          "hideCount": false
+        }, 
+        {
+          "id": "3647", 
+          "count": 1, 
+          "hideCount": false
+        }, 
+        {
+          "id": "3635", 
+          "count": 1, 
+          "hideCount": false
+        }, 
+        {
+          "id": "3642", 
+          "count": 1, 
+          "hideCount": false
+        }
+      ]
+    }, 
+    {
+      "type": "siegeDefense", 
+      "recMath": false, 
+      "recSteps": false, 
+      "minSummonerLevel": -1, 
+      "maxSummonerLevel": -1, 
+      "showIfSummonerSpell": "", 
+      "hideIfSummonerSpell": "", 
+      "items": [
+        {
+          "id": "3634", 
+          "count": 1, 
+          "hideCount": false
+        }, 
+        {
+          "id": "3640", 
+          "count": 1, 
+          "hideCount": false
+        }, 
+        {
+          "id": "3643", 
+          "count": 1, 
+          "hideCount": false
+        }, 
+        {
+          "id": "3636", 
+          "count": 1, 
+          "hideCount": false
+        }, 
+        {
+          "id": "3642", 
+          "count": 1, 
+          "hideCount": false
+        }
+      ]
+    }, 
+    {
+      "type": "essential", 
+      "recMath": false, 
+      "recSteps": false, 
+      "minSummonerLevel": -1, 
+      "maxSummonerLevel": -1, 
+      "showIfSummonerSpell": "", 
+      "hideIfSummonerSpell": "", 
+      "items": [
+        {
+          "id": "3074", 
+          "count": 1, 
+          "hideCount": false
+        }, 
+        {
+          "id": "3158", 
+          "count": 1, 
+          "hideCount": false
+        }, 
+        {
+          "id": "3142", 
+          "count": 1, 
+          "hideCount": false
+        }
+      ]
+    }, 
+    {
+      "type": "offensive", 
+      "recMath": false, 
+      "recSteps": false, 
+      "minSummonerLevel": -1, 
+      "maxSummonerLevel": -1, 
+      "showIfSummonerSpell": "", 
+      "hideIfSummonerSpell": "", 
+      "items": [
+        {
+          "id": "3147", 
+          "count": 1, 
+          "hideCount": false
+        }, 
+        {
+          "id": "3071", 
+          "count": 1, 
+          "hideCount": false
+        }, 
+        {
+          "id": "3031", 
+          "count": 1, 
+          "hideCount": false
+        }
+      ]
+    }, 
+    {
+      "type": "defensive", 
+      "recMath": false, 
+      "recSteps": false, 
+      "minSummonerLevel": -1, 
+      "maxSummonerLevel": -1, 
+      "showIfSummonerSpell": "", 
+      "hideIfSummonerSpell": "", 
+      "items": [
+        {
+          "id": "3156", 
+          "count": 1, 
+          "hideCount": false
+        }, 
+        {
+          "id": "3812", 
+          "count": 1, 
+          "hideCount": false
+        }, 
+        {
+          "id": "3026", 
+          "count": 1, 
+          "hideCount": false
+        }
+      ]
+    }
+  ]
+}

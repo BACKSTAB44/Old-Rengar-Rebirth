@@ -1,0 +1,15 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadModule, Params={Name="Rengar.RengarFerocityFunction"}}, 
+{Function=BBPreloadSpell, Params={Name="rengarpassivebuff"}}, 
+{Function=BBPreloadSpell, Params={Name="rengarpassivebuffvisible"}}, 
+{Function=BBPreloadParticle, Params={Name="rengar_vo_trophy2.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="rengar3stackcombatmanager"}}, 
+{Function=BBPreloadParticle, Params={Name="rengar_vo_trophy3.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="rengar_vo_trophy4.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="rengar_vo_trophy5.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="apbonusdamagetotowers"}}, 
+{Function=BBPreloadSpell, Params={Name="rengarrunspeed"}}, 
+{Function=BBPreloadSpell, Params={Name="rengartrophynoitem"}}, 
+{Function=BBPreloadParticle, Params={Name="rengar_vo_trophy1.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="rengarpassiverootcheck"}}, 
+}

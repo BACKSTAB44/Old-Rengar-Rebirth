@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadModule, Params={Name="Rengar.RengarFerocityFunction"}}, 
+{Function=BBPreloadSpell, Params={Name="rengarmanager"}}, 
+{Function=BBPreloadSpell, Params={Name="rengare"}}, 
+{Function=BBPreloadParticle, Params={Name="rengar_base_p_buf_max.troy"}}, 
+}
