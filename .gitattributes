@@ -3,3 +3,6 @@
 
 # Exclude "Old Season Files" folder completely from language statistics
 Old\ Season\ Files/** linguist-generated=true
+
+# Exclude all .sco files from affecting language statistics
+*.sco linguist-generated=true
