@@ -4,20 +4,22 @@
 
 **- ANIMATIONS -**
 
->**- Q** animation is now way smoother and it no longer snaps Rengar onto the target if he's facing the other direction, a clean transition added, matching the Season 6 **Q**.  
+>**-** Emote animations are now smooth rather than snappy, matching the Season 6.  
+**-** Bush/ULT Idle Animation reverted back to S6 functionality (moved to Regular Idle animations).  
+**-** Recall animation once again plays during **Leap**.  
+**- Tiamat** animation once again plays during **Leap**.  
+**- Leap** no longer glitches towards its animation end.  
+**- Q** animation is now way smoother and it no longer snaps Rengar onto the target if he's facing the other direction, a clean transition added, matching the Season 6 **Q**.  
 **- E** animation once again plays after **Q** / **AA**.  
 **- E** no longer changes Rengar's facing direction during the Leap.  
 **- Q/W/E** animations no longer play during death.  
-**- Leap** no longer glitches towards its animation end.  
-**- Tiamat** animation once again plays during **Leap**.  
 **- W** animation no longer plays on top of "*taunt*" animations (CTRL + 1/2/3/4).  
 **-** Rengar is no longer sliding in **W** animation if he uses it together with **E** mid-air.  
-**-** Recall animation once again plays during **Leap**.  
-**-** Bush/ULT Idle Animation reverted back to S6 functionality (moved to Regular Idle animations).  
 **- R** reverted to changing Rengar's Run animation only after entering stealth.  
-**-** Restored Night Hunter's old "**R** Run" animation details.
+**-** Restored Night Hunter's old "**R** Run" animation details.  
+**-** "TimeBlendData" adjusted to fully match Season 6 values.
 
-**- VISUALS -** 
+**- VISUALS -**
 
 >**- Leap** range indicator reverted back to the old one for Night Hunter skin.  
 **-** "**Q** on-hit" visuals' positioning adjusted.  
@@ -38,7 +40,8 @@
 
 **- SOUNDS -**
 
->**-** "MAX Ferocity" SFX now matches the old one, with improved quality.  
+>**-** "Dance" SFX now correctly loops along with the animation.  
+**-** "MAX Ferocity" SFX now matches the old one, with improved quality.  
 **-** "**Leap**" SFX more variations and its functionality reverted back to the old one.  
 **-** "**Q** Stab" sounds significantly improved, matching the old one, with all 4 SFX variations.  
 **-** "**Q** Stab" SFX timing adjusted to better match Season 6 behavior.  
@@ -52,6 +55,7 @@
 **-** "**E**" SFX reverted back to the old one.  
 **-** "**R** Ambient" SFX reverted back to the old one on all skins (Base, HH, NH, SSW).  
 **-** "**R** Activation" SFX reverted back to the old one on Base/NH/SSW skins.  
+**-** "**R** Heartbeats" SFX no longer stops after casting Q on Base/NH/SSW skins.  
 **-** **Every other sound:** higher quality + minor adjustments to match Season 6.
 
 **- MISCELLANEOUS -**
@@ -64,14 +68,15 @@
 **-** All .DDS converted to .TEX (modern format).  
 **-** All .SCO converted to .SCB (modern format).  
 **-** Rewritten a lot of code to modern Riot standards.  
-**-** More compact code (16.000+ lines thinner).  
+**-** More compact code (17.000+ lines thinner).  
 **-** Many flags corrected from 8-bit to 16-bit.  
 **-** Mod thumbnail added for supported mod-loaders.  
+**-** Open sourced, check [Github](https://github.com/BACKSTAB44/Old-Rengar-Rebirth).  
 **-** Disabled skin-hacking.
 
 ‎
 
-*The mod fixes a total of* ***20 live bugs*** *from the* [***RENGAR BUGS LIST***](https://www.reddit.com/r/Rengarmains/comments/1loa2ad/megapost_all_rengar_bugs/) *as well:‎*
+*The mod fixes a total of* ***22 live bugs*** *from the* [***RENGAR BUGS LIST***](https://www.reddit.com/r/Rengarmains/comments/1loa2ad/megapost_all_rengar_bugs/) *as well:‎*
 
 >**- E** and **W** animations [play during the **Leap**](https://youtu.be/8d1e-Zh8EWo?t=32).  
 **- W** animation [not lingering](https://youtu.be/8d1e-Zh8EWo?t=9) if Rengar casts **W** together with other actions.  
@@ -92,6 +97,8 @@
 ***- "Q\_Cas"*** VFX [not playing](https://github.com/ArdaSenyurek/Rengar-Bugs/issues/110) while in bush/ult, fixed  
 **‎- E** VFX [clipping into the ground](https://github.com/ArdaSenyurek/Rengar-Bugs/issues/118) after a flash, fixed  
 **-** Some parts of Headhunter's "***R body***" texture [being transparent](https://imgur.com/a/23PmHmc), fixed.  
-**-** Leap Range [disappearing](https://youtu.be/xXbHYecIK3Q) at the edge of the screen, fixed.
+**-** Leap Range [disappearing](https://youtu.be/xXbHYecIK3Q) at the edge of the screen, fixed.  
+**-** **Q** [stopping Base **R** Heartbeats SFX](https://youtu.be/rFUvTCrUKn4). fixed.‎  
+**-** "*Dance*" SFX [not looping](https://youtu.be/cZUFahMlOMA) along with the animation, fixed.
 
 *More changes on the Runeforge* [***releases***](https://runeforge.dev/mods/b397d88f-d6da-47a7-821e-9acd2109fa89/releases) *page.*
