@@ -1,10 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
-# Exclude "Old Season Files" folder from releases
-Old\ Season\ Files/ export-ignore
-
 # Exclude everything from releases EXCEPT "Rengar Mod"
+Old\ Season\ Files/ export-ignore
 .gitattributes export-ignore
 CHANGELOG.md export-ignore
 LICENSE export-ignore
