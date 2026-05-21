@@ -5,11 +5,8 @@
 Old\ Season\ Files/ export-ignore
 .gitattributes export-ignore
 CHANGELOG.md export-ignore
-LICENSE export-ignore
 README.md export-ignore
 RELEASES.md export-ignore
-image.psd export-ignore
-Wwise\ Project/ export-ignore
 
 # Exclude "Old Season Files" folder completely from language statistics
 *.sco linguist-generated=true
