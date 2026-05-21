@@ -1,5 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
+# Exclude "Old Season Files" folder from releases
+Old\ Season\ Files/ export-ignore
+
 # Exclude "Old Season Files" folder completely from language statistics
 *.sco linguist-generated=true
