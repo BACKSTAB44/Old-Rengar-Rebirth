@@ -20,7 +20,7 @@
 
 #
 
-# CREDITS
+# Credits
 
  - **Animations:** [ZedVeZed](https://www.reddit.com/u/ZedveZed/s/QkHzyq8OmH), [Renghub](https://youtube.com/@renghub?si=3_gHb5NiVaICRaB-)
  - **Visuals:** [Renghub](https://youtube.com/@renghub?si=3_gHb5NiVaICRaB-)
@@ -29,7 +29,6 @@
 #
 # Socials
  - **Twitter:** [@BACKSTAB44](https://x.com/BACKSTAB44)
-
  - **Reddit:** [u/Ryo_Marufuji](https://www.reddit.com/user/Ryo_Marufuji/)
 
 _The mod is managed by me (BACKSTAB), if you find any bugs you can contact me._
