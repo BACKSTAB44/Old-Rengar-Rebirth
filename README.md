@@ -9,7 +9,6 @@
 
 # Installation
 
-**Steps:** 
   1. Go to the [**latest release**](https://github.com/BACKSTAB44/Old-Rengar-Rebirth/releases/latest) and download the `.fantome` file.
   2. Download [**LTK Manager**](https://github.com/LeagueToolkit/ltk-manager) (Mod-Loader).
   3. After installing LTK Manager, launch it and drag the downloaded `.fantome` into it.
