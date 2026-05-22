@@ -13,6 +13,7 @@
   2. Download [**LTK Manager**](https://github.com/LeagueToolkit/ltk-manager) (Mod-Loader).
   3. After installing LTK Manager, launch it and drag the downloaded `.fantome` into it.
   4. Make sure the mod is toggled on, then press "Start Patcher" at the top right of LTK Manager.
+  5. Keep LTK Manager running in the background while playing.
    
 [**Installation Tutorial**](https://youtu.be/_UNsweJ9h-g)
 
