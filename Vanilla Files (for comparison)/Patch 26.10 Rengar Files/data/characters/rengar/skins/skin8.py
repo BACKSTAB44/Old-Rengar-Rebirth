@@ -1,0 +1,231 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {
+    "DATA/Characters/Rengar/Rengar_Multi_Skins_Skin0_Skins_Skin1_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin2_Skins_Skin3_Skins_Skin4_Skins_Skin5_Skins_Skin6_Skins_Skin7_Skins_Skin8_Skins_Skin9.bin"
+    "DATA/Characters/Rengar/Rengar_Multi_Skins_Root_Skins_Skin0_Skins_Skin1_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin19_Skins_Skin2_Skins_Skin20_Skins_Skin21_Skins_Skin22_Skins_Skin23_Skins_Skin24_Skins_Skin25_Skins_Skin26_Skins_Skin27_Skins_Skin28_Skins_Skin29_Skins_Skin3_Skins_Skin30_Skins_Skin31_Skins_Skin32_Skins_Skin33_Skins_Skin34_Skins_Skin35_Skins_Skin36_Skins_Skin37_Skins_Skin38_Skins_Skin39_Skins_Skin4_Skins_Skin40_Skins_Skin41_Skins_Skin42_Skins_Skin43_Skins_Skin44_Skins_Skin45_Skins_Skin46_Skins_Skin47_Skins_Skin48_Skins_Skin5_Skins_Skin6_Skins_Skin7_Skins_Skin8_Skins_Skin9.bin"
+    "DATA/Characters/Rengar/Rengar_Multi_Skins_Skin0_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin19_Skins_Skin20_Skins_Skin21_Skins_Skin22_Skins_Skin3_Skins_Skin8_Skins_Skin9.bin"
+    "DATA/Characters/Rengar/Rengar.bin"
+    "DATA/Characters/Rengar/Animations/Skin8.bin"
+    "DATA/Characters/Rengar/Rengar_Multi_Skins_Skin0_Skins_Skin1_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin19_Skins_Skin2_Skins_Skin20_Skins_Skin21_Skins_Skin22_Skins_Skin23_Skins_Skin24_Skins_Skin25_Skins_Skin26_Skins_Skin27_Skins_Skin28_Skins_Skin29_Skins_Skin3_Skins_Skin4_Skins_Skin5_Skins_Skin6_Skins_Skin7_Skins_Skin8_Skins_Skin9.bin"
+    "DATA/Characters/Rengar/Rengar_Multi_Skins_Skin0_Skins_Skin1_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin19_Skins_Skin2_Skins_Skin20_Skins_Skin21_Skins_Skin22_Skins_Skin23_Skins_Skin24_Skins_Skin25_Skins_Skin26_Skins_Skin27_Skins_Skin28_Skins_Skin29_Skins_Skin3_Skins_Skin30_Skins_Skin31_Skins_Skin32_Skins_Skin33_Skins_Skin34_Skins_Skin35_Skins_Skin36_Skins_Skin37_Skins_Skin38_Skins_Skin39_Skins_Skin4_Skins_Skin40_Skins_Skin41_Skins_Skin42_Skins_Skin43_Skins_Skin44_Skins_Skin45_Skins_Skin46_Skins_Skin47_Skins_Skin48_Skins_Skin5_Skins_Skin6_Skins_Skin7_Skins_Skin8_Skins_Skin9.bin"
+    "DATA/Characters/Rengar/Rengar_Multi_Skins_Skin0_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin19_Skins_Skin20_Skins_Skin21_Skins_Skin22_Skins_Skin23_Skins_Skin24_Skins_Skin25_Skins_Skin26_Skins_Skin27_Skins_Skin28_Skins_Skin29_Skins_Skin3_Skins_Skin8_Skins_Skin9.bin"
+    "DATA/Characters/Rengar/Rengar_Multi_Skins_Skin0_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin3_Skins_Skin8_Skins_Skin9.bin"
+    "DATA/Characters/Rengar/Rengar_Multi_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin8_Skins_Skin9.bin"
+}
+entries: map[hash,embed] = {
+    "Characters/Rengar/Skins/Skin8" = SkinCharacterDataProperties {
+        skinClassification: u32 = 1
+        championSkinName: string = "RengarSkin08"
+        metaDataTags: string = "gender:male,race:vastaya,faction:ixtal,skinline:mecha,appearance:feline"
+        loadscreen: embed = CensoredImage {
+            image: string = "ASSETS/Characters/Rengar/Skins/Skin08/RengarLoadScreen_8.tex"
+        }
+        skinAudioProperties: embed = skinAudioProperties {
+            tagEventList: list[string] = {
+                "Rengar"
+                "RengarSkin08"
+            }
+            bankUnits: list2[embed] = {
+                BankUnit {
+                    name: string = "Rengar_Skin08_SFX"
+                    bankPath: list[string] = {
+                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Skin08/Rengar_Skin08_SFX_audio.bnk"
+                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Skin08/Rengar_Skin08_SFX_events.bnk"
+                    }
+                    events: list[string] = {
+                        "Play_sfx_RengarSkin08_Dance3D_buffactivate"
+                        "Play_sfx_RengarSkin08_Death3D_cast"
+                        "Play_sfx_RengarSkin08_Joke3D_buffactivate"
+                        "Play_sfx_RengarSkin08_Laugh3D_buffactivate"
+                        "Play_sfx_RengarSkin08_Recall3D_buffactivate"
+                        "Play_sfx_RengarSkin08_Recall3D_leadout"
+                        "Play_sfx_RengarSkin08_RengarBasicAttack2_OnCast"
+                        "Play_sfx_RengarSkin08_RengarBasicAttack2_OnHit"
+                        "Play_sfx_RengarSkin08_RengarBasicAttack3_OnCast"
+                        "Play_sfx_RengarSkin08_RengarBasicAttack3_OnHit"
+                        "Play_sfx_RengarSkin08_RengarBasicAttack_OnCast"
+                        "Play_sfx_RengarSkin08_RengarBasicAttack_OnHit"
+                        "Play_sfx_RengarSkin08_RengarCritAttack_OnCast"
+                        "Play_sfx_RengarSkin08_RengarCritAttack_OnHit"
+                        "Play_sfx_RengarSkin08_RengarE_hit"
+                        "Play_sfx_RengarSkin08_RengarE_missilelaunch"
+                        "Play_sfx_RengarSkin08_RengarE_OnCast"
+                        "Play_sfx_RengarSkin08_RengarEEmp_OnCast"
+                        "Play_sfx_RengarSkin08_RengarEEmpmis_OnHit"
+                        "Play_sfx_RengarSkin08_RengarEEmpmis_OnMissileLaunch"
+                        "Play_sfx_RengarSkin08_RengarP_cast"
+                        "Play_sfx_RengarSkin08_RengarP_leaphit"
+                        "Play_sfx_RengarSkin08_RengarPEmp_buffactivate"
+                        "Play_sfx_RengarSkin08_RengarQ_buffactivate"
+                        "Play_sfx_RengarSkin08_RengarQ_OnBuffDeactivate"
+                        "Play_sfx_RengarSkin08_RengarQ_OnCast"
+                        "Play_sfx_RengarSkin08_RengarQAttack_OnCast"
+                        "Play_sfx_RengarSkin08_RengarQAttack_OnHit"
+                        "Play_sfx_RengarSkin08_RengarQEmp_OnBuffDeactivate"
+                        "Play_sfx_RengarSkin08_RengarQEmp_OnCast"
+                        "Play_sfx_RengarSkin08_RengarQEmpAttack_OnCast"
+                        "Play_sfx_RengarSkin08_RengarQEmpAttack_OnHit"
+                        "Play_sfx_RengarSkin08_RengarR_buffactivateheartbeat"
+                        "Play_sfx_RengarSkin08_RengarR_buffactivateheartbeat_stop"
+                        "Play_sfx_RengarSkin08_RengarR_OnBuffDeactivate"
+                        "Play_sfx_RengarSkin08_RengarR_OnCast"
+                        "Play_sfx_RengarSkin08_RengarRpassivebuff_OnBuffDeactivate"
+                        "Play_sfx_RengarSkin08_RengarRSecondaryTarget_end"
+                        "Play_sfx_RengarSkin08_RengarRSecondaryTarget_start"
+                        "Play_sfx_RengarSkin08_RengarRstealth_end"
+                        "Play_sfx_RengarSkin08_RengarRstealth_start"
+                        "Play_sfx_RengarSkin08_RengarW_OnCast"
+                        "Play_sfx_RengarSkin08_RengarWBuff_buffactivate"
+                        "Play_sfx_RengarSkin08_RengarWEmp_OnCast"
+                        "Play_sfx_RengarSkin08_Taunt3D_buffactivate"
+                        "Play_sfx_RengarSkin08_Winddown3D_buffactivate"
+                        "Stop_sfx_RengarSkin08_RengarQ_buffactivate"
+                    }
+                }
+                BankUnit {
+                    name: string = "Rengar_Skin08_VO"
+                    bankPath: list[string] = {
+                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Rengar/Skins/Skin08/Rengar_Skin08_VO_audio.bnk"
+                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Rengar/Skins/Skin08/Rengar_Skin08_VO_events.bnk"
+                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Rengar/Skins/Skin08/Rengar_Skin08_VO_audio.wpk"
+                    }
+                    events: list[string] = {
+                        "Play_vo_RengarSkin08_Attack2DGeneral"
+                        "Play_vo_RengarSkin08_Death3D"
+                        "Play_vo_RengarSkin08_FirstEncounter3DKhazix"
+                        "Play_vo_RengarSkin08_Joke3DGeneral"
+                        "Play_vo_RengarSkin08_Laugh3DGeneral"
+                        "Play_vo_RengarSkin08_Move2DStandard"
+                        "Play_vo_RengarSkin08_RengarBasicAttack2_cast3D"
+                        "Play_vo_RengarSkin08_RengarBasicAttack3_cast3D"
+                        "Play_vo_RengarSkin08_RengarBasicAttack_cast3D"
+                        "Play_vo_RengarSkin08_RengarCritAttack_cast3D"
+                        "Play_vo_RengarSkin08_RengarE_cast3D"
+                        "Play_vo_RengarSkin08_RengarEEmp_cast3D"
+                        "Play_vo_RengarSkin08_RengarQ_cast3D"
+                        "Play_vo_RengarSkin08_RengarQemp_cast3D"
+                        "Play_vo_RengarSkin08_RengarR_cast3D"
+                        "Play_vo_RengarSkin08_RengarW_cast3D"
+                        "Play_vo_RengarSkin08_RengarWEmp_cast3D"
+                        "Play_vo_RengarSkin08_Spell3DPStackFive"
+                        "Play_vo_RengarSkin08_Spell3DPStackFour"
+                        "Play_vo_RengarSkin08_Spell3DPStackOne"
+                        "Play_vo_RengarSkin08_Spell3DPStackThree"
+                        "Play_vo_RengarSkin08_Spell3DPStackTwo"
+                        "Play_vo_RengarSkin08_Taunt3DGeneral"
+                    }
+                    voiceOver: bool = true
+                }
+            }
+        }
+        skinAnimationProperties: embed = skinAnimationProperties {
+            animationGraphData: link = "Characters/Rengar/Animations/Skin8"
+        }
+        skinMeshProperties: embed = SkinMeshDataProperties {
+            skeleton: string = "ASSETS/Characters/Rengar/Skins/Skin08/Rengar_Skin08.skl"
+            simpleSkin: string = "ASSETS/Characters/Rengar/Skins/Skin08/Rengar_Skin08.skn"
+            texture: string = "ASSETS/Characters/Rengar/Skins/Skin08/Rengar_Skin08_TX_CM.tex"
+            selfIllumination: f32 = 0.7
+            overrideBoundingBox: option[vec3] = {
+                { 180, 250, 180 }
+            }
+            initialSubmeshToHide: string = "Recall_Car"
+            materialOverride: list[embed] = {
+                SkinMeshDataProperties_MaterialOverride {
+                    texture: string = "ASSETS/Characters/Rengar/Skins/Skin08/Rengar_Skin08_Recall_TX_CM.tex"
+                    submesh: string = "Recall_Car"
+                }
+            }
+            rigPoseModifierData: list[pointer] = {
+                ConformToPathRigPoseModifierData {
+                    mStartingJointName: hash = "Tail1"
+                    mEndingJointName: hash = "Tail5"
+                    mDefaultMaskName: hash = 0xef7cfc3b
+                    mVelMultiplier: f32 = 1
+                }
+            }
+        }
+        armorMaterial: string = "Metal"
+        idleParticlesEffects: list[embed] = {
+            SkinCharacterDataProperties_CharacterIdleEffect {
+                effectKey: hash = "Rengar_I_Weapon_Glow"
+                boneName: string = "R_Blade"
+            }
+            SkinCharacterDataProperties_CharacterIdleEffect {
+                effectKey: hash = "Rengar_I_Weapon_Glow_2"
+                boneName: string = "L_Buffbone_Glb_Hand_Loc"
+            }
+        }
+        mContextualActionData: link = "Characters/Rengar/CAC/Rengar_Base"
+        iconCircle: option[string] = {
+            "ASSETS/Characters/Rengar/HUD/Rengar_Circle_0.tex"
+        }
+        iconSquare: option[string] = {
+            "ASSETS/Characters/Rengar/HUD/Rengar_Square_0.tex"
+        }
+        iconAvatar: string = "ASSETS/Characters/Rengar/HUD/Rengar_Circle_8.tex"
+        healthBarData: embed = CharacterHealthBarDataRecord {
+            unitHealthBarStyle: u8 = 12
+        }
+        mResourceResolver: link = "Characters/Rengar/Skins/Skin8/Resources"
+    }
+    "Characters/Rengar/Skins/Skin8/Resources" = ResourceResolver {
+        resourceMap: map[hash,link] = {
+            "Rengar_BA1_Cas" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_BA1_Cas"
+            "Rengar_BA2_Cas" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_BA2_Cas"
+            "Rengar_BA3_Cas" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_BA3_Cas"
+            "Rengar_BA_tar_01" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_BA_tar_01"
+            "Rengar_BA_tar_crit_01" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_BA_tar_crit_01"
+            "Rengar_C_Cas" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_C_Cas"
+            "Rengar_E_Max_Mis" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_E_Max_Mis"
+            "Rengar_E_Max_Tar" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_E_Max_Tar"
+            "Rengar_E_Mis" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_E_Mis"
+            "Rengar_E_Tar" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_E_Tar"
+            "Rengar_P_Buf_Dash_01" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_P_Buf_Dash_01"
+            "Rengar_P_Buf_Enhanced_Ring" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_P_Buf_Enhanced_Ring"
+            "Rengar_P_Leap_Grass" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_P_Leap_Grass"
+            "Rengar_P_Leap_tar_crit_sound" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_P_Leap_tar_crit_sound"
+            "Rengar_P_Leap_tar_sound" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_P_Leap_tar_sound"
+            "Rengar_Q_AS_Buf" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_Q_AS_Buf"
+            "Rengar_Q_Buf_Blade" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_Q_Buf_Blade"
+            "Rengar_Q_Buf_Blade_Max" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_Q_Buf_Blade_Max"
+            "Rengar_Q_Buf_Claw" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_Q_Buf_Claw"
+            "Rengar_Q_Buf_Claw_Max" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_Q_Buf_Claw_Max"
+            "Rengar_Q_Cas" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_Q_Cas"
+            "Rengar_Q_Cas_Max" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_Q_Cas_Max"
+            "Rengar_Q_Max_Tar" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_Q_Max_Tar"
+            "Rengar_Q_Strike" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_Q_Strike"
+            "Rengar_Q_Tar" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_Q_Tar"
+            "Rengar_R_Armor_shred_tar" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Armor_shred_tar"
+            "Rengar_R_Buf" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_R_Buf"
+            "Rengar_R_Primary_Target" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_R_Primary_Target"
+            "Rengar_R_Primary_Target_Enhanced" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_R_Primary_Target_Enhanced"
+            "Rengar_R_Secondary_Target" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Secondary_Target"
+            "Rengar_R_Secondary_Target_Sound_Off" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Secondary_Target_Sound_Off"
+            "Rengar_R_Secondary_Target_Sound_On" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Secondary_Target_Sound_On"
+            "Rengar_W_Emp_Buf2" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_W_Emp_Buf2"
+            "Rengar_W_Heal" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_W_Heal"
+            "Rengar_W_Max_Buf" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_W_Max_Buf"
+            "Rengar_W_Max_Roar" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_W_Max_Roar"
+            "Rengar_W_Max_Tar" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_W_Max_Tar"
+            "Rengar_W_Roar" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_W_Roar"
+            "Rengar_W_Tar" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_W_Tar"
+            "rengar_emote_dance_sound_BV2" = "Characters/Rengar/Skins/Skin0/Particles/rengar_emote_dance_sound"
+            "rengar_emote_death_sound_BV2" = "Characters/Rengar/Skins/Skin0/Particles/rengar_emote_death_sound"
+            "rengar_emote_joke_sound_BV2" = "Characters/Rengar/Skins/Skin0/Particles/rengar_emote_joke_sound"
+            "rengar_emote_laugh_sound_BV2" = "Characters/Rengar/Skins/Skin0/Particles/rengar_emote_laugh_sound"
+            "rengar_emote_taunt_sound_BV2" = "Characters/Rengar/Skins/Skin0/Particles/rengar_emote_taunt_sound"
+            "Rengar_LeapSound_BV2" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_LeapSound"
+            "Rengar_VO_Seen_BV2" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_VO_Seen"
+            "Rengar_P_Buf_Max" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_P_Buf_Max_New"
+            0xcdc6293f = 0xa60f0d10
+            "Rengar_E_Max_Child" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_E_Max_Child"
+            "Rengar_E_Tar_ChildGlow" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_E_Tar_ChildGlow"
+            "Rengar_I_Weapon_Glow" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_I_Weapon_Glow"
+            "Rengar_I_Weapon_Glow_2" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_I_Weapon_Glow_2"
+            "Rengar_Recall_Smoke_00" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_Recall_Smoke_00"
+            "Rengar_Recall_Sparks_00" = "Characters/Rengar/Skins/Skin8/Particles/Rengar_Skin08_Recall_Sparks_00"
+        }
+    }
+}
