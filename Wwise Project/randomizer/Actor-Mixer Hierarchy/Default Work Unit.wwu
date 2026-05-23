@@ -6,10 +6,9 @@
 				<RandomSequenceContainer Name="P_Leap_Grass" ID="{5B144A0C-0F1C-4F5E-BFCC-0097C69D4C84}" ShortID="955547889">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
-						<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>-4</Value>
+								<Value>-5</Value>
 							</ValueList>
 						</Property>
 						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -408,7 +407,6 @@
 				<RandomSequenceContainer Name="W_Armor" ID="{C454E10D-CE56-49A2-B5E2-F9A877E2DB3C}" ShortID="862572970">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
-						<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 						<Property Name="InitialDelay" Type="Real64">
 							<ValueList>
 								<Value>0.2</Value>
@@ -666,7 +664,7 @@
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>-5</Value>
+								<Value>-4</Value>
 							</ValueList>
 						</Property>
 						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
@@ -737,7 +735,6 @@
 				<RandomSequenceContainer Name="Q_OnCast" ID="{4F727C24-790A-4517-AC68-7C16725406E0}" ShortID="771461540">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
-						<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 						<Property Name="InitialDelay" Type="Real64">
 							<ValueList>
 								<Value>0.012</Value>
