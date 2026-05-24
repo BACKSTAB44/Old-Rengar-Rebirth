@@ -260,7 +260,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="2389693464" Type="User" Language="SFX" Hash="{12D48ADC-0FF6-A2F4-913E-BC48F2834AAC}">
+		<SoundBank Id="2389693464" Type="User" Language="SFX" Hash="{8D6E3DBF-EF82-EE19-AAA4-2C333BDAE40E}">
 			<ShortName>old_sfx_events</ShortName>
 			<Path>old_sfx_events.bnk</Path>
 			<Media>
@@ -455,5 +455,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{548FDCE0-9DC3-8E9B-7DF1-FA4FC46366AB}</FileHash>
+	<FileHash>{FF41E8A4-88B2-31A0-E285-CEB8FEAA89DE}</FileHash>
 </SoundBanksInfo>
