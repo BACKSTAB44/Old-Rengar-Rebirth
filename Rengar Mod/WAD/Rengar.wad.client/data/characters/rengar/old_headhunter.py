@@ -1294,43 +1294,21 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 importance: u8 = 2
                 particleColorTexture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_R_Veins.tex"
-                blendMode: u8 = 3
+                blendMode: u8 = 2
                 colorRenderFlags: u8 = 1
                 meshRenderFlags: u8 = 0
                 pass: i16 = 60
                 isRandomStartFrame: flag = true
                 materialOverrideDefinitions: list[embed] = {
                     VfxMaterialOverrideDefinitionData {
-                        overrideBlendMode: u32 = 2
+                        overrideBlendMode: u8 = 3
                         baseTexture: string = "ASSETS/Repath/Shared/Materials/black.tex"
                     }
                 }
-                texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin01/Particles/Rengar_Skin01_R.tex"
                 birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1.02, 1.02, 1.02 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0
-                                    0
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                        }
-                    }
+                    constantValue: vec3 = { 0, 0, 0 }
                 }
+                texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin01/Particles/Rengar_Skin01_R.tex"
                 numFrames: u16 = 16
                 uvMode: u8 = 1
                 texDiv: vec2 = { 0.5, 0.5 }
@@ -1352,13 +1330,6 @@ entries: map[hash,embed] = {
                 importance: u8 = 3
                 primitive: pointer = VfxPrimitiveAttachedMesh {}
                 particleColorTexture: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin01/Particles/Rengar_Skin01_R_RGB.tex"
-                blendMode: u8 = 4
-                pass: i16 = 5
-                meshRenderFlags: u8 = 0
-                colorLookUpTypeY: u8 = 3
-                isRandomStartFrame: flag = true
-                particleIsLocalOrientation: flag = true
-                texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin01/Particles/Rengar_Skin01_R.tex"
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -1371,14 +1342,21 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
+                blendMode: u8 = 4
+                pass: i16 = 5
+                meshRenderFlags: u8 = 0
+                colorLookUpTypeY: u8 = 3
+                isRandomStartFrame: flag = true
+                particleIsLocalOrientation: flag = true
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.02, 1.02, 1.02 }
                 }
+                texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin01/Particles/Rengar_Skin01_R.tex"
+                numFrames: u16 = 16
+                uvMode: u8 = 1
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.1, 0 }
                 }
-                numFrames: u16 = 16
-                uvMode: u8 = 1
                 texDiv: vec2 = { 2, 2 }
                 orientation: u8 = 3
             }

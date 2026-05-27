@@ -56,7 +56,6 @@ entries: map[hash,embed] = {
                 mTrackDataName: hash = "Actions"
                 mEventDataMap: map[hash,pointer] = {
                     "Crit" = ParticleEventData {
-                        mName: hash = "Crit"
                         mStartFrame: f32 = 5
                         mEffectKey: hash = "Rengar_C_Cas"
                         mParticleEventDataPairList: list[embed] = {
@@ -267,7 +266,6 @@ entries: map[hash,embed] = {
                 mTrackDataName: hash = "Actions"
                 mEventDataMap: map[hash,pointer] = {
                     "TransFix" = ParticleEventData {
-                        mName: hash = "TransFix"
                         mEffectKey: hash = "Rengar_R_LeapMat"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {}
@@ -318,9 +316,8 @@ entries: map[hash,embed] = {
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
                     "QVFX" = ParticleEventData {
-                        mName: hash = "QVFX"
-                        mEffectKey: hash = "Rengar_Q_Cas2"
                         mStartFrame: f32 = 6
+                        mEffectKey: hash = "Rengar_Q_Cas2"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {}
                         }
@@ -328,14 +325,14 @@ entries: map[hash,embed] = {
                         mIsKillEvent: bool = false
                     }
                     "QSFX" = SoundEventData {
-                        mSoundName: string = "Play_sfx_Old_RengarQ_Stab"
                         mStartFrame: f32 = 4
+                        mSoundName: string = "Play_sfx_Old_RengarQ_Stab"
                         mIsLoop: bool = false
                         mIsKillEvent: bool = false
                     }
                     "QVO" = SoundEventData {
-                        mSoundName: string = "Play_vo_Rengar_RengarQ_cast3D"
                         mStartFrame: f32 = 4
+                        mSoundName: string = "Play_vo_Rengar_RengarQ_cast3D"
                         mIsLoop: bool = false
                         mIsKillEvent: bool = false
                     }
@@ -355,9 +352,8 @@ entries: map[hash,embed] = {
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
                     "QVFX" = ParticleEventData {
-                        mName: hash = "QVFX"
-                        mEffectKey: hash = "Rengar_Q_Cas2"
                         mStartFrame: f32 = 6
+                        mEffectKey: hash = "Rengar_Q_Cas2"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {}
                         }
@@ -365,8 +361,8 @@ entries: map[hash,embed] = {
                         mIsKillEvent: bool = false
                     }
                     "QSFX" = SoundEventData {
-                        mSoundName: string = "Play_sfx_Old_RengarQ_Stab"
                         mStartFrame: f32 = 4
+                        mSoundName: string = "Play_sfx_Old_RengarQ_Stab"
                         mIsLoop: bool = false
                         mIsKillEvent: bool = false
                     }
@@ -604,7 +600,6 @@ entries: map[hash,embed] = {
                 mTrackDataName: hash = "Actions"
                 mEventDataMap: map[hash,pointer] = {
                     0xb5b7e047 = ParticleEventData {
-                        mName: hash = 0xb5b7e047
                         mStartFrame: f32 = 2
                         mEffectKey: hash = "Rengar_BA1_Cas"
                         mParticleEventDataPairList: list[embed] = {
@@ -622,7 +617,6 @@ entries: map[hash,embed] = {
                 mTrackDataName: hash = "Actions"
                 mEventDataMap: map[hash,pointer] = {
                     0xb6b7e1da = ParticleEventData {
-                        mName: hash = 0xb6b7e1da
                         mStartFrame: f32 = 2
                         mEffectKey: hash = "Rengar_BA2_Cas"
                         mParticleEventDataPairList: list[embed] = {
@@ -640,7 +634,6 @@ entries: map[hash,embed] = {
                 mTrackDataName: hash = "Actions"
                 mEventDataMap: map[hash,pointer] = {
                     0xb7b7e36d = ParticleEventData {
-                        mName: hash = 0xb7b7e36d
                         mStartFrame: f32 = 2
                         mEffectKey: hash = "Rengar_BA3_Cas"
                         mParticleEventDataPairList: list[embed] = {
@@ -701,7 +694,6 @@ entries: map[hash,embed] = {
                 mTrackDataName: hash = "Recall"
                 mEventDataMap: map[hash,pointer] = {
                     "Hood" = SubmeshVisibilityEventData {
-                        mName: hash = "Hood"
                         mStartFrame: f32 = 67
                         mShowSubmeshList: list[hash] = {
                             "Hood"
@@ -852,7 +844,6 @@ entries: map[hash,embed] = {
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
                     "Winddown" = SubmeshVisibilityEventData {
-                        mName: hash = "Winddown"
                         mEndFrame: f32 = 2
                         mShowSubmeshList: list[hash] = {
                             "Hood"
@@ -869,7 +860,6 @@ entries: map[hash,embed] = {
                 mTrackDataName: hash = "Hood"
                 mEventDataMap: map[hash,pointer] = {
                     0xe6fda1e1 = SubmeshVisibilityEventData {
-                        mName: hash = 0xe6fda1e1
                         mShowSubmeshList: list[hash] = {
                             "Hood"
                         }
@@ -884,7 +874,6 @@ entries: map[hash,embed] = {
                 mTrackDataName: hash = "Hood"
                 mEventDataMap: map[hash,pointer] = {
                     "hoodoff" = SubmeshVisibilityEventData {
-                        mName: hash = "hoodoff"
                         mEndFrame: f32 = 17
                         mShowSubmeshList: list[hash] = {
                             "Hood"
@@ -901,7 +890,6 @@ entries: map[hash,embed] = {
                 mTrackDataName: hash = "Hood"
                 mEventDataMap: map[hash,pointer] = {
                     "hoodon" = SubmeshVisibilityEventData {
-                        mName: hash = "hoodon"
                         mStartFrame: f32 = 14
                         mShowSubmeshList: list[hash] = {
                             "Hood"
