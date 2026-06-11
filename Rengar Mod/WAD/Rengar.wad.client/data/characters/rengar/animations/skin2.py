@@ -243,8 +243,8 @@ entries: map[hash,embed] = {
                     driver: pointer = IsInGrassDynamicMaterialBoolDriver {}
                 }
                 mChangeAnimationMidPlay: bool = true
-                mFalseConditionClipName: hash = "Spell5_Ult"
                 mTrueConditionClipName: hash = "Spell5_Bush"
+                mFalseConditionClipName: hash = "Spell5_Ult"
             }
             "Spell5_Bush" = AtomicClipData {
                 mTrackDataName: hash = "Actions"
