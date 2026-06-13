@@ -5,15 +5,15 @@
 **- ANIMATIONS -**
 
 >**-** Emote animations are now smooth rather than snappy, matching the Season 6.  
-**-** Bush/ULT Idle Animation reverted back to S6 functionality (moved to Regular Idle animations).  
 **-** Recall animation once again plays during **Leap**.  
 **- Tiamat** animation once again plays during **Leap**.  
-**- Leap** no longer glitches towards its animation end.  
-**- Q** animation is now way smoother and it no longer snaps Rengar onto the target if he's facing the other direction, a clean transition added, matching the Season 6 **Q**.  
+**- Leap** no longer glitches towards its animation end.
+**-** Bush/ULT Idle Animation reverted back to S6 functionality (moved to Regular Idle animations).  
+**- Q** animation is now way smoother and it no longer snaps Rengar onto the target if he's facing the other direction, a clean transition added, matching the Season 6 **Q**.
+**- Q/W/E** animations no longer play during death.
+**- W** animation no longer plays on top of "*taunt*" animations (CTRL + 1/2/3/4).  
 **- E** animation once again plays after **Q** / **AA**.  
 **- E** no longer changes Rengar's facing direction during the Leap.  
-**- Q/W/E** animations no longer play during death.  
-**- W** animation no longer plays on top of "*taunt*" animations (CTRL + 1/2/3/4).  
 **-** Rengar is no longer sliding in **W** animation if he uses it together with **E** mid-air.  
 **- R** reverted to changing Rengar's Run animation only after entering stealth.  
 **-** Restored Night Hunter's old "**R** Run" animation details.  
@@ -21,10 +21,13 @@
 
 **- VISUALS -**
 
->**- Leap** range indicator reverted back to the old one for Night Hunter skin.  
+>**- Leap** range indicator reverted back to the old one for Night Hunter skin.
+**-** Leap range no longer disappears at screen's edge.
+**-** Increased visibility of **Leap**, **Q**, **W** and **R** visuals on Very Low settings.  
 **-** "**Q** on-hit" visuals' positioning adjusted.  
 **-** "**Q** Trails" VFX no longer fails to play if **Q** is used multiple times in a same sequence.  
-**-** "Emp **W** Glow" VFX duration changed to 2s to match the Empowered MS.  
+**-** "Emp **W** Glow" VFX duration changed to 2s to match the Empowered MS.
+**-** "Emp **E** Onhit" texture's size slightly increased, matching the old one.
 **-** "**R** Heart" VFX on Base/SSW/Nighthunter skins no longer disappears.  
 **-** "**R** Heart" VFX removed for Headhunter skin, as old Headhunter didn't have it.  
 **-** “**R** Target Glow" VFX improved to match the old looks.  
@@ -35,8 +38,6 @@
 **-** The VFX surrounding the "**R** Exclamation Mark" have been removed.  
 **-** Rengar is no longer transparent when jumping out of **R**.  
 **-** Headhunter's "**R** Body" texture improved, matching the old one.  
-**-** Increased visibility of **Leap**, **Q**, **W** and **R** visuals on Very Low settings.  
-**-** Leap range no longer disappears at screen's edge.
 
 **- SOUNDS -**
 
