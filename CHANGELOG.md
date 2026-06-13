@@ -5,58 +5,59 @@
 **- ANIMATIONS -**
 
 >**-** Emote animations are now smooth rather than snappy, matching the Season 6.  
+**-** Bush/ULT Idle Animation reverted back to S6 functionality (moved to Regular Idle animations).  
 **-** Recall animation once again plays during **Leap**.  
 **- Tiamat** animation once again plays during **Leap**.  
-**- Leap** no longer glitches towards its animation end.
-**-** Bush/ULT Idle Animation reverted back to S6 functionality (moved to Regular Idle animations).  
-**- Q** animation is now way smoother and it no longer snaps Rengar onto the target if he's facing the other direction, a clean transition added, matching the Season 6 **Q**.
-**- Q/W/E** animations no longer play during death.
-**- W** animation no longer plays on top of "*taunt*" animations (CTRL + 1/2/3/4).  
+**- Leap** no longer glitches towards its animation end.  
+**- Q** animation is now way smoother and it no longer snaps Rengar onto the target if he's facing the other direction, a clean transition added, matching the Season 6 **Q**.  
+**- Q/W/E** animations no longer play during death.  
+**- W** animation no longer plays on top of "*emote*" animations (CTRL + 1/2/3/4).  
 **- E** animation once again plays after **Q** / **AA**.  
 **- E** no longer changes Rengar's facing direction during the Leap.  
 **-** Rengar is no longer sliding in **W** animation if he uses it together with **E** mid-air.  
 **- R** reverted to changing Rengar's Run animation only after entering stealth.  
 **-** Restored Night Hunter's old "**R** Run" animation details.  
-**-** "TimeBlendData" adjusted to fully match Season 6 values.
+**-** *TimeBlendData* adjusted to fully match Season 6 values.
 
 **- VISUALS -**
 
->**- Leap** range indicator reverted back to the old one for Night Hunter skin.
-**-** Leap range no longer disappears at screen's edge.
-**-** Increased visibility of **Leap**, **Q**, **W** and **R** visuals on Very Low settings.  
-**-** "**Q** on-hit" visuals' positioning adjusted.  
-**-** "**Q** Trails" VFX no longer fails to play if **Q** is used multiple times in a same sequence.  
-**-** "Emp **W** Glow" VFX duration changed to 2s to match the Empowered MS.
-**-** "Emp **E** Onhit" texture's size slightly increased, matching the old one.
-**-** "**R** Heart" VFX on Base/SSW/Nighthunter skins no longer disappears.  
-**-** "**R** Heart" VFX removed for Headhunter skin, as old Headhunter didn't have it.  
-**-** “**R** Target Glow" VFX improved to match the old looks.  
-**-** "**R** Activation" VFX on Headhunter and Night Hunter reverted to the old one.  
-**-** "**R** Activation" VFX no longer keeps playing even if you cancel **R**.  
-**-** "**R** Activation" VFX no longer turns Headhunter chromas into Base Headhunter for a moment.  
-**-** "**R** Exclamation Mark" no longer pulsates and moves around.  
+>**-** Increased visibility of **Leap**, **Q**, **W** and **R** visuals on Very Low settings.  
+**- Leap** range indicator reverted back to the old one for Night Hunter skin.  
+**-** **Leap** range no longer disappears at screen's edge.  
+**-** **Q** on-hit visuals' positioning adjusted.  
+**-** **Q** Trails VFX no longer fails to play if **Q** is used multiple times in a same sequence.  
+**- Emp Q** Attack Speed "Glow" VFX removed.  
+**-** **Emp** **W** Glow VFX duration changed to 2s to match the Empowered MS.  
+**-** **Emp** **E** onhit texture's size slightly increased, matching the old one.   
+**-** **R** Heart VFX on Base/SSW/Nighthunter skins no longer disappears.  
+**-** **R** Heart VFX removed for Headhunter skin, as old Headhunter didn't have it.  
+**-** **R** Target Glow VFX improved to match the old looks.  
+**-** **R** Activation VFX on Headhunter and Night Hunter reverted to the old one.  
+**-** **R** Activation VFX no longer keeps playing even if you cancel **R**.  
+**-** **R** Activation VFX no longer turns Headhunter chromas into Base Headhunter for a moment.  
+**-** **R** Exclamation Mark no longer pulsates and moves around.  
 **-** The VFX surrounding the "**R** Exclamation Mark" have been removed.  
 **-** Rengar is no longer transparent when jumping out of **R**.  
-**-** Headhunter's "**R** Body" texture improved, matching the old one.  
+**-** Headhunter's "**R** Body" texture improved, matching the old one.
 
 **- SOUNDS -**
 
->**-** "Dance" SFX now correctly loops along with the animation.  
-**-** "MAX Ferocity" SFX now matches the old one, with improved quality.  
-**-** "**Leap**" SFX more variations and its functionality reverted back to the old one.  
-**-** "**Q** Stab" sounds significantly improved, matching the old one, with all 4 SFX variations.  
-**-** "**Q** Stab" SFX timing adjusted to better match Season 6 behavior.  
-**-** "**Q** Stab" SFX no longer fails to play if **E** is used right after **Q**.  
-**-** "**Q** Stab" SFX no longer fails to play if **Q** is used multiple times in a same sequence.  
-**-** "**Q** On-Attack" SFX restored. It once again uses the old one.  
-**-** "**Q** Growl" VO reverted to playing *on-attack* rather than *on-cast*.  
-**-** "Emp **Q** Activation" now has all 3 SFX variations.  
-**-** "Emp **Q** Attack Speed" SFX no longer incorrectly plays on the Night Hunter skin.  
-**-** "**W**" SFX improved, matching the old one and it no longer fires twice each cast.  
-**-** "**E**" SFX reverted back to the old one.  
-**-** "**R** Ambient" SFX reverted back to the old one on all skins (Base, HH, NH, SSW).  
-**-** "**R** Activation" SFX reverted back to the old one on Base/NH/SSW skins.  
-**-** "**R** Heartbeats" SFX no longer stops after casting Q on Base/NH/SSW skins.  
+>**-** Dance SFX now correctly loops along with the animation.  
+**-** MAX Ferocity SFX now matches the old one, with improved quality.  
+**-** **Leap** SFX more variations and its functionality reverted back to the old one.  
+**-** **Q** Stab sounds significantly improved, matching the old one, with all 4 SFX variations.  
+**-** **Q** Stab SFX timing adjusted to better match Season 6 behavior.  
+**-** **Q** Stab SFX no longer fails to play if **E** is used right after **Q**.  
+**-** **Q** Stab SFX no longer fails to play if **Q** is used multiple times in a same sequence.  
+**-** **Q** On-Attack SFX restored. It once again uses the old one.  
+**-** **Q** Growl VO reverted to playing *on-attack* rather than *on-cast*.  
+**-** **Emp Q** Activation now has all 3 SFX variations.  
+**-** **Emp Q** Attack Speed SFX no longer incorrectly plays on the Night Hunter skin.  
+**-** **W** SFX improved, matching the old one and it no longer fires twice each cast.  
+**-** **E** SFX reverted back to the old one.  
+**-** **R** Ambient SFX reverted back to the old one on all skins (Base, HH, NH, SSW).  
+**-** **R** Activation SFX reverted back to the old one on Base/NH/SSW skins.  
+**-** **R** Heartbeats SFX no longer stops after casting Q on Base/NH/SSW skins.  
 **-** **Every other sound:** higher quality + minor adjustments to match Season 6.
 
 **- MISCELLANEOUS -**
