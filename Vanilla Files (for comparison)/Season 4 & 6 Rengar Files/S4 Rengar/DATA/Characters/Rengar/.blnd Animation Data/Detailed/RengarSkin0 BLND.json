@@ -1,0 +1,2518 @@
+{
+  "Header": {
+    "mEngineType": 845427570,
+    "mBinaryBlockType": 1684958306,
+    "mBinaryBlockVersion": 1
+  },
+  "Pool": {
+    "mFormatToken": 1514195421,
+    "mVersion": 0,
+    "mUseCascadeBlend": false,
+    "mCascadeBlendValue": 0.0,
+    "mBlendDataAry": [
+      {
+        "mFromAnimId": 25,
+        "mToAnimId": 21,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 24,
+        "mToAnimId": 21,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 23,
+        "mToAnimId": 21,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 22,
+        "mToAnimId": 21,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 21,
+        "mToAnimId": 21,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 20,
+        "mToAnimId": 21,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 19,
+        "mToAnimId": 21,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 18,
+        "mToAnimId": 21,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 17,
+        "mToAnimId": 21,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 16,
+        "mToAnimId": 21,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 15,
+        "mToAnimId": 21,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 14,
+        "mToAnimId": 21,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 13,
+        "mToAnimId": 21,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 12,
+        "mToAnimId": 21,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 11,
+        "mToAnimId": 21,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 10,
+        "mToAnimId": 21,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 9,
+        "mToAnimId": 21,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 8,
+        "mToAnimId": 21,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 7,
+        "mToAnimId": 21,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 6,
+        "mToAnimId": 21,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 5,
+        "mToAnimId": 21,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 4,
+        "mToAnimId": 21,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 3,
+        "mToAnimId": 21,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 2,
+        "mToAnimId": 21,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 1,
+        "mToAnimId": 21,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 0,
+        "mToAnimId": 21,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 25,
+        "mToAnimId": 22,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 24,
+        "mToAnimId": 22,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 23,
+        "mToAnimId": 22,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 22,
+        "mToAnimId": 22,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 21,
+        "mToAnimId": 22,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 20,
+        "mToAnimId": 22,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 19,
+        "mToAnimId": 22,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 18,
+        "mToAnimId": 22,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 17,
+        "mToAnimId": 22,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 16,
+        "mToAnimId": 22,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 15,
+        "mToAnimId": 22,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 14,
+        "mToAnimId": 22,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 13,
+        "mToAnimId": 22,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 12,
+        "mToAnimId": 22,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 11,
+        "mToAnimId": 22,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 10,
+        "mToAnimId": 22,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 9,
+        "mToAnimId": 22,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 8,
+        "mToAnimId": 22,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 7,
+        "mToAnimId": 22,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 6,
+        "mToAnimId": 22,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 5,
+        "mToAnimId": 22,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 4,
+        "mToAnimId": 22,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 3,
+        "mToAnimId": 22,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 2,
+        "mToAnimId": 22,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 1,
+        "mToAnimId": 22,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 0,
+        "mToAnimId": 22,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 25,
+        "mToAnimId": 23,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 24,
+        "mToAnimId": 23,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 23,
+        "mToAnimId": 23,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 22,
+        "mToAnimId": 23,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 21,
+        "mToAnimId": 23,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 20,
+        "mToAnimId": 23,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 19,
+        "mToAnimId": 23,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 18,
+        "mToAnimId": 23,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 17,
+        "mToAnimId": 23,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 16,
+        "mToAnimId": 23,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 15,
+        "mToAnimId": 23,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 14,
+        "mToAnimId": 23,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 13,
+        "mToAnimId": 23,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 12,
+        "mToAnimId": 23,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 11,
+        "mToAnimId": 23,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 10,
+        "mToAnimId": 23,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 9,
+        "mToAnimId": 23,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 8,
+        "mToAnimId": 23,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 7,
+        "mToAnimId": 23,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 6,
+        "mToAnimId": 23,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 5,
+        "mToAnimId": 23,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 4,
+        "mToAnimId": 23,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 3,
+        "mToAnimId": 23,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 2,
+        "mToAnimId": 23,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 1,
+        "mToAnimId": 23,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 0,
+        "mToAnimId": 23,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.2
+      },
+      {
+        "mFromAnimId": 0,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 1,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 2,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 3,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 4,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 5,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 6,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 7,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 8,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 9,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 10,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 11,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 12,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 13,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 14,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 15,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 16,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 17,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 18,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 19,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 20,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 21,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 22,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 23,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 24,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 25,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 26,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 27,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      },
+      {
+        "mFromAnimId": 28,
+        "mToAnimId": 4,
+        "mBlendFlags": 0,
+        "mBlendTime": 0.0
+      }
+    ],
+    "mTransitionData": null,
+    "mBlendTrackAry": [
+      {
+        "mBlendWeight": 1.0,
+        "mBlendMode": 0,
+        "mIndex": 0,
+        "mName": "Actions",
+        "mResourceSize": 48
+      },
+      {
+        "mBlendWeight": 1.0,
+        "mBlendMode": 0,
+        "mIndex": 1,
+        "mName": "Spell",
+        "mResourceSize": 48
+      },
+      {
+        "mBlendWeight": 1.0,
+        "mBlendMode": 0,
+        "mIndex": 2,
+        "mName": "Default",
+        "mResourceSize": 48
+      }
+    ],
+    "mClassAry": [
+      {
+        "mFlags": 2,
+        "mUniqueID": 0,
+        "mName": "Channel",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 200,
+          "mTickDuration": 0.033333335,
+          "mAnimDataIndex": 0,
+          "mEventData": null,
+          "mMaskData": null,
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 2,
+            "mName": "Default",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 80
+      },
+      {
+        "mFlags": 2,
+        "mUniqueID": 1,
+        "mName": "Channel_WNDUP",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 91,
+          "mTickDuration": 0.033333335,
+          "mAnimDataIndex": 1,
+          "mEventData": null,
+          "mMaskData": null,
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 2,
+            "mName": "Default",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 88
+      },
+      {
+        "mFlags": 0,
+        "mUniqueID": 2,
+        "mName": "Crit",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 60,
+          "mTickDuration": 0.033333335,
+          "mAnimDataIndex": 16,
+          "mEventData": {
+            "mFormatToken": 0,
+            "mVersion": 0,
+            "mFlags": 0,
+            "mUniqueID": 0,
+            "mEventArray": [
+              {
+                "mEffectName": "Rengar_Base_C_Cas.troy",
+                "mBoneName": "",
+                "mTargetBoneName": "",
+                "mEndFrame": -1.0,
+                "mEventTypeId": 2,
+                "mFlags": 0,
+                "mFrame": 1.0,
+                "mName": "Crit",
+                "mResourceSize": 0
+              }
+            ],
+            "mEventData": {
+              "mEffectName": "Rengar_Base_C_Cas.troy",
+              "mBoneName": "",
+              "mTargetBoneName": "",
+              "mEndFrame": -1.0,
+              "mEventTypeId": 2,
+              "mFlags": 0,
+              "mFrame": 1.0,
+              "mName": "Crit",
+              "mResourceSize": 0
+            },
+            "mEventNameHash": {
+              "mDataID": 0,
+              "mNameHash": 4203868981
+            },
+            "mEventFrame": {
+              "mDataID": 0,
+              "mFrame": 1.0
+            },
+            "mName": "Crit",
+            "mResourceSize": 152
+          },
+          "mMaskData": null,
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 0,
+            "mName": "Actions",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 80
+      },
+      {
+        "mFlags": 2,
+        "mUniqueID": 3,
+        "mName": "Dance",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 323,
+          "mTickDuration": 0.033333335,
+          "mAnimDataIndex": 2,
+          "mEventData": {
+            "mFormatToken": 0,
+            "mVersion": 0,
+            "mFlags": 0,
+            "mUniqueID": 1,
+            "mEventArray": [
+              {
+                "mEffectName": "rengar_emote_dance_sound.troy",
+                "mBoneName": "Invalid Joint Name",
+                "mTargetBoneName": "",
+                "mEndFrame": -1.0,
+                "mEventTypeId": 2,
+                "mFlags": 3,
+                "mFrame": 0.0,
+                "mName": "AUDIO_dance",
+                "mResourceSize": 0
+              }
+            ],
+            "mEventData": {
+              "mEffectName": "rengar_emote_dance_sound.troy",
+              "mBoneName": "Invalid Joint Name",
+              "mTargetBoneName": "",
+              "mEndFrame": -1.0,
+              "mEventTypeId": 2,
+              "mFlags": 3,
+              "mFrame": 0.0,
+              "mName": "AUDIO_dance",
+              "mResourceSize": 0
+            },
+            "mEventNameHash": {
+              "mDataID": 0,
+              "mNameHash": 1100249409
+            },
+            "mEventFrame": {
+              "mDataID": 0,
+              "mFrame": 0.0
+            },
+            "mName": "Dance",
+            "mResourceSize": 180
+          },
+          "mMaskData": null,
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 2,
+            "mName": "Default",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 80
+      },
+      {
+        "mFlags": 0,
+        "mUniqueID": 4,
+        "mName": "Death",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 67,
+          "mTickDuration": 0.033333335,
+          "mAnimDataIndex": 3,
+          "mEventData": {
+            "mFormatToken": 0,
+            "mVersion": 0,
+            "mFlags": 0,
+            "mUniqueID": 2,
+            "mEventArray": [
+              {
+                "mEffectName": "rengar_emote_death_sound.troy",
+                "mBoneName": "Invalid Joint Name",
+                "mTargetBoneName": "",
+                "mEndFrame": -1.0,
+                "mEventTypeId": 2,
+                "mFlags": 2,
+                "mFrame": 0.0,
+                "mName": "AUDIO_death",
+                "mResourceSize": 0
+              }
+            ],
+            "mEventData": {
+              "mEffectName": "rengar_emote_death_sound.troy",
+              "mBoneName": "Invalid Joint Name",
+              "mTargetBoneName": "",
+              "mEndFrame": -1.0,
+              "mEventTypeId": 2,
+              "mFlags": 2,
+              "mFrame": 0.0,
+              "mName": "AUDIO_death",
+              "mResourceSize": 0
+            },
+            "mEventNameHash": {
+              "mDataID": 0,
+              "mNameHash": 4032758682
+            },
+            "mEventFrame": {
+              "mDataID": 0,
+              "mFrame": 0.0
+            },
+            "mName": "Death",
+            "mResourceSize": 180
+          },
+          "mMaskData": null,
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 0,
+            "mName": "Actions",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 80
+      },
+      {
+        "mFlags": 2,
+        "mUniqueID": 5,
+        "mName": "Idle1",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 60,
+          "mTickDuration": 0.033333335,
+          "mAnimDataIndex": 4,
+          "mEventData": null,
+          "mMaskData": null,
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 2,
+            "mName": "Default",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 80
+      },
+      {
+        "mFlags": 0,
+        "mUniqueID": 6,
+        "mName": "Idle2",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 300,
+          "mTickDuration": 0.033333335,
+          "mAnimDataIndex": 5,
+          "mEventData": null,
+          "mMaskData": null,
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 2,
+            "mName": "Default",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 80
+      },
+      {
+        "mFlags": 0,
+        "mUniqueID": 7,
+        "mName": "Laugh",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 118,
+          "mTickDuration": 0.033333335,
+          "mAnimDataIndex": 22,
+          "mEventData": {
+            "mFormatToken": 0,
+            "mVersion": 0,
+            "mFlags": 0,
+            "mUniqueID": 3,
+            "mEventArray": [
+              {
+                "mEffectName": "rengar_emote_laugh_sound.troy",
+                "mBoneName": "Invalid Joint Name",
+                "mTargetBoneName": "",
+                "mEndFrame": -1.0,
+                "mEventTypeId": 2,
+                "mFlags": 2,
+                "mFrame": 0.0,
+                "mName": "AUDIO_laugh",
+                "mResourceSize": 0
+              }
+            ],
+            "mEventData": {
+              "mEffectName": "rengar_emote_laugh_sound.troy",
+              "mBoneName": "Invalid Joint Name",
+              "mTargetBoneName": "",
+              "mEndFrame": -1.0,
+              "mEventTypeId": 2,
+              "mFlags": 2,
+              "mFrame": 0.0,
+              "mName": "AUDIO_laugh",
+              "mResourceSize": 0
+            },
+            "mEventNameHash": {
+              "mDataID": 0,
+              "mNameHash": 2061735815
+            },
+            "mEventFrame": {
+              "mDataID": 0,
+              "mFrame": 0.0
+            },
+            "mName": "Laugh",
+            "mResourceSize": 180
+          },
+          "mMaskData": null,
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 2,
+            "mName": "Default",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 80
+      },
+      {
+        "mFlags": 2,
+        "mUniqueID": 8,
+        "mName": "Run",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 30,
+          "mTickDuration": 0.033333335,
+          "mAnimDataIndex": 8,
+          "mEventData": null,
+          "mMaskData": null,
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 2,
+            "mName": "Default",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 76
+      },
+      {
+        "mFlags": 2,
+        "mUniqueID": 9,
+        "mName": "Run2",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 30,
+          "mTickDuration": 0.033333335,
+          "mAnimDataIndex": 9,
+          "mEventData": null,
+          "mMaskData": null,
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 2,
+            "mName": "Default",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 80
+      },
+      {
+        "mFlags": 0,
+        "mUniqueID": 10,
+        "mName": "Spell1",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 50,
+          "mTickDuration": 0.033333335,
+          "mAnimDataIndex": 10,
+          "mEventData": {
+            "mFormatToken": 0,
+            "mVersion": 0,
+            "mFlags": 0,
+            "mUniqueID": 4,
+            "mEventArray": [
+              {
+                "mEffectName": "Rengar_Base_Q_Cas.troy",
+                "mBoneName": "",
+                "mTargetBoneName": "",
+                "mEndFrame": -1.0,
+                "mEventTypeId": 2,
+                "mFlags": 0,
+                "mFrame": 4.0,
+                "mName": "Q",
+                "mResourceSize": 0
+              }
+            ],
+            "mEventData": {
+              "mEffectName": "Rengar_Base_Q_Cas.troy",
+              "mBoneName": "",
+              "mTargetBoneName": "",
+              "mEndFrame": -1.0,
+              "mEventTypeId": 2,
+              "mFlags": 0,
+              "mFrame": 4.0,
+              "mName": "Q",
+              "mResourceSize": 0
+            },
+            "mEventNameHash": {
+              "mDataID": 0,
+              "mNameHash": 84696430
+            },
+            "mEventFrame": {
+              "mDataID": 0,
+              "mFrame": 4.0
+            },
+            "mName": "Spell1",
+            "mResourceSize": 148
+          },
+          "mMaskData": null,
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 0,
+            "mName": "Actions",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 80
+      },
+      {
+        "mFlags": 0,
+        "mUniqueID": 11,
+        "mName": "Spell2",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 40,
+          "mTickDuration": 0.033333335,
+          "mAnimDataIndex": 19,
+          "mEventData": null,
+          "mMaskData": {
+            "mFormatToken": 1270564215,
+            "mVersion": 0,
+            "mFlags": 0,
+            "mNumElement": 80,
+            "mUniqueID": 0,
+            "mWeight": 0.0,
+            "mJointHash": {
+              "mWeightID": 0,
+              "mJointHash": 0
+            },
+            "mJointNdx": {
+              "mWeightID": 0,
+              "mJointNdx": 0
+            },
+            "mName": "TopBody",
+            "mResourceSize": 1672
+          },
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 1,
+            "mName": "Spell",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 80
+      },
+      {
+        "mFlags": 0,
+        "mUniqueID": 12,
+        "mName": "Spell3",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 56,
+          "mTickDuration": 0.033333335,
+          "mAnimDataIndex": 20,
+          "mEventData": null,
+          "mMaskData": null,
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 0,
+            "mName": "Actions",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 80
+      },
+      {
+        "mFlags": 0,
+        "mUniqueID": 13,
+        "mName": "Spell4",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 60,
+          "mTickDuration": 0.033333335,
+          "mAnimDataIndex": 4,
+          "mEventData": null,
+          "mMaskData": null,
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 0,
+            "mName": "Actions",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 80
+      },
+      {
+        "mFlags": 0,
+        "mUniqueID": 14,
+        "mName": "Spell4_Loop",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 60,
+          "mTickDuration": 0.033333335,
+          "mAnimDataIndex": 4,
+          "mEventData": null,
+          "mMaskData": null,
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 0,
+            "mName": "Actions",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 84
+      },
+      {
+        "mFlags": 0,
+        "mUniqueID": 15,
+        "mName": "Spell4_Winddown",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 60,
+          "mTickDuration": 0.033333335,
+          "mAnimDataIndex": 4,
+          "mEventData": null,
+          "mMaskData": null,
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 0,
+            "mName": "Actions",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 88
+      },
+      {
+        "mFlags": 0,
+        "mUniqueID": 16,
+        "mName": "Spell5",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 50,
+          "mTickDuration": 0.033333335,
+          "mAnimDataIndex": 17,
+          "mEventData": null,
+          "mMaskData": null,
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 0,
+            "mName": "Actions",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 80
+      },
+      {
+        "mFlags": 0,
+        "mUniqueID": 17,
+        "mName": "Spell6",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 60,
+          "mTickDuration": 0.016666668,
+          "mAnimDataIndex": 4,
+          "mEventData": null,
+          "mMaskData": null,
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 0,
+            "mName": "Actions",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 80
+      },
+      {
+        "mFlags": 0,
+        "mUniqueID": 18,
+        "mName": "Taunt",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 165,
+          "mTickDuration": 0.033333335,
+          "mAnimDataIndex": 23,
+          "mEventData": {
+            "mFormatToken": 0,
+            "mVersion": 0,
+            "mFlags": 0,
+            "mUniqueID": 5,
+            "mEventArray": [
+              {
+                "mEffectName": "rengar_emote_taunt_sound.troy",
+                "mBoneName": "Invalid Joint Name",
+                "mTargetBoneName": "",
+                "mEndFrame": -1.0,
+                "mEventTypeId": 2,
+                "mFlags": 2,
+                "mFrame": 0.0,
+                "mName": "AUDIO_taunt",
+                "mResourceSize": 0
+              }
+            ],
+            "mEventData": {
+              "mEffectName": "rengar_emote_taunt_sound.troy",
+              "mBoneName": "Invalid Joint Name",
+              "mTargetBoneName": "",
+              "mEndFrame": -1.0,
+              "mEventTypeId": 2,
+              "mFlags": 2,
+              "mFrame": 0.0,
+              "mName": "AUDIO_taunt",
+              "mResourceSize": 0
+            },
+            "mEventNameHash": {
+              "mDataID": 0,
+              "mNameHash": 2208124936
+            },
+            "mEventFrame": {
+              "mDataID": 0,
+              "mFrame": 0.0
+            },
+            "mName": "Taunt",
+            "mResourceSize": 180
+          },
+          "mMaskData": null,
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 2,
+            "mName": "Default",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 80
+      },
+      {
+        "mFlags": 8,
+        "mUniqueID": 19,
+        "mName": "Raw_LionGuy_recall",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 44,
+          "mTickDuration": 0.033333335,
+          "mAnimDataIndex": 6,
+          "mEventData": null,
+          "mMaskData": null,
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 0,
+            "mName": "Actions",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 92
+      },
+      {
+        "mFlags": 2,
+        "mUniqueID": 20,
+        "mName": "Raw_LionGuy_recall_idle",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 50,
+          "mTickDuration": 0.033333335,
+          "mAnimDataIndex": 7,
+          "mEventData": null,
+          "mMaskData": null,
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 0,
+            "mName": "Actions",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 96
+      },
+      {
+        "mFlags": 0,
+        "mUniqueID": 21,
+        "mName": "Attack1",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 60,
+          "mTickDuration": 0.033333335,
+          "mAnimDataIndex": 11,
+          "mEventData": {
+            "mFormatToken": 0,
+            "mVersion": 0,
+            "mFlags": 0,
+            "mUniqueID": 6,
+            "mEventArray": [
+              {
+                "mEffectName": "Rengar_Base_BA1_Cas.troy",
+                "mBoneName": "",
+                "mTargetBoneName": "",
+                "mEndFrame": -1.0,
+                "mEventTypeId": 2,
+                "mFlags": 0,
+                "mFrame": 2.0,
+                "mName": "BA1",
+                "mResourceSize": 0
+              }
+            ],
+            "mEventData": {
+              "mEffectName": "Rengar_Base_BA1_Cas.troy",
+              "mBoneName": "",
+              "mTargetBoneName": "",
+              "mEndFrame": -1.0,
+              "mEventTypeId": 2,
+              "mFlags": 0,
+              "mFrame": 2.0,
+              "mName": "BA1",
+              "mResourceSize": 0
+            },
+            "mEventNameHash": {
+              "mDataID": 0,
+              "mNameHash": 513390179
+            },
+            "mEventFrame": {
+              "mDataID": 0,
+              "mFrame": 2.0
+            },
+            "mName": "Attack1",
+            "mResourceSize": 152
+          },
+          "mMaskData": null,
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 0,
+            "mName": "Actions",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 80
+      },
+      {
+        "mFlags": 0,
+        "mUniqueID": 22,
+        "mName": "Attack2",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 60,
+          "mTickDuration": 0.033333335,
+          "mAnimDataIndex": 12,
+          "mEventData": {
+            "mFormatToken": 0,
+            "mVersion": 0,
+            "mFlags": 0,
+            "mUniqueID": 7,
+            "mEventArray": [
+              {
+                "mEffectName": "Rengar_Base_BA2_Cas.troy",
+                "mBoneName": "",
+                "mTargetBoneName": "",
+                "mEndFrame": -1.0,
+                "mEventTypeId": 2,
+                "mFlags": 0,
+                "mFrame": 2.0,
+                "mName": "BA2",
+                "mResourceSize": 0
+              }
+            ],
+            "mEventData": {
+              "mEffectName": "Rengar_Base_BA2_Cas.troy",
+              "mBoneName": "",
+              "mTargetBoneName": "",
+              "mEndFrame": -1.0,
+              "mEventTypeId": 2,
+              "mFlags": 0,
+              "mFrame": 2.0,
+              "mName": "BA2",
+              "mResourceSize": 0
+            },
+            "mEventNameHash": {
+              "mDataID": 0,
+              "mNameHash": 513390176
+            },
+            "mEventFrame": {
+              "mDataID": 0,
+              "mFrame": 2.0
+            },
+            "mName": "Attack2",
+            "mResourceSize": 152
+          },
+          "mMaskData": null,
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 0,
+            "mName": "Actions",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 80
+      },
+      {
+        "mFlags": 0,
+        "mUniqueID": 23,
+        "mName": "Attack3",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 62,
+          "mTickDuration": 0.033333335,
+          "mAnimDataIndex": 13,
+          "mEventData": {
+            "mFormatToken": 0,
+            "mVersion": 0,
+            "mFlags": 0,
+            "mUniqueID": 8,
+            "mEventArray": [
+              {
+                "mEffectName": "Rengar_Base_BA3_Cas.troy",
+                "mBoneName": "",
+                "mTargetBoneName": "",
+                "mEndFrame": -1.0,
+                "mEventTypeId": 2,
+                "mFlags": 0,
+                "mFrame": 2.0,
+                "mName": "BA3",
+                "mResourceSize": 0
+              }
+            ],
+            "mEventData": {
+              "mEffectName": "Rengar_Base_BA3_Cas.troy",
+              "mBoneName": "",
+              "mTargetBoneName": "",
+              "mEndFrame": -1.0,
+              "mEventTypeId": 2,
+              "mFlags": 0,
+              "mFrame": 2.0,
+              "mName": "BA3",
+              "mResourceSize": 0
+            },
+            "mEventNameHash": {
+              "mDataID": 0,
+              "mNameHash": 513390177
+            },
+            "mEventFrame": {
+              "mDataID": 0,
+              "mFrame": 2.0
+            },
+            "mName": "Attack3",
+            "mResourceSize": 152
+          },
+          "mMaskData": null,
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 0,
+            "mName": "Actions",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 80
+      },
+      {
+        "mFlags": 2,
+        "mUniqueID": 24,
+        "mName": "Recall",
+        "mClipData": {
+          "mTrackIndex": 0,
+          "mNumPairs": 2,
+          "mClipTypeID": 3
+        },
+        "mResourceSize": 48
+      },
+      {
+        "mFlags": 0,
+        "mUniqueID": 25,
+        "mName": "Joke",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 164,
+          "mTickDuration": 0.033333335,
+          "mAnimDataIndex": 15,
+          "mEventData": {
+            "mFormatToken": 0,
+            "mVersion": 0,
+            "mFlags": 0,
+            "mUniqueID": 9,
+            "mEventArray": [
+              {
+                "mEffectName": "rengar_emote_joke_sound.troy",
+                "mBoneName": "Invalid Joint Name",
+                "mTargetBoneName": "",
+                "mEndFrame": -1.0,
+                "mEventTypeId": 2,
+                "mFlags": 2,
+                "mFrame": 0.0,
+                "mName": "AUDIO_joke",
+                "mResourceSize": 0
+              }
+            ],
+            "mEventData": {
+              "mEffectName": "rengar_emote_joke_sound.troy",
+              "mBoneName": "Invalid Joint Name",
+              "mTargetBoneName": "",
+              "mEndFrame": -1.0,
+              "mEventTypeId": 2,
+              "mFlags": 2,
+              "mFrame": 0.0,
+              "mName": "AUDIO_joke",
+              "mResourceSize": 0
+            },
+            "mEventNameHash": {
+              "mDataID": 0,
+              "mNameHash": 1961634849
+            },
+            "mEventFrame": {
+              "mDataID": 0,
+              "mFrame": 0.0
+            },
+            "mName": "Joke",
+            "mResourceSize": 180
+          },
+          "mMaskData": null,
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 2,
+            "mName": "Default",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 80
+      },
+      {
+        "mFlags": 0,
+        "mUniqueID": 26,
+        "mName": "Idle3",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 239,
+          "mTickDuration": 0.033333335,
+          "mAnimDataIndex": 14,
+          "mEventData": null,
+          "mMaskData": null,
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 2,
+            "mName": "Default",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 80
+      },
+      {
+        "mFlags": 0,
+        "mUniqueID": 27,
+        "mName": "Spell1_Long",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 50,
+          "mTickDuration": 0.033333335,
+          "mAnimDataIndex": 18,
+          "mEventData": {
+            "mFormatToken": 0,
+            "mVersion": 0,
+            "mFlags": 0,
+            "mUniqueID": 10,
+            "mEventArray": [
+              {
+                "mEffectName": "Rengar_Base_Q_Cas.troy",
+                "mBoneName": "",
+                "mTargetBoneName": "",
+                "mEndFrame": -1.0,
+                "mEventTypeId": 2,
+                "mFlags": 0,
+                "mFrame": 4.0,
+                "mName": "Q_Long",
+                "mResourceSize": 0
+              }
+            ],
+            "mEventData": {
+              "mEffectName": "Rengar_Base_Q_Cas.troy",
+              "mBoneName": "",
+              "mTargetBoneName": "",
+              "mEndFrame": -1.0,
+              "mEventTypeId": 2,
+              "mFlags": 0,
+              "mFrame": 4.0,
+              "mName": "Q_Long",
+              "mResourceSize": 0
+            },
+            "mEventNameHash": {
+              "mDataID": 0,
+              "mNameHash": 723391555
+            },
+            "mEventFrame": {
+              "mDataID": 0,
+              "mFrame": 4.0
+            },
+            "mName": "Spell1_Long",
+            "mResourceSize": 156
+          },
+          "mMaskData": null,
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 0,
+            "mName": "Actions",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 84
+      },
+      {
+        "mFlags": 2,
+        "mUniqueID": 28,
+        "mName": "run1_Fast",
+        "mClipData": {
+          "mStartTick": 0,
+          "mEndTick": 30,
+          "mTickDuration": 0.033333335,
+          "mAnimDataIndex": 21,
+          "mEventData": null,
+          "mMaskData": null,
+          "mTrackData": {
+            "mBlendWeight": 1.0,
+            "mBlendMode": 0,
+            "mIndex": 2,
+            "mName": "Default",
+            "mResourceSize": 48
+          },
+          "mUpdaterData": null,
+          "mSyncGroupName": null,
+          "mSyncGroup": 0,
+          "mExtBuffer": [
+            0,
+            0
+          ],
+          "mClipTypeID": 1
+        },
+        "mResourceSize": 84
+      }
+    ],
+    "mMaskDataAry": [
+      {
+        "mFormatToken": 1270564215,
+        "mVersion": 0,
+        "mFlags": 0,
+        "mNumElement": 80,
+        "mUniqueID": 0,
+        "mWeight": 0.0,
+        "mJointHash": {
+          "mWeightID": 0,
+          "mJointHash": 0
+        },
+        "mJointNdx": {
+          "mWeightID": 0,
+          "mJointNdx": 0
+        },
+        "mName": "TopBody",
+        "mResourceSize": 1672
+      }
+    ],
+    "mEventDataAry": [
+      {
+        "mFormatToken": 0,
+        "mVersion": 0,
+        "mFlags": 0,
+        "mUniqueID": 0,
+        "mEventArray": [
+          {
+            "mEffectName": "Rengar_Base_C_Cas.troy",
+            "mBoneName": "",
+            "mTargetBoneName": "",
+            "mEndFrame": -1.0,
+            "mEventTypeId": 2,
+            "mFlags": 0,
+            "mFrame": 1.0,
+            "mName": "Crit",
+            "mResourceSize": 0
+          }
+        ],
+        "mEventData": {
+          "mEffectName": "Rengar_Base_C_Cas.troy",
+          "mBoneName": "",
+          "mTargetBoneName": "",
+          "mEndFrame": -1.0,
+          "mEventTypeId": 2,
+          "mFlags": 0,
+          "mFrame": 1.0,
+          "mName": "Crit",
+          "mResourceSize": 0
+        },
+        "mEventNameHash": {
+          "mDataID": 0,
+          "mNameHash": 4203868981
+        },
+        "mEventFrame": {
+          "mDataID": 0,
+          "mFrame": 1.0
+        },
+        "mName": "Crit",
+        "mResourceSize": 152
+      },
+      {
+        "mFormatToken": 0,
+        "mVersion": 0,
+        "mFlags": 0,
+        "mUniqueID": 1,
+        "mEventArray": [
+          {
+            "mEffectName": "rengar_emote_dance_sound.troy",
+            "mBoneName": "Invalid Joint Name",
+            "mTargetBoneName": "",
+            "mEndFrame": -1.0,
+            "mEventTypeId": 2,
+            "mFlags": 3,
+            "mFrame": 0.0,
+            "mName": "AUDIO_dance",
+            "mResourceSize": 0
+          }
+        ],
+        "mEventData": {
+          "mEffectName": "rengar_emote_dance_sound.troy",
+          "mBoneName": "Invalid Joint Name",
+          "mTargetBoneName": "",
+          "mEndFrame": -1.0,
+          "mEventTypeId": 2,
+          "mFlags": 3,
+          "mFrame": 0.0,
+          "mName": "AUDIO_dance",
+          "mResourceSize": 0
+        },
+        "mEventNameHash": {
+          "mDataID": 0,
+          "mNameHash": 1100249409
+        },
+        "mEventFrame": {
+          "mDataID": 0,
+          "mFrame": 0.0
+        },
+        "mName": "Dance",
+        "mResourceSize": 180
+      },
+      {
+        "mFormatToken": 0,
+        "mVersion": 0,
+        "mFlags": 0,
+        "mUniqueID": 2,
+        "mEventArray": [
+          {
+            "mEffectName": "rengar_emote_death_sound.troy",
+            "mBoneName": "Invalid Joint Name",
+            "mTargetBoneName": "",
+            "mEndFrame": -1.0,
+            "mEventTypeId": 2,
+            "mFlags": 2,
+            "mFrame": 0.0,
+            "mName": "AUDIO_death",
+            "mResourceSize": 0
+          }
+        ],
+        "mEventData": {
+          "mEffectName": "rengar_emote_death_sound.troy",
+          "mBoneName": "Invalid Joint Name",
+          "mTargetBoneName": "",
+          "mEndFrame": -1.0,
+          "mEventTypeId": 2,
+          "mFlags": 2,
+          "mFrame": 0.0,
+          "mName": "AUDIO_death",
+          "mResourceSize": 0
+        },
+        "mEventNameHash": {
+          "mDataID": 0,
+          "mNameHash": 4032758682
+        },
+        "mEventFrame": {
+          "mDataID": 0,
+          "mFrame": 0.0
+        },
+        "mName": "Death",
+        "mResourceSize": 180
+      },
+      {
+        "mFormatToken": 0,
+        "mVersion": 0,
+        "mFlags": 0,
+        "mUniqueID": 3,
+        "mEventArray": [
+          {
+            "mEffectName": "rengar_emote_laugh_sound.troy",
+            "mBoneName": "Invalid Joint Name",
+            "mTargetBoneName": "",
+            "mEndFrame": -1.0,
+            "mEventTypeId": 2,
+            "mFlags": 2,
+            "mFrame": 0.0,
+            "mName": "AUDIO_laugh",
+            "mResourceSize": 0
+          }
+        ],
+        "mEventData": {
+          "mEffectName": "rengar_emote_laugh_sound.troy",
+          "mBoneName": "Invalid Joint Name",
+          "mTargetBoneName": "",
+          "mEndFrame": -1.0,
+          "mEventTypeId": 2,
+          "mFlags": 2,
+          "mFrame": 0.0,
+          "mName": "AUDIO_laugh",
+          "mResourceSize": 0
+        },
+        "mEventNameHash": {
+          "mDataID": 0,
+          "mNameHash": 2061735815
+        },
+        "mEventFrame": {
+          "mDataID": 0,
+          "mFrame": 0.0
+        },
+        "mName": "Laugh",
+        "mResourceSize": 180
+      },
+      {
+        "mFormatToken": 0,
+        "mVersion": 0,
+        "mFlags": 0,
+        "mUniqueID": 4,
+        "mEventArray": [
+          {
+            "mEffectName": "Rengar_Base_Q_Cas.troy",
+            "mBoneName": "",
+            "mTargetBoneName": "",
+            "mEndFrame": -1.0,
+            "mEventTypeId": 2,
+            "mFlags": 0,
+            "mFrame": 4.0,
+            "mName": "Q",
+            "mResourceSize": 0
+          }
+        ],
+        "mEventData": {
+          "mEffectName": "Rengar_Base_Q_Cas.troy",
+          "mBoneName": "",
+          "mTargetBoneName": "",
+          "mEndFrame": -1.0,
+          "mEventTypeId": 2,
+          "mFlags": 0,
+          "mFrame": 4.0,
+          "mName": "Q",
+          "mResourceSize": 0
+        },
+        "mEventNameHash": {
+          "mDataID": 0,
+          "mNameHash": 84696430
+        },
+        "mEventFrame": {
+          "mDataID": 0,
+          "mFrame": 4.0
+        },
+        "mName": "Spell1",
+        "mResourceSize": 148
+      },
+      {
+        "mFormatToken": 0,
+        "mVersion": 0,
+        "mFlags": 0,
+        "mUniqueID": 5,
+        "mEventArray": [
+          {
+            "mEffectName": "rengar_emote_taunt_sound.troy",
+            "mBoneName": "Invalid Joint Name",
+            "mTargetBoneName": "",
+            "mEndFrame": -1.0,
+            "mEventTypeId": 2,
+            "mFlags": 2,
+            "mFrame": 0.0,
+            "mName": "AUDIO_taunt",
+            "mResourceSize": 0
+          }
+        ],
+        "mEventData": {
+          "mEffectName": "rengar_emote_taunt_sound.troy",
+          "mBoneName": "Invalid Joint Name",
+          "mTargetBoneName": "",
+          "mEndFrame": -1.0,
+          "mEventTypeId": 2,
+          "mFlags": 2,
+          "mFrame": 0.0,
+          "mName": "AUDIO_taunt",
+          "mResourceSize": 0
+        },
+        "mEventNameHash": {
+          "mDataID": 0,
+          "mNameHash": 2208124936
+        },
+        "mEventFrame": {
+          "mDataID": 0,
+          "mFrame": 0.0
+        },
+        "mName": "Taunt",
+        "mResourceSize": 180
+      },
+      {
+        "mFormatToken": 0,
+        "mVersion": 0,
+        "mFlags": 0,
+        "mUniqueID": 6,
+        "mEventArray": [
+          {
+            "mEffectName": "Rengar_Base_BA1_Cas.troy",
+            "mBoneName": "",
+            "mTargetBoneName": "",
+            "mEndFrame": -1.0,
+            "mEventTypeId": 2,
+            "mFlags": 0,
+            "mFrame": 2.0,
+            "mName": "BA1",
+            "mResourceSize": 0
+          }
+        ],
+        "mEventData": {
+          "mEffectName": "Rengar_Base_BA1_Cas.troy",
+          "mBoneName": "",
+          "mTargetBoneName": "",
+          "mEndFrame": -1.0,
+          "mEventTypeId": 2,
+          "mFlags": 0,
+          "mFrame": 2.0,
+          "mName": "BA1",
+          "mResourceSize": 0
+        },
+        "mEventNameHash": {
+          "mDataID": 0,
+          "mNameHash": 513390179
+        },
+        "mEventFrame": {
+          "mDataID": 0,
+          "mFrame": 2.0
+        },
+        "mName": "Attack1",
+        "mResourceSize": 152
+      },
+      {
+        "mFormatToken": 0,
+        "mVersion": 0,
+        "mFlags": 0,
+        "mUniqueID": 7,
+        "mEventArray": [
+          {
+            "mEffectName": "Rengar_Base_BA2_Cas.troy",
+            "mBoneName": "",
+            "mTargetBoneName": "",
+            "mEndFrame": -1.0,
+            "mEventTypeId": 2,
+            "mFlags": 0,
+            "mFrame": 2.0,
+            "mName": "BA2",
+            "mResourceSize": 0
+          }
+        ],
+        "mEventData": {
+          "mEffectName": "Rengar_Base_BA2_Cas.troy",
+          "mBoneName": "",
+          "mTargetBoneName": "",
+          "mEndFrame": -1.0,
+          "mEventTypeId": 2,
+          "mFlags": 0,
+          "mFrame": 2.0,
+          "mName": "BA2",
+          "mResourceSize": 0
+        },
+        "mEventNameHash": {
+          "mDataID": 0,
+          "mNameHash": 513390176
+        },
+        "mEventFrame": {
+          "mDataID": 0,
+          "mFrame": 2.0
+        },
+        "mName": "Attack2",
+        "mResourceSize": 152
+      },
+      {
+        "mFormatToken": 0,
+        "mVersion": 0,
+        "mFlags": 0,
+        "mUniqueID": 8,
+        "mEventArray": [
+          {
+            "mEffectName": "Rengar_Base_BA3_Cas.troy",
+            "mBoneName": "",
+            "mTargetBoneName": "",
+            "mEndFrame": -1.0,
+            "mEventTypeId": 2,
+            "mFlags": 0,
+            "mFrame": 2.0,
+            "mName": "BA3",
+            "mResourceSize": 0
+          }
+        ],
+        "mEventData": {
+          "mEffectName": "Rengar_Base_BA3_Cas.troy",
+          "mBoneName": "",
+          "mTargetBoneName": "",
+          "mEndFrame": -1.0,
+          "mEventTypeId": 2,
+          "mFlags": 0,
+          "mFrame": 2.0,
+          "mName": "BA3",
+          "mResourceSize": 0
+        },
+        "mEventNameHash": {
+          "mDataID": 0,
+          "mNameHash": 513390177
+        },
+        "mEventFrame": {
+          "mDataID": 0,
+          "mFrame": 2.0
+        },
+        "mName": "Attack3",
+        "mResourceSize": 152
+      },
+      {
+        "mFormatToken": 0,
+        "mVersion": 0,
+        "mFlags": 0,
+        "mUniqueID": 9,
+        "mEventArray": [
+          {
+            "mEffectName": "rengar_emote_joke_sound.troy",
+            "mBoneName": "Invalid Joint Name",
+            "mTargetBoneName": "",
+            "mEndFrame": -1.0,
+            "mEventTypeId": 2,
+            "mFlags": 2,
+            "mFrame": 0.0,
+            "mName": "AUDIO_joke",
+            "mResourceSize": 0
+          }
+        ],
+        "mEventData": {
+          "mEffectName": "rengar_emote_joke_sound.troy",
+          "mBoneName": "Invalid Joint Name",
+          "mTargetBoneName": "",
+          "mEndFrame": -1.0,
+          "mEventTypeId": 2,
+          "mFlags": 2,
+          "mFrame": 0.0,
+          "mName": "AUDIO_joke",
+          "mResourceSize": 0
+        },
+        "mEventNameHash": {
+          "mDataID": 0,
+          "mNameHash": 1961634849
+        },
+        "mEventFrame": {
+          "mDataID": 0,
+          "mFrame": 0.0
+        },
+        "mName": "Joke",
+        "mResourceSize": 180
+      },
+      {
+        "mFormatToken": 0,
+        "mVersion": 0,
+        "mFlags": 0,
+        "mUniqueID": 10,
+        "mEventArray": [
+          {
+            "mEffectName": "Rengar_Base_Q_Cas.troy",
+            "mBoneName": "",
+            "mTargetBoneName": "",
+            "mEndFrame": -1.0,
+            "mEventTypeId": 2,
+            "mFlags": 0,
+            "mFrame": 4.0,
+            "mName": "Q_Long",
+            "mResourceSize": 0
+          }
+        ],
+        "mEventData": {
+          "mEffectName": "Rengar_Base_Q_Cas.troy",
+          "mBoneName": "",
+          "mTargetBoneName": "",
+          "mEndFrame": -1.0,
+          "mEventTypeId": 2,
+          "mFlags": 0,
+          "mFrame": 4.0,
+          "mName": "Q_Long",
+          "mResourceSize": 0
+        },
+        "mEventNameHash": {
+          "mDataID": 0,
+          "mNameHash": 723391555
+        },
+        "mEventFrame": {
+          "mDataID": 0,
+          "mFrame": 4.0
+        },
+        "mName": "Spell1_Long",
+        "mResourceSize": 156
+      }
+    ],
+    "mAnimDataAry": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "mAnimNames": [
+      {
+        "path": "characters/rengar/skins/base/animations/rengar_channel.anm"
+      },
+      {
+        "path": "characters/rengar/skins/base/animations/rengar_channel_wndpup.anm"
+      },
+      {
+        "path": "characters/rengar/skins/base/animations/rengar_dance.anm"
+      },
+      {
+        "path": "characters/rengar/skins/base/animations/rengar_death.anm"
+      },
+      {
+        "path": "characters/rengar/skins/base/animations/rengar_idle1.anm"
+      },
+      {
+        "path": "characters/rengar/skins/base/animations/rengar_idle2.anm"
+      },
+      {
+        "path": "characters/rengar/skins/base/animations/rengar_recall.anm"
+      },
+      {
+        "path": "characters/rengar/skins/base/animations/rengar_recall_idle.anm"
+      },
+      {
+        "path": "characters/rengar/skins/base/animations/rengar_run1.anm"
+      },
+      {
+        "path": "characters/rengar/skins/base/animations/rengar_run2.anm"
+      },
+      {
+        "path": "characters/rengar/skins/base/animations/rengar_spell1.anm"
+      },
+      {
+        "path": "characters/rengar/skins/base/animations/rengar_attack1.anm"
+      },
+      {
+        "path": "characters/rengar/skins/base/animations/rengar_attack2.anm"
+      },
+      {
+        "path": "characters/rengar/skins/base/animations/rengar_attack3.anm"
+      },
+      {
+        "path": "characters/rengar/skins/base/animations/rengar_idle3.anm"
+      },
+      {
+        "path": "characters/rengar/skins/base/animations/rengar_joke.anm"
+      },
+      {
+        "path": "characters/rengar/skins/base/animations/rengar_crit.anm"
+      },
+      {
+        "path": "characters/rengar/skins/base/animations/rengar_dash1.anm"
+      },
+      {
+        "path": "characters/rengar/skins/base/animations/rengar_spell1_long.anm"
+      },
+      {
+        "path": "characters/rengar/skins/base/animations/rengar_spell2.anm"
+      },
+      {
+        "path": "characters/rengar/skins/base/animations/rengar_spell3.anm"
+      },
+      {
+        "path": "characters/rengar/skins/base/animations/rengar_run1_fast.anm"
+      },
+      {
+        "path": "characters/rengar/skins/base/animations/rengar_laugh.anm"
+      },
+      {
+        "path": "characters/rengar/skins/base/animations/rengar_taunt.anm"
+      }
+    ],
+    "mSkeleton": {
+      "path": "characters/rengar/skins/base/rengar_base.skl"
+    },
+    "mResourceSize": 0
+  }
+}
