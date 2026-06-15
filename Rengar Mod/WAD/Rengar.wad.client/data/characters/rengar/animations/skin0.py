@@ -56,7 +56,7 @@ entries: map[hash,embed] = {
                 mTrackDataName: hash = "Actions"
                 mEventDataMap: map[hash,pointer] = {
                     "Crit" = ParticleEventData {
-                        mStartFrame: f32 = 5
+                        mStartFrame: f32 = 1
                         mEffectKey: hash = "Rengar_C_Cas"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {}
@@ -73,7 +73,7 @@ entries: map[hash,embed] = {
                 mFlags: u32 = 2
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
-                    0xbc45bbc5 = SoundEventData {
+                    "Audio_Dance" = SoundEventData {
                         mSoundName: string = "Play_sfx_Rengar_Dance3D_buffactivate"
                     }
                     "StopW" = StopAnimationEventData {
@@ -160,7 +160,7 @@ entries: map[hash,embed] = {
             "Laugh" = AtomicClipData {
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
-                    0x0cf0606b = SoundEventData {
+                    "Audio_Laugh" = SoundEventData {
                         mSoundName: string = "Play_sfx_Rengar_Laugh3D_buffactivate"
                         mIsLoop: bool = false
                     }
@@ -222,7 +222,7 @@ entries: map[hash,embed] = {
             }
             "Spell2" = AtomicClipData {
                 mTrackDataName: hash = "Spell"
-                mMaskDataName: hash = "UpperBody"
+                mMaskDataName: hash = "TopBody"
                 mEventDataMap: map[hash,pointer] = {
                     0x26a07077 = ConformToPathEventData {
                         mMaskDataName: hash = 0x26a07077
@@ -230,7 +230,6 @@ entries: map[hash,embed] = {
                         mBlendOutTime: f32 = 0.2
                     }
                 }
-                mTickDuration: f32 = 0.0333333
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_spell2.anm"
                 }
@@ -544,7 +543,7 @@ entries: map[hash,embed] = {
             "Attack1_Base" = AtomicClipData {
                 mTrackDataName: hash = "Actions"
                 mEventDataMap: map[hash,pointer] = {
-                    0xb5b7e047 = ParticleEventData {
+                    "BA1" = ParticleEventData {
                         mStartFrame: f32 = 2
                         mEffectKey: hash = "Rengar_BA1_Cas"
                         mParticleEventDataPairList: list[embed] = {
@@ -561,7 +560,7 @@ entries: map[hash,embed] = {
             "Attack2" = AtomicClipData {
                 mTrackDataName: hash = "Actions"
                 mEventDataMap: map[hash,pointer] = {
-                    0xb6b7e1da = ParticleEventData {
+                    "BA2" = ParticleEventData {
                         mStartFrame: f32 = 2
                         mEffectKey: hash = "Rengar_BA2_Cas"
                         mParticleEventDataPairList: list[embed] = {
@@ -578,7 +577,7 @@ entries: map[hash,embed] = {
             "Attack3" = AtomicClipData {
                 mTrackDataName: hash = "Actions"
                 mEventDataMap: map[hash,pointer] = {
-                    0xb7b7e36d = ParticleEventData {
+                    "BA3" = ParticleEventData {
                         mStartFrame: f32 = 2
                         mEffectKey: hash = "Rengar_BA3_Cas"
                         mParticleEventDataPairList: list[embed] = {
@@ -595,18 +594,18 @@ entries: map[hash,embed] = {
             "Recall" = SequencerClipData {
                 mFlags: u32 = 2
                 mClipNameList: list[hash] = {
-                    0x602b063d
-                    0x6208af50
+                    "Raw_LionGuy_recall"
+                    "Raw_LionGuy_recall_idle"
                 }
             }
-            0x602b063d = AtomicClipData {
+            "Raw_LionGuy_recall" = AtomicClipData {
                 mFlags: u32 = 8
                 mTrackDataName: hash = "Actions"
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_recall.anm"
                 }
             }
-            0x6208af50 = AtomicClipData {
+            "Raw_LionGuy_recall_idle" = AtomicClipData {
                 mFlags: u32 = 2
                 mTrackDataName: hash = "Actions"
                 mAnimationResourceData: embed = AnimationResourceData {
@@ -616,7 +615,7 @@ entries: map[hash,embed] = {
             "Joke" = AtomicClipData {
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
-                    0xeed2417d = SoundEventData {
+                    "Audio_Joke" = SoundEventData {
                         mSoundName: string = "Play_sfx_Rengar_Joke3D_buffactivate"
                         mIsLoop: bool = false
                     }
@@ -837,7 +836,7 @@ entries: map[hash,embed] = {
                     0
                 }
             }
-            "UpperBody" = MaskData {
+            "TopBody" = MaskData {
                 mWeightList: list[f32] = {
                     0
                     1

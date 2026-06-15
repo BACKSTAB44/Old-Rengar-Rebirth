@@ -56,7 +56,7 @@ entries: map[hash,embed] = {
                 mTrackDataName: hash = "Actions"
                 mEventDataMap: map[hash,pointer] = {
                     "Crit" = ParticleEventData {
-                        mStartFrame: f32 = 5
+                        mStartFrame: f32 = 1
                         mEffectKey: hash = "Rengar_C_Cas"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {}
@@ -73,7 +73,7 @@ entries: map[hash,embed] = {
                 mFlags: u32 = 2
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
-                    0xbc45bbc5 = SoundEventData {
+                    "Audio_Dance" = SoundEventData {
                         mSoundName: string = "Play_sfx_Rengar_Dance3D_buffactivate"
                     }
                     "StopW" = StopAnimationEventData {
@@ -118,11 +118,11 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Idle2.anm"
                 }
             }
-            0x9e55a33e = AtomicClipData {
+            "Laugh_Base" = AtomicClipData {
                 mFlags: u32 = 1
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
-                    0x0cf0606b = SoundEventData {
+                    "Audio_Laugh" = SoundEventData {
                         mSoundName: string = "Play_sfx_Rengar_Laugh3D_buffactivate"
                         mIsLoop: bool = false
                     }
@@ -168,7 +168,7 @@ entries: map[hash,embed] = {
             "Run2_Core" = ParallelClipData {
                 mClipNameList: list[hash] = {
                     "Run2_Tassel"
-                    "Run2_Default"
+                    "Run2_Base"
                 }
             }
             "Run2_Tassel" = AtomicClipData {
@@ -179,7 +179,7 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin02/Animations/Rengar_skin02_Run2.anm"
                 }
             }
-            "Run2_Default" = AtomicClipData {
+            "Run2_Base" = AtomicClipData {
                 mFlags: u32 = 2
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
@@ -198,7 +198,7 @@ entries: map[hash,embed] = {
             }
             "Spell2" = AtomicClipData {
                 mTrackDataName: hash = "Spell"
-                mMaskDataName: hash = "UpperBody"
+                mMaskDataName: hash = "TopBody"
                 mEventDataMap: map[hash,pointer] = {
                     0x26a07077 = ConformToPathEventData {
                         mMaskDataName: hash = 0x26a07077
@@ -206,7 +206,6 @@ entries: map[hash,embed] = {
                         mBlendOutTime: f32 = 0.2
                     }
                 }
-                mTickDuration: f32 = 0.0333333
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_spell2.anm"
                 }
@@ -599,7 +598,7 @@ entries: map[hash,embed] = {
             "Attack1_Base" = AtomicClipData {
                 mTrackDataName: hash = "Actions"
                 mEventDataMap: map[hash,pointer] = {
-                    0xb5b7e047 = ParticleEventData {
+                    "BA1" = ParticleEventData {
                         mStartFrame: f32 = 2
                         mEffectKey: hash = "Rengar_BA1_Cas"
                         mParticleEventDataPairList: list[embed] = {
@@ -616,7 +615,7 @@ entries: map[hash,embed] = {
             "Attack2" = AtomicClipData {
                 mTrackDataName: hash = "Actions"
                 mEventDataMap: map[hash,pointer] = {
-                    0xb6b7e1da = ParticleEventData {
+                    "BA2" = ParticleEventData {
                         mStartFrame: f32 = 2
                         mEffectKey: hash = "Rengar_BA2_Cas"
                         mParticleEventDataPairList: list[embed] = {
@@ -633,7 +632,7 @@ entries: map[hash,embed] = {
             "Attack3" = AtomicClipData {
                 mTrackDataName: hash = "Actions"
                 mEventDataMap: map[hash,pointer] = {
-                    0xb7b7e36d = ParticleEventData {
+                    "BA3" = ParticleEventData {
                         mStartFrame: f32 = 2
                         mEffectKey: hash = "Rengar_BA3_Cas"
                         mParticleEventDataPairList: list[embed] = {
@@ -651,7 +650,7 @@ entries: map[hash,embed] = {
                 mFlags: u32 = 1
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
-                    0xeed2417d = SoundEventData {
+                    "Audio_Joke" = SoundEventData {
                         mSoundName: string = "Play_sfx_Rengar_Joke3D_buffactivate"
                         mIsLoop: bool = false
                     }
@@ -673,7 +672,7 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Idle3.anm"
                 }
             }
-            0x7cb9d840 = AtomicClipData {
+            "Run1_Fast_Base" = AtomicClipData {
                 mFlags: u32 = 3
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
@@ -710,11 +709,11 @@ entries: map[hash,embed] = {
             }
             "Run1_Fast" = ParallelClipData {
                 mClipNameList: list[hash] = {
-                    0xf4784b95
-                    0x7cb9d840
+                    "Run1_Fast_Tassel"
+                    "Run1_Fast_Base"
                 }
             }
-            0xf4784b95 = AtomicClipData {
+            "Run1_Fast_Tassel" = AtomicClipData {
                 mFlags: u32 = 6
                 mMaskDataName: hash = "Tassel"
                 mTrackDataName: hash = "Tassel"
@@ -722,7 +721,7 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin02/Animations/Rengar_skin02_run1_Fast.anm"
                 }
             }
-            0x8932308b = AtomicClipData {
+            "Idle1_Tassel" = AtomicClipData {
                 mFlags: u32 = 4
                 mMaskDataName: hash = "Tassel"
                 mTrackDataName: hash = "Tassel"
@@ -734,34 +733,34 @@ entries: map[hash,embed] = {
                 mFlags: u32 = 2
                 mClipNameList: list[hash] = {
                     "Idle_NoIdle3"
-                    0x1b254ae6
-                    0x1b254ae6
+                    "Idle1_Parallel"
+                    "Idle1_Parallel"
                     "Idle_WIdle3"
-                    0x1b254ae6
-                    0x1b254ae6
-                    0x1b254ae6
-                    "Idle3_NH"
-                    0x1b254ae6
-                    0x1b254ae6
-                    0x1b254ae6
-                    0x1b254ae6
-                    0x1b254ae6
+                    "Idle1_Parallel"
+                    "Idle1_Parallel"
+                    "Idle1_Parallel"
+                    "Idle3_Parallel"
+                    "Idle1_Parallel"
+                    "Idle1_Parallel"
+                    "Idle1_Parallel"
+                    "Idle1_Parallel"
+                    "Idle1_Parallel"
                     "Idle_WIdle3"
-                    0x1b254ae6
-                    0x1b254ae6
-                    0x1b254ae6
-                    0x1b254ae6
-                    "Idle3_NH"
+                    "Idle1_Parallel"
+                    "Idle1_Parallel"
+                    "Idle1_Parallel"
+                    "Idle1_Parallel"
+                    "Idle3_Parallel"
                 }
             }
             "Idle_NoIdle3" = SelectorClipData {
                 mSelectorPairDataList: list[embed] = {
                     SelectorPairData {
-                        mClipName: hash = 0x1b254ae6
+                        mClipName: hash = "Idle1_Parallel"
                         mProbability: f32 = 75
                     }
                     SelectorPairData {
-                        mClipName: hash = 0x2c00f6af
+                        mClipName: hash = "Idle2_Parallel"
                         mProbability: f32 = 25
                     }
                 }
@@ -769,20 +768,20 @@ entries: map[hash,embed] = {
             "Idle_WIdle3" = SelectorClipData {
                 mSelectorPairDataList: list[embed] = {
                     SelectorPairData {
-                        mClipName: hash = 0x1b254ae6
+                        mClipName: hash = "Idle1_Parallel"
                         mProbability: f32 = 10
                     }
                     SelectorPairData {
-                        mClipName: hash = 0x2c00f6af
+                        mClipName: hash = "Idle2_Parallel"
                         mProbability: f32 = 30
                     }
                     SelectorPairData {
-                        mClipName: hash = "Idle3_NH"
+                        mClipName: hash = "Idle3_Parallel"
                         mProbability: f32 = 60
                     }
                 }
             }
-            0xc5288be8 = AtomicClipData {
+            "Idle2_Tassel" = AtomicClipData {
                 mFlags: u32 = 4
                 mMaskDataName: hash = "Tassel"
                 mTrackDataName: hash = "Tassel"
@@ -790,7 +789,7 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin02/Animations/Rengar_skin02_Idle2.anm"
                 }
             }
-            "Idle3" = AtomicClipData {
+            "Idle3_Tassel" = AtomicClipData {
                 mFlags: u32 = 4
                 mMaskDataName: hash = "Tassel"
                 mTrackDataName: hash = "Tassel"
@@ -798,7 +797,7 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin02/Animations/Rengar_skin02_Idle3.anm"
                 }
             }
-            0x299519f8 = AtomicClipData {
+            "Taunt_Tassel" = AtomicClipData {
                 mFlags: u32 = 4
                 mMaskDataName: hash = "Tassel"
                 mTrackDataName: hash = "Tassel"
@@ -809,10 +808,10 @@ entries: map[hash,embed] = {
             "taunt" = ParallelClipData {
                 mClipNameList: list[hash] = {
                     "Taunt_Base"
-                    0x299519f8
+                    "Taunt_Tassel"
                 }
             }
-            0xfebfc6d3 = AtomicClipData {
+            "Laugh_Tassel" = AtomicClipData {
                 mFlags: u32 = 4
                 mMaskDataName: hash = "Tassel"
                 mTrackDataName: hash = "Tassel"
@@ -822,17 +821,17 @@ entries: map[hash,embed] = {
             }
             "Laugh" = ParallelClipData {
                 mClipNameList: list[hash] = {
-                    0x9e55a33e
-                    0xfebfc6d3
+                    "Laugh_Base"
+                    "Laugh_Tassel"
                 }
             }
             "Dance" = ParallelClipData {
                 mClipNameList: list[hash] = {
                     "Dance_Base"
-                    0xd4939539
+                    "Dance_Tassel"
                 }
             }
-            0xd4939539 = AtomicClipData {
+            "Dance_Tassel" = AtomicClipData {
                 mFlags: u32 = 6
                 mMaskDataName: hash = "Tassel"
                 mTrackDataName: hash = "Tassel"
@@ -859,7 +858,7 @@ entries: map[hash,embed] = {
                 mMaskDataName: hash = "Hood"
                 mTrackDataName: hash = "Hood"
                 mEventDataMap: map[hash,pointer] = {
-                    0xe6fda1e1 = SubmeshVisibilityEventData {
+                    "HoodLoop" = SubmeshVisibilityEventData {
                         mShowSubmeshList: list[hash] = {
                             "Hood"
                         }
@@ -884,7 +883,7 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin02/Animations/Rengar_skin02_hood_off.anm"
                 }
             }
-            0xd884c53b = AtomicClipData {
+            "Hood_On_Base" = AtomicClipData {
                 mFlags: u32 = 8
                 mMaskDataName: hash = "Arm"
                 mTrackDataName: hash = "Hood"
@@ -900,27 +899,27 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin02/Animations/Rengar_skin02_hood_on.anm"
                 }
             }
-            0x1d902a0d = SequencerClipData {
+            "Hood_On" = SequencerClipData {
                 mClipNameList: list[hash] = {
-                    0xd884c53b
+                    "Hood_On_Base"
                     "Hood_Loop"
                 }
             }
-            0x1b254ae6 = ParallelClipData {
+            "Idle1_Parallel" = ParallelClipData {
                 mClipNameList: list[hash] = {
                     "Idle1_Base"
-                    0x8932308b
+                    "Idle1_Tassel"
                 }
             }
-            0x2c00f6af = ParallelClipData {
+            "Idle2_Parallel" = ParallelClipData {
                 mClipNameList: list[hash] = {
                     "Idle2_Base"
-                    0xc5288be8
+                    "Idle2_Tassel"
                 }
             }
-            "Idle3_NH" = ParallelClipData {
+            "Idle3_Parallel" = ParallelClipData {
                 mClipNameList: list[hash] = {
-                    "Idle3"
+                    "Idle3_Tassel"
                     "Idle3_Base"
                 }
             }
@@ -1272,7 +1271,7 @@ entries: map[hash,embed] = {
                     0
                 }
             }
-            "UpperBody" = MaskData {
+            "TopBody" = MaskData {
                 mWeightList: list[f32] = {
                     0
                     1
@@ -1364,13 +1363,13 @@ entries: map[hash,embed] = {
             "Hood" = TrackData {
                 mPriority: u8 = 2
             }
-            "Actions" = TrackData {
+            "Tassel" = TrackData {
                 mPriority: u8 = 3
             }
-            "Spell" = TrackData {
+            "Actions" = TrackData {
                 mPriority: u8 = 4
             }
-            "Tassel" = TrackData {
+            "Spell" = TrackData {
                 mPriority: u8 = 5
             }
             "Default" = TrackData {
