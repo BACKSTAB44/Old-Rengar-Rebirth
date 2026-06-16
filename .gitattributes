@@ -1,12 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
-# Exclude everything from releases EXCEPT "Rengar Mod"
-Old\ Season\ Files/ export-ignore
-.gitattributes export-ignore
-CHANGELOG.md export-ignore
-README.md export-ignore
-RELEASES.md export-ignore
-
-# Exclude "Old Season Files" folder completely from language statistics
+# Exclude "Season 4 & 6 Rengar Files" folder completely from language statistics
 *.sco linguist-generated=true
