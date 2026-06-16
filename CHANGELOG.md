@@ -6,10 +6,12 @@
 
 >**-** Emote animations are now smooth rather than snappy, matching the Season 6.  
 **-** Bush/ULT Idle Animation reverted back to S6 functionality (moved to Regular Idle animations).  
+**-** Tail Physics removed, as old Rengar didn't have it.  
 **-** Recall animation once again plays during **Leap**.  
 **- Tiamat** animation once again plays during **Leap**.  
 **- Leap** no longer glitches towards its animation end.  
-**- Q** animation is now way smoother and it no longer snaps Rengar onto the target if he's facing the other direction, a clean transition added, matching the Season 6 **Q**.  
+**- Q** animation fully restored to the old one.  
+**- Q** no longer snaps Rengar to the target, now he properly turns around, matching the S6 **Q**.  
 **- Q/W/E** animations no longer play during death.  
 **- W** animation no longer plays on top of "*emote*" animations (CTRL + 1/2/3/4).  
 **- E** animation once again plays after **Q** / **AA**.  
@@ -28,7 +30,7 @@
 **-** **Q** Trails VFX no longer fails to play if **Q** is used multiple times in a same sequence.  
 **- Emp Q** Attack Speed "Glow" VFX removed.  
 **-** **Emp** **W** Glow VFX duration changed to 2s to match the Empowered MS.  
-**-** **Emp** **E** onhit texture's size slightly increased, matching the old one.   
+**-** **Emp** **E** onhit texture's size slightly increased, matching the old one.  
 **-** **R** Heart VFX on Base/SSW/Nighthunter skins no longer disappears.  
 **-** **R** Heart VFX removed for Headhunter skin, as old Headhunter didn't have it.  
 **-** **R** Target Glow VFX improved to match the old looks.  
@@ -62,7 +64,8 @@
 
 **- MISCELLANEOUS -**
 
->**-** Other skins are no longer affected by the mod, only the 4 OG ones (Base, HH, NH and SSW).  
+>**-** Mod restructured, made it way easier to work on for someone new. I want to ensure the Rebirth mod stays around, so this is for the people who might continue the work after me.  
+**-** Other skins are no longer affected by the mod, only the 4 OG ones (Base, HH, NH and SSW).  
 **-** Skins no longer use Classic skin's icon in the HUD.  
 **-** Enforced changes to make sure the mod stays working long-term.  
 **-** Mod fully debloated.  
@@ -73,7 +76,7 @@
 **-** More compact code (17.000+ lines thinner).  
 **-** Many flags corrected from 8-bit to 16-bit.  
 **-** Mod thumbnail added for supported mod-loaders.  
-**-** Open sourced, check [Github](https://github.com/BACKSTAB44/Old-Rengar-Rebirth).  
+**-** Open sourced, check [Github](https://github.com/BACKSTAB44/Old-Rengar-Rebirth) and [GDrive](https://drive.google.com/drive/folders/17wvzPI16-7v2034s4K1XfgrLlE1PdZ7m).  
 **-** Disabled skin-hacking.
 
 ‎
