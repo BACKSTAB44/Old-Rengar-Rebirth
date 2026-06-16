@@ -144,8 +144,8 @@ entries: map[hash,embed] = {
                     "StopE2" = StopAnimationEventData {
                         mStopAnimationName: hash = "Spell3_Idle"
                     }
-                    0x26a07077 = ConformToPathEventData {
-                        mMaskDataName: hash = 0x26a07077
+                    "Tail_Physics_Mask" = ConformToPathEventData {
+                        mMaskDataName: hash = "Tail_Physics_Mask"
                         mBlendInTime: f32 = 0.1
                         mBlendOutTime: f32 = 0.2
                     }
@@ -186,8 +186,8 @@ entries: map[hash,embed] = {
                     "StopE2" = StopAnimationEventData {
                         mStopAnimationName: hash = "Spell3_Idle"
                     }
-                    0x26a07077 = ConformToPathEventData {
-                        mMaskDataName: hash = 0x26a07077
+                    "Tail_Physics_Mask" = ConformToPathEventData {
+                        mMaskDataName: hash = "Tail_Physics_Mask"
                         mBlendInTime: f32 = 0.1
                         mBlendOutTime: f32 = 0.2
                     }
@@ -200,8 +200,8 @@ entries: map[hash,embed] = {
                 mTrackDataName: hash = "Spell"
                 mMaskDataName: hash = "TopBody"
                 mEventDataMap: map[hash,pointer] = {
-                    0x26a07077 = ConformToPathEventData {
-                        mMaskDataName: hash = 0x26a07077
+                    "Tail_Physics_Mask" = ConformToPathEventData {
+                        mMaskDataName: hash = "Tail_Physics_Mask"
                         mBlendInTime: f32 = 0.1
                         mBlendOutTime: f32 = 0.2
                     }
@@ -679,8 +679,8 @@ entries: map[hash,embed] = {
                     "StopE2" = StopAnimationEventData {
                         mStopAnimationName: hash = "Spell3_Idle"
                     }
-                    0x26a07077 = ConformToPathEventData {
-                        mMaskDataName: hash = 0x26a07077
+                    "Tail_Physics_Mask" = ConformToPathEventData {
+                        mMaskDataName: hash = "Tail_Physics_Mask"
                         mBlendInTime: f32 = 0.1
                         mBlendOutTime: f32 = 0.2
                     }
@@ -925,6 +925,92 @@ entries: map[hash,embed] = {
             }
         }
         mMaskDataMap: map[hash,embed] = {
+            "TopBody" = MaskData {
+                mWeightList: list[f32] = {
+                    0
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    1
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    1
+                    1
+                    1
+                    1
+                    0
+                    0
+                    0
+                    1
+                    1
+                    0
+                    0
+                    0
+                    0
+                    0
+                    1
+                    1
+                    1
+                    0
+                    1
+                    1
+                    0
+                    1
+                    1
+                    1
+                }
+            }
             "Hood" = MaskData {
                 mWeightList: list[f32] = {
                     0
@@ -1185,7 +1271,7 @@ entries: map[hash,embed] = {
                     1
                 }
             }
-            0x26a07077 = MaskData {
+            "Tail_Physics_Mask" = MaskData {
                 mWeightList: list[f32] = {
                     0
                     0
@@ -1271,50 +1357,9 @@ entries: map[hash,embed] = {
                     0
                 }
             }
-            "TopBody" = MaskData {
+            "Tail_Physics_Rig" = MaskData {
                 mWeightList: list[f32] = {
                     0
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
-                    1
                     0
                     0
                     0
@@ -1331,30 +1376,71 @@ entries: map[hash,embed] = {
                     0
                     0
                     0
-                    1
-                    1
-                    1
-                    1
-                    0
-                    0
-                    0
-                    1
-                    1
                     0
                     0
                     0
                     0
                     0
-                    1
-                    1
-                    1
                     0
-                    1
-                    1
                     0
-                    1
-                    1
-                    1
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
                 }
             }
         }

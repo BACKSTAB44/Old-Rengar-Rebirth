@@ -100,7 +100,7 @@ entries: map[hash,embed] = {
                 ConformToPathRigPoseModifierData {
                     mStartingJointName: hash = "tail1"
                     mEndingJointName: hash = "Tail5"
-                    mDefaultMaskName: hash = 0xef7cfc3b
+                    mDefaultMaskName: hash = "Tail_Physics_Rig"
                     mVelMultiplier: f32 = 1
                 }
             }
