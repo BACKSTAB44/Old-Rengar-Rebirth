@@ -208,7 +208,7 @@ entries: map[hash,embed] = {
             "Rengar_W_Roar" = "Characters/Rengar/Skins/Skin1/Particles/Rengar_Skin01_W_Roar"
             "Rengar_W_Tar" = "Characters/Rengar/Skins/Skin1/Particles/Rengar_Skin01_W_Tar"
             "Rengar_LeapSound_BV2" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_LeapSound"
-            0xcdc6293f = 0xa60f0d10
+            "Rengar_R_Screen_Overlay_Target" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Screen_Overlay_Target"
         }
     }
 }

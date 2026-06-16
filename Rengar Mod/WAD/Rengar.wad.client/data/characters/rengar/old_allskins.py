@@ -3,7 +3,7 @@ type: string = "PROP"
 version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
-    0xa60f0d10 = TextureResource {
+    "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Screen_Overlay_Target" = TextureResource {
         texturePath: string = "ASSETS/Repath/Characters/Rengar/HUD/Rengar_Base_R_screen_overlay_target.tex"
     }
     "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Primary_Target" = VfxSystemDefinitionData {
