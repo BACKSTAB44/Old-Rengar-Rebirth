@@ -144,11 +144,6 @@ entries: map[hash,embed] = {
                     "StopE2" = StopAnimationEventData {
                         mStopAnimationName: hash = "Spell3_Idle"
                     }
-                    "Tail_Physics_Mask" = ConformToPathEventData {
-                        mMaskDataName: hash = "Tail_Physics_Mask"
-                        mBlendInTime: f32 = 0.1
-                        mBlendOutTime: f32 = 0.2
-                    }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin02/Animations/Rengar_skin02_run1.anm"
@@ -186,11 +181,6 @@ entries: map[hash,embed] = {
                     "StopE2" = StopAnimationEventData {
                         mStopAnimationName: hash = "Spell3_Idle"
                     }
-                    "Tail_Physics_Mask" = ConformToPathEventData {
-                        mMaskDataName: hash = "Tail_Physics_Mask"
-                        mBlendInTime: f32 = 0.1
-                        mBlendOutTime: f32 = 0.2
-                    }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_run2.anm"
@@ -199,13 +189,6 @@ entries: map[hash,embed] = {
             "Spell2" = AtomicClipData {
                 mTrackDataName: hash = "Spell"
                 mMaskDataName: hash = "TopBody"
-                mEventDataMap: map[hash,pointer] = {
-                    "Tail_Physics_Mask" = ConformToPathEventData {
-                        mMaskDataName: hash = "Tail_Physics_Mask"
-                        mBlendInTime: f32 = 0.1
-                        mBlendOutTime: f32 = 0.2
-                    }
-                }
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_spell2.anm"
                 }
@@ -678,11 +661,6 @@ entries: map[hash,embed] = {
                 mEventDataMap: map[hash,pointer] = {
                     "StopE2" = StopAnimationEventData {
                         mStopAnimationName: hash = "Spell3_Idle"
-                    }
-                    "Tail_Physics_Mask" = ConformToPathEventData {
-                        mMaskDataName: hash = "Tail_Physics_Mask"
-                        mBlendInTime: f32 = 0.1
-                        mBlendOutTime: f32 = 0.2
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
@@ -1269,178 +1247,6 @@ entries: map[hash,embed] = {
                     0
                     1
                     1
-                }
-            }
-            "Tail_Physics_Mask" = MaskData {
-                mWeightList: list[f32] = {
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0.25
-                    0.6
-                    0.75
-                    0.85
-                    1
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                }
-            }
-            "Tail_Physics_Rig" = MaskData {
-                mWeightList: list[f32] = {
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
                 }
             }
         }

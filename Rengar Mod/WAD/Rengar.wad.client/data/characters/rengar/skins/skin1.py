@@ -105,14 +105,6 @@ entries: map[hash,embed] = {
                 { 180, 250, 180 }
             }
             reflectionFresnelColor: rgba = { 0, 0, 0, 255 }
-            rigPoseModifierData: list[pointer] = {
-                ConformToPathRigPoseModifierData {
-                    mStartingJointName: hash = "tail1"
-                    mEndingJointName: hash = "Tail5"
-                    mDefaultMaskName: hash = "Tail_Physics_Rig"
-                    mVelMultiplier: f32 = 1
-                }
-            }
         }
         armorMaterial: string = "Flesh"
         mContextualActionData: link = "Characters/Rengar/CAC/Rengar_Base"

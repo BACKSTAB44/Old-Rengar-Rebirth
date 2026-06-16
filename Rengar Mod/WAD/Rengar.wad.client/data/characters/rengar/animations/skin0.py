@@ -182,11 +182,6 @@ entries: map[hash,embed] = {
                     "StopE2" = StopAnimationEventData {
                         mStopAnimationName: hash = "Spell3_Idle"
                     }
-                    0x26a07077 = ConformToPathEventData {
-                        mMaskDataName: hash = 0x26a07077
-                        mBlendInTime: f32 = 0.1
-                        mBlendOutTime: f32 = 0.2
-                    }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_run1.anm"
@@ -210,11 +205,6 @@ entries: map[hash,embed] = {
                     "StopE2" = StopAnimationEventData {
                         mStopAnimationName: hash = "Spell3_Idle"
                     }
-                    0x26a07077 = ConformToPathEventData {
-                        mMaskDataName: hash = 0x26a07077
-                        mBlendInTime: f32 = 0.1
-                        mBlendOutTime: f32 = 0.2
-                    }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_run2.anm"
@@ -223,13 +213,6 @@ entries: map[hash,embed] = {
             "Spell2" = AtomicClipData {
                 mTrackDataName: hash = "Spell"
                 mMaskDataName: hash = "TopBody"
-                mEventDataMap: map[hash,pointer] = {
-                    0x26a07077 = ConformToPathEventData {
-                        mMaskDataName: hash = 0x26a07077
-                        mBlendInTime: f32 = 0.1
-                        mBlendOutTime: f32 = 0.2
-                    }
-                }
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_spell2.anm"
                 }
@@ -637,11 +620,6 @@ entries: map[hash,embed] = {
                     "StopE2" = StopAnimationEventData {
                         mStopAnimationName: hash = "Spell3_Idle"
                     }
-                    0x26a07077 = ConformToPathEventData {
-                        mMaskDataName: hash = 0x26a07077
-                        mBlendInTime: f32 = 0.1
-                        mBlendOutTime: f32 = 0.2
-                    }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_run1_Fast.anm"
@@ -752,90 +730,6 @@ entries: map[hash,embed] = {
             }
         }
         mMaskDataMap: map[hash,embed] = {
-            0x26a07077 = MaskData {
-                mWeightList: list[f32] = {
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0.25
-                    0.6
-                    0.75
-                    0.85
-                    1
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                    0
-                }
-            }
             "TopBody" = MaskData {
                 mWeightList: list[f32] = {
                     0

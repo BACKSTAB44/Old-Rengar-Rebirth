@@ -96,14 +96,6 @@ entries: map[hash,embed] = {
             }
             reflectionFresnelColor: rgba = { 0, 0, 0, 255 }
             initialSubmeshToHide: string = "Hood"
-            rigPoseModifierData: list[pointer] = {
-                ConformToPathRigPoseModifierData {
-                    mStartingJointName: hash = "tail1"
-                    mEndingJointName: hash = "Tail5"
-                    mDefaultMaskName: hash = "Tail_Physics_Rig"
-                    mVelMultiplier: f32 = 1
-                }
-            }
         }
         armorMaterial: string = "Flesh"
         mContextualActionData: link = "Characters/Rengar/CAC/Rengar_Base"
