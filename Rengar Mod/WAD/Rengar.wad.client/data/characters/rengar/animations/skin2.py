@@ -680,6 +680,24 @@ entries: map[hash,embed] = {
                         mSoundName: string = "Play_sfx_Rengar_Recall3D_buffactivate"
                         mIsLoop: bool = false
                     }
+                    "StopAttack1" = StopAnimationEventData {
+                        mStopAnimationName: hash = "Attack1_Base"
+                    }
+                    "StopAttack2" = StopAnimationEventData {
+                        mStopAnimationName: hash = "Attack2"
+                    }
+                    "StopAttack3" = StopAnimationEventData {
+                        mStopAnimationName: hash = "Attack3"
+                    }
+                    "StopCrit" = StopAnimationEventData {
+                        mStopAnimationName: hash = "Crit"
+                    }
+                    "StopLeap1" = StopAnimationEventData {
+                        mStopAnimationName: hash = "Spell5"
+                    }
+                    "StopLeap2" = StopAnimationEventData {
+                        mStopAnimationName: hash = "Spell5_Check"
+                    }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin02/Animations/Rengar_skin02_recall.anm"
