@@ -682,21 +682,31 @@ entries: map[hash,embed] = {
                     }
                     "StopAttack1" = StopAnimationEventData {
                         mStopAnimationName: hash = "Attack1_Base"
+                        mEndFrame: f32 = 1
                     }
                     "StopAttack2" = StopAnimationEventData {
                         mStopAnimationName: hash = "Attack2"
+                        mEndFrame: f32 = 1
                     }
                     "StopAttack3" = StopAnimationEventData {
                         mStopAnimationName: hash = "Attack3"
+                        mEndFrame: f32 = 1
+                    }
+                    "StopAttack4" = StopAnimationEventData {
+                        mStopAnimationName: hash = "Attack4"
+                        mEndFrame: f32 = 1
                     }
                     "StopCrit" = StopAnimationEventData {
                         mStopAnimationName: hash = "Crit"
+                        mEndFrame: f32 = 1
                     }
                     "StopLeap1" = StopAnimationEventData {
                         mStopAnimationName: hash = "Spell5"
+                        mEndFrame: f32 = 1
                     }
                     "StopLeap2" = StopAnimationEventData {
                         mStopAnimationName: hash = "Spell5_Check"
+                        mEndFrame: f32 = 1
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
