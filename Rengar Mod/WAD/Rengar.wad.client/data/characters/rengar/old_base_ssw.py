@@ -6318,6 +6318,8 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Rengar_Base_Q_Cas2"
         particlePath: string = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_Q_Cas2"
+        soundOnCreateDefault: string = "Play_sfx_Old_RengarQ_Stab"
+        voiceOverOnCreateDefault: string = "Play_vo_Rengar_RengarQ_cast3D"
         flags: u16 = 198
     }
     "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_Q_Buf_Blade" = VfxSystemDefinitionData {

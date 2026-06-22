@@ -106,6 +106,7 @@ entries: map[hash,embed] = {
                 }
             }
             "Idle1_Base" = AtomicClipData {
+                mFlags: u32 = 3
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Idle1.anm"
@@ -269,82 +270,28 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_dash1.anm"
                 }
             }
-            "Attack4" = SelectorClipData {
-                mSelectorPairDataList: list[embed] = {
-                    SelectorPairData {
-                        mClipName: hash = "A4_VO"
-                        mProbability: f32 = 50
-                    }
-                    SelectorPairData {
-                        mClipName: hash = "A4"
-                        mProbability: f32 = 50
-                    }
-                }
-            }
-            "A4_VO" = ParallelClipData {
+            "Attack4" = ParallelClipData {
                 mClipNameList: list[hash] = {
-                    "A4_Actions"
-                    "A4_VO_Default"
+                    "Attack4_Actions"
+                    "Attack4_Default"
                 }
             }
-            "A4_Actions" = AtomicClipData {
+            "Attack4_Actions" = AtomicClipData {
                 mTrackDataName: hash = "Actions"
                 mTickDuration: f32 = 0.034
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_attack4.anm"
                 }
             }
-            "A4_VO_Default" = AtomicClipData {
+            "Attack4_Default" = AtomicClipData {
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
-                    "QVFX" = ParticleEventData {
-                        mStartFrame: f32 = 6
+                    "Q" = ParticleEventData {
+                        mStartFrame: f32 = 4
                         mEffectKey: hash = "Rengar_Q_Cas2"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {}
                         }
-                        mIsLoop: bool = false
-                        mIsKillEvent: bool = false
-                    }
-                    "QSFX" = SoundEventData {
-                        mStartFrame: f32 = 4
-                        mSoundName: string = "Play_sfx_Old_RengarQ_Stab"
-                        mIsLoop: bool = false
-                        mIsKillEvent: bool = false
-                    }
-                    "QVO" = SoundEventData {
-                        mStartFrame: f32 = 4
-                        mSoundName: string = "Play_vo_Rengar_RengarQ_cast3D"
-                        mIsLoop: bool = false
-                        mIsKillEvent: bool = false
-                    }
-                }
-                mTickDuration: f32 = 0.034
-                mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_attack4.anm"
-                }
-            }
-            "A4" = ParallelClipData {
-                mClipNameList: list[hash] = {
-                    "A4_Actions"
-                    "A4_Default"
-                }
-            }
-            "A4_Default" = AtomicClipData {
-                mTrackDataName: hash = "Default"
-                mEventDataMap: map[hash,pointer] = {
-                    "QVFX" = ParticleEventData {
-                        mStartFrame: f32 = 6
-                        mEffectKey: hash = "Rengar_Q_Cas2"
-                        mParticleEventDataPairList: list[embed] = {
-                            ParticleEventDataPair {}
-                        }
-                        mIsLoop: bool = false
-                        mIsKillEvent: bool = false
-                    }
-                    "QSFX" = SoundEventData {
-                        mStartFrame: f32 = 4
-                        mSoundName: string = "Play_sfx_Old_RengarQ_Stab"
                         mIsLoop: bool = false
                         mIsKillEvent: bool = false
                     }
@@ -728,63 +675,11 @@ entries: map[hash,embed] = {
                 }
             }
             "Idle1_Tassel" = AtomicClipData {
-                mFlags: u32 = 4
+                mFlags: u32 = 6
                 mMaskDataName: hash = "Tassel"
                 mTrackDataName: hash = "Tassel"
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin02/Animations/Rengar_skin02_Idle1.anm"
-                }
-            }
-            "Idle1" = SequencerClipData {
-                mFlags: u32 = 2
-                mClipNameList: list[hash] = {
-                    "Idle_NoIdle3"
-                    "Idle1_Parallel"
-                    "Idle1_Parallel"
-                    "Idle_WIdle3"
-                    "Idle1_Parallel"
-                    "Idle1_Parallel"
-                    "Idle1_Parallel"
-                    "Idle3_Parallel"
-                    "Idle1_Parallel"
-                    "Idle1_Parallel"
-                    "Idle1_Parallel"
-                    "Idle1_Parallel"
-                    "Idle1_Parallel"
-                    "Idle_WIdle3"
-                    "Idle1_Parallel"
-                    "Idle1_Parallel"
-                    "Idle1_Parallel"
-                    "Idle1_Parallel"
-                    "Idle3_Parallel"
-                }
-            }
-            "Idle_NoIdle3" = SelectorClipData {
-                mSelectorPairDataList: list[embed] = {
-                    SelectorPairData {
-                        mClipName: hash = "Idle1_Parallel"
-                        mProbability: f32 = 75
-                    }
-                    SelectorPairData {
-                        mClipName: hash = "Idle2_Parallel"
-                        mProbability: f32 = 25
-                    }
-                }
-            }
-            "Idle_WIdle3" = SelectorClipData {
-                mSelectorPairDataList: list[embed] = {
-                    SelectorPairData {
-                        mClipName: hash = "Idle1_Parallel"
-                        mProbability: f32 = 10
-                    }
-                    SelectorPairData {
-                        mClipName: hash = "Idle2_Parallel"
-                        mProbability: f32 = 30
-                    }
-                    SelectorPairData {
-                        mClipName: hash = "Idle3_Parallel"
-                        mProbability: f32 = 60
-                    }
                 }
             }
             "Idle2_Tassel" = AtomicClipData {
@@ -911,19 +806,19 @@ entries: map[hash,embed] = {
                     "Hood_Loop"
                 }
             }
-            "Idle1_Parallel" = ParallelClipData {
+            "Idle1" = ParallelClipData {
                 mClipNameList: list[hash] = {
                     "Idle1_Base"
                     "Idle1_Tassel"
                 }
             }
-            "Idle2_Parallel" = ParallelClipData {
+            "Idle2" = ParallelClipData {
                 mClipNameList: list[hash] = {
                     "Idle2_Base"
                     "Idle2_Tassel"
                 }
             }
-            "Idle3_Parallel" = ParallelClipData {
+            "Idle3" = ParallelClipData {
                 mClipNameList: list[hash] = {
                     "Idle3_Tassel"
                     "Idle3_Base"
