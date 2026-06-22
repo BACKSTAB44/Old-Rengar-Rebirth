@@ -143,10 +143,10 @@ entries: map[hash,embed] = {
                 }
                 mChangeAnimationMidPlay: bool = true
                 mPlayAnimChangeFromBeginning: bool = true
-                mTrueConditionClipName: hash = "Run2_Core"
+                mTrueConditionClipName: hash = "Run2_BASE"
                 mFalseConditionClipName: hash = "Run1_Fast"
             }
-            "Run2_Core" = AtomicClipData {
+            "Run2_BASE" = AtomicClipData {
                 mFlags: u32 = 2
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
@@ -305,7 +305,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mTrueConditionClipName: hash = "Tiamat_Override"
-                mFalseConditionClipName: hash = "Attack1_Base"
+                mFalseConditionClipName: hash = "Attack1_BASE"
             }
             "Tiamat_Override" = ConditionBoolClipData {
                 Updater: pointer = LogicDriverBoolParametricUpdater {
@@ -339,13 +339,13 @@ entries: map[hash,embed] = {
                             }
                             IsAnimationPlayingDynamicMaterialBoolDriver {
                                 mAnimationNames: list[hash] = {
-                                    "Attack1_Base"
+                                    "Attack1_BASE"
                                     "Attack2"
                                     "Attack3"
                                     "Crit"
                                     "Run"
                                     "Run1_Fast"
-                                    "Run2_Core"
+                                    "Run2_BASE"
                                     "Spell5_Ult"
                                     "Spell5_Bush"
                                 }
@@ -414,11 +414,11 @@ entries: map[hash,embed] = {
                             }
                             IsAnimationPlayingDynamicMaterialBoolDriver {
                                 mAnimationNames: list[hash] = {
-                                    "Attack1_Base"
+                                    "Attack1_BASE"
                                     "Attack2"
                                     "Attack3"
                                     "Crit"
-                                    "Run2_Core"
+                                    "Run2_BASE"
                                     "Spell5_Ult"
                                     "Spell5_Bush"
                                 }
@@ -426,7 +426,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                mTrueConditionClipName: hash = "Attack1_Base"
+                mTrueConditionClipName: hash = "Attack1_BASE"
                 mFalseConditionClipName: hash = "Tiamat_RunWrap"
             }
             "Tiamat_RunWrap" = ConditionBoolClipData {
@@ -468,10 +468,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                mTrueConditionClipName: hash = "Attack1_Base"
+                mTrueConditionClipName: hash = "Attack1_BASE"
                 mFalseConditionClipName: hash = "Attack4"
             }
-            "Attack1_Base" = AtomicClipData {
+            "Attack1_BASE" = AtomicClipData {
                 mTrackDataName: hash = "Actions"
                 mEventDataMap: map[hash,pointer] = {
                     "BA1" = ParticleEventData {
@@ -606,10 +606,10 @@ entries: map[hash,embed] = {
             }
             "Idle1" = SequencerClipData {
                 mClipNameList: list[hash] = {
-                    "Idle1_Base"
+                    "Idle1_BASE"
                 }
             }
-            "Idle1_Base" = AtomicClipData {
+            "Idle1_BASE" = AtomicClipData {
                 mFlags: u32 = 2
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
