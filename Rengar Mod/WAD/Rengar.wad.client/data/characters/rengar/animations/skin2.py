@@ -156,8 +156,8 @@ entries: map[hash,embed] = {
                         mScriptName: string = "RengarPassiveBuff"
                     }
                 }
-                mPlayAnimChangeFromBeginning: bool = true
                 mChangeAnimationMidPlay: bool = true
+                mPlayAnimChangeFromBeginning: bool = true
                 mTrueConditionClipName: hash = "Run2_Core"
                 mFalseConditionClipName: hash = "Run1_Fast"
             }
