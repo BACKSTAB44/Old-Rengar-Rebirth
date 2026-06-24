@@ -1101,6 +1101,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Rengar_Skin02_E_Max_Mis"
         particlePath: string = "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin02_E_Max_Mis"
+        soundOnCreateDefault: string = "Play_sfx_Old_RengarEEmp_missilelaunch"
     }
     "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin02_R_Buf" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -1495,6 +1496,7 @@ entries: map[hash,embed] = {
         overrideScaleCap: option[f32] = {
             500
         }
+        soundOnCreateDefault: string = "Play_sfx_Old_RengarEEmp_OnHit"
         flags: u16 = 198
     }
     "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin02_W_Max_Roar" = VfxSystemDefinitionData {
@@ -2285,7 +2287,7 @@ entries: map[hash,embed] = {
         overrideScaleCap: option[f32] = {
             375
         }
-        soundOnCreateDefault: string = "Play_sfx_Rengar_RengarE_hit"
+        soundOnCreateDefault: string = "Play_sfx_Old_RengarE_hit"
         flags: u16 = 198
     }
     "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin02_E_Mis" = VfxSystemDefinitionData {
@@ -2514,7 +2516,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Rengar_Skin02_E_Mis"
         particlePath: string = "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin02_E_Mis"
-        soundOnCreateDefault: string = "Play_sfx_Rengar_RengarE_missilelaunch"
+        soundOnCreateDefault: string = "Play_sfx_Old_RengarE_missilelaunch"
     }
     "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin02_Q_Cas2" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {

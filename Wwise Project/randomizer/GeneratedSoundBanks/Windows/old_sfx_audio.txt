@@ -1,28 +1,45 @@
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	16328525	Q_Stab_1	C:\Users\Win 10\Documents\WwiseProjects\randomizer\.cache\Windows\SFX\sfx_Leap_RengarQ_Stab_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Q_Stab\Q_Stab_1		21303
-	47372571	Q_Stab_2	C:\Users\Win 10\Documents\WwiseProjects\randomizer\.cache\Windows\SFX\sfx_Leap_RengarQ_Stab_2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Q_Stab\Q_Stab_2		14399
-	57693046	P_Dash_2	C:\Users\Win 10\Documents\WwiseProjects\randomizer\.cache\Windows\SFX\PassiveDash2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\P_Dash\P_Dash_2		20431
-	73582326	Q_OC_2	C:\Users\Win 10\Documents\WwiseProjects\randomizer\.cache\Windows\SFX\2ocd2va_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Q_OnCast\Q_OC_2		17569
-	315600868	P_Dash_1	C:\Users\Win 10\Documents\WwiseProjects\randomizer\.cache\Windows\SFX\PassiveDash1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\P_Dash\P_Dash_1		20646
-	337228244	Q_OC_3	C:\Users\Win 10\Documents\WwiseProjects\randomizer\.cache\Windows\SFX\3octr3i_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Q_OnCast\Q_OC_3		20408
-	344488071	QEmp_Stab_4	C:\Users\Win 10\Documents\WwiseProjects\randomizer\.cache\Windows\SFX\4_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\QEmp_Stab\QEmp_Stab_4		18907
-	356096601	P_Leap_Grass_1	C:\Users\Win 10\Documents\WwiseProjects\randomizer\.cache\Windows\SFX\sfx_Leap_RengarP_Leap_Grass_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\P_Leap_Grass\P_Leap_Grass_1		20836
-	439575816	W_Roar_2	C:\Users\Win 10\Documents\WwiseProjects\randomizer\.cache\Windows\SFX\w2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\W_Roar\W_Roar_2		32672
-	446783455	W_Roar_4	C:\Users\Win 10\Documents\WwiseProjects\randomizer\.cache\Windows\SFX\w4_97325FF4.wem		\Actor-Mixer Hierarchy\Default Work Unit\W_Roar\W_Roar_4		29322
-	487457657	W_Armor_2	C:\Users\Win 10\Documents\WwiseProjects\randomizer\.cache\Windows\SFX\AR2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\W_Armor\W_Armor_2		17332
-	495910910	Q_OnAttack_4	C:\Users\Win 10\Documents\WwiseProjects\randomizer\.cache\Windows\SFX\Q_OnAttack_4_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Q_OnAttack\Q_OnAttack_4		5691
-	543465797	Q_OnAttack_1	C:\Users\Win 10\Documents\WwiseProjects\randomizer\.cache\Windows\SFX\Q_OnAttack_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Q_OnAttack\Q_OnAttack_1		5905
-	612343862	W_Armor_1	C:\Users\Win 10\Documents\WwiseProjects\randomizer\.cache\Windows\SFX\AR1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\W_Armor\W_Armor_1		20981
-	627961472	Q_Stab_3	C:\Users\Win 10\Documents\WwiseProjects\randomizer\.cache\Windows\SFX\sfx_Leap_RengarQ_Stab_3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Q_Stab\Q_Stab_3		15589
-	670319294	W_Roar_1	C:\Users\Win 10\Documents\WwiseProjects\randomizer\.cache\Windows\SFX\w1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\W_Roar\W_Roar_1		32079
-	697414359	P_Leap_Grass_2	C:\Users\Win 10\Documents\WwiseProjects\randomizer\.cache\Windows\SFX\sfx_Leap_RengarP_Leap_Grass_2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\P_Leap_Grass\P_Leap_Grass_2		21971
-	760848260	QEmp_Stab_2	C:\Users\Win 10\Documents\WwiseProjects\randomizer\.cache\Windows\SFX\2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\QEmp_Stab\QEmp_Stab_2		20851
-	791144308	W_Roar_3	C:\Users\Win 10\Documents\WwiseProjects\randomizer\.cache\Windows\SFX\w3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\W_Roar\W_Roar_3		33128
-	793166515	QEmp_Stab_1	C:\Users\Win 10\Documents\WwiseProjects\randomizer\.cache\Windows\SFX\1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\QEmp_Stab\QEmp_Stab_1		21007
-	793965013	QEmp_Stab_3	C:\Users\Win 10\Documents\WwiseProjects\randomizer\.cache\Windows\SFX\3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\QEmp_Stab\QEmp_Stab_3		22655
-	860177697	Q_OnAttack_3	C:\Users\Win 10\Documents\WwiseProjects\randomizer\.cache\Windows\SFX\Q_OnAttack_3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Q_OnAttack\Q_OnAttack_3		5607
-	918892998	Q_OnAttack_2	C:\Users\Win 10\Documents\WwiseProjects\randomizer\.cache\Windows\SFX\Q_OnAttack_2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Q_OnAttack\Q_OnAttack_2		4666
-	966444736	Q_Stab_4	C:\Users\Win 10\Documents\WwiseProjects\randomizer\.cache\Windows\SFX\sfx_Leap_RengarQ_Stab_4_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Q_Stab\Q_Stab_4		15913
-	1015963750	WEmp_Heal	C:\Users\Win 10\Documents\WwiseProjects\randomizer\.cache\Windows\SFX\wheal_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\WEmp_Heal		23047
-	1060910649	Q_OC_1	C:\Users\Win 10\Documents\WwiseProjects\randomizer\.cache\Windows\SFX\1OCje1dan_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Q_OnCast\Q_OC_1		15976
+	13442858	HeadhunterEEmp_OH_2	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\HeadhunterEEmp_OH_2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\(HH) E_Block\(HH) EEmp_OnHit\HeadhunterEEmp_OH_2		14842
+	16328525	Q_Stab_1	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\sfx_Leap_RengarQ_Stab_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Q_Stab\Q_Stab_1		21303
+	47372571	Q_Stab_2	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\sfx_Leap_RengarQ_Stab_2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Q_Stab\Q_Stab_2		14399
+	57693046	P_Dash_2	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\PassiveDash2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\P_Dash\P_Dash_2		20431
+	73582326	Q_OC_2	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\2ocd2va_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Q_OnCast\Q_OC_2		17569
+	126200230	RengarEEmp_OH_3	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\RengarEEmp_OH_3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\E_Block\EEmp_OnHit\RengarEEmp_OH_3		9986
+	134591802	RengarEEmp_OH_1	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\RengarEEmp_OH_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\E_Block\EEmp_OnHit\RengarEEmp_OH_1		12826
+	171613656	RengarE_OC_4	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\RengarE_OC_4_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\E_OnCast\RengarE_OC_4		8769
+	248233133	HeadhunterEEmp_OML_2	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\HeadhunterEEmp_OML_2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\(HH) E_Block\(HH( EEmp_MissileLaunch\HeadhunterEEmp_OML_2		5616
+	315600868	P_Dash_1	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\PassiveDash1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\P_Dash\P_Dash_1		20646
+	337228244	Q_OC_3	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\3octr3i_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Q_OnCast\Q_OC_3		20408
+	344488071	QEmp_Stab_4	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\4_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\QEmp_Stab\QEmp_Stab_4		18907
+	348165191	RengarE_onhit_1	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\RengarE_onhit_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\E_OnHit\RengarE_onhit_1		9603
+	352864373	HeadhunterEEmp_OH_1	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\HeadhunterEEmp_OH_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\(HH) E_Block\(HH) EEmp_OnHit\HeadhunterEEmp_OH_1		12240
+	356096601	P_Leap_Grass_1	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\sfx_Leap_RengarP_Leap_Grass_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\P_Leap_Grass\P_Leap_Grass_1		20836
+	381930791	HeadhunterEEmp_OML_1	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\HeadhunterEEmp_OML_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\(HH) E_Block\(HH( EEmp_MissileLaunch\HeadhunterEEmp_OML_1		5143
+	439575816	W_Roar_2	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\w2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\W_Roar\W_Roar_2		32672
+	446783455	W_Roar_4	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\w4_97325FF4.wem		\Actor-Mixer Hierarchy\Default Work Unit\W_Roar\W_Roar_4		29322
+	475043371	HeadhunterEEmp_OH_3	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\HeadhunterEEmp_OH_3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\(HH) E_Block\(HH) EEmp_OnHit\HeadhunterEEmp_OH_3		13025
+	480788489	RengarE_onhit_2	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\RengarE_onhit_2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\E_OnHit\RengarE_onhit_2		11474
+	487457657	W_Armor_2	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\AR2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\W_Armor\W_Armor_2		17332
+	495910910	Q_OnAttack_4	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\Q_OnAttack_4_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Q_OnAttack\Q_OnAttack_4		5691
+	529024126	RengarE_OML	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\RengarE_OML_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\E_MissileLaunch\RengarE_OML		11054
+	543465797	Q_OnAttack_1	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\Q_OnAttack_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Q_OnAttack\Q_OnAttack_1		5905
+	588940128	RengarE_OC_3	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\RengarE_OC_3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\E_OnCast\RengarE_OC_3		10912
+	612343862	W_Armor_1	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\AR1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\W_Armor\W_Armor_1		20981
+	627961472	Q_Stab_3	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\sfx_Leap_RengarQ_Stab_3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Q_Stab\Q_Stab_3		15589
+	670319294	W_Roar_1	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\w1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\W_Roar\W_Roar_1		32079
+	697414359	P_Leap_Grass_2	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\sfx_Leap_RengarP_Leap_Grass_2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\P_Leap_Grass\P_Leap_Grass_2		21971
+	757986132	HeadhunterEEmp_OML_3	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\HeadhunterEEmp_OML_3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\(HH) E_Block\(HH( EEmp_MissileLaunch\HeadhunterEEmp_OML_3		3502
+	760848260	QEmp_Stab_2	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\QEmp_Stab\QEmp_Stab_2		20851
+	791144308	W_Roar_3	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\w3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\W_Roar\W_Roar_3		33128
+	793166515	QEmp_Stab_1	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\QEmp_Stab\QEmp_Stab_1		21007
+	793965013	QEmp_Stab_3	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\QEmp_Stab\QEmp_Stab_3		22655
+	813652005	RengarEEmp_OML_3	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\RengarEEmp_OML_3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\E_Block\EEmp_MissileLaunch\RengarEEmp_OML_3		8264
+	847154451	RengarEEmp_OML_4	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\RengarEEmp_OML_4_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\E_Block\EEmp_MissileLaunch\RengarEEmp_OML_4		7430
+	860177697	Q_OnAttack_3	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\Q_OnAttack_3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Q_OnAttack\Q_OnAttack_3		5607
+	867374308	HeadhunterEEmp_OH_4	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\HeadhunterEEmp_OH_4_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\(HH) E_Block\(HH) EEmp_OnHit\HeadhunterEEmp_OH_4		11851
+	918892998	Q_OnAttack_2	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\Q_OnAttack_2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Q_OnAttack\Q_OnAttack_2		4666
+	966444736	Q_Stab_4	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\sfx_Leap_RengarQ_Stab_4_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Q_Stab\Q_Stab_4		15913
+	991365751	HeadhunterEEmp_OML_4	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\HeadhunterEEmp_OML_4_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\(HH) E_Block\(HH( EEmp_MissileLaunch\HeadhunterEEmp_OML_4		5770
+	1015963750	WEmp_Heal	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\wheal_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\WEmp_Heal		23047
+	1060910649	Q_OC_1	C:\Users\Win 10\Desktop\randomizer\.cache\Windows\SFX\1OCje1dan_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Q_OnCast\Q_OC_1		15976
 

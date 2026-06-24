@@ -9,10 +9,14 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="573912311" Type="User" Language="SFX" Hash="{3E0EC7A0-BAF6-B943-8363-1CB8E57CA9A2}">
+		<SoundBank Id="573912311" Type="User" Language="SFX" Hash="{A42416B9-9473-7A24-18AC-6FA455B5A5FD}">
 			<ShortName>old_sfx_audio</ShortName>
 			<Path>old_sfx_audio.bnk</Path>
 			<Media>
+				<File Id="13442858" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HeadhunterEEmp_OH_2.wav</ShortName>
+					<CachePath>SFX/HeadhunterEEmp_OH_2_3F75BDB9.wem</CachePath>
+				</File>
 				<File Id="16328525" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_Leap_RengarQ_Stab_1.wav</ShortName>
 					<CachePath>SFX/sfx_Leap_RengarQ_Stab_1_3F75BDB9.wem</CachePath>
@@ -29,6 +33,22 @@
 					<ShortName>2ocd2va.wav</ShortName>
 					<CachePath>SFX/2ocd2va_3F75BDB9.wem</CachePath>
 				</File>
+				<File Id="126200230" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RengarEEmp_OH_3.wav</ShortName>
+					<CachePath>SFX/RengarEEmp_OH_3_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="134591802" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RengarEEmp_OH_1.wav</ShortName>
+					<CachePath>SFX/RengarEEmp_OH_1_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="171613656" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RengarE_OC_4.wav</ShortName>
+					<CachePath>SFX/RengarE_OC_4_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="248233133" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HeadhunterEEmp_OML_2.wav</ShortName>
+					<CachePath>SFX/HeadhunterEEmp_OML_2_3F75BDB9.wem</CachePath>
+				</File>
 				<File Id="315600868" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PassiveDash1.wav</ShortName>
 					<CachePath>SFX/PassiveDash1_3F75BDB9.wem</CachePath>
@@ -41,9 +61,21 @@
 					<ShortName>4.wav</ShortName>
 					<CachePath>SFX/4_3F75BDB9.wem</CachePath>
 				</File>
+				<File Id="348165191" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RengarE_onhit_1.wav</ShortName>
+					<CachePath>SFX/RengarE_onhit_1_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="352864373" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HeadhunterEEmp_OH_1.wav</ShortName>
+					<CachePath>SFX/HeadhunterEEmp_OH_1_3F75BDB9.wem</CachePath>
+				</File>
 				<File Id="356096601" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_Leap_RengarP_Leap_Grass_1.wav</ShortName>
 					<CachePath>SFX/sfx_Leap_RengarP_Leap_Grass_1_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="381930791" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HeadhunterEEmp_OML_1.wav</ShortName>
+					<CachePath>SFX/HeadhunterEEmp_OML_1_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="439575816" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>w2.wav</ShortName>
@@ -53,6 +85,14 @@
 					<ShortName>w4.wav</ShortName>
 					<CachePath>SFX/w4_97325FF4.wem</CachePath>
 				</File>
+				<File Id="475043371" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HeadhunterEEmp_OH_3.wav</ShortName>
+					<CachePath>SFX/HeadhunterEEmp_OH_3_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="480788489" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RengarE_onhit_2.wav</ShortName>
+					<CachePath>SFX/RengarE_onhit_2_3F75BDB9.wem</CachePath>
+				</File>
 				<File Id="487457657" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AR2.wav</ShortName>
 					<CachePath>SFX/AR2_3F75BDB9.wem</CachePath>
@@ -61,9 +101,17 @@
 					<ShortName>Q_OnAttack_4.wav</ShortName>
 					<CachePath>SFX/Q_OnAttack_4_3F75BDB9.wem</CachePath>
 				</File>
+				<File Id="529024126" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RengarE_OML.wav</ShortName>
+					<CachePath>SFX/RengarE_OML_3F75BDB9.wem</CachePath>
+				</File>
 				<File Id="543465797" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Q_OnAttack_1.wav</ShortName>
 					<CachePath>SFX/Q_OnAttack_1_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="588940128" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RengarE_OC_3.wav</ShortName>
+					<CachePath>SFX/RengarE_OC_3_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="612343862" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AR1.wav</ShortName>
@@ -81,6 +129,10 @@
 					<ShortName>sfx_Leap_RengarP_Leap_Grass_2.wav</ShortName>
 					<CachePath>SFX/sfx_Leap_RengarP_Leap_Grass_2_3F75BDB9.wem</CachePath>
 				</File>
+				<File Id="757986132" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HeadhunterEEmp_OML_3.wav</ShortName>
+					<CachePath>SFX/HeadhunterEEmp_OML_3_3F75BDB9.wem</CachePath>
+				</File>
 				<File Id="760848260" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>2.wav</ShortName>
 					<CachePath>SFX/2_3F75BDB9.wem</CachePath>
@@ -97,9 +149,21 @@
 					<ShortName>3.wav</ShortName>
 					<CachePath>SFX/3_3F75BDB9.wem</CachePath>
 				</File>
+				<File Id="813652005" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RengarEEmp_OML_3.wav</ShortName>
+					<CachePath>SFX/RengarEEmp_OML_3_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="847154451" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RengarEEmp_OML_4.wav</ShortName>
+					<CachePath>SFX/RengarEEmp_OML_4_3F75BDB9.wem</CachePath>
+				</File>
 				<File Id="860177697" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Q_OnAttack_3.wav</ShortName>
 					<CachePath>SFX/Q_OnAttack_3_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="867374308" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HeadhunterEEmp_OH_4.wav</ShortName>
+					<CachePath>SFX/HeadhunterEEmp_OH_4_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="918892998" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Q_OnAttack_2.wav</ShortName>
@@ -108,6 +172,10 @@
 				<File Id="966444736" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_Leap_RengarQ_Stab_4.wav</ShortName>
 					<CachePath>SFX/sfx_Leap_RengarQ_Stab_4_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="991365751" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HeadhunterEEmp_OML_4.wav</ShortName>
+					<CachePath>SFX/HeadhunterEEmp_OML_4_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="1015963750" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>wheal.wav</ShortName>
@@ -260,10 +328,14 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="2389693464" Type="User" Language="SFX" Hash="{8D6E3DBF-EF82-EE19-AAA4-2C333BDAE40E}">
+		<SoundBank Id="2389693464" Type="User" Language="SFX" Hash="{D1875F30-C163-DB40-41D2-58885275367C}">
 			<ShortName>old_sfx_events</ShortName>
 			<Path>old_sfx_events.bnk</Path>
 			<Media>
+				<File Id="13442858" Language="SFX" Streaming="false" Location="OtherBank">
+					<ShortName>HeadhunterEEmp_OH_2.wav</ShortName>
+					<CachePath>SFX/HeadhunterEEmp_OH_2_3F75BDB9.wem</CachePath>
+				</File>
 				<File Id="16328525" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>sfx_Leap_RengarQ_Stab_1.wav</ShortName>
 					<CachePath>SFX/sfx_Leap_RengarQ_Stab_1_3F75BDB9.wem</CachePath>
@@ -280,6 +352,22 @@
 					<ShortName>2ocd2va.wav</ShortName>
 					<CachePath>SFX/2ocd2va_3F75BDB9.wem</CachePath>
 				</File>
+				<File Id="126200230" Language="SFX" Streaming="false" Location="OtherBank">
+					<ShortName>RengarEEmp_OH_3.wav</ShortName>
+					<CachePath>SFX/RengarEEmp_OH_3_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="134591802" Language="SFX" Streaming="false" Location="OtherBank">
+					<ShortName>RengarEEmp_OH_1.wav</ShortName>
+					<CachePath>SFX/RengarEEmp_OH_1_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="171613656" Language="SFX" Streaming="false" Location="OtherBank">
+					<ShortName>RengarE_OC_4.wav</ShortName>
+					<CachePath>SFX/RengarE_OC_4_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="248233133" Language="SFX" Streaming="false" Location="OtherBank">
+					<ShortName>HeadhunterEEmp_OML_2.wav</ShortName>
+					<CachePath>SFX/HeadhunterEEmp_OML_2_3F75BDB9.wem</CachePath>
+				</File>
 				<File Id="315600868" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>PassiveDash1.wav</ShortName>
 					<CachePath>SFX/PassiveDash1_3F75BDB9.wem</CachePath>
@@ -292,9 +380,21 @@
 					<ShortName>4.wav</ShortName>
 					<CachePath>SFX/4_3F75BDB9.wem</CachePath>
 				</File>
+				<File Id="348165191" Language="SFX" Streaming="false" Location="OtherBank">
+					<ShortName>RengarE_onhit_1.wav</ShortName>
+					<CachePath>SFX/RengarE_onhit_1_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="352864373" Language="SFX" Streaming="false" Location="OtherBank">
+					<ShortName>HeadhunterEEmp_OH_1.wav</ShortName>
+					<CachePath>SFX/HeadhunterEEmp_OH_1_3F75BDB9.wem</CachePath>
+				</File>
 				<File Id="356096601" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>sfx_Leap_RengarP_Leap_Grass_1.wav</ShortName>
 					<CachePath>SFX/sfx_Leap_RengarP_Leap_Grass_1_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="381930791" Language="SFX" Streaming="false" Location="OtherBank">
+					<ShortName>HeadhunterEEmp_OML_1.wav</ShortName>
+					<CachePath>SFX/HeadhunterEEmp_OML_1_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="439575816" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>w2.wav</ShortName>
@@ -304,6 +404,14 @@
 					<ShortName>w4.wav</ShortName>
 					<CachePath>SFX/w4_97325FF4.wem</CachePath>
 				</File>
+				<File Id="475043371" Language="SFX" Streaming="false" Location="OtherBank">
+					<ShortName>HeadhunterEEmp_OH_3.wav</ShortName>
+					<CachePath>SFX/HeadhunterEEmp_OH_3_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="480788489" Language="SFX" Streaming="false" Location="OtherBank">
+					<ShortName>RengarE_onhit_2.wav</ShortName>
+					<CachePath>SFX/RengarE_onhit_2_3F75BDB9.wem</CachePath>
+				</File>
 				<File Id="487457657" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>AR2.wav</ShortName>
 					<CachePath>SFX/AR2_3F75BDB9.wem</CachePath>
@@ -312,9 +420,17 @@
 					<ShortName>Q_OnAttack_4.wav</ShortName>
 					<CachePath>SFX/Q_OnAttack_4_3F75BDB9.wem</CachePath>
 				</File>
+				<File Id="529024126" Language="SFX" Streaming="false" Location="OtherBank">
+					<ShortName>RengarE_OML.wav</ShortName>
+					<CachePath>SFX/RengarE_OML_3F75BDB9.wem</CachePath>
+				</File>
 				<File Id="543465797" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Q_OnAttack_1.wav</ShortName>
 					<CachePath>SFX/Q_OnAttack_1_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="588940128" Language="SFX" Streaming="false" Location="OtherBank">
+					<ShortName>RengarE_OC_3.wav</ShortName>
+					<CachePath>SFX/RengarE_OC_3_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="612343862" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>AR1.wav</ShortName>
@@ -332,6 +448,10 @@
 					<ShortName>sfx_Leap_RengarP_Leap_Grass_2.wav</ShortName>
 					<CachePath>SFX/sfx_Leap_RengarP_Leap_Grass_2_3F75BDB9.wem</CachePath>
 				</File>
+				<File Id="757986132" Language="SFX" Streaming="false" Location="OtherBank">
+					<ShortName>HeadhunterEEmp_OML_3.wav</ShortName>
+					<CachePath>SFX/HeadhunterEEmp_OML_3_3F75BDB9.wem</CachePath>
+				</File>
 				<File Id="760848260" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>2.wav</ShortName>
 					<CachePath>SFX/2_3F75BDB9.wem</CachePath>
@@ -348,9 +468,21 @@
 					<ShortName>3.wav</ShortName>
 					<CachePath>SFX/3_3F75BDB9.wem</CachePath>
 				</File>
+				<File Id="813652005" Language="SFX" Streaming="false" Location="OtherBank">
+					<ShortName>RengarEEmp_OML_3.wav</ShortName>
+					<CachePath>SFX/RengarEEmp_OML_3_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="847154451" Language="SFX" Streaming="false" Location="OtherBank">
+					<ShortName>RengarEEmp_OML_4.wav</ShortName>
+					<CachePath>SFX/RengarEEmp_OML_4_3F75BDB9.wem</CachePath>
+				</File>
 				<File Id="860177697" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Q_OnAttack_3.wav</ShortName>
 					<CachePath>SFX/Q_OnAttack_3_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="867374308" Language="SFX" Streaming="false" Location="OtherBank">
+					<ShortName>HeadhunterEEmp_OH_4.wav</ShortName>
+					<CachePath>SFX/HeadhunterEEmp_OH_4_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="918892998" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Q_OnAttack_2.wav</ShortName>
@@ -359,6 +491,10 @@
 				<File Id="966444736" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>sfx_Leap_RengarQ_Stab_4.wav</ShortName>
 					<CachePath>SFX/sfx_Leap_RengarQ_Stab_4_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="991365751" Language="SFX" Streaming="false" Location="OtherBank">
+					<ShortName>HeadhunterEEmp_OML_4.wav</ShortName>
+					<CachePath>SFX/HeadhunterEEmp_OML_4_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="1015963750" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>wheal.wav</ShortName>
@@ -370,6 +506,29 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="2587660758" Name="Play_sfx_Old_RengarE_hit">
+					<MediaRefs>
+						<MediaRef Id="348165191"/>
+						<MediaRef Id="480788489"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="238117148" Name="Play_sfx_Old_RengarE_missilelaunch">
+					<MediaRefs>
+						<MediaRef Id="529024126"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1355561910" Name="Play_sfx_Old_RengarEEmp_missilelaunch">
+					<MediaRefs>
+						<MediaRef Id="813652005"/>
+						<MediaRef Id="847154451"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3515841041" Name="Play_sfx_Old_RengarEEmp_OnHit">
+					<MediaRefs>
+						<MediaRef Id="126200230"/>
+						<MediaRef Id="134591802"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1334206113" Name="Play_sfx_Old_RengarP_Leap_Grass">
 					<MediaRefs>
 						<MediaRef Id="356096601"/>
@@ -390,6 +549,41 @@
 						<MediaRef Id="760848260"/>
 						<MediaRef Id="793166515"/>
 						<MediaRef Id="793965013"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4198442286" Name="Play_sfx_OldHH_RengarEEmp_missilelaunch">
+					<MediaRefs>
+						<MediaRef Id="248233133"/>
+						<MediaRef Id="381930791"/>
+						<MediaRef Id="757986132"/>
+						<MediaRef Id="991365751"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2176551737" Name="Play_sfx_OldHH_RengarEEmp_OnHit">
+					<MediaRefs>
+						<MediaRef Id="13442858"/>
+						<MediaRef Id="352864373"/>
+						<MediaRef Id="475043371"/>
+						<MediaRef Id="867374308"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3256281805" Name="Play_sfx_Rengar_RengarE_OnCast">
+					<MediaRefs>
+						<MediaRef Id="171613656"/>
+						<MediaRef Id="588940128"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2019559851" Name="Play_sfx_Rengar_RengarEEmp_OnCast">
+					<MediaRefs>
+						<MediaRef Id="171613656"/>
+						<MediaRef Id="588940128"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2044568096" Name="Play_sfx_Rengar_RengarEEmpmis_OnHit"/>
+				<Event Id="1155544398" Name="Play_sfx_Rengar_RengarEEmpmis_OnMissileLaunch">
+					<MediaRefs>
+						<MediaRef Id="813652005"/>
+						<MediaRef Id="847154451"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="265518677" Name="Play_sfx_Rengar_RengarP_cast">
@@ -451,9 +645,11 @@
 						<MediaRef Id="1015963750"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1373063554" Name="Play_sfx_RengarSkin01_RengarEEmpmis_OnHit"/>
+				<Event Id="3418013488" Name="Play_sfx_RengarSkin01_RengarEEmpmis_OnMissileLaunch"/>
 				<Event Id="1111803701" Name="Stop_sfx_Rengar_RengarQ_buffactivate"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{FF41E8A4-88B2-31A0-E285-CEB8FEAA89DE}</FileHash>
+	<FileHash>{57B371F8-9BB8-B77B-B100-A77FB54532BB}</FileHash>
 </SoundBanksInfo>

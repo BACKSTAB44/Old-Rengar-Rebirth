@@ -77,6 +77,12 @@ entries: map[hash,embed] = {
                         "Play_sfx_Old_RengarP_Leap_Grass"
                         "Play_sfx_Old_RengarQ_Stab"
                         "Play_sfx_Old_RengarQEmp_Stab"
+                        "Play_sfx_Old_RengarE_hit"
+                        "Play_sfx_Old_RengarEEmp_OnHit"
+                        "Play_sfx_Old_RengarE_missilelaunch"
+                        "Play_sfx_Old_RengarEEmp_missilelaunch"
+                        "Play_sfx_OldHH_RengarEEmp_OnHit"
+                        "Play_sfx_OldHH_RengarEEmp_missilelaunch"
                     }
                 }
                 BankUnit {

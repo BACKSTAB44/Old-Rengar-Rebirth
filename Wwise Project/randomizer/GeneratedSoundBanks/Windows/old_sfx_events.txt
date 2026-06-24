@@ -2,14 +2,26 @@ Event	ID	Name			Wwise Object Path	Notes
 	85886807	Play_sfx_Rengar_RengarQAttack_OnHit			\Default Work Unit\Play_sfx_Rengar_RengarQAttack_OnHit	
 	93116591	Play_sfx_Rengar_RengarW_OnCast			\Default Work Unit\Play_sfx_Rengar_RengarW_OnCast	
 	134167867	Play_sfx_Rengar_RengarQEmpAttack_OnCast			\Default Work Unit\Play_sfx_Rengar_RengarQEmpAttack_OnCast	
+	238117148	Play_sfx_Old_RengarE_missilelaunch			\Default Work Unit\Play_sfx_Old_RengarE_missilelaunch	
 	265518677	Play_sfx_Rengar_RengarP_cast			\Default Work Unit\Play_sfx_Rengar_RengarP_cast	
 	1111803701	Stop_sfx_Rengar_RengarQ_buffactivate			\Default Work Unit\Stop_sfx_Rengar_RengarQ_buffactivate	
+	1155544398	Play_sfx_Rengar_RengarEEmpmis_OnMissileLaunch			\Default Work Unit\Play_sfx_Rengar_RengarEEmpmis_OnMissileLaunch	
 	1308453653	Play_sfx_Rengar_RengarQAttack_OnCast			\Default Work Unit\Play_sfx_Rengar_RengarQAttack_OnCast	
 	1334206113	Play_sfx_Old_RengarP_Leap_Grass			\Default Work Unit\Play_sfx_Old_RengarP_Leap_Grass	
+	1355561910	Play_sfx_Old_RengarEEmp_missilelaunch			\Default Work Unit\Play_sfx_Old_RengarEEmp_missilelaunch	
+	1373063554	Play_sfx_RengarSkin01_RengarEEmpmis_OnHit			\Default Work Unit\Play_sfx_RengarSkin01_RengarEEmpmis_OnHit	
 	1696751273	Play_sfx_Rengar_RengarQ_OnCast			\Default Work Unit\Play_sfx_Rengar_RengarQ_OnCast	
 	1796115793	Play_sfx_Rengar_RengarQEmpAttack_OnHit			\Default Work Unit\Play_sfx_Rengar_RengarQEmpAttack_OnHit	
+	2019559851	Play_sfx_Rengar_RengarEEmp_OnCast			\Default Work Unit\Play_sfx_Rengar_RengarEEmp_OnCast	
+	2044568096	Play_sfx_Rengar_RengarEEmpmis_OnHit			\Default Work Unit\Play_sfx_Rengar_RengarEEmpmis_OnHit	
+	2176551737	Play_sfx_OldHH_RengarEEmp_OnHit			\Default Work Unit\Play_sfx_OldHH_RengarEEmp_OnHit	
+	2587660758	Play_sfx_Old_RengarE_hit			\Default Work Unit\Play_sfx_Old_RengarE_hit	
+	3256281805	Play_sfx_Rengar_RengarE_OnCast			\Default Work Unit\Play_sfx_Rengar_RengarE_OnCast	
+	3418013488	Play_sfx_RengarSkin01_RengarEEmpmis_OnMissileLaunch			\Default Work Unit\Play_sfx_RengarSkin01_RengarEEmpmis_OnMissileLaunch	
 	3487977295	Play_sfx_Rengar_RengarQEmp_OnCast			\Default Work Unit\Play_sfx_Rengar_RengarQEmp_OnCast	
+	3515841041	Play_sfx_Old_RengarEEmp_OnHit			\Default Work Unit\Play_sfx_Old_RengarEEmp_OnHit	
 	3688010255	Play_sfx_Old_RengarQ_Stab			\Default Work Unit\Play_sfx_Old_RengarQ_Stab	
 	3785417293	Play_sfx_Old_RengarQEmp_Stab			\Default Work Unit\Play_sfx_Old_RengarQEmp_Stab	
 	3957301585	Play_sfx_Rengar_RengarWEmp_OnCast			\Default Work Unit\Play_sfx_Rengar_RengarWEmp_OnCast	
+	4198442286	Play_sfx_OldHH_RengarEEmp_missilelaunch			\Default Work Unit\Play_sfx_OldHH_RengarEEmp_missilelaunch	
 
