@@ -69,7 +69,7 @@
 **-** Skins no longer use Classic skin's icon in the HUD.  
 **-** Enforced changes to make sure the mod stays working long-term.  
 **-** Mod fully debloated.  
-**-** File count reduced from 417 to 186.  
+**-** File count reduced from 417 to 185.  
 **-** All .DDS converted to .TEX (modern format).  
 **-** All .SCO converted to .SCB (modern format).  
 **-** Rewritten a lot of code to modern Riot standards.  
@@ -77,7 +77,8 @@
 **-** Many flags corrected from 8-bit to 16-bit.  
 **-** Mod thumbnail added for supported mod-loaders.  
 **-** Open sourced, check [Github](https://github.com/BACKSTAB44/Old-Rengar-Rebirth) and [GDrive](https://drive.google.com/drive/folders/17wvzPI16-7v2034s4K1XfgrLlE1PdZ7m).  
-**-** Disabled skin-hacking.
+**-** Disabled skin-hacking.  
+**-** FPS issues while in ULT fixed.
 
 ‎
 
