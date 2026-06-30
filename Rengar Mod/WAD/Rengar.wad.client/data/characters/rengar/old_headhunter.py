@@ -1282,37 +1282,22 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 7
-                }
-                lifetime: option[f32] = {
-                    20
+                    constantValue: f32 = 20
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Base_Hunter"
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                isUniformScale: flag = true
                 importance: u8 = 2
-                particleColorTexture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_R_Veins.tex"
-                blendMode: u8 = 2
-                colorRenderFlags: u8 = 1
+                primitive: pointer = VfxPrimitiveAttachedMesh {}
                 meshRenderFlags: u8 = 0
-                pass: i16 = 60
-                isRandomStartFrame: flag = true
-                materialOverrideDefinitions: list[embed] = {
-                    VfxMaterialOverrideDefinitionData {
-                        overrideBlendMode: u8 = 3
-                        baseTexture: string = "ASSETS/Repath/Shared/Materials/black.tex"
-                    }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 0, 0 }
-                }
-                texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin01/Particles/Rengar_Skin01_R.tex"
-                numFrames: u16 = 16
-                uvMode: u8 = 1
-                texDiv: vec2 = { 0.5, 0.5 }
+                blendMode: u8 = 1
+                alphaRef: u8 = 0
+                depthBiasFactors: vec2 = { -1, -4 }
+                particleIsLocalOrientation: flag = true
+                isUniformScale: flag = true
+                texture: string = "ASSETS/Repath/Shared/Materials/black.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {

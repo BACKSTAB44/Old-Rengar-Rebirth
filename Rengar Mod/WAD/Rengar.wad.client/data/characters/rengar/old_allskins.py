@@ -17,15 +17,15 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "eyes"
-                SpawnShape: pointer = VfxShapeLegacy {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, 125, 0 }
-                    }
-                }
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                scaleEmitOffsetByBoundObjectSize: f32 = 0.005
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 130, 0 }
+                }
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.005
+                }
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -61,17 +61,15 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "wisp1"
-                importance: u8 = 2
-                SpawnShape: pointer = VfxShapeLegacy {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, 100, 0 }
-                    }
-                }
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 100, 0 }
+                }
                 birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 0.498, 1 }
+                    constantValue: vec4 = { 1, 0.6667, 0, 1 }
                 }
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -83,7 +81,7 @@ entries: map[hash,embed] = {
                         values: list[vec4] = {
                             { 1, 1, 1, 0 }
                             { 1, 1, 1, 1 }
-                            { 0.6667, 0.3333, 0, 0 }
+                            { 0.6667, 0, 0, 0 }
                         }
                     }
                 }
@@ -3003,13 +3001,11 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 emitterName: string = "Heart"
-                SpawnShape: pointer = VfxShapeLegacy {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, 120, 0 }
-                    }
-                }
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 120, 0 }
                 }
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.005
@@ -3049,13 +3045,11 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 emitterName: string = "HeartAdd"
-                SpawnShape: pointer = VfxShapeLegacy {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, 120, 0 }
-                    }
-                }
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 120, 0 }
                 }
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.005
@@ -3091,44 +3085,40 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
+                    constantValue: f32 = 20
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Base"
-                importance: u8 = 2
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
+                importance: u8 = 2
                 primitive: pointer = VfxPrimitiveAttachedMesh {}
-                particleColorTexture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_R_Veins.tex"
-                pass: i16 = 60
-                blendMode: u8 = 3
-                materialOverrideDefinitions: list[embed] = {
-                    VfxMaterialOverrideDefinitionData {
-                        baseTexture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_R_MaterialOverride.tex"
-                    }
-                }
-                texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_R_Veins.tex"
+                meshRenderFlags: u8 = 0
+                blendMode: u8 = 1
+                alphaRef: u8 = 0
+                depthBiasFactors: vec2 = { -1, -4 }
+                particleIsLocalOrientation: flag = true
+                isUniformScale: flag = true
+                texture: string = "ASSETS/Repath/Shared/Materials/Red.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
                 particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 20
+                    constantValue: f32 = 1
                 }
-                isSingleParticle: flag = true
                 emitterName: string = "VeinsAdd"
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
                 importance: u8 = 3
                 primitive: pointer = VfxPrimitiveAttachedMesh {}
-                particleColorTexture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_R_Veins.tex"
-                pass: i16 = 10
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.57, 0, 0, 1 }
+                }
+                pass: i16 = 60
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
                 texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_R_Veins_Add.tex"
@@ -3136,209 +3126,17 @@ entries: map[hash,embed] = {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         times: list[f32] = {
                             0
-                            0.01
-                            0.02
-                            0.03
-                            0.04
-                            0.05
-                            0.06
-                            0.07
-                            0.08
-                            0.09
-                            0.1
-                            0.11
-                            0.12
-                            0.13
-                            0.14
-                            0.15
-                            0.16
-                            0.17
-                            0.18
-                            0.19
                             0.2
-                            0.21
-                            0.22
-                            0.23
-                            0.24
-                            0.25
-                            0.26
-                            0.27
-                            0.28
-                            0.29
-                            0.3
-                            0.31
-                            0.32
-                            0.33
-                            0.34
-                            0.35
-                            0.36
-                            0.37
-                            0.38
-                            0.39
                             0.4
-                            0.41
-                            0.42
-                            0.43
-                            0.44
-                            0.45
-                            0.46
-                            0.47
-                            0.48
-                            0.49
-                            0.5
-                            0.51
-                            0.52
-                            0.53
-                            0.54
-                            0.55
-                            0.56
-                            0.57
-                            0.58
-                            0.59
                             0.6
-                            0.61
-                            0.62
-                            0.63
-                            0.64
-                            0.65
-                            0.66
-                            0.67
-                            0.68
-                            0.69
-                            0.7
-                            0.71
-                            0.72
-                            0.73
-                            0.74
-                            0.75
-                            0.76
-                            0.77
-                            0.78
-                            0.79
-                            0.8
-                            0.81
-                            0.82
-                            0.83
-                            0.84
-                            0.85
-                            0.86
-                            0.87
-                            0.88
-                            0.89
-                            0.9
-                            0.91
-                            0.92
-                            0.93
-                            0.94
-                            0.95
-                            0.96
-                            0.97
-                            0.98
-                            0.99
                             1
                         }
                         values: list[vec3] = {
-                            { 1.01, 1.01, 1.01 }
+                            { 1.03, 1.03, 1.03 }
                             { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
+                            { 1.03, 1.03, 1.03 }
                             { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
-                            { 1.1, 1.1, 1.1 }
-                            { 1.01, 1.01, 1.01 }
+                            { 1.03, 1.03, 1.03 }
                         }
                     }
                 }
@@ -3348,7 +3146,6 @@ entries: map[hash,embed] = {
         particleName: string = "Rengar_Base_R_Primary_Target_Enhanced"
         particlePath: string = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Primary_Target_Enhanced"
         soundPersistentDefault: string = "Play_sfx_Rengar_RengarR_buffactivateheartbeat"
-        flags: u16 = 213
     }
     "Characters/Rengar/CAC/Rengar_Base" = ContextualActionData {
         mCooldown: f32 = 15
