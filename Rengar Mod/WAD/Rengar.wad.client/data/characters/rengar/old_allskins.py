@@ -929,10 +929,12 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Repath/Shared/Materials/black.tex"
                 meshRenderFlags: u8 = 0
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0, 0, 0, 0 }
+                }
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Repath/Shared/Materials/black.tex"
+                texture: string = "ASSETS/Repath/Shared/Particles/3161common_color-hold.tex"
             }
         }
         particleName: string = "Rengar_LeapSound"
@@ -3094,13 +3096,16 @@ entries: map[hash,embed] = {
                 }
                 importance: u8 = 2
                 primitive: pointer = VfxPrimitiveAttachedMesh {}
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.29, 0, 0, 1 }
+                }
                 meshRenderFlags: u8 = 0
                 blendMode: u8 = 1
                 alphaRef: u8 = 0
                 depthBiasFactors: vec2 = { -1, -4 }
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Repath/Shared/Materials/Red.tex"
+                texture: string = "ASSETS/Repath/Shared/Particles/3161common_color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
