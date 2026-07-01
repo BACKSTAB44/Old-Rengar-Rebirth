@@ -671,7 +671,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 20
+                    constantValue: f32 = 30
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "body"
@@ -685,7 +685,7 @@ entries: map[hash,embed] = {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
-                            0.003
+                            0.002
                         }
                         values: list[vec4] = {
                             { 1, 1, 1, 0 }
