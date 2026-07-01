@@ -69,7 +69,7 @@
 **-** Skins no longer use Classic skin's icon in the HUD.  
 **-** Enforced changes to make sure the mod stays working long-term.  
 **-** Mod fully debloated.  
-**-** File count reduced from 417 to 185.  
+**-** File count reduced from 417 to 182.  
 **-** All .DDS converted to .TEX (modern format).  
 **-** All .SCO converted to .SCB (modern format).  
 **-** Rewritten a lot of code to modern Riot standards.  
