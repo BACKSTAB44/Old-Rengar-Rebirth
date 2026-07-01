@@ -40,6 +40,7 @@ To secure the longevity of the Rebirth mod, I’m publishing its archive and a r
 Hopefully this will be useful someday.
  - [**Archive**](https://drive.google.com/drive/folders/1fdFs-jmjTvH34S1yLzE9JP-wabCWr38X) _(mod & wwise iterations)_
  - [**Extra**](https://drive.google.com/drive/folders/17wvzPI16-7v2034s4K1XfgrLlE1PdZ7m) _(my repository, very useful stuff)_
+ - [**Backup Link**](https://web.archive.org/web/20260701124707/https://codeload.github.com/BACKSTAB44/Old-Rengar-Rebirth/zip/refs/heads/main) _(WebArchive, direct)_
 #
 ## Legal
 
