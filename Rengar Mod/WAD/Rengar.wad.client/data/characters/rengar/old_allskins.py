@@ -3085,7 +3085,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 20
+                    constantValue: f32 = -1
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Base"

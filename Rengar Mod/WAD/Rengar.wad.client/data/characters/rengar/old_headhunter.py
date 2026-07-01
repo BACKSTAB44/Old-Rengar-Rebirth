@@ -673,9 +673,6 @@ entries: map[hash,embed] = {
                 particleLifetime: embed = ValueFloat {
                     constantValue: f32 = 20
                 }
-                lifetime: option[f32] = {
-                    20
-                }
                 isSingleParticle: flag = true
                 emitterName: string = "body"
                 bindWeight: embed = ValueFloat {
@@ -714,9 +711,6 @@ entries: map[hash,embed] = {
                 }
                 particleLifetime: embed = ValueFloat {
                     constantValue: f32 = 2
-                }
-                lifetime: option[f32] = {
-                    20
                 }
                 emitterName: string = "avatarGlow"
                 importance: u8 = 2
@@ -1282,7 +1276,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 20
+                    constantValue: f32 = -1
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Base_Hunter"
@@ -1305,9 +1299,6 @@ entries: map[hash,embed] = {
                 }
                 particleLifetime: embed = ValueFloat {
                     constantValue: f32 = 4
-                }
-                lifetime: option[f32] = {
-                    20
                 }
                 emitterName: string = "Color_Hunter"
                 bindWeight: embed = ValueFloat {
