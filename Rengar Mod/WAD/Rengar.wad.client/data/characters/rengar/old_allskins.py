@@ -3014,7 +3014,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.005
                 }
                 blendMode: u8 = 1
-                pass: i16 = 50
+                pass: i16 = 61
                 miscRenderFlags: u8 = 1
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 10, 10, 10 }
@@ -3097,7 +3097,7 @@ entries: map[hash,embed] = {
                 importance: u8 = 2
                 primitive: pointer = VfxPrimitiveAttachedMesh {}
                 birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 0.29, 0, 0, 1 }
+                    constantValue: vec4 = { 0.28, 0, 0, 1 }
                 }
                 meshRenderFlags: u8 = 0
                 blendMode: u8 = 1
@@ -3121,8 +3121,9 @@ entries: map[hash,embed] = {
                 importance: u8 = 3
                 primitive: pointer = VfxPrimitiveAttachedMesh {}
                 birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 0.57, 0, 0, 1 }
+                    constantValue: vec4 = { 0.6, 0, 0, 1 }
                 }
+                blendMode: u8 = 4
                 pass: i16 = 60
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
@@ -3145,7 +3146,6 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                orientation: u8 = 3
             }
         }
         particleName: string = "Rengar_Base_R_Primary_Target_Enhanced"

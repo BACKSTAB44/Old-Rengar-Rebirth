@@ -1924,9 +1924,6 @@ entries: map[hash,embed] = {
                 disableBackfaceCull: bool = true
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 180, 180, 180 }
-                }
                 texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin02/Particles/Rengar_Skin02_Z_Avatar.tex"
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.095, 1.095, 1.095 }
@@ -1947,7 +1944,6 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                orientation: u8 = 3
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -1960,7 +1956,7 @@ entries: map[hash,embed] = {
                     10
                 }
                 lifetime: option[f32] = {
-                    2.5
+                    2
                 }
                 emitterName: string = "ArmorMR_Emp"
                 importance: u8 = 3
@@ -1975,14 +1971,10 @@ entries: map[hash,embed] = {
                 disableBackfaceCull: bool = true
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 180, 180, 180 }
-                }
                 texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin02/Particles/Rengar_Skin02_Z_Avatar.tex"
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.1, 1.1, 1.1 }
                 }
-                orientation: u8 = 3
             }
         }
         particleName: string = "Rengar_Skin02_W_Max_Roar"
@@ -2584,9 +2576,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin02/Particles/Rengar_Skin02_Q_Slash.tex"
-                LegacySimple: pointer = VfxEmitterLegacySimple {
-                    orientation: u8 = 1
-                }
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -2 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -2678,9 +2667,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin02/Particles/Rengar_Skin02_Q_Slash_Add.tex"
-                LegacySimple: pointer = VfxEmitterLegacySimple {
-                    orientation: u8 = 1
-                }
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -2 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -2776,9 +2762,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin02/Particles/Rengar_Skin02_Q_Slash_Dark.tex"
-                LegacySimple: pointer = VfxEmitterLegacySimple {
-                    orientation: u8 = 1
-                }
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -2 }
                 }
@@ -4887,14 +4870,10 @@ entries: map[hash,embed] = {
                 disableBackfaceCull: bool = true
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 180, 180, 180 }
-                }
                 texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin02/Particles/Rengar_Skin02_Z_Avatar.tex"
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.1, 1.1, 1.1 }
                 }
-                orientation: u8 = 3
             }
         }
         particleName: string = "Rengar_Skin02_W_Roar"
