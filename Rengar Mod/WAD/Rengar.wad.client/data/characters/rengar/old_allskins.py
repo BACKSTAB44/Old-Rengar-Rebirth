@@ -807,7 +807,7 @@ entries: map[hash,embed] = {
                 }
                 isLocalOrientation: flag = false
                 birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 850, 850, 0 }
+                    constantValue: vec3 = { 855, 855, 0 }
                 }
                 texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_Z_Ring.tex"
             }
@@ -848,7 +848,7 @@ entries: map[hash,embed] = {
                 }
                 SpawnShape: pointer = VfxShapeLegacy {
                     emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 800, 0, 0 }
+                        constantValue: vec3 = { 805, 0, 0 }
                     }
                     emitRotationAngles: list[embed] = {
                         ValueFloat {
@@ -912,9 +912,9 @@ entries: map[hash,embed] = {
                 texDiv: vec2 = { 2, 2 }
             }
         }
+        visibilityRadius: f32 = 2000
         particleName: string = "Rengar_Base_P_Buf_Enhanced_Ring"
         particlePath: string = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_P_Buf_Enhanced_Ring"
-        visibilityRadius: f32 = 2000
     }
     "Characters/Rengar/Skins/Skin0/Particles/Rengar_LeapSound" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
