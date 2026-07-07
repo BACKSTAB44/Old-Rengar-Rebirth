@@ -73,7 +73,7 @@
 **-** All .DDS converted to .TEX (modern format).  
 **-** All .SCO converted to .SCB (modern format).  
 **-** Rewritten a lot of code to modern Riot standards.  
-**-** More compact code (17.000+ lines thinner).  
+**-** More compact code (22.000+ lines thinner).  
 **-** Many flags corrected from 8-bit to 16-bit.  
 **-** Mod thumbnail added for supported mod-loaders.  
 **-** Open sourced, check [Github](https://github.com/BACKSTAB44/Old-Rengar-Rebirth) and [GDrive](https://drive.google.com/drive/folders/17wvzPI16-7v2034s4K1XfgrLlE1PdZ7m).  
