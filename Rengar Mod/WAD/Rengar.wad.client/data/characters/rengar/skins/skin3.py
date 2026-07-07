@@ -175,6 +175,7 @@ entries: map[hash,embed] = {
             "Rengar_Q_Cas2" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_Q_Cas2"
             "Rengar_Q_Max_Tar" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_Q_Max_Tar"
             "Rengar_Q_Tar" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_Q_Tar"
+            "Rengar_Q_Tar_Visuals" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_Q_Tar_Visuals"
             "Rengar_R_Armor_shred_tar" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Armor_shred_tar"
             "Rengar_R_Buf" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Buf"
             "Rengar_R_LeapMat" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Skin3_R_Leap"
