@@ -541,7 +541,7 @@ entries: map[hash,embed] = {
                 }
             }
             "Tiamat_Logic_Off" = AtomicClipData {
-                mFlags: u32 = 14
+                mFlags: u32 = 6
                 mMaskDataName: hash = "Void"
                 mTrackDataName: hash = "Void"
                 mAnimationResourceData: embed = AnimationResourceData {
