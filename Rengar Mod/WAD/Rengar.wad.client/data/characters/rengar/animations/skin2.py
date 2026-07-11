@@ -52,7 +52,13 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Channel_WNDPUP.anm"
                 }
             }
-            "Crit" = AtomicClipData {
+            "Crit" = ParallelClipData {
+                mClipNameList: list[hash] = {
+                    "Tiamat_Logic_Off"
+                    "Crit_BASE"
+                }
+            }
+            "Crit_BASE" = AtomicClipData {
                 mTrackDataName: hash = "Actions"
                 mEventDataMap: map[hash,pointer] = {
                     "Crit" = ParticleEventData {
@@ -277,6 +283,15 @@ entries: map[hash,embed] = {
                 mClipNameList: list[hash] = {
                     "Attack4_Actions"
                     "Attack4_Default"
+                    "Tiamat_Logic_On"
+                }
+            }
+            "Tiamat_Logic_On" = AtomicClipData {
+                mMaskDataName: hash = "Void"
+                mTrackDataName: hash = "Void"
+                mTickDuration: f32 = 0.034
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_attack4.anm"
                 }
             }
             "Attack4_Actions" = AtomicClipData {
@@ -396,13 +411,16 @@ entries: map[hash,embed] = {
                             }
                             IsAnimationPlayingDynamicMaterialBoolDriver {
                                 mAnimationNames: list[hash] = {
-                                    "Attack1_BASE"
-                                    "Attack2"
-                                    "Attack3"
-                                    "Crit"
+                                    "Attack1_Actions"
+                                    "Attack2_BASE"
+                                    "Attack3_BASE"
+                                    "Crit_BASE"
                                     "Run"
                                     "Run1_Fast"
                                     "Run2_BASE"
+                                    "Idle1_BASE"
+                                    "Idle2_BASE"
+                                    "Idle3_BASE"
                                     "Spell5_Ult"
                                     "Spell5_Bush"
                                 }
@@ -471,10 +489,10 @@ entries: map[hash,embed] = {
                             }
                             IsAnimationPlayingDynamicMaterialBoolDriver {
                                 mAnimationNames: list[hash] = {
-                                    "Attack1_BASE"
-                                    "Attack2"
-                                    "Attack3"
-                                    "Crit"
+                                    "Attack1_Actions"
+                                    "Attack2_BASE"
+                                    "Attack3_BASE"
+                                    "Crit_BASE"
                                     "Run2_BASE"
                                     "Spell5_Ult"
                                     "Spell5_Bush"
@@ -484,51 +502,27 @@ entries: map[hash,embed] = {
                     }
                 }
                 mTrueConditionClipName: hash = "Attack1_BASE"
-                mFalseConditionClipName: hash = "Tiamat_RunWrap"
+                mFalseConditionClipName: hash = "Tiamat_Wrap"
             }
-            "Tiamat_RunWrap" = ConditionBoolClipData {
+            "Tiamat_Wrap" = ConditionBoolClipData {
                 Updater: pointer = LogicDriverBoolParametricUpdater {
-                    driver: pointer = AllTrueMaterialDriver {
-                        mDrivers: list[pointer] = {
-                            OneTrueMaterialDriver {
-                                mDrivers: list[pointer] = {
-                                    HasBuffDynamicMaterialBoolDriver {
-                                        mScriptName: string = "RengarQASBuff"
-                                    }
-                                    HasBuffDynamicMaterialBoolDriver {
-                                        mScriptName: string = "RengarQEmpASBuff"
-                                    }
-                                }
-                            }
-                            OneTrueMaterialDriver {
-                                mDrivers: list[pointer] = {
-                                    FloatComparisonMaterialDriver {
-                                        mOperator: u32 = 1
-                                        mValueA: pointer = AnimationFractionDynamicMaterialFloatDriver {
-                                            mAnimationName: hash = "Run"
-                                        }
-                                        mValueB: pointer = FloatLiteralMaterialDriver {
-                                            mValue: f32 = 0.3
-                                        }
-                                    }
-                                    FloatComparisonMaterialDriver {
-                                        mOperator: u32 = 1
-                                        mValueA: pointer = AnimationFractionDynamicMaterialFloatDriver {
-                                            mAnimationName: hash = "Run1_Fast"
-                                        }
-                                        mValueB: pointer = FloatLiteralMaterialDriver {
-                                            mValue: f32 = 0.4
-                                        }
-                                    }
-                                }
-                            }
+                    driver: pointer = IsAnimationPlayingDynamicMaterialBoolDriver {
+                        mAnimationNames: list[hash] = {
+                            "Tiamat_Logic_Off"
                         }
                     }
                 }
                 mTrueConditionClipName: hash = "Attack1_BASE"
                 mFalseConditionClipName: hash = "Attack4"
             }
-            "Attack1_BASE" = AtomicClipData {
+            "Attack1_BASE" = ParallelClipData {
+                mClipNameList: list[hash] = {
+                    "Tiamat_Logic_Off"
+                    "Attack1_Actions"
+                }
+            }
+            "Attack1_Actions" = AtomicClipData {
+                mFlags: u32 = 1
                 mTrackDataName: hash = "Actions"
                 mEventDataMap: map[hash,pointer] = {
                     "BA1" = ParticleEventData {
@@ -545,7 +539,22 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_attack1.anm"
                 }
             }
-            "Attack2" = AtomicClipData {
+            "Tiamat_Logic_Off" = AtomicClipData {
+                mFlags: u32 = 14
+                mMaskDataName: hash = "Void"
+                mTrackDataName: hash = "Void"
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_attack1.anm"
+                }
+            }
+            "Attack2" = ParallelClipData {
+                mClipNameList: list[hash] = {
+                    "Tiamat_Logic_Off"
+                    "Attack2_BASE"
+                }
+            }
+            "Attack2_BASE" = AtomicClipData {
+                mFlags: u32 = 1
                 mTrackDataName: hash = "Actions"
                 mEventDataMap: map[hash,pointer] = {
                     "BA2" = ParticleEventData {
@@ -562,7 +571,14 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_attack2.anm"
                 }
             }
-            "Attack3" = AtomicClipData {
+            "Attack3" = ParallelClipData {
+                mClipNameList: list[hash] = {
+                    "Tiamat_Logic_Off"
+                    "Attack3_BASE"
+                }
+            }
+            "Attack3_BASE" = AtomicClipData {
+                mFlags: u32 = 1
                 mTrackDataName: hash = "Actions"
                 mEventDataMap: map[hash,pointer] = {
                     "BA3" = ParticleEventData {
@@ -1175,6 +1191,92 @@ entries: map[hash,embed] = {
                     1
                 }
             }
+            "Void" = MaskData {
+                mWeightList: list[f32] = {
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                    0
+                }
+            }
         }
         mTrackDataMap: map[hash,embed] = {
             "Channel" = TrackData {}
@@ -1195,6 +1297,9 @@ entries: map[hash,embed] = {
             }
             "Default" = TrackData {
                 mPriority: u8 = 6
+            }
+            "Void" = TrackData {
+                mPriority: u8 = 7
             }
         }
         mBlendDataTable: map[u64,pointer] = {
