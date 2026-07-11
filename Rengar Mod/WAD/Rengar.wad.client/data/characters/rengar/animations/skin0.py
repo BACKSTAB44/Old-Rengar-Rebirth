@@ -137,8 +137,11 @@ entries: map[hash,embed] = {
             }
             "Run2" = ConditionBoolClipData {
                 Updater: pointer = LogicDriverBoolParametricUpdater {
-                    driver: pointer = HasBuffDynamicMaterialBoolDriver {
-                        mScriptName: string = "RengarPassiveBuff"
+                    driver: pointer = SubmeshVisibilityBoolDriver {
+                        Submeshes: list[hash] = {
+                            "MinimalMesh"
+                        }
+                        VISIBLE: bool = true
                     }
                 }
                 mChangeAnimationMidPlay: bool = true

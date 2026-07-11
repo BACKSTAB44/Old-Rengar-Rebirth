@@ -95,7 +95,7 @@ entries: map[hash,embed] = {
                 { 180, 250, 180 }
             }
             reflectionFresnelColor: rgba = { 0, 0, 0, 255 }
-            initialSubmeshToHide: string = "Hood"
+            initialSubmeshToHide: string = "Hood MinimalMesh"
         }
         armorMaterial: string = "Flesh"
         mContextualActionData: link = "Characters/Rengar/CAC/Rengar_Base"
@@ -115,6 +115,19 @@ entries: map[hash,embed] = {
             }
         }
         mResourceResolver: link = "Characters/Rengar/Skins/Skin2/Resources"
+        PersistentEffectConditions: list2[pointer] = {
+            PersistentEffectConditionData {
+                OwnerCondition: pointer = DelayedBoolMaterialDriver {
+                    mBoolDriver: pointer = HasBuffDynamicMaterialBoolDriver {
+                        mScriptName: string = "RengarR"
+                    }
+                    mDelayOn: f32 = 2
+                }
+                SubmeshesToShow: list2[hash] = {
+                    "MinimalMesh"
+                }
+            }
+        }
     }
     "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin02_BA3_Cas" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
