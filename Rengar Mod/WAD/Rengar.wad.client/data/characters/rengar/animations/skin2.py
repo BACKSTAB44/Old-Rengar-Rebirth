@@ -287,14 +287,6 @@ entries: map[hash,embed] = {
                     "Tiamat_Logic_On"
                 }
             }
-            "Tiamat_Logic_On" = AtomicClipData {
-                mMaskDataName: hash = "Void"
-                mTrackDataName: hash = "Void"
-                mTickDuration: f32 = 0.034
-                mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_attack4.anm"
-                }
-            }
             "Attack4_Actions" = AtomicClipData {
                 mTrackDataName: hash = "Actions"
                 mTickDuration: f32 = 0.034
@@ -320,6 +312,14 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_attack4.anm"
                 }
             }
+            "Tiamat_Logic_On" = AtomicClipData {
+                mMaskDataName: hash = "Void"
+                mTrackDataName: hash = "Void"
+                mTickDuration: f32 = 0.034
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_attack4.anm"
+                }
+            }
             "Taunt_BASE" = AtomicClipData {
                 mFlags: u32 = 1
                 mTrackDataName: hash = "Default"
@@ -339,16 +339,16 @@ entries: map[hash,embed] = {
                             OneTrueMaterialDriver {
                                 mDrivers: list[pointer] = {
                                     HasBuffDynamicMaterialBoolDriver {
-                                        mScriptName: string = "RengarQASBuff"
-                                    }
-                                    HasBuffDynamicMaterialBoolDriver {
-                                        mScriptName: string = "RengarQEmpASBuff"
-                                    }
-                                    HasBuffDynamicMaterialBoolDriver {
                                         mScriptName: string = "RengarQ"
                                     }
                                     HasBuffDynamicMaterialBoolDriver {
                                         mScriptName: string = "RengarQEmp"
+                                    }
+                                    HasBuffDynamicMaterialBoolDriver {
+                                        mScriptName: string = "RengarQASBuff"
+                                    }
+                                    HasBuffDynamicMaterialBoolDriver {
+                                        mScriptName: string = "RengarQEmpASBuff"
                                     }
                                 }
                             }
@@ -385,18 +385,18 @@ entries: map[hash,embed] = {
                     driver: pointer = OneTrueMaterialDriver {
                         mDrivers: list[pointer] = {
                             HasBuffDynamicMaterialBoolDriver {
-                                mScriptName: string = "RengarQEmp"
+                                mScriptName: string = "RengarQ"
                             }
                             HasBuffDynamicMaterialBoolDriver {
-                                mScriptName: string = "RengarQ"
+                                mScriptName: string = "RengarQEmp"
                             }
                         }
                     }
                 }
                 mTrueConditionClipName: hash = "Attack4"
-                mFalseConditionClipName: hash = "Tiamat_LeapChk"
+                mFalseConditionClipName: hash = "Tiamat_StateCheck"
             }
-            "Tiamat_LeapChk" = ConditionBoolClipData {
+            "Tiamat_StateCheck" = ConditionBoolClipData {
                 Updater: pointer = LogicDriverBoolParametricUpdater {
                     driver: pointer = AllTrueMaterialDriver {
                         mDrivers: list[pointer] = {
@@ -412,27 +412,18 @@ entries: map[hash,embed] = {
                             }
                             IsAnimationPlayingDynamicMaterialBoolDriver {
                                 mAnimationNames: list[hash] = {
-                                    "Attack1_Actions"
-                                    "Attack2_BASE"
-                                    "Attack3_BASE"
-                                    "Crit_BASE"
-                                    "Run"
-                                    "Run1_Fast"
-                                    "Run2_BASE"
-                                    "Idle1_BASE"
-                                    "Idle2_BASE"
-                                    "Idle3_BASE"
-                                    "Spell5_Ult"
                                     "Spell5_Bush"
+                                    "Spell5_Ult"
+                                    "Tiamat_Logic_Off"
                                 }
                             }
                         }
                     }
                 }
-                mTrueConditionClipName: hash = "Tiamat_LeapWrap"
+                mTrueConditionClipName: hash = "Tiamat_LeapCheck"
                 mFalseConditionClipName: hash = "Attack4"
             }
-            "Tiamat_LeapWrap" = ConditionBoolClipData {
+            "Tiamat_LeapCheck" = ConditionBoolClipData {
                 Updater: pointer = LogicDriverBoolParametricUpdater {
                     driver: pointer = AllTrueMaterialDriver {
                         mDrivers: list[pointer] = {
@@ -472,49 +463,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mTrueConditionClipName: hash = "Attack4"
-                mFalseConditionClipName: hash = "Tiamat_RunChk"
-            }
-            "Tiamat_RunChk" = ConditionBoolClipData {
-                Updater: pointer = LogicDriverBoolParametricUpdater {
-                    driver: pointer = AllTrueMaterialDriver {
-                        mDrivers: list[pointer] = {
-                            OneTrueMaterialDriver {
-                                mDrivers: list[pointer] = {
-                                    HasBuffDynamicMaterialBoolDriver {
-                                        mScriptName: string = "RengarQASBuff"
-                                    }
-                                    HasBuffDynamicMaterialBoolDriver {
-                                        mScriptName: string = "RengarQEmpASBuff"
-                                    }
-                                }
-                            }
-                            IsAnimationPlayingDynamicMaterialBoolDriver {
-                                mAnimationNames: list[hash] = {
-                                    "Attack1_Actions"
-                                    "Attack2_BASE"
-                                    "Attack3_BASE"
-                                    "Crit_BASE"
-                                    "Run2_BASE"
-                                    "Spell5_Ult"
-                                    "Spell5_Bush"
-                                }
-                            }
-                        }
-                    }
-                }
-                mTrueConditionClipName: hash = "Attack1_BASE"
-                mFalseConditionClipName: hash = "Tiamat_Wrap"
-            }
-            "Tiamat_Wrap" = ConditionBoolClipData {
-                Updater: pointer = LogicDriverBoolParametricUpdater {
-                    driver: pointer = IsAnimationPlayingDynamicMaterialBoolDriver {
-                        mAnimationNames: list[hash] = {
-                            "Tiamat_Logic_Off"
-                        }
-                    }
-                }
-                mTrueConditionClipName: hash = "Attack1_BASE"
-                mFalseConditionClipName: hash = "Attack4"
+                mFalseConditionClipName: hash = "Attack1_BASE"
             }
             "Attack1_BASE" = ParallelClipData {
                 mClipNameList: list[hash] = {
