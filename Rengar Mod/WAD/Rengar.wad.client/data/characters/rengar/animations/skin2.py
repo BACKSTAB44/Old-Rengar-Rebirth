@@ -59,6 +59,7 @@ entries: map[hash,embed] = {
                 }
             }
             "Crit_BASE" = AtomicClipData {
+                mFlags: u32 = 1
                 mTrackDataName: hash = "Actions"
                 mEventDataMap: map[hash,pointer] = {
                     "Crit" = ParticleEventData {
