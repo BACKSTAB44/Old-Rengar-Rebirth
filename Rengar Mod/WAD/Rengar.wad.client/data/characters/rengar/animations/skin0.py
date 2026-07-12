@@ -573,12 +573,7 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_attack4.anm"
                 }
             }
-            "Idle1" = SequencerClipData {
-                mClipNameList: list[hash] = {
-                    "Idle1_BASE"
-                }
-            }
-            "Idle1_BASE" = AtomicClipData {
+            "Idle1" = AtomicClipData {
                 mFlags: u32 = 2
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
