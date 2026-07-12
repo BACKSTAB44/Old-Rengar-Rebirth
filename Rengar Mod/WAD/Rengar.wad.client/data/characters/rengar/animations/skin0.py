@@ -95,7 +95,7 @@ entries: map[hash,embed] = {
                 }
             }
             "death" = AtomicClipData {
-                mTrackDataName: hash = "Actions"
+                mTrackDataName: hash = "Channel"
                 mEventDataMap: map[hash,pointer] = {
                     "StopChannel" = StopAnimationEventData {
                         mStopAnimationName: hash = "Channel"
@@ -784,625 +784,349 @@ entries: map[hash,embed] = {
             }
         }
         mBlendDataTable: map[u64,pointer] = {
-            4930726027702189345 = TimeBlendData {
+            13987674969707957024 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            7794375146876298347 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            16132709914726491243 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            13590883337026950592 = TimeBlendData {
-                mTime: f32 = 0.2
-            }
-            13156647003641632192 = TimeBlendData {
-                mTime: f32 = 0.2
-            }
-            3405941502114026944 = TimeBlendData {
+            6521702300817345312 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            13039675252962252224 = TimeBlendData {
+            893241263926594336 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            13111734577872000448 = TimeBlendData {
+            7893826270353476384 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            8175344642410436032 = TimeBlendData {
+            7714889501781314336 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            13183793902781748672 = TimeBlendData {
+            7064088775459130144 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            10832289107674420672 = TimeBlendData {
+            6929639312498674464 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            13987674968704701888 = TimeBlendData {
+            13590883338030205728 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            11230245603202323904 = TimeBlendData {
+            1548379791253621536 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            6391149149580187072 = TimeBlendData {
+            7174843320459381536 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            6463208474489935296 = TimeBlendData {
+            13039675253965507360 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            6247030499760690624 = TimeBlendData {
+            10046748850188765984 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            6030852525031445952 = TimeBlendData {
+            17825496520931199776 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            6427569501587658176 = TimeBlendData {
+            13111734578875255584 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            3084207950102025664 = TimeBlendData {
+            5488735964317666080 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            7064088774455875008 = TimeBlendData {
+            6427569502590913312 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            6929639311495419328 = TimeBlendData {
+            934847977922546464 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            11302304928112072128 = TimeBlendData {
+            7794375147268393760 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            11374364253021820352 = TimeBlendData {
+            3084207951105280800 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            13255853227691496896 = TimeBlendData {
+            13156647004644887328 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            12217611125164103104 = TimeBlendData {
+            11302304929115327264 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            5406481391066305984 = TimeBlendData {
+            16132709915118586656 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            13399971877510993344 = TimeBlendData {
+            11374364254025075488 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            13630352411439945152 = TimeBlendData {
+            7794375147268393760 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            17876238947190068672 = TimeBlendData {
+            13630352412443200288 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            11831733632450713024 = TimeBlendData {
+            17876238948193323808 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            2432597613854610880 = TimeBlendData {
+            10832289108677675808 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            13590883339297213630 = TimeBlendData {
+            6347110896687434528 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            13156647005911895230 = TimeBlendData {
+            11831733633453968160 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            3405941504384289982 = TimeBlendData {
+            13022361218593114912 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            13039675255232515262 = TimeBlendData {
+            13987674969749618987 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            13111734580142263486 = TimeBlendData {
+            6521702300859007275 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            8175344644680699070 = TimeBlendData {
+            893241263968256299 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            13183793905052011710 = TimeBlendData {
+            7893826270395138347 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            10832289109944683710 = TimeBlendData {
+            7714889501822976299 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            13987674970974964926 = TimeBlendData {
+            7064088775500792107 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            11230245605472586942 = TimeBlendData {
+            6929639312540336427 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            6391149151850450110 = TimeBlendData {
+            13590883338071867691 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            6463208476760198334 = TimeBlendData {
+            1548379791295283499 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            6247030502030953662 = TimeBlendData {
+            7174843320501043499 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            6030852527301708990 = TimeBlendData {
+            13039675254007169323 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            6427569503857921214 = TimeBlendData {
+            10046748850230427947 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            3084207952372288702 = TimeBlendData {
+            17825496520972861739 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            7064088776726138046 = TimeBlendData {
+            5488735964359328043 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            6929639313765682366 = TimeBlendData {
+            6427569502632575275 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            11302304930382335166 = TimeBlendData {
+            934847977964208427 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            11374364255292083390 = TimeBlendData {
+            3084207951146942763 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            13255853229961759934 = TimeBlendData {
+            13156647004686549291 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            12217611127434366142 = TimeBlendData {
+            11302304929156989227 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            5406481393336569022 = TimeBlendData {
+            16132709915160248619 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            13399971879781256382 = TimeBlendData {
+            11374364254066737451 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            13630352413710208190 = TimeBlendData {
+            7794375147310055723 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            17876238949460331710 = TimeBlendData {
+            13630352412484862251 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            11831733634720976062 = TimeBlendData {
+            17876238948234985771 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            2432597616124873918 = TimeBlendData {
+            6347110896729096491 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            13590883339398317155 = TimeBlendData {
+            11831733633495630123 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            13156647006012998755 = TimeBlendData {
+            13022361218634776875 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            3405941504485393507 = TimeBlendData {
+            13987674968119668274 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            13039675255333618787 = TimeBlendData {
+            6521702299229056562 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            13111734580243367011 = TimeBlendData {
+            893241262338305586 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            8175344644781802595 = TimeBlendData {
+            7893826268765187634 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            13183793905153115235 = TimeBlendData {
+            7714889500193025586 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            10832289110045787235 = TimeBlendData {
+            7064088773870841394 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            13987674971076068451 = TimeBlendData {
+            6929639310910385714 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            11230245605573690467 = TimeBlendData {
+            13590883336441916978 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            6391149151951553635 = TimeBlendData {
+            1548379789665332786 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            6463208476861301859 = TimeBlendData {
+            7174843318871092786 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            6247030502132057187 = TimeBlendData {
+            13039675252377218610 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            6030852527402812515 = TimeBlendData {
+            10046748848600477234 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            6427569503959024739 = TimeBlendData {
+            17825496519342911026 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            3084207952473392227 = TimeBlendData {
+            13111734577286966834 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            7064088776827241571 = TimeBlendData {
+            5488735962729377330 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            6929639313866785891 = TimeBlendData {
+            6427569501002624562 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            11302304930483438691 = TimeBlendData {
+            934847976334257714 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            11374364255393186915 = TimeBlendData {
+            3084207949516992050 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            13255853230062863459 = TimeBlendData {
+            13156647003056598578 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            12217611127535469667 = TimeBlendData {
+            11302304927527038514 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            5406481393437672547 = TimeBlendData {
+            16132709913530297906 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            13399971879882359907 = TimeBlendData {
+            11374364252436786738 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            13630352413811311715 = TimeBlendData {
+            7794375145680105010 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            17876238949561435235 = TimeBlendData {
+            17876238946605035058 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            11831733634822079587 = TimeBlendData {
+            6347110895099145778 = TimeBlendData {
                 mTime: f32 = 0.2
             }
-            2432597616225977443 = TimeBlendData {
+            11831733631865679410 = TimeBlendData {
                 mTime: f32 = 0.2
-            }
-            2432597615709903878 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            2432597616147972167 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            2432597615906237590 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            2432597614320397870 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            2432597616181527405 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            11831733634306006022 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            11831733634744074311 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            11831733634502339734 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            11831733632916500014 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            11831733634777629549 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            17876238949045361670 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            17876238949483429959 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            17876238949241695382 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            17876238947655855662 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            17876238949516985197 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            13630352413295238150 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            13630352413733306439 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            13630352413491571862 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            13630352411905732142 = TimeBlendData {
-                mTime: f32 = 0
             }
-            13630352413766861677 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            11374364254877113350 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            11374364255315181639 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            11374364255073447062 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            11374364253487607342 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            11374364255348736877 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            11302304929967365126 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            11302304930405433415 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            11302304930163698838 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            11302304928577859118 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            11302304930438988653 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6929639313350712326 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6929639313788780615 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6929639313547046038 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6929639311961206318 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6929639313822335853 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            7064088776311168006 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            7064088776749236295 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            7064088776507501718 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            7064088774921661998 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            7064088776782791533 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            3084207951957318662 = TimeBlendData {
+            13022361217004826162 = TimeBlendData {
                 mTime: f32 = 0.2
-            }
-            3084207952395386951 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            3084207952153652374 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            3084207950567812654 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            3084207952428942189 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6427569503442951174 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6427569503881019463 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6427569503639284886 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6427569502053445166 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6427569503914574701 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6030852526886738950 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6030852527324807239 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6030852527083072662 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6030852525497232942 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6030852527358362477 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6247030501615983622 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6247030502054051911 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6247030501812317334 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6247030500226477614 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6247030502087607149 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6463208476345228294 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6463208476783296583 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6463208476541562006 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6463208474955722286 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6463208476816851821 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6391149151435480070 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6391149151873548359 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6391149151631813782 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6391149150045974062 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            6391149151907103597 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            11230245605057616902 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            11230245605495685191 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            11230245605253950614 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            11230245603668110894 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            11230245605529240429 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            13987674970559994886 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            13987674970998063175 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            13987674970756328598 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            13987674969170488878 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            13987674971031618413 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            10832289109529713670 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            10832289109967781959 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            10832289109726047382 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            10832289108140207662 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            10832289110001337197 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            13183793904637041670 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            13183793905075109959 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            13183793904833375382 = TimeBlendData {
-                mTime: f32 = 0
-            }
-            13183793903247535662 = TimeBlendData {
-                mTime: f32 = 0
             }
-            13183793905108665197 = TimeBlendData {
+            13022361219970415949 = TimeBlendData {
                 mTime: f32 = 0
             }
-            8175344644265729030 = TimeBlendData {
+            11831733634831269197 = TimeBlendData {
                 mTime: f32 = 0
             }
-            8175344644703797319 = TimeBlendData {
+            6347110898064735565 = TimeBlendData {
                 mTime: f32 = 0
             }
-            8175344644462062742 = TimeBlendData {
+            17876238949570624845 = TimeBlendData {
                 mTime: f32 = 0
             }
-            8175344642876223022 = TimeBlendData {
+            13630352413820501325 = TimeBlendData {
                 mTime: f32 = 0
             }
-            8175344644737352557 = TimeBlendData {
+            11374364255402376525 = TimeBlendData {
                 mTime: f32 = 0
             }
-            13111734579727293446 = TimeBlendData {
+            7794375148645694797 = TimeBlendData {
                 mTime: f32 = 0
             }
-            13111734580165361735 = TimeBlendData {
+            11302304930492628301 = TimeBlendData {
                 mTime: f32 = 0
             }
-            13111734579923627158 = TimeBlendData {
+            16132709916495887693 = TimeBlendData {
                 mTime: f32 = 0
             }
-            13111734578337787438 = TimeBlendData {
+            13156647006022188365 = TimeBlendData {
                 mTime: f32 = 0
             }
-            13111734580198916973 = TimeBlendData {
+            3084207952482581837 = TimeBlendData {
                 mTime: f32 = 0
             }
-            13039675254817545222 = TimeBlendData {
+            6427569503968214349 = TimeBlendData {
                 mTime: f32 = 0
             }
-            13039675255255613511 = TimeBlendData {
+            934847979299847501 = TimeBlendData {
                 mTime: f32 = 0
             }
-            13039675255013878934 = TimeBlendData {
+            5488735965694967117 = TimeBlendData {
                 mTime: f32 = 0
             }
-            13039675253428039214 = TimeBlendData {
+            13111734580252556621 = TimeBlendData {
                 mTime: f32 = 0
             }
-            13039675255289168749 = TimeBlendData {
+            13039675255342808397 = TimeBlendData {
                 mTime: f32 = 0
             }
-            3405941503969319942 = TimeBlendData {
+            10046748851566067021 = TimeBlendData {
                 mTime: f32 = 0
             }
-            3405941504407388231 = TimeBlendData {
+            17825496522308500813 = TimeBlendData {
                 mTime: f32 = 0
             }
-            3405941504165653654 = TimeBlendData {
+            1548379792630922573 = TimeBlendData {
                 mTime: f32 = 0
             }
-            3405941502579813934 = TimeBlendData {
+            7174843321836682573 = TimeBlendData {
                 mTime: f32 = 0
             }
-            3405941504440943469 = TimeBlendData {
+            13590883339407506765 = TimeBlendData {
                 mTime: f32 = 0
             }
-            13156647005496925190 = TimeBlendData {
+            6929639313875975501 = TimeBlendData {
                 mTime: f32 = 0
             }
-            13156647005934993479 = TimeBlendData {
+            7064088776836431181 = TimeBlendData {
                 mTime: f32 = 0
             }
-            13156647005693258902 = TimeBlendData {
+            7714889503158615373 = TimeBlendData {
                 mTime: f32 = 0
             }
-            13156647004107419182 = TimeBlendData {
+            7893826271730777421 = TimeBlendData {
                 mTime: f32 = 0
             }
-            13156647005968548717 = TimeBlendData {
+            893241265303895373 = TimeBlendData {
                 mTime: f32 = 0
             }
-            13590883338882243590 = TimeBlendData {
+            6521702302194646349 = TimeBlendData {
                 mTime: f32 = 0
             }
-            13590883339320311879 = TimeBlendData {
+            13987674971085258061 = TimeBlendData {
                 mTime: f32 = 0
             }
-            13590883339078577302 = TimeBlendData {
+            11230245605582880077 = TimeBlendData {
                 mTime: f32 = 0
             }
-            13590883337492737582 = TimeBlendData {
+            8555650310791019853 = TimeBlendData {
                 mTime: f32 = 0
             }
-            13590883339353867117 = TimeBlendData {
+            3405941504494583117 = TimeBlendData {
                 mTime: f32 = 0
             }
         }

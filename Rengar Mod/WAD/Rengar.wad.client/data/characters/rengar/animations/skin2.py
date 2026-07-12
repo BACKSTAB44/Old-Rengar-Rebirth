@@ -95,7 +95,7 @@ entries: map[hash,embed] = {
                 }
             }
             "death" = AtomicClipData {
-                mTrackDataName: hash = "Actions"
+                mTrackDataName: hash = "Channel"
                 mEventDataMap: map[hash,pointer] = {
                     "StopChannel" = StopAnimationEventData {
                         mStopAnimationName: hash = "Channel"
