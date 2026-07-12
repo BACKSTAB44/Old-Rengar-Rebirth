@@ -11,818 +11,818 @@
     "mCascadeBlendValue": 0.0,
     "mBlendDataAry": [
       {
-        "mFromAnimId": 24,
-        "mToAnimId": 21,
+        "mFromAnimId": 24, #Joke
+        "mToAnimId": 21, #Attack1
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 23,
-        "mToAnimId": 21,
+        "mFromAnimId": 23, #Attack3
+        "mToAnimId": 21, #Attack1
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 22,
-        "mToAnimId": 21,
+        "mFromAnimId": 22, #Attack2
+        "mToAnimId": 21, #Attack1
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 21,
-        "mToAnimId": 21,
+        "mFromAnimId": 21, #Attack1
+        "mToAnimId": 21, #Attack1
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 20,
-        "mToAnimId": 21,
+        "mFromAnimId": 20, #Raw_LionGuy_recall_idle
+        "mToAnimId": 21, #Attack1
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 19,
-        "mToAnimId": 21,
+        "mFromAnimId": 19, #Raw_LionGuy_recall
+        "mToAnimId": 21, #Attack1
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 18,
-        "mToAnimId": 21,
+        "mFromAnimId": 18, #Taunt_BASE
+        "mToAnimId": 21, #Attack1
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 17,
-        "mToAnimId": 21,
+        "mFromAnimId": 17, #Spell6
+        "mToAnimId": 21, #Attack1
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 16,
-        "mToAnimId": 21,
+        "mFromAnimId": 16, #Spell5
+        "mToAnimId": 21, #Attack1
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 15,
-        "mToAnimId": 21,
+        "mFromAnimId": 15, #Spell4_Winddown
+        "mToAnimId": 21, #Attack1
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 14,
-        "mToAnimId": 21,
+        "mFromAnimId": 14, #Spell4_Loop
+        "mToAnimId": 21, #Attack1
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 13,
-        "mToAnimId": 21,
+        "mFromAnimId": 13, #Spell4
+        "mToAnimId": 21, #Attack1
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 12,
-        "mToAnimId": 21,
+        "mFromAnimId": 12, #Spell3
+        "mToAnimId": 21, #Attack1
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 11,
-        "mToAnimId": 21,
+        "mFromAnimId": 11, #Spell2
+        "mToAnimId": 21, #Attack1
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 10,
-        "mToAnimId": 21,
+        "mFromAnimId": 10, #Spell1 (Attack4)
+        "mToAnimId": 21, #Attack1
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 9,
-        "mToAnimId": 21,
+        "mFromAnimId": 9, #Run2
+        "mToAnimId": 21, #Attack1
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 8,
-        "mToAnimId": 21,
+        "mFromAnimId": 8, #Run
+        "mToAnimId": 21, #Attack1
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 7,
-        "mToAnimId": 21,
+        "mFromAnimId": 7, #Laugh_BASE
+        "mToAnimId": 21, #Attack1
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 6,
-        "mToAnimId": 21,
+        "mFromAnimId": 6, #Idle2_BASE
+        "mToAnimId": 21, #Attack1
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 5,
-        "mToAnimId": 21,
+        "mFromAnimId": 5, #Idle1_BASE
+        "mToAnimId": 21, #Attack1
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 4,
-        "mToAnimId": 21,
+        "mFromAnimId": 4, #Death
+        "mToAnimId": 21, #Attack1
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 3,
-        "mToAnimId": 21,
+        "mFromAnimId": 3, #Dance_BASE
+        "mToAnimId": 21, #Attack1
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 2,
-        "mToAnimId": 21,
+        "mFromAnimId": 2, #Crit
+        "mToAnimId": 21, #Attack1
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 1,
-        "mToAnimId": 21,
+        "mFromAnimId": 1, #Channel_WNDUP
+        "mToAnimId": 21, #Attack1
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 0,
-        "mToAnimId": 21,
+        "mFromAnimId": 0, #Channel
+        "mToAnimId": 21, #Attack1
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 24,
-        "mToAnimId": 22,
+        "mFromAnimId": 24, #Joke
+        "mToAnimId": 22, #Attack2
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 23,
-        "mToAnimId": 22,
+        "mFromAnimId": 23, #Attack3
+        "mToAnimId": 22, #Attack2
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 22,
-        "mToAnimId": 22,
+        "mFromAnimId": 22, #Attack2
+        "mToAnimId": 22, #Attack2
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 21,
-        "mToAnimId": 22,
+        "mFromAnimId": 21, #Attack1
+        "mToAnimId": 22, #Attack2
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 20,
-        "mToAnimId": 22,
+        "mFromAnimId": 20, #Raw_LionGuy_recall_idle
+        "mToAnimId": 22, #Attack2
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 19,
-        "mToAnimId": 22,
+        "mFromAnimId": 19, #Raw_LionGuy_recall
+        "mToAnimId": 22, #Attack2
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 18,
-        "mToAnimId": 22,
+        "mFromAnimId": 18, #Taunt_BASE
+        "mToAnimId": 22, #Attack2
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 17,
-        "mToAnimId": 22,
+        "mFromAnimId": 17, #Spell6
+        "mToAnimId": 22, #Attack2
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 16,
-        "mToAnimId": 22,
+        "mFromAnimId": 16, #Spell5
+        "mToAnimId": 22, #Attack2
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 15,
-        "mToAnimId": 22,
+        "mFromAnimId": 15, #Spell4_Winddown
+        "mToAnimId": 22, #Attack2
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 14,
-        "mToAnimId": 22,
+        "mFromAnimId": 14, #Spell4_Loop
+        "mToAnimId": 22, #Attack2
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 13,
-        "mToAnimId": 22,
+        "mFromAnimId": 13, #Spell4
+        "mToAnimId": 22, #Attack2
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 12,
-        "mToAnimId": 22,
+        "mFromAnimId": 12, #Spell3
+        "mToAnimId": 22, #Attack2
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 11,
-        "mToAnimId": 22,
+        "mFromAnimId": 11, #Spell2
+        "mToAnimId": 22, #Attack2
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 10,
-        "mToAnimId": 22,
+        "mFromAnimId": 10, #Spell1 (Attack4)
+        "mToAnimId": 22, #Attack2
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 9,
-        "mToAnimId": 22,
+        "mFromAnimId": 9, #Run2
+        "mToAnimId": 22, #Attack2
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 8,
-        "mToAnimId": 22,
+        "mFromAnimId": 8, #Run
+        "mToAnimId": 22, #Attack2
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 7,
-        "mToAnimId": 22,
+        "mFromAnimId": 7, #Laugh_BASE
+        "mToAnimId": 22, #Attack2
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 6,
-        "mToAnimId": 22,
+        "mFromAnimId": 6, #Idle2_BASE
+        "mToAnimId": 22, #Attack2
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 5,
-        "mToAnimId": 22,
+        "mFromAnimId": 5, #Idle1_BASE
+        "mToAnimId": 22, #Attack2
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 4,
-        "mToAnimId": 22,
+        "mFromAnimId": 4, #Death
+        "mToAnimId": 22, #Attack2
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 3,
-        "mToAnimId": 22,
+        "mFromAnimId": 3, #Dance_BASE
+        "mToAnimId": 22, #Attack2
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 2,
-        "mToAnimId": 22,
+        "mFromAnimId": 2, #Crit
+        "mToAnimId": 22, #Attack2
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 1,
-        "mToAnimId": 22,
+        "mFromAnimId": 1, #Channel_WNDUP
+        "mToAnimId": 22, #Attack2
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 0,
-        "mToAnimId": 22,
+        "mFromAnimId": 0, #Channel
+        "mToAnimId": 22, #Attack2
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 24,
-        "mToAnimId": 23,
+        "mFromAnimId": 24, #Joke
+        "mToAnimId": 23, #Attack3
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 23,
-        "mToAnimId": 23,
+        "mFromAnimId": 23, #Attack3
+        "mToAnimId": 23, #Attack3
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 22,
-        "mToAnimId": 23,
+        "mFromAnimId": 22, #Attack2
+        "mToAnimId": 23, #Attack3
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 21,
-        "mToAnimId": 23,
+        "mFromAnimId": 21, #Attack1
+        "mToAnimId": 23, #Attack3
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 20,
-        "mToAnimId": 23,
+        "mFromAnimId": 20, #Raw_LionGuy_recall_idle
+        "mToAnimId": 23, #Attack3
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 19,
-        "mToAnimId": 23,
+        "mFromAnimId": 19, #Raw_LionGuy_recall
+        "mToAnimId": 23, #Attack3
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 18,
-        "mToAnimId": 23,
+        "mFromAnimId": 18, #Taunt_BASE
+        "mToAnimId": 23, #Attack3
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 17,
-        "mToAnimId": 23,
+        "mFromAnimId": 17, #Spell6
+        "mToAnimId": 23, #Attack3
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 16,
-        "mToAnimId": 23,
+        "mFromAnimId": 16, #Spell5
+        "mToAnimId": 23, #Attack3
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 15,
-        "mToAnimId": 23,
+        "mFromAnimId": 15, #Spell4_Winddown
+        "mToAnimId": 23, #Attack3
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 14,
-        "mToAnimId": 23,
+        "mFromAnimId": 14, #Spell4_Loop
+        "mToAnimId": 23, #Attack3
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 13,
-        "mToAnimId": 23,
+        "mFromAnimId": 13, #Spell4
+        "mToAnimId": 23, #Attack3
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 12,
-        "mToAnimId": 23,
+        "mFromAnimId": 12, #Spell3
+        "mToAnimId": 23, #Attack3
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 11,
-        "mToAnimId": 23,
+        "mFromAnimId": 11, #Spell2
+        "mToAnimId": 23, #Attack3
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 10,
-        "mToAnimId": 23,
+        "mFromAnimId": 10, #Spell1 (Attack4)
+        "mToAnimId": 23, #Attack3
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 9,
-        "mToAnimId": 23,
+        "mFromAnimId": 9, #Run2
+        "mToAnimId": 23, #Attack3
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 8,
-        "mToAnimId": 23,
+        "mFromAnimId": 8, #Run
+        "mToAnimId": 23, #Attack3
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 7,
-        "mToAnimId": 23,
+        "mFromAnimId": 7, #Laugh_BASE
+        "mToAnimId": 23, #Attack3
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 6,
-        "mToAnimId": 23,
+        "mFromAnimId": 6, #Idle2_BASE
+        "mToAnimId": 23, #Attack3
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 5,
-        "mToAnimId": 23,
+        "mFromAnimId": 5, #Idle1_BASE
+        "mToAnimId": 23, #Attack3
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 4,
-        "mToAnimId": 23,
+        "mFromAnimId": 4, #Death
+        "mToAnimId": 23, #Attack3
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 3,
-        "mToAnimId": 23,
+        "mFromAnimId": 3, #Dance_BASE
+        "mToAnimId": 23, #Attack3
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 2,
-        "mToAnimId": 23,
+        "mFromAnimId": 2, #Crit
+        "mToAnimId": 23, #Attack3
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 1,
-        "mToAnimId": 23,
+        "mFromAnimId": 1, #Channel_WNDUP
+        "mToAnimId": 23, #Attack3
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 0,
-        "mToAnimId": 23,
+        "mFromAnimId": 0, #Channel
+        "mToAnimId": 23, #Attack3
         "mBlendFlags": 0,
         "mBlendTime": 0.2
       },
       {
-        "mFromAnimId": 4,
-        "mToAnimId": 36,
+        "mFromAnimId": 4, #Death
+        "mToAnimId": 36, #Idle3_TASSEL
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 4,
-        "mToAnimId": 25,
+        "mFromAnimId": 4, #Death
+        "mToAnimId": 25, #Idle3_BASE
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 4,
-        "mToAnimId": 33,
+        "mFromAnimId": 4, #Death
+        "mToAnimId": 33, #Idle2_TASSEL
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 4,
-        "mToAnimId": 6,
+        "mFromAnimId": 4, #Death
+        "mToAnimId": 6, #Idle2_BASE
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 4,
-        "mToAnimId": 31,
+        "mFromAnimId": 4, #Death
+        "mToAnimId": 31, #Idle1_TASSEL
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 4,
-        "mToAnimId": 5,
+        "mFromAnimId": 4, #Death
+        "mToAnimId": 5, #Idle1_BASE
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 28,
-        "mToAnimId": 36,
+        "mFromAnimId": 28, #Recall
+        "mToAnimId": 36, #Idle3_TASSEL
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 28,
-        "mToAnimId": 25,
+        "mFromAnimId": 28, #Recall
+        "mToAnimId": 25, #Idle3_BASE
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 28,
-        "mToAnimId": 33,
+        "mFromAnimId": 28, #Recall
+        "mToAnimId": 33, #Idle2_TASSEL
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 28,
-        "mToAnimId": 6,
+        "mFromAnimId": 28, #Recall
+        "mToAnimId": 6, #Idle2_BASE
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 28,
-        "mToAnimId": 31,
+        "mFromAnimId": 28, #Recall
+        "mToAnimId": 31, #Idle1_TASSEL
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 28,
-        "mToAnimId": 5,
+        "mFromAnimId": 28, #Recall
+        "mToAnimId": 5, #Idle1_BASE
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 28,
-        "mToAnimId": 43,
+        "mFromAnimId": 28, #Recall
+        "mToAnimId": 43, #recall_winddown
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 28,
-        "mToAnimId": 28,
+        "mFromAnimId": 28, #Recall
+        "mToAnimId": 28, #Recall
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 0,
-        "mToAnimId": 4,
+        "mFromAnimId": 0, #Channel
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 1,
-        "mToAnimId": 4,
+        "mFromAnimId": 1, #Channel_WNDUP
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 2,
-        "mToAnimId": 4,
+        "mFromAnimId": 2, #Crit
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 3,
-        "mToAnimId": 4,
+        "mFromAnimId": 3, #Dance_BASE
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 4,
-        "mToAnimId": 4,
+        "mFromAnimId": 4, #Death
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 5,
-        "mToAnimId": 4,
+        "mFromAnimId": 5, #Idle1_BASE
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 6,
-        "mToAnimId": 4,
+        "mFromAnimId": 6, #Idle2_BASE
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 7,
-        "mToAnimId": 4,
+        "mFromAnimId": 7, #Laugh_BASE
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 8,
-        "mToAnimId": 4,
+        "mFromAnimId": 8, #Run
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 9,
-        "mToAnimId": 4,
+        "mFromAnimId": 9, #Run2
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 10,
-        "mToAnimId": 4,
+        "mFromAnimId": 10, #Spell1 (Attack4)
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 11,
-        "mToAnimId": 4,
+        "mFromAnimId": 11, #Spell2
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 12,
-        "mToAnimId": 4,
+        "mFromAnimId": 12, #Spell3
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 13,
-        "mToAnimId": 4,
+        "mFromAnimId": 13, #Spell4
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 14,
-        "mToAnimId": 4,
+        "mFromAnimId": 14, #Spell4_Loop
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 15,
-        "mToAnimId": 4,
+        "mFromAnimId": 15, #Spell4_Winddown
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 16,
-        "mToAnimId": 4,
+        "mFromAnimId": 16, #Spell5
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 17,
-        "mToAnimId": 4,
+        "mFromAnimId": 17, #Spell6
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 18,
-        "mToAnimId": 4,
+        "mFromAnimId": 18, #Taunt_BASE
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 19,
-        "mToAnimId": 4,
+        "mFromAnimId": 19, #Raw_LionGuy_recall
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 20,
-        "mToAnimId": 4,
+        "mFromAnimId": 20, #Raw_LionGuy_recall_idle
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 21,
-        "mToAnimId": 4,
+        "mFromAnimId": 21, #Attack1
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 22,
-        "mToAnimId": 4,
+        "mFromAnimId": 22, #Attack2
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 23,
-        "mToAnimId": 4,
+        "mFromAnimId": 23, #Attack3
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 24,
-        "mToAnimId": 4,
+        "mFromAnimId": 24, #Joke
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 25,
-        "mToAnimId": 4,
+        "mFromAnimId": 25, #Idle3_BASE
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 26,
-        "mToAnimId": 4,
+        "mFromAnimId": 26, #Spell1_Long
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 27,
-        "mToAnimId": 4,
+        "mFromAnimId": 27, #run1_Fast_BASE
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 28,
-        "mToAnimId": 4,
+        "mFromAnimId": 28, #Recall
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 29,
-        "mToAnimId": 4,
+        "mFromAnimId": 29, #run1_Fast
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 30,
-        "mToAnimId": 4,
+        "mFromAnimId": 30, #run1_Fast_TASSEL
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 31,
-        "mToAnimId": 4,
+        "mFromAnimId": 31, #Idle1_TASSEL
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 32,
-        "mToAnimId": 4,
+        "mFromAnimId": 32, #Idle1
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 33,
-        "mToAnimId": 4,
+        "mFromAnimId": 33, #Idle2_TASSEL
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 34,
-        "mToAnimId": 4,
+        "mFromAnimId": 34, #Idle2
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 35,
-        "mToAnimId": 4,
+        "mFromAnimId": 35, #Idle3
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 36,
-        "mToAnimId": 4,
+        "mFromAnimId": 36, #Idle3_TASSEL
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 37,
-        "mToAnimId": 4,
+        "mFromAnimId": 37, #Taunt_TASSEL
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 38,
-        "mToAnimId": 4,
+        "mFromAnimId": 38, #Taunt
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 39,
-        "mToAnimId": 4,
+        "mFromAnimId": 39, #Laugh_Tassel
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 40,
-        "mToAnimId": 4,
+        "mFromAnimId": 40, #Laugh
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 41,
-        "mToAnimId": 4,
+        "mFromAnimId": 41, #Dance
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 42,
-        "mToAnimId": 4,
+        "mFromAnimId": 42, #Dance_TASSEL
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 43,
-        "mToAnimId": 4,
+        "mFromAnimId": 43, #recall_winddown
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 44,
-        "mToAnimId": 4,
+        "mFromAnimId": 44, #Hood_Loop
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 45,
-        "mToAnimId": 4,
+        "mFromAnimId": 45, #Hood_Off
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       },
       {
-        "mFromAnimId": 46,
-        "mToAnimId": 4,
+        "mFromAnimId": 46, #Hood_On_BASE
+        "mToAnimId": 4, #Death
         "mBlendFlags": 0,
         "mBlendTime": 0.0
       }
