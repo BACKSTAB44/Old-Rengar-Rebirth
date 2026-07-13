@@ -117,6 +117,25 @@ entries: map[hash,embed] = {
                     "MinimalMesh"
                 }
             }
+            PersistentEffectConditionData {
+                OwnerCondition: pointer = AllTrueMaterialDriver {
+                    mDrivers: list[pointer] = {
+                        IsAnimationPlayingDynamicMaterialBoolDriver {
+                            mAnimationNames: list[hash] = {
+                                "TransparencyFix"
+                            }
+                        }
+                        NotMaterialDriver {
+                            mDriver: pointer = IsInGrassDynamicMaterialBoolDriver {}
+                        }
+                    }
+                }
+                PersistentVfxs: list2[embed] = {
+                    PersistentVfxData {
+                        effectKey: hash = "Rengar_R_LeapMat"
+                    }
+                }
+            }
         }
     }
     "Characters/Rengar/Skins/Skin0/Particles/Rengar_Skin3_R_Leap" = VfxSystemDefinitionData {
@@ -127,12 +146,6 @@ entries: map[hash,embed] = {
                 }
                 particleLifetime: embed = ValueFloat {
                     constantValue: f32 = 1
-                }
-                lifetime: option[f32] = {
-                    5
-                }
-                particleLinger: option[f32] = {
-                    1.25
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Leap3"
@@ -145,7 +158,7 @@ entries: map[hash,embed] = {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
-                            0.5
+                            0.3
                             1
                         }
                         values: list[vec4] = {
@@ -155,7 +168,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                pass: i16 = 98
+                pass: i16 = -2001
                 meshRenderFlags: u8 = 0
                 blendMode: u8 = 1
                 depthBiasFactors: vec2 = { -1, -4 }

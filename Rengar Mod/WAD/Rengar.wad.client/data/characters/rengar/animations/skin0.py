@@ -158,11 +158,6 @@ entries: map[hash,embed] = {
             "Run2_BASE" = AtomicClipData {
                 mFlags: u32 = 2
                 mTrackDataName: hash = "Default"
-                mEventDataMap: map[hash,pointer] = {
-                    "StopE2" = StopAnimationEventData {
-                        mStopAnimationName: hash = "Spell3_Idle"
-                    }
-                }
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_run2.anm"
                 }
@@ -175,10 +170,42 @@ entries: map[hash,embed] = {
                 }
             }
             "Spell3" = ConditionBoolClipData {
+                Updater: pointer = LogicDriverBoolParametricUpdater {
+                    driver: pointer = AllTrueMaterialDriver {
+                        mDrivers: list[pointer] = {
+                            IsAnimationPlayingDynamicMaterialBoolDriver {
+                                mAnimationNames: list[hash] = {
+                                    "Spell5_BASE"
+                                    "Spell5_Null"
+                                }
+                            }
+                            FloatComparisonMaterialDriver {
+                                mOperator: u32 = 3
+                                mValueA: pointer = AnimationFractionDynamicMaterialFloatDriver {
+                                    mAnimationName: hash = "Spell5_Null"
+                                }
+                                mValueB: pointer = FloatLiteralMaterialDriver {
+                                    mValue: f32 = 0.18
+                                }
+                            }
+                        }
+                    }
+                }
+                mTrueConditionClipName: hash = "Spell3_Midair"
+                mFalseConditionClipName: hash = "Spell3_Check"
+            }
+            "Spell3_Check" = ConditionBoolClipData {
                 Updater: pointer = IsMovingParametricUpdater {}
                 mChangeAnimationMidPlay: bool = true
                 mTrueConditionClipName: hash = "Spell3_Run"
                 mFalseConditionClipName: hash = "Spell3_Idle"
+            }
+            "Spell3_Midair" = AtomicClipData {
+                mMaskDataName: hash = "empty"
+                mTrackDataName: hash = "Midair"
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_spell3.anm"
+                }
             }
             "Spell3_Run" = AtomicClipData {
                 mTrackDataName: hash = "Actions"
@@ -198,19 +225,33 @@ entries: map[hash,embed] = {
                         mScriptName: string = "RengarR"
                     }
                 }
-                mTrueConditionClipName: hash = "Spell5_Check"
+                mTrueConditionClipName: hash = "Spell5_Ult"
                 mFalseConditionClipName: hash = "Spell5_Bush"
             }
-            "Spell5_Check" = ConditionBoolClipData {
-                Updater: pointer = LogicDriverBoolParametricUpdater {
-                    driver: pointer = IsInGrassDynamicMaterialBoolDriver {}
+            "Spell5_Bush" = ParallelClipData {
+                mClipNameList: list[hash] = {
+                    "Spell5_Null"
+                    "Spell5_BASE"
                 }
-                mChangeAnimationMidPlay: bool = true
-                mTrueConditionClipName: hash = "Spell5_Bush"
-                mFalseConditionClipName: hash = "Spell5_Ult"
             }
-            "Spell5_Bush" = AtomicClipData {
+            "Spell5_Ult" = ParallelClipData {
+                mClipNameList: list[hash] = {
+                    "Spell5_Null"
+                    "Spell5_BASE"
+                    "TransparencyFix"
+                }
+            }
+            "Spell5_BASE" = AtomicClipData {
+                mFlags: u32 = 1
                 mTrackDataName: hash = "Actions"
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_dash1.anm"
+                }
+            }
+            "Spell5_Null" = AtomicClipData {
+                mFlags: u32 = 1
+                mMaskDataName: hash = "empty"
+                mTrackDataName: hash = "Null"
                 mEventDataMap: map[hash,pointer] = {
                     "StopE" = StopAnimationEventData {
                         mStopAnimationName: hash = "Spell3"
@@ -218,44 +259,19 @@ entries: map[hash,embed] = {
                     }
                     "LockSpell3" = LockRootOrientationEventData {
                         JointName: hash = "root"
-                        mEndFrame: f32 = 21
-                    }
-                    "StopTiamat" = StopAnimationEventData {
-                        mStopAnimationName: hash = "Tiamat_Logic_On"
-                        mEndFrame: f32 = 1
+                        mEndFrame: f32 = 20
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_dash1.anm"
                 }
             }
-            "Spell5_Ult" = AtomicClipData {
-                mTrackDataName: hash = "Actions"
-                mEventDataMap: map[hash,pointer] = {
-                    "TransFix" = ParticleEventData {
-                        mEffectKey: hash = "Rengar_R_LeapMat"
-                        mParticleEventDataPairList: list[embed] = {
-                            ParticleEventDataPair {}
-                        }
-                        mFireIfAnimationEndsEarly: bool = true
-                        mIsLoop: bool = false
-                        mIsKillEvent: bool = false
-                    }
-                    "StopE" = StopAnimationEventData {
-                        mStopAnimationName: hash = "Spell3"
-                        mEndFrame: f32 = 24
-                    }
-                    "LockSpell3" = LockRootOrientationEventData {
-                        JointName: hash = "root"
-                        mEndFrame: f32 = 21
-                    }
-                    "StopTiamat" = StopAnimationEventData {
-                        mStopAnimationName: hash = "Tiamat_Logic_On"
-                        mEndFrame: f32 = 1
-                    }
-                }
+            "TransparencyFix" = AtomicClipData {
+                mFlags: u32 = 4
+                mMaskDataName: hash = "empty"
+                mTrackDataName: hash = "TransFix"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_dash1.anm"
+                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Laugh.anm"
                 }
             }
             "taunt" = AtomicClipData {
@@ -318,18 +334,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 mTrueConditionClipName: hash = "Attack4"
-                mFalseConditionClipName: hash = "Tiamat_LeapCheck"
-            }
-            "Tiamat_LeapCheck" = ConditionBoolClipData {
-                Updater: pointer = LogicDriverBoolParametricUpdater {
-                    driver: pointer = IsAnimationPlayingDynamicMaterialBoolDriver {
-                        mAnimationNames: list[hash] = {
-                            "Spell5_Bush"
-                            "Spell5_Ult"
-                        }
-                    }
-                }
-                mTrueConditionClipName: hash = "Attack1_BASE"
                 mFalseConditionClipName: hash = "Tiamat_StateCheck"
             }
             "Tiamat_StateCheck" = ConditionBoolClipData {
@@ -350,7 +354,6 @@ entries: map[hash,embed] = {
                 }
             }
             "Attack1_Actions" = AtomicClipData {
-                mFlags: u32 = 1
                 mTrackDataName: hash = "Actions"
                 mEventDataMap: map[hash,pointer] = {
                     "BA1" = ParticleEventData {
@@ -717,6 +720,12 @@ entries: map[hash,embed] = {
             }
             "Null" = TrackData {
                 mPriority: u8 = 4
+            }
+            "Midair" = TrackData {
+                mPriority: u8 = 5
+            }
+            "TransFix" = TrackData {
+                mPriority: u8 = 6
             }
         }
         mBlendDataTable: map[u64,pointer] = {
