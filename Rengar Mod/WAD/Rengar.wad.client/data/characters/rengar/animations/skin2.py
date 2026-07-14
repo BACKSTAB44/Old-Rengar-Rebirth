@@ -62,7 +62,7 @@ entries: map[hash,embed] = {
                 mTrackDataName: hash = "Actions"
                 mEventDataMap: map[hash,pointer] = {
                     "Crit" = ParticleEventData {
-                        mStartFrame: f32 = 1
+                        mStartFrame: f32 = 3
                         mEffectKey: hash = "Rengar_C_Cas"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {}
