@@ -236,9 +236,9 @@ entries: map[hash,embed] = {
             "Rengar_R_Secondary_Target_Sound_On" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Secondary_Target_Sound_On"
             "Rengar_W_Heal" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_W_Heal"
             "Rengar_W_Max_Roar" = "Characters/Rengar/Skins/Skin1/Particles/Rengar_Skin01_W_Max_Roar"
-            "Rengar_W_Max_Tar" = "Characters/Rengar/Skins/Skin1/Particles/Rengar_Skin01_W_Max_Tar"
+            "Rengar_W_Max_Tar" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_W_Max_Tar"
             "Rengar_W_Roar" = "Characters/Rengar/Skins/Skin1/Particles/Rengar_Skin01_W_Roar"
-            "Rengar_W_Tar" = "Characters/Rengar/Skins/Skin1/Particles/Rengar_Skin01_W_Tar"
+            "Rengar_W_Tar" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_W_Tar"
             "Rengar_LeapSound_BV2" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_LeapSound"
             "Rengar_R_Screen_Overlay_Target" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Screen_Overlay_Target"
         }
