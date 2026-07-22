@@ -10,7 +10,7 @@
 
 ## Video Preview
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uIIUpXzTHhM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-full-screen" allowfullscreen></iframe>
+[![Old Rengar Rebirth Mod Preview](https://img.youtube.com/vi/uIIUpXzTHhM/maxresdefault.jpg)](https://www.youtube.com/watch?v=uIIUpXzTHhM)
 
 #
 
