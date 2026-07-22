@@ -192,7 +192,7 @@ entries: map[hash,embed] = {
                 }
             }
             "Spell2" = AtomicClipData {
-                mMaskDataName: hash = "TopBody"
+                mMaskDataName: hash = "UpperBody"
                 mTrackDataName: hash = "Spell"
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_spell2.anm"
@@ -739,7 +739,7 @@ entries: map[hash,embed] = {
             }
         }
         mMaskDataMap: map[hash,embed] = {
-            "TopBody" = MaskData {
+            "UpperBody" = MaskData {
                 mWeightList: list[f32] = {
                     0
                     1
@@ -783,6 +783,8 @@ entries: map[hash,embed] = {
                     1
                     1
                     1
+                    1
+                    0
                     0
                     0
                     0
@@ -801,12 +803,10 @@ entries: map[hash,embed] = {
                     0
                     1
                     1
-                    1
-                    1
-                    0
                     0
                     0
                     1
+                    0
                     1
                     0
                     0
@@ -817,10 +817,10 @@ entries: map[hash,embed] = {
                     1
                     1
                     0
-                    1
-                    1
                     0
                     1
+                    0
+                    0
                     1
                     1
                 }
