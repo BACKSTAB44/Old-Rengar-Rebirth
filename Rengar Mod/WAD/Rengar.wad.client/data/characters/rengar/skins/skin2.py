@@ -4967,6 +4967,7 @@ entries: map[hash,embed] = {
             "Rengar_R_LeapMat" = "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin2_R_Leap"
             "Rengar_R_Primary_Target" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Primary_Target"
             "Rengar_R_Primary_Target_Enhanced" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Primary_Target_Enhanced"
+            "Rengar_R_Screen_Overlay_Target" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Screen_Overlay_Target"
             "Rengar_R_Secondary_Target_Sound_Off" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Secondary_Target_Sound_Off"
             "Rengar_R_Secondary_Target_Sound_On" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Secondary_Target_Sound_On"
             "Rengar_W_Heal" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_W_Heal"
@@ -4975,7 +4976,6 @@ entries: map[hash,embed] = {
             "Rengar_W_Roar" = "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin02_W_Roar"
             "Rengar_W_Tar" = "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin02_W_Tar"
             "Rengar_LeapSound_BV2" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_LeapSound"
-            "Rengar_R_Screen_Overlay_Target" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Screen_Overlay_Target"
         }
     }
 }
