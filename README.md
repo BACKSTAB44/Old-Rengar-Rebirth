@@ -1,7 +1,7 @@
 ## Old Rengar Rebirth Mod - Fully Restoring Season 6 Rengar
 
 * Animation reverts/bugfixes, SFX reverts/bugfixes, VFX reverts/bugfixes, structure improvements.
-* Rebirth mod is built on Renghub's V1.3 ["Old Rengar Remastered"](https://youtu.be/uycBm-iuUGA) mod by BACKSTAB. It combines Renghub's VFX with ZedVeZed's animations and my SFX, as well as fixing [...]
+* Rebirth mod is built on Renghub's V1.3 ["Old Rengar Remastered"](https://youtu.be/uycBm-iuUGA) mod by BACKSTAB. It combines Renghub's VFX with ZedVeZed's animations and my SFX, as well as fixing bugs and repolishing everything.
 * Both the quality and technical improvements. More future-proof and file count reduced from 417 to 182.
 
 **Open source, bug-free, stable, lightweight, debloated and as future-proof as it can be.**
@@ -39,7 +39,7 @@ _The mod is managed by me (BACKSTAB), if you find any bugs you can contact me._
 
 # **Mod Archives**
 
-To secure the longevity of the Rebirth mod, I'm publishing its archive and a repository containing files related to it. In case I'm unable to maintain it, others will be able to continue the wor[...]
+To secure the longevity of the Rebirth mod, I'm publishing its archive and a repository containing files related to it. In case I'm unable to maintain it, others will be able to continue the work and keep the mod alive. 
 
 Hopefully this will be useful someday.
  - [**Archive**](https://drive.google.com/drive/folders/1fdFs-jmjTvH34S1yLzE9JP-wabCWr38X) _(mod & wwise iterations)_
