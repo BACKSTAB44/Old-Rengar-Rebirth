@@ -5,14 +5,9 @@
 * Both the quality and technical improvements. More future-proof and file count reduced from 417 to 182.
 
 **Open source, bug-free, stable, lightweight, debloated and as future-proof as it can be.**
-
 #
-
-## Video Preview
-
+# Video Preview 
 [![Old Rengar Rebirth Mod Preview](https://img.youtube.com/vi/uIIUpXzTHhM/maxresdefault.jpg)](https://www.youtube.com/watch?v=uIIUpXzTHhM)
-
-#
 
 # Installation
 
