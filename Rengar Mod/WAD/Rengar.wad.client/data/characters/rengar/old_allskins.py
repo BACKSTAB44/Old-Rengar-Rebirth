@@ -27,23 +27,10 @@ entries: map[hash,embed] = {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.005
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.2
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 0.4353 }
-                        }
-                    }
-                }
                 pass: i16 = 100
                 colorLookUpTypeY: u8 = 3
                 miscRenderFlags: u8 = 1
+                isLocalOrientation: flag = false
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 45, 45, 0 }
                 }
