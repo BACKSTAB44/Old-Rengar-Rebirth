@@ -37,7 +37,8 @@
 **-** **R** Activation VFX on Headhunter and Night Hunter reverted to the old one.  
 **-** **R** Activation VFX no longer keeps playing even if you cancel **R**.  
 **-** **R** Activation VFX no longer turns Headhunter chromas into Base Headhunter for a moment.  
-**-** **R** Exclamation Mark no longer pulsates and moves around.  
+**-** **R** Exclamation Mark no longer pulsates and moves around.
+**- R** Exclamation Mark is no longer misplaced for some champs (e.g. Nightbringer Yasuo).
 **-** The VFX surrounding the "**R** Exclamation Mark" have been removed.  
 **-** Rengar is no longer transparent when jumping out of **R**.  
 **-** Headhunter's "**R** Body" texture improved, matching the old one.
