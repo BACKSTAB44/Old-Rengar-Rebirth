@@ -83,7 +83,7 @@
 
 ‎
 
-*The mod fixes a total of* ***22 live bugs*** *from the* [***RENGAR BUGS LIST***](https://www.reddit.com/r/Rengarmains/comments/1loa2ad/megapost_all_rengar_bugs/) *as well:‎*
+*The mod fixes a total of* ***23 live bugs*** *from the* [***RENGAR BUGS LIST***](https://www.reddit.com/r/Rengarmains/comments/1loa2ad/megapost_all_rengar_bugs/) *as well:‎*
 
 >**- E** and **W** animations [play during the **Leap**](https://youtu.be/8d1e-Zh8EWo?t=32).  
 **- W** animation [not lingering](https://youtu.be/8d1e-Zh8EWo?t=9) if Rengar casts **W** together with other actions.  
@@ -106,6 +106,7 @@
 **-** Some parts of Headhunter's "***R body***" texture [being transparent](https://imgur.com/a/23PmHmc), fixed.  
 **-** Leap Range [disappearing](https://youtu.be/xXbHYecIK3Q) at the edge of the screen, fixed.  
 **-** **Q** [stopping Base **R** Heartbeats SFX](https://youtu.be/rFUvTCrUKn4). fixed.‎  
-**-** "*Dance*" SFX [not looping](https://youtu.be/cZUFahMlOMA) along with the animation, fixed.
+**-** "*Dance*" SFX [not looping](https://youtu.be/cZUFahMlOMA) along with the animation, fixed.  
+**- ULT**'s "eyes" indicator [is misplaced](https://youtu.be/XBhIWUZfxuk) on Nightbringer Yasuo, fixed.
 
 *More changes on the Runeforge* [***releases***](https://runeforge.dev/mods/b397d88f-d6da-47a7-821e-9acd2109fa89/releases) *page.*
