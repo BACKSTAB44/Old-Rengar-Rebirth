@@ -239,6 +239,8 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_sfx_Rengar_RengarQEmp_OnBuffDeactivate" ID="{2020FA2A-5DE1-40A6-BADD-9F5323307063}"/>
+				<Event Name="Play_sfx_Rengar_RengarQ_OnBuffDeactivate" ID="{5B36DD3A-F848-4B95-BC7D-DEB58488F7DE}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -27,6 +27,7 @@
 				</SoundBank>
 				<SoundBank Name="old_sfx_events" ID="{19994558-0773-4151-A315-296DE26C939B}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_sfx_Rengar_RengarQEmp_OnBuffDeactivate" ID="{2020FA2A-5DE1-40A6-BADD-9F5323307063}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="Play_sfx_Old_RengarP_Leap_Grass" ID="{36A171A8-7D72-4186-BDC9-F256D947D131}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="Stop_sfx_Rengar_RengarQ_buffactivate" ID="{E7E1ECB9-47C8-4234-8809-0D7420A9BDE2}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="Play_sfx_RengarSkin01_RengarEEmpmis_OnMissileLaunch" ID="{86968558-4A84-4296-AE6F-45A48612A862}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
@@ -43,6 +44,7 @@
 						<ObjectRef Name="Play_sfx_Rengar_RengarQEmpAttack_OnHit" ID="{E96012DC-6F17-4AB8-811F-317B12FBEDF5}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="Play_sfx_OldHH_RengarEEmp_missilelaunch" ID="{F104F9D7-A0DB-4B56-979F-DA80E18C3DF8}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="Play_sfx_RengarSkin01_RengarEEmpmis_OnHit" ID="{7E8287C0-D552-4B7F-890F-EFA40C14B848}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="Play_sfx_Rengar_RengarQ_OnBuffDeactivate" ID="{5B36DD3A-F848-4B95-BC7D-DEB58488F7DE}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="Play_sfx_Rengar_RengarEEmp_OnCast" ID="{FFA41EF0-F84E-4BB6-9F75-874D3AD5C30C}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="Play_sfx_Rengar_RengarQAttack_OnHit" ID="{772A2038-F06B-4C49-9B05-A55CB47D11FC}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="Play_sfx_Old_RengarE_hit" ID="{7BA61CDF-885E-4C5F-853A-1A8285963E47}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>

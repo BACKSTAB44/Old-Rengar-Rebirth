@@ -12,6 +12,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1373063554	Play_sfx_RengarSkin01_RengarEEmpmis_OnHit			\Default Work Unit\Play_sfx_RengarSkin01_RengarEEmpmis_OnHit	
 	1696751273	Play_sfx_Rengar_RengarQ_OnCast			\Default Work Unit\Play_sfx_Rengar_RengarQ_OnCast	
 	1796115793	Play_sfx_Rengar_RengarQEmpAttack_OnHit			\Default Work Unit\Play_sfx_Rengar_RengarQEmpAttack_OnHit	
+	1937486073	Play_sfx_Rengar_RengarQ_OnBuffDeactivate			\Default Work Unit\Play_sfx_Rengar_RengarQ_OnBuffDeactivate	
 	2019559851	Play_sfx_Rengar_RengarEEmp_OnCast			\Default Work Unit\Play_sfx_Rengar_RengarEEmp_OnCast	
 	2044568096	Play_sfx_Rengar_RengarEEmpmis_OnHit			\Default Work Unit\Play_sfx_Rengar_RengarEEmpmis_OnHit	
 	2176551737	Play_sfx_OldHH_RengarEEmp_OnHit			\Default Work Unit\Play_sfx_OldHH_RengarEEmp_OnHit	
@@ -22,6 +23,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3515841041	Play_sfx_Old_RengarEEmp_OnHit			\Default Work Unit\Play_sfx_Old_RengarEEmp_OnHit	
 	3688010255	Play_sfx_Old_RengarQ_Stab			\Default Work Unit\Play_sfx_Old_RengarQ_Stab	
 	3785417293	Play_sfx_Old_RengarQEmp_Stab			\Default Work Unit\Play_sfx_Old_RengarQEmp_Stab	
+	3839261627	Play_sfx_Rengar_RengarQEmp_OnBuffDeactivate			\Default Work Unit\Play_sfx_Rengar_RengarQEmp_OnBuffDeactivate	
 	3957301585	Play_sfx_Rengar_RengarWEmp_OnCast			\Default Work Unit\Play_sfx_Rengar_RengarWEmp_OnCast	
 	4198442286	Play_sfx_OldHH_RengarEEmp_missilelaunch			\Default Work Unit\Play_sfx_OldHH_RengarEEmp_missilelaunch	
 
