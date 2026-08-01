@@ -53,7 +53,6 @@
 **-** **Q** Stab SFX no longer fails to play if **E** is used right after **Q**.  
 **-** **Q** Stab SFX no longer fails to play if **Q** is used multiple times in a same sequence.  
 **-** **Q** On-Attack SFX restored. It once again uses the old one.  
-**- Q** Deactivate SFX reverted back to the old one.  
 **-** **Q** Growl VO reverted to playing *on-attack* rather than *on-cast*.  
 **-** **Emp Q** Activation now has all 3 SFX variations.  
 **-** **Emp Q** Attack Speed SFX no longer incorrectly plays on the Night Hunter skin.  
