@@ -19,6 +19,7 @@ entries: map[hash,embed] = {
             tagEventList: list[string] = {
                 "Rengar"
                 "Rengar_FUTURE"
+                "Old"
             }
             bankUnits: list2[embed] = {
                 BankUnit {

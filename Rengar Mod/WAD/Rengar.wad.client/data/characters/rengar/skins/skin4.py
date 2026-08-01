@@ -27,6 +27,8 @@ entries: map[hash,embed] = {
             tagEventList: list[string] = {
                 "Rengar"
                 "RengarSkin01"
+                "Old"
+                "OldHH"
             }
             bankUnits: list2[embed] = {
                 BankUnit {
@@ -49,6 +51,8 @@ entries: map[hash,embed] = {
                         "Stop_sfx_RengarSkin01_RengarR_buffactivateheartbeat"
                         "Stop_sfx_RengarSkin01_RengarR_OnBuffActivate"
                         "Stop_sfx_RengarSkin01_RengarR_OnBuffDeactivate"
+                        "Play_sfx_OldHH_RengarEEmp_OnHit"
+                        "Play_sfx_OldHH_RengarEEmp_missilelaunch"
                     }
                 }
                 BankUnit {
