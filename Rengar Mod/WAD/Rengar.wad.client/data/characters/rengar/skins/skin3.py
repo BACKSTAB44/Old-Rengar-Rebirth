@@ -22,10 +22,15 @@ entries: map[hash,embed] = {
             }
             bankUnits: list2[embed] = {
                 BankUnit {
-                    name: string = "Rengar_Base_SFX"
+                    name: string = "Old_SFX"
                     bankPath: list[string] = {
                         "ASSETS/Repath/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Old/Old_SFX_audio.bnk"
                         "ASSETS/Repath/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Old/Old_SFX_events.bnk"
+                    }
+                }
+                BankUnit {
+                    name: string = "Rengar_Base_SFX"
+                    bankPath: list[string] = {
                         "ASSETS/Repath/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Base/Rengar_Base_SFX_audio.bnk"
                         "ASSETS/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Base/Rengar_Base_SFX_events.bnk"
                     }

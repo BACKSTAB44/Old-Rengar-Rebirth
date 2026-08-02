@@ -23,10 +23,26 @@ entries: map[hash,embed] = {
             }
             bankUnits: list2[embed] = {
                 BankUnit {
-                    name: string = "Rengar_Base_SFX"
+                    name: string = "Old_SFX"
                     bankPath: list[string] = {
                         "ASSETS/Repath/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Old/Old_SFX_audio.bnk"
                         "ASSETS/Repath/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Old/Old_SFX_events.bnk"
+                    }
+                    events: list[string] = {
+                        "Play_sfx_Old_RengarP_Leap_Grass"
+                        "Play_sfx_Old_RengarQ_Stab"
+                        "Play_sfx_Old_RengarQEmp_Stab"
+                        "Play_sfx_Old_RengarE_hit"
+                        "Play_sfx_Old_RengarEEmp_OnHit"
+                        "Play_sfx_Old_RengarE_missilelaunch"
+                        "Play_sfx_Old_RengarEEmp_missilelaunch"
+                        "Play_sfx_OldHH_RengarEEmp_OnHit"
+                        "Play_sfx_OldHH_RengarEEmp_missilelaunch"
+                    }
+                }
+                BankUnit {
+                    name: string = "Rengar_Base_SFX"
+                    bankPath: list[string] = {
                         "ASSETS/Repath/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Base/Rengar_Base_SFX_audio.bnk"
                         "ASSETS/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Base/Rengar_Base_SFX_events.bnk"
                     }
@@ -75,15 +91,6 @@ entries: map[hash,embed] = {
                         "Play_sfx_Rengar_RengarWEmp_OnCast"
                         "Play_sfx_Rengar_Taunt3D_buffactivate"
                         "Stop_sfx_Rengar_RengarQ_buffactivate"
-                        "Play_sfx_Old_RengarP_Leap_Grass"
-                        "Play_sfx_Old_RengarQ_Stab"
-                        "Play_sfx_Old_RengarQEmp_Stab"
-                        "Play_sfx_Old_RengarE_hit"
-                        "Play_sfx_Old_RengarEEmp_OnHit"
-                        "Play_sfx_Old_RengarE_missilelaunch"
-                        "Play_sfx_Old_RengarEEmp_missilelaunch"
-                        "Play_sfx_OldHH_RengarEEmp_OnHit"
-                        "Play_sfx_OldHH_RengarEEmp_missilelaunch"
                     }
                 }
                 BankUnit {

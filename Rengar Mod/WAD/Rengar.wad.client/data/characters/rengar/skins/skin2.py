@@ -22,6 +22,13 @@ entries: map[hash,embed] = {
             }
             bankUnits: list2[embed] = {
                 BankUnit {
+                    name: string = "Old_SFX"
+                    bankPath: list[string] = {
+                        "ASSETS/Repath/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Old/Old_SFX_audio.bnk"
+                        "ASSETS/Repath/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Old/Old_SFX_events.bnk"
+                    }
+                }
+                BankUnit {
                     name: string = "Rengar_Skin02_SFX"
                     bankPath: list[string] = {
                         "ASSETS/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Skin02/Rengar_Skin02_SFX_audio.bnk"
@@ -34,8 +41,6 @@ entries: map[hash,embed] = {
                 BankUnit {
                     name: string = "Rengar_Base_SFX"
                     bankPath: list[string] = {
-                        "ASSETS/Repath/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Old/Old_SFX_audio.bnk"
-                        "ASSETS/Repath/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Old/Old_SFX_events.bnk"
                         "ASSETS/Repath/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Base/Rengar_Base_SFX_audio.bnk"
                         "ASSETS/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Base/Rengar_Base_SFX_events.bnk"
                     }
