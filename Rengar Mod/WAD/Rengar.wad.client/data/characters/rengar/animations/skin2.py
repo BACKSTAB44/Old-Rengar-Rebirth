@@ -167,10 +167,10 @@ entries: map[hash,embed] = {
                 }
                 mChangeAnimationMidPlay: bool = true
                 mPlayAnimChangeFromBeginning: bool = true
-                mTrueConditionClipName: hash = "Run2_Parallel"
+                mTrueConditionClipName: hash = "Run2_PAR"
                 mFalseConditionClipName: hash = "Run1_Fast"
             }
-            "Run2_Parallel" = ParallelClipData {
+            "Run2_PAR" = ParallelClipData {
                 mClipNameList: list[hash] = {
                     "Run2_TASSEL"
                     "Run2_BASE"
