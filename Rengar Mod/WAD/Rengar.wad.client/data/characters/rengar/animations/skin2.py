@@ -360,31 +360,10 @@ entries: map[hash,embed] = {
             }
             "Attack1" = ConditionBoolClipData {
                 Updater: pointer = LogicDriverBoolParametricUpdater {
-                    driver: pointer = OneTrueMaterialDriver {
-                        mDrivers: list[pointer] = {
-                            IsCastingBoolDriver {
-                                SpellSlot: u32 = 6
-                            }
-                            IsCastingBoolDriver {
-                                SpellSlot: u32 = 7
-                            }
-                            IsCastingBoolDriver {
-                                SpellSlot: u32 = 8
-                            }
-                            IsCastingBoolDriver {
-                                SpellSlot: u32 = 9
-                            }
-                            IsCastingBoolDriver {
-                                SpellSlot: u32 = 10
-                            }
-                            IsCastingBoolDriver {
-                                SpellSlot: u32 = 11
-                            }
-                        }
-                    }
+                    driver: pointer = IsAttackingBoolDriver {}
                 }
-                mTrueConditionClipName: hash = "Tiamat_Override"
-                mFalseConditionClipName: hash = "Attack1_BASE"
+                mTrueConditionClipName: hash = "Attack1_BASE"
+                mFalseConditionClipName: hash = "Tiamat_Override"
             }
             "Tiamat_Override" = ConditionBoolClipData {
                 Updater: pointer = LogicDriverBoolParametricUpdater {
