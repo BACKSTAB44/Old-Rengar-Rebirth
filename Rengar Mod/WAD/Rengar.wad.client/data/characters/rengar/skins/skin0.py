@@ -167,7 +167,7 @@ entries: map[hash,embed] = {
             PersistentEffectConditionData {
                 OwnerCondition: pointer = DelayedBoolMaterialDriver {
                     mBoolDriver: pointer = HasBuffDynamicMaterialBoolDriver {
-                        mScriptName: string = "RengarR"
+                        Spell: hash = "Characters/Rengar/Spells/RengarRAbility/RengarR"
                     }
                     mDelayOn: f32 = 2
                 }
