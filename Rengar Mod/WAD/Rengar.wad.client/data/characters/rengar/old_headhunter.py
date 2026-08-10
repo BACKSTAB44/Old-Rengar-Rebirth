@@ -642,23 +642,22 @@ entries: map[hash,embed] = {
                 particleLifetime: embed = ValueFloat {
                     constantValue: f32 = 3.5
                 }
-                lifetime: option[f32] = {
-                    2
-                }
                 isSingleParticle: flag = true
                 emitterName: string = "on_cast"
+                importance: u8 = 2
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveAttachedMesh {}
                 particleColorTexture: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin01/Particles/Rengar_Skin01_Z_Bellcurve_RGB.tex"
                 pass: i16 = 99
+                meshRenderFlags: u8 = 0
                 depthBiasFactors: vec2 = { -1, -4 }
-                alphaRef: u8 = 0
+                disableBackfaceCull: bool = true
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
                 birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1.001, 1.01, 1.01 }
+                    constantValue: vec3 = { 1.0009, 1.009, 1.009 }
                 }
                 texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin01/Particles/Rengar_Skin01_Z_Avatar.tex"
             }
@@ -672,6 +671,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "body"
+                importance: u8 = 2
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -3787,6 +3787,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveRay {}
                 blendMode: u8 = 2
+                pass: i16 = 100
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.3255, 0.6196, 1, 1 }
                 }
@@ -3881,6 +3882,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveRay {}
+                pass: i16 = 100
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.75, 0, 0, 1 }
                 }
