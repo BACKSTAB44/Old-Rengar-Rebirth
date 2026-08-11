@@ -39,7 +39,6 @@
 **-** **R** Activation VFX no longer turns Headhunter chromas into Base Headhunter for a moment.  
 **-** **R** Exclamation Mark no longer pulsates and moves around.  
 **- R** Exclamation Mark is no longer misplaced for some champs (e.g. Nightbringer Yasuo).  
-**- R** Body texture on Headhunter reverted to the old one.  
 **-** The VFX surrounding the "**R** Exclamation Mark" have been removed.  
 **-** Rengar is no longer transparent when jumping out of **R**.  
 **-** Headhunter's "**R** Body" texture improved, matching the old one.
@@ -54,7 +53,6 @@
 **-** **Q** Stab SFX no longer fails to play if **E** is used right after **Q**.  
 **-** **Q** Stab SFX no longer fails to play if **Q** is used multiple times in a same sequence.  
 **-** **Q** On-Attack SFX restored. It once again uses the old one.  
-**- Q** buff\_Deactivate SFX removed, as old Rengar didn't have it.  
 **-** **Q** Growl VO reverted to playing *on-attack* rather than *on-cast*.  
 **-** **Emp Q** Activation now has all 3 SFX variations.  
 **-** **Emp Q** Attack Speed SFX no longer incorrectly plays on the Night Hunter skin.  
