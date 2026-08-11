@@ -18,7 +18,6 @@
 **- E** no longer changes Rengar's facing direction during the Leap.  
 **-** Rengar is no longer sliding in **W** animation if he uses it together with **E** mid-air.  
 **- R** reverted to changing Rengar's Run animation only after entering stealth.  
-**-** Restored Night Hunter's old "**R** Run" animation details.  
 **-** *TimeBlendData* adjusted to fully match Season 6 values.
 
 **- VISUALS -**
@@ -71,7 +70,7 @@
 **-** Skins no longer use Classic skin's icon in the HUD.  
 **-** Enforced changes to make sure the mod stays working long-term.  
 **-** Mod fully debloated.  
-**-** File count reduced from 417 to 182.  
+**-** File count reduced from 417 to 181.  
 **-** All .DDS converted to .TEX (modern format).  
 **-** All .SCO converted to .SCB (modern format).  
 **-** Rewritten a lot of code to modern Riot standards.  

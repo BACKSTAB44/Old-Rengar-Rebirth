@@ -167,22 +167,8 @@ entries: map[hash,embed] = {
                 }
                 mChangeAnimationMidPlay: bool = true
                 mPlayAnimChangeFromBeginning: bool = true
-                mTrueConditionClipName: hash = "Run2_PAR"
+                mTrueConditionClipName: hash = "Run2_BASE"
                 mFalseConditionClipName: hash = "Run1_Fast"
-            }
-            "Run2_PAR" = ParallelClipData {
-                mClipNameList: list[hash] = {
-                    "Run2_TASSEL"
-                    "Run2_BASE"
-                }
-            }
-            "Run2_TASSEL" = AtomicClipData {
-                mFlags: u32 = 6
-                mMaskDataName: hash = "Tassel"
-                mTrackDataName: hash = "Tassel"
-                mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin02/Animations/Rengar_skin02_Run2.anm"
-                }
             }
             "Run2_BASE" = AtomicClipData {
                 mFlags: u32 = 2
