@@ -102,6 +102,7 @@ entries: map[hash,embed] = {
         particleName: string = "Rengar_Base_R_Primary_Target"
         particlePath: string = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Primary_Target"
         flags: u16 = 197
+        objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Primary_Target"
     }
     "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Primary_Target_Enhanced" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -261,12 +262,14 @@ entries: map[hash,embed] = {
         particleName: string = "Rengar_Base_R_Primary_Target_Enhanced"
         particlePath: string = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Primary_Target_Enhanced"
         soundPersistentDefault: string = "Play_sfx_Rengar_RengarR_buffactivateheartbeat"
+        objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Primary_Target_Enhanced"
     }
     "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Secondary_Target_Sound_On" = VfxSystemDefinitionData {
         particleName: string = "Rengar_Base_R_Secondary_Target_Sound_On"
         particlePath: string = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Secondary_Target_Sound_On"
         soundOnCreateDefault: string = "Play_sfx_Rengar_RengarRSecondaryTarget_start"
         flags: u16 = 132
+        objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Secondary_Target_Sound_On"
     }
     "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Armor_shred_tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -926,6 +929,7 @@ entries: map[hash,embed] = {
         particleName: string = "Rengar_Base_R_Armor_shred_tar"
         particlePath: string = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Armor_shred_tar"
         flags: u16 = 204
+        objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Armor_shred_tar"
     }
     "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_P_Buf_Enhanced_Ring" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -1061,6 +1065,7 @@ entries: map[hash,embed] = {
         visibilityRadius: f32 = 2000
         particleName: string = "Rengar_Base_P_Buf_Enhanced_Ring"
         particlePath: string = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_P_Buf_Enhanced_Ring"
+        objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_P_Buf_Enhanced_Ring"
     }
     "Characters/Rengar/Skins/Skin0/Particles/Rengar_LeapSound" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -1087,12 +1092,14 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Rengar/Skins/Skin0/Particles/Rengar_LeapSound"
         soundPersistentDefault: string = "Play_sfx_Rengar_RengarP_cast"
         flags: u16 = 148
+        objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_LeapSound"
     }
     "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Secondary_Target_Sound_Off" = VfxSystemDefinitionData {
         particleName: string = "Rengar_Base_R_Secondary_Target_Sound_Off"
         particlePath: string = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Secondary_Target_Sound_Off"
         soundOnCreateDefault: string = "Play_sfx_Rengar_RengarRSecondaryTarget_end"
         flags: u16 = 132
+        objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Secondary_Target_Sound_Off"
     }
     "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_BA_tar_crit_01" = VfxSystemDefinitionData {
         ComplexEmitterDefinitionData: list[pointer] = {
@@ -1916,6 +1923,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Rengar_Base_BA_tar_crit_01"
         particlePath: string = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_BA_tar_crit_01"
+        objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_BA_tar_crit_01"
     }
     "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_BA_tar_01" = VfxSystemDefinitionData {
         ComplexEmitterDefinitionData: list[pointer] = {
@@ -2659,6 +2667,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Rengar_Base_BA_tar_01"
         particlePath: string = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_BA_tar_01"
+        objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_BA_tar_01"
     }
     "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_P_Leap_Grass" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -2956,6 +2965,7 @@ entries: map[hash,embed] = {
         particleName: string = "Rengar_Base_P_Leap_Grass"
         particlePath: string = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_P_Leap_Grass"
         soundOnCreateDefault: string = "Play_sfx_Old_RengarP_Leap_Grass"
+        objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_P_Leap_Grass"
     }
     "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_W_Heal" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -3138,6 +3148,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Rengar_Base_W_Heal"
         particlePath: string = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_W_Heal"
+        objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_W_Heal"
     }
     "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_Q_Tar_Visuals" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -4215,7 +4226,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Rengar_Base_Q_Tar_Visuals"
         particlePath: string = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_Q_Tar_Visuals"
-        flags: u16 = 198
+        objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_Q_Tar_Visuals"
     }
     "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_E_Max_Tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -4260,6 +4271,7 @@ entries: map[hash,embed] = {
         }
         soundOnCreateDefault: string = "Play_sfx_Old_RengarEEmp_OnHit"
         flags: u16 = 198
+        objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_E_Max_Tar"
     }
     "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_E_Tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -4559,6 +4571,7 @@ entries: map[hash,embed] = {
         }
         soundOnCreateDefault: string = "Play_sfx_Old_RengarE_hit"
         flags: u16 = 198
+        objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_E_Tar"
     }
     "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_W_Tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -4633,6 +4646,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Rengar_Base_W_Tar"
         particlePath: string = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_W_Tar"
+        objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_W_Tar"
     }
     "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_W_Max_Tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -4866,6 +4880,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Rengar_Base_W_Max_Tar"
         particlePath: string = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_W_Max_Tar"
+        objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_W_Max_Tar"
     }
     "Characters/Rengar/CAC/Rengar_Base" = ContextualActionData {
         mCooldown: f32 = 15

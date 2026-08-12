@@ -13,7 +13,7 @@ entries: map[hash,embed] = {
         championSkinName: string = "Rengar"
         metaDataTags: string = "gender:male,race:vastaya,faction:ixtal,appearance:feline"
         loadscreen: embed = CensoredImage {
-            image: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/RengarLoadScreen.tex"
+            image: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/RengarLoadScreen.tex"
         }
         skinAudioProperties: embed = skinAudioProperties {
             tagEventList: list[string] = {
@@ -195,6 +195,7 @@ entries: map[hash,embed] = {
                 }
             }
         }
+        objectPath: hash = "Characters/Rengar/Skins/Skin0"
     }
     "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Leap" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -237,6 +238,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Rengar_Base_R_Leap"
         particlePath: string = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Leap"
+        objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Leap"
     }
     "Characters/Rengar/Skins/Skin0/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {

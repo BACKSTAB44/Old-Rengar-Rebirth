@@ -21,7 +21,7 @@ entries: map[hash,embed] = {
             }
         }
         loadscreen: embed = CensoredImage {
-            image: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin01/RengarLoadScreen_1.tex"
+            image: file = "ASSETS/Repath/Characters/Rengar/Skins/Skin01/RengarLoadScreen_1.tex"
         }
         skinAudioProperties: embed = skinAudioProperties {
             tagEventList: list[string] = {
@@ -170,6 +170,7 @@ entries: map[hash,embed] = {
                 }
             }
         }
+        objectPath: hash = "Characters/Rengar/Skins/Skin7"
     }
     "Characters/Rengar/Skins/Skin1/Particles/Rengar_Skin7_R_Leap" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -212,6 +213,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Rengar_Skin7_R_Leap"
         particlePath: string = "Characters/Rengar/Skins/Skin1/Particles/Rengar_Skin7_R_Leap"
+        objectPath: hash = "Characters/Rengar/Skins/Skin1/Particles/Rengar_Skin7_R_Leap"
     }
     "Characters/Rengar/Skins/Skin7/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {

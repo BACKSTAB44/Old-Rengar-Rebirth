@@ -21,7 +21,7 @@ entries: map[hash,embed] = {
             }
         }
         loadscreen: embed = CensoredImage {
-            image: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin01/RengarLoadScreen_1.tex"
+            image: file = "ASSETS/Repath/Characters/Rengar/Skins/Skin01/RengarLoadScreen_1.tex"
         }
         skinAudioProperties: embed = skinAudioProperties {
             tagEventList: list[string] = {
@@ -138,6 +138,7 @@ entries: map[hash,embed] = {
             }
         }
         mResourceResolver: link = "Characters/Rengar/Skins/Skin5/Resources"
+        objectPath: hash = "Characters/Rengar/Skins/Skin5"
         PersistentEffectConditions: list2[pointer] = {
             PersistentEffectConditionData {
                 OwnerCondition: pointer = DelayedBoolMaterialDriver {
@@ -170,6 +171,7 @@ entries: map[hash,embed] = {
                 }
             }
         }
+        objectPath: hash = "Characters/Rengar/Skins/Skin5"
     }
     "Characters/Rengar/Skins/Skin1/Particles/Rengar_Skin5_R_Leap" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -212,6 +214,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Rengar_Skin5_R_Leap"
         particlePath: string = "Characters/Rengar/Skins/Skin1/Particles/Rengar_Skin5_R_Leap"
+        objectPath: hash = "Characters/Rengar/Skins/Skin1/Particles/Rengar_Skin5_R_Leap"
     }
     "Characters/Rengar/Skins/Skin5/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {

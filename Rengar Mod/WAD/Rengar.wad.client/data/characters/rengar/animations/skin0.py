@@ -18,13 +18,13 @@ entries: map[hash,embed] = {
             "ArenaGateFix" = AtomicClipData {
                 mTrackDataName: hash = "Channel"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Channel.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Channel.anm"
                 }
             }
             "ArenaAugmentFix" = AtomicClipData {
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Channel.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Channel.anm"
                 }
             }
             "Channel_Channel" = AtomicClipData {
@@ -36,20 +36,20 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Channel.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Channel.anm"
                 }
             }
             "Channel_Actions" = AtomicClipData {
                 mTrackDataName: hash = "Actions"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Channel.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Channel.anm"
                 }
             }
             "Channel_Wndup" = AtomicClipData {
                 mFlags: u32 = 2
                 mTrackDataName: hash = "Channel"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Channel_WNDPUP.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Channel_WNDPUP.anm"
                 }
             }
             "Crit" = ParallelClipData {
@@ -72,7 +72,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_crit.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_crit.anm"
                 }
             }
             "Dance" = AtomicClipData {
@@ -90,7 +90,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Dance.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Dance.anm"
                 }
             }
             "death" = AtomicClipData {
@@ -108,7 +108,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_death.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_death.anm"
                 }
             }
             "Laugh" = AtomicClipData {
@@ -126,7 +126,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Laugh.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Laugh.anm"
                 }
             }
             "Run" = AtomicClipData {
@@ -138,7 +138,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_run1.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_run1.anm"
                 }
             }
             "Run2" = ConditionBoolClipData {
@@ -159,14 +159,14 @@ entries: map[hash,embed] = {
                 mFlags: u32 = 2
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_run2.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_run2.anm"
                 }
             }
             "Spell2" = AtomicClipData {
                 mMaskDataName: hash = "UpperBody"
                 mTrackDataName: hash = "Spell"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_spell2.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_spell2.anm"
                 }
             }
             "Spell3" = ConditionBoolClipData {
@@ -204,19 +204,19 @@ entries: map[hash,embed] = {
                 mMaskDataName: hash = "empty"
                 mTrackDataName: hash = "Midair"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_spell3.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_spell3.anm"
                 }
             }
             "Spell3_Run" = AtomicClipData {
                 mTrackDataName: hash = "Actions"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_spell3.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_spell3.anm"
                 }
             }
             "Spell3_Idle" = AtomicClipData {
                 mTrackDataName: hash = "Actions"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_spell3.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_spell3.anm"
                 }
             }
             "Spell5" = ConditionBoolClipData {
@@ -245,7 +245,7 @@ entries: map[hash,embed] = {
                 mFlags: u32 = 1
                 mTrackDataName: hash = "Actions"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_dash1.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_dash1.anm"
                 }
             }
             "Spell5_Null" = AtomicClipData {
@@ -263,7 +263,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_dash1.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_dash1.anm"
                 }
             }
             "TransparencyFix" = AtomicClipData {
@@ -271,7 +271,7 @@ entries: map[hash,embed] = {
                 mMaskDataName: hash = "empty"
                 mTrackDataName: hash = "TransFix"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Laugh.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Laugh.anm"
                 }
             }
             "taunt" = AtomicClipData {
@@ -289,7 +289,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Taunt.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Taunt.anm"
                 }
             }
             "Attack1" = ConditionBoolClipData {
@@ -346,14 +346,14 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_attack1.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_attack1.anm"
                 }
             }
             "Tiamat_Logic_Off" = AtomicClipData {
                 mMaskDataName: hash = "empty"
                 mTrackDataName: hash = "Null"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Channel.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Channel.anm"
                 }
             }
             "Attack2" = ParallelClipData {
@@ -376,7 +376,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_attack2.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_attack2.anm"
                 }
             }
             "Attack3" = ParallelClipData {
@@ -399,7 +399,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_attack3.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_attack3.anm"
                 }
             }
             "Recall" = SequencerClipData {
@@ -413,14 +413,14 @@ entries: map[hash,embed] = {
                 mFlags: u32 = 8
                 mTrackDataName: hash = "Actions"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_recall.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_recall.anm"
                 }
             }
             "Raw_LionGuy_recall_idle" = AtomicClipData {
                 mFlags: u32 = 2
                 mTrackDataName: hash = "Actions"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_recall_idle.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_recall_idle.anm"
                 }
             }
             "Joke" = AtomicClipData {
@@ -438,7 +438,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Joke.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Joke.anm"
                 }
             }
             "Run1_Fast" = AtomicClipData {
@@ -450,7 +450,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_run1_Fast.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_run1_Fast.anm"
                 }
             }
             "Attack4" = ParallelClipData {
@@ -465,7 +465,7 @@ entries: map[hash,embed] = {
                 mTrackDataName: hash = "Actions"
                 mTickDuration: f32 = 0.034
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_attack4.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_attack4.anm"
                 }
             }
             "Attack4_Default" = AtomicClipData {
@@ -484,7 +484,7 @@ entries: map[hash,embed] = {
                 }
                 mTickDuration: f32 = 0.034
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_attack4.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_attack4.anm"
                 }
             }
             "Tiamat_Logic_On" = AtomicClipData {
@@ -493,26 +493,26 @@ entries: map[hash,embed] = {
                 mTrackDataName: hash = "Null"
                 mTickDuration: f32 = 0.034
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_attack4.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_attack4.anm"
                 }
             }
             "Idle1" = AtomicClipData {
                 mFlags: u32 = 2
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Idle1.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Idle1.anm"
                 }
             }
             "Idle2" = AtomicClipData {
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Idle2.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Idle2.anm"
                 }
             }
             "Idle3" = AtomicClipData {
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Idle3.anm"
+                    mAnimationFilePath: file = "ASSETS/Repath/Characters/Rengar/Skins/Base/Animations/Rengar_Idle3.anm"
                 }
             }
         }
