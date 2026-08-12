@@ -322,7 +322,7 @@ body { font-family: monospace; font-size: 16px; white-space: nowrap; }
 
 <!-- XML -->
 <base>
-<root filename="Rengar_Base_SFX_audio.bnk" pa="C:/Users/Win 10/Desktop/bnks/S6" version="88">
+<root filename="Rengar_Base_SFX_audio.bnk" pa="C:/Users/Win 10/Documents/GitHub/Old Rengar Rebirth/Original Rengar Files/Season 4 &amp; 6 Rengar Files/S6 Rengar/DATA/Sounds/Wwise/SFX/Characters/Rengar/Skins/Base" version="88">
 	<obj na="BankHeader">
 		<fld ty="4cc" na="dwTag" va="b&apos;BKHD&apos;" vf="b&apos;BKHD&apos; [Bank Header]"/>
 		<fld ty="u32" na="dwChunkSize" va="24" vf="0x18"/>
@@ -927,7 +927,7 @@ body { font-family: monospace; font-size: 16px; white-space: nowrap; }
 		<fld ty="gap" na="pData" va="2459749" vf="0x258865"/>
 	</obj>
 </root>
-<root filename="Rengar_Base_SFX_events.bnk" pa="C:/Users/Win 10/Desktop/bnks/S6" version="88">
+<root filename="Rengar_Base_SFX_events.bnk" pa="C:/Users/Win 10/Documents/GitHub/Old Rengar Rebirth/Original Rengar Files/Season 4 &amp; 6 Rengar Files/S6 Rengar/DATA/Sounds/Wwise/SFX/Characters/Rengar/Skins/Base" version="88">
 	<obj na="BankHeader">
 		<fld ty="4cc" na="dwTag" va="b&apos;BKHD&apos;" vf="b&apos;BKHD&apos; [Bank Header]"/>
 		<fld ty="u32" na="dwChunkSize" va="24" vf="0x18"/>

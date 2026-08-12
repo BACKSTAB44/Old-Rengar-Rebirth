@@ -322,7 +322,126 @@ body { font-family: monospace; font-size: 16px; white-space: nowrap; }
 
 <!-- XML -->
 <base>
-<root filename="Rengar_Skin01_SFX_events.bnk" pa="C:/Users/Win 10/Desktop/Sounds/Wwise/SFX/Characters/Rengar/Skins/Skin01" version="88">
+<root filename="Rengar_Skin01_SFX_audio.bnk" pa="C:/Users/Win 10/Documents/GitHub/Old Rengar Rebirth/Original Rengar Files/Season 4 &amp; 6 Rengar Files/S6 Rengar/DATA/Sounds/Wwise/SFX/Characters/Rengar/Skins/Skin01" version="88">
+	<obj na="BankHeader">
+		<fld ty="4cc" na="dwTag" va="b&apos;BKHD&apos;" vf="b&apos;BKHD&apos; [Bank Header]"/>
+		<fld ty="u32" na="dwChunkSize" va="20" vf="0x14"/>
+		<obj na="AkBankHeader">
+			<fld ty="u32" na="dwBankGeneratorVersion" va="88"/>
+			<fld ty="sid" na="dwSoundBankID" va="1451466144" hn="Rengar_Skin01_SFX_audio"/>
+			<fld ty="u32" na="dwLanguageID" va="0" vf="0x00 [SFX]"/>
+			<fld ty="u32" na="bFeedbackInBank" va="0" vf="0x00"/>
+			<fld ty="u32" na="dwProjectID" va="250"/>
+		</obj>
+	</obj>
+	<obj na="MediaIndex">
+		<fld ty="4cc" na="dwTag" va="b&apos;DIDX&apos;" vf="b&apos;DIDX&apos; [Media Index]"/>
+		<fld ty="u32" na="dwChunkSize" va="228" vf="0xE4"/>
+		<lst na="pLoadedMedia" co="19">
+			<obj na="MediaHeader" ix="0">
+				<fld ty="sid" na="id" va="941316321"/>
+				<fld ty="u32" na="uOffset" va="0" vf="0x00"/>
+				<fld ty="u32" na="uSize" va="9030" vf="0x2346"/>
+			</obj>
+			<obj na="MediaHeader" ix="1">
+				<fld ty="sid" na="id" va="933059895"/>
+				<fld ty="u32" na="uOffset" va="9040" vf="0x2350"/>
+				<fld ty="u32" na="uSize" va="10121" vf="0x2789"/>
+			</obj>
+			<obj na="MediaHeader" ix="2">
+				<fld ty="sid" na="id" va="889667164"/>
+				<fld ty="u32" na="uOffset" va="19168" vf="0x4AE0"/>
+				<fld ty="u32" na="uSize" va="12235" vf="0x2FCB"/>
+			</obj>
+			<obj na="MediaHeader" ix="3">
+				<fld ty="sid" na="id" va="294141224"/>
+				<fld ty="u32" na="uOffset" va="31408" vf="0x7AB0"/>
+				<fld ty="u32" na="uSize" va="9133" vf="0x23AD"/>
+			</obj>
+			<obj na="MediaHeader" ix="4">
+				<fld ty="sid" na="id" va="482640770"/>
+				<fld ty="u32" na="uOffset" va="40544" vf="0x9E60"/>
+				<fld ty="u32" na="uSize" va="3535" vf="0xDCF"/>
+			</obj>
+			<obj na="MediaHeader" ix="5">
+				<fld ty="sid" na="id" va="339214061"/>
+				<fld ty="u32" na="uOffset" va="44080" vf="0xAC30"/>
+				<fld ty="u32" na="uSize" va="5225" vf="0x1469"/>
+			</obj>
+			<obj na="MediaHeader" ix="6">
+				<fld ty="sid" na="id" va="243325301"/>
+				<fld ty="u32" na="uOffset" va="49312" vf="0xC0A0"/>
+				<fld ty="u32" na="uSize" va="4468" vf="0x1174"/>
+			</obj>
+			<obj na="MediaHeader" ix="7">
+				<fld ty="sid" na="id" va="875648475"/>
+				<fld ty="u32" na="uOffset" va="53792" vf="0xD220"/>
+				<fld ty="u32" na="uSize" va="5750" vf="0x1676"/>
+			</obj>
+			<obj na="MediaHeader" ix="8">
+				<fld ty="sid" na="id" va="680501573"/>
+				<fld ty="u32" na="uOffset" va="59552" vf="0xE8A0"/>
+				<fld ty="u32" na="uSize" va="9556" vf="0x2554"/>
+			</obj>
+			<obj na="MediaHeader" ix="9">
+				<fld ty="sid" na="id" va="982270061"/>
+				<fld ty="u32" na="uOffset" va="69120" vf="0x10E00"/>
+				<fld ty="u32" na="uSize" va="9650" vf="0x25B2"/>
+			</obj>
+			<obj na="MediaHeader" ix="10">
+				<fld ty="sid" na="id" va="1042946786"/>
+				<fld ty="u32" na="uOffset" va="78784" vf="0x133C0"/>
+				<fld ty="u32" na="uSize" va="11073" vf="0x2B41"/>
+			</obj>
+			<obj na="MediaHeader" ix="11">
+				<fld ty="sid" na="id" va="294112612"/>
+				<fld ty="u32" na="uOffset" va="89872" vf="0x15F10"/>
+				<fld ty="u32" na="uSize" va="9619" vf="0x2593"/>
+			</obj>
+			<obj na="MediaHeader" ix="12">
+				<fld ty="sid" na="id" va="1060458809"/>
+				<fld ty="u32" na="uOffset" va="99504" vf="0x184B0"/>
+				<fld ty="u32" na="uSize" va="10353" vf="0x2871"/>
+			</obj>
+			<obj na="MediaHeader" ix="13">
+				<fld ty="sid" na="id" va="311253316"/>
+				<fld ty="u32" na="uOffset" va="109872" vf="0x1AD30"/>
+				<fld ty="u32" na="uSize" va="8486" vf="0x2126"/>
+			</obj>
+			<obj na="MediaHeader" ix="14">
+				<fld ty="sid" na="id" va="689867706"/>
+				<fld ty="u32" na="uOffset" va="118368" vf="0x1CE60"/>
+				<fld ty="u32" na="uSize" va="7726" vf="0x1E2E"/>
+			</obj>
+			<obj na="MediaHeader" ix="15">
+				<fld ty="sid" na="id" va="517645597"/>
+				<fld ty="u32" na="uOffset" va="126096" vf="0x1EC90"/>
+				<fld ty="u32" na="uSize" va="7946" vf="0x1F0A"/>
+			</obj>
+			<obj na="MediaHeader" ix="16">
+				<fld ty="sid" na="id" va="294614148"/>
+				<fld ty="u32" na="uOffset" va="134048" vf="0x20BA0"/>
+				<fld ty="u32" na="uSize" va="21491" vf="0x53F3"/>
+			</obj>
+			<obj na="MediaHeader" ix="17">
+				<fld ty="sid" na="id" va="933227762"/>
+				<fld ty="u32" na="uOffset" va="155552" vf="0x25FA0"/>
+				<fld ty="u32" na="uSize" va="105259" vf="0x19B2B"/>
+			</obj>
+			<obj na="MediaHeader" ix="18">
+				<fld ty="sid" na="id" va="838943958"/>
+				<fld ty="u32" na="uOffset" va="260816" vf="0x3FAD0"/>
+				<fld ty="u32" na="uSize" va="28676" vf="0x7004"/>
+			</obj>
+		</lst>
+	</obj>
+	<obj na="DataChunk">
+		<fld ty="4cc" na="dwTag" va="b&apos;DATA&apos;" vf="b&apos;DATA&apos; [Data]"/>
+		<fld ty="u32" na="dwChunkSize" va="289492" vf="0x46AD4"/>
+		<fld ty="gap" na="pData" va="289492" vf="0x46AD4"/>
+	</obj>
+</root>
+<root filename="Rengar_Skin01_SFX_events.bnk" pa="C:/Users/Win 10/Documents/GitHub/Old Rengar Rebirth/Original Rengar Files/Season 4 &amp; 6 Rengar Files/S6 Rengar/DATA/Sounds/Wwise/SFX/Characters/Rengar/Skins/Skin01" version="88">
 	<obj na="BankHeader">
 		<fld ty="4cc" na="dwTag" va="b&apos;BKHD&apos;" vf="b&apos;BKHD&apos; [Bank Header]"/>
 		<fld ty="u32" na="dwChunkSize" va="24" vf="0x18"/>
@@ -3563,125 +3682,6 @@ body { font-family: monospace; font-size: 16px; white-space: nowrap; }
 				<fld ty="str" na="FileName" va="Rengar_Skin01_SFX_events"/>
 			</obj>
 		</lst>
-	</obj>
-</root>
-<root filename="Rengar_Skin01_SFX_audio.bnk" pa="C:/Users/Win 10/Desktop/Sounds/Wwise/SFX/Characters/Rengar/Skins/Skin01" version="88">
-	<obj na="BankHeader">
-		<fld ty="4cc" na="dwTag" va="b&apos;BKHD&apos;" vf="b&apos;BKHD&apos; [Bank Header]"/>
-		<fld ty="u32" na="dwChunkSize" va="20" vf="0x14"/>
-		<obj na="AkBankHeader">
-			<fld ty="u32" na="dwBankGeneratorVersion" va="88"/>
-			<fld ty="sid" na="dwSoundBankID" va="1451466144" hn="Rengar_Skin01_SFX_audio"/>
-			<fld ty="u32" na="dwLanguageID" va="0" vf="0x00 [SFX]"/>
-			<fld ty="u32" na="bFeedbackInBank" va="0" vf="0x00"/>
-			<fld ty="u32" na="dwProjectID" va="250"/>
-		</obj>
-	</obj>
-	<obj na="MediaIndex">
-		<fld ty="4cc" na="dwTag" va="b&apos;DIDX&apos;" vf="b&apos;DIDX&apos; [Media Index]"/>
-		<fld ty="u32" na="dwChunkSize" va="228" vf="0xE4"/>
-		<lst na="pLoadedMedia" co="19">
-			<obj na="MediaHeader" ix="0">
-				<fld ty="sid" na="id" va="941316321"/>
-				<fld ty="u32" na="uOffset" va="0" vf="0x00"/>
-				<fld ty="u32" na="uSize" va="9030" vf="0x2346"/>
-			</obj>
-			<obj na="MediaHeader" ix="1">
-				<fld ty="sid" na="id" va="933059895"/>
-				<fld ty="u32" na="uOffset" va="9040" vf="0x2350"/>
-				<fld ty="u32" na="uSize" va="10121" vf="0x2789"/>
-			</obj>
-			<obj na="MediaHeader" ix="2">
-				<fld ty="sid" na="id" va="889667164"/>
-				<fld ty="u32" na="uOffset" va="19168" vf="0x4AE0"/>
-				<fld ty="u32" na="uSize" va="12235" vf="0x2FCB"/>
-			</obj>
-			<obj na="MediaHeader" ix="3">
-				<fld ty="sid" na="id" va="294141224"/>
-				<fld ty="u32" na="uOffset" va="31408" vf="0x7AB0"/>
-				<fld ty="u32" na="uSize" va="9133" vf="0x23AD"/>
-			</obj>
-			<obj na="MediaHeader" ix="4">
-				<fld ty="sid" na="id" va="482640770"/>
-				<fld ty="u32" na="uOffset" va="40544" vf="0x9E60"/>
-				<fld ty="u32" na="uSize" va="3535" vf="0xDCF"/>
-			</obj>
-			<obj na="MediaHeader" ix="5">
-				<fld ty="sid" na="id" va="339214061"/>
-				<fld ty="u32" na="uOffset" va="44080" vf="0xAC30"/>
-				<fld ty="u32" na="uSize" va="5225" vf="0x1469"/>
-			</obj>
-			<obj na="MediaHeader" ix="6">
-				<fld ty="sid" na="id" va="243325301"/>
-				<fld ty="u32" na="uOffset" va="49312" vf="0xC0A0"/>
-				<fld ty="u32" na="uSize" va="4468" vf="0x1174"/>
-			</obj>
-			<obj na="MediaHeader" ix="7">
-				<fld ty="sid" na="id" va="875648475"/>
-				<fld ty="u32" na="uOffset" va="53792" vf="0xD220"/>
-				<fld ty="u32" na="uSize" va="5750" vf="0x1676"/>
-			</obj>
-			<obj na="MediaHeader" ix="8">
-				<fld ty="sid" na="id" va="680501573"/>
-				<fld ty="u32" na="uOffset" va="59552" vf="0xE8A0"/>
-				<fld ty="u32" na="uSize" va="9556" vf="0x2554"/>
-			</obj>
-			<obj na="MediaHeader" ix="9">
-				<fld ty="sid" na="id" va="982270061"/>
-				<fld ty="u32" na="uOffset" va="69120" vf="0x10E00"/>
-				<fld ty="u32" na="uSize" va="9650" vf="0x25B2"/>
-			</obj>
-			<obj na="MediaHeader" ix="10">
-				<fld ty="sid" na="id" va="1042946786"/>
-				<fld ty="u32" na="uOffset" va="78784" vf="0x133C0"/>
-				<fld ty="u32" na="uSize" va="11073" vf="0x2B41"/>
-			</obj>
-			<obj na="MediaHeader" ix="11">
-				<fld ty="sid" na="id" va="294112612"/>
-				<fld ty="u32" na="uOffset" va="89872" vf="0x15F10"/>
-				<fld ty="u32" na="uSize" va="9619" vf="0x2593"/>
-			</obj>
-			<obj na="MediaHeader" ix="12">
-				<fld ty="sid" na="id" va="1060458809"/>
-				<fld ty="u32" na="uOffset" va="99504" vf="0x184B0"/>
-				<fld ty="u32" na="uSize" va="10353" vf="0x2871"/>
-			</obj>
-			<obj na="MediaHeader" ix="13">
-				<fld ty="sid" na="id" va="311253316"/>
-				<fld ty="u32" na="uOffset" va="109872" vf="0x1AD30"/>
-				<fld ty="u32" na="uSize" va="8486" vf="0x2126"/>
-			</obj>
-			<obj na="MediaHeader" ix="14">
-				<fld ty="sid" na="id" va="689867706"/>
-				<fld ty="u32" na="uOffset" va="118368" vf="0x1CE60"/>
-				<fld ty="u32" na="uSize" va="7726" vf="0x1E2E"/>
-			</obj>
-			<obj na="MediaHeader" ix="15">
-				<fld ty="sid" na="id" va="517645597"/>
-				<fld ty="u32" na="uOffset" va="126096" vf="0x1EC90"/>
-				<fld ty="u32" na="uSize" va="7946" vf="0x1F0A"/>
-			</obj>
-			<obj na="MediaHeader" ix="16">
-				<fld ty="sid" na="id" va="294614148"/>
-				<fld ty="u32" na="uOffset" va="134048" vf="0x20BA0"/>
-				<fld ty="u32" na="uSize" va="21491" vf="0x53F3"/>
-			</obj>
-			<obj na="MediaHeader" ix="17">
-				<fld ty="sid" na="id" va="933227762"/>
-				<fld ty="u32" na="uOffset" va="155552" vf="0x25FA0"/>
-				<fld ty="u32" na="uSize" va="105259" vf="0x19B2B"/>
-			</obj>
-			<obj na="MediaHeader" ix="18">
-				<fld ty="sid" na="id" va="838943958"/>
-				<fld ty="u32" na="uOffset" va="260816" vf="0x3FAD0"/>
-				<fld ty="u32" na="uSize" va="28676" vf="0x7004"/>
-			</obj>
-		</lst>
-	</obj>
-	<obj na="DataChunk">
-		<fld ty="4cc" na="dwTag" va="b&apos;DATA&apos;" vf="b&apos;DATA&apos; [Data]"/>
-		<fld ty="u32" na="dwChunkSize" va="289492" vf="0x46AD4"/>
-		<fld ty="gap" na="pData" va="289492" vf="0x46AD4"/>
 	</obj>
 </root>
 </base>
