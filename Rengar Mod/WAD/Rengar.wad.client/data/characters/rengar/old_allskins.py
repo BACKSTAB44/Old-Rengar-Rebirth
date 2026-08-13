@@ -4,7 +4,7 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Screen_Overlay_Target" = TextureResource {
-        texturePath: string = "ASSETS/Repath/Characters/Rengar/HUD/Rengar_Base_R_screen_overlay_target.tex"
+        texturePath: string = "assets/repath/characters/rengar/hud/rengar_base_r_screen_overlay_target.tex"
     }
     "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Primary_Target" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -34,7 +34,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 45, 45, 0 }
                 }
-                texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_R_tar_vision_eye.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_r_tar_vision_eye.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -96,7 +96,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Shared/Particles/talon_base_w_mis_02_spark.tex"
+                texture: string = "assets/repath/shared/particles/talon_base_w_mis_02_spark.tex"
             }
         }
         particleName: string = "Rengar_Base_R_Primary_Target"
@@ -148,7 +148,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_R_Heart.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_r_heart.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -191,7 +191,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_R_Heart.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_r_heart.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -216,7 +216,7 @@ entries: map[hash,embed] = {
                 depthBiasFactors: vec2 = { -1, -4 }
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Repath/Shared/Particles/3161common_color-hold.tex"
+                texture: string = "assets/repath/shared/particles/3161common_color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -238,7 +238,7 @@ entries: map[hash,embed] = {
                 pass: i16 = 60
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_R_Veins_Add.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_r_veins_add.tex"
                 scale0: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         times: list[f32] = {
@@ -355,7 +355,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Shared/Particles/Item_BlackCleaver_shield_laser.tex"
+                texture: string = "assets/repath/shared/particles/item_blackcleaver_shield_laser.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -416,7 +416,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Shared/Particles/Armor_Pen.tex"
+                texture: string = "assets/repath/shared/particles/armor_pen.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -495,7 +495,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_Z_Distortion.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_distortion.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -576,7 +576,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Shared/Particles/Item_BlackCleaver_shield_laser.tex"
+                texture: string = "assets/repath/shared/particles/item_blackcleaver_shield_laser.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -637,7 +637,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Shared/Particles/Armor_Pen.tex"
+                texture: string = "assets/repath/shared/particles/armor_pen.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -746,7 +746,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Shared/Particles/SRUAP_Order_Nexus_sparkleGold.tex"
+                texture: string = "assets/repath/shared/particles/sruap_order_nexus_sparklegold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -921,7 +921,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Shared/Particles/Item_BlackCleaver_SoftRays_4x1.tex"
+                texture: string = "assets/repath/shared/particles/item_blackcleaver_softrays_4x1.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 4, 1 }
             }
@@ -949,7 +949,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_Z_Ring_RGB.tex"
+                particleColorTexture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_ring_rgb.tex"
                 colorRenderFlags: u8 = 1
                 miscRenderFlags: u8 = 1
                 birthRotation0: embed = ValueVector3 {
@@ -959,7 +959,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 855, 855, 0 }
                 }
-                texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_Z_Ring.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_ring.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -1033,7 +1033,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_W_Heal_Spark_RGBA.tex"
+                particleColorTexture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_w_heal_spark_rgba.tex"
                 pass: i16 = 1
                 miscRenderFlags: u8 = 1
                 isDirectionOriented: flag = true
@@ -1057,7 +1057,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_P_Shafts.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_p_shafts.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -1085,7 +1085,7 @@ entries: map[hash,embed] = {
                     constantValue: vec4 = { 0, 0, 0, 0 }
                 }
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Repath/Shared/Particles/3161common_color-hold.tex"
+                texture: string = "assets/repath/shared/particles/3161common_color-hold.tex"
             }
         }
         particleName: string = "Rengar_LeapSound"
@@ -1262,7 +1262,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     ScaleEmitOffsetByBoundObjectSize: f32 = 0.005
                 }
-                particleColorTexture: string = "ASSETS/Repath/Shared/Particles/common_color-whiteweb32.tex"
+                particleColorTexture: string = "assets/repath/shared/particles/common_color-whiteweb32.tex"
                 blendMode: u8 = 3
                 colorLookUpTypeY: u8 = 3
                 alphaRef: u8 = 15
@@ -1315,7 +1315,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Shared/Particles/common_0fluid.tex"
+                texture: string = "assets/repath/shared/particles/common_0fluid.tex"
                 texDiv: vec2 = { 2, 2 }
             }
             VfxEmitterDefinitionData {
@@ -1343,7 +1343,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.005
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.005
                 }
-                particleColorTexture: string = "ASSETS/Repath/Shared/Particles/common_color-firefade.tex"
+                particleColorTexture: string = "assets/repath/shared/particles/common_color-firefade.tex"
                 blendMode: u8 = 4
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
@@ -1392,7 +1392,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Shared/Particles/common_hiteffect.tex"
+                texture: string = "assets/repath/shared/particles/common_hiteffect.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -1419,7 +1419,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.005
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.005
                 }
-                particleColorTexture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_Z_Rampdown_RGB.tex"
+                particleColorTexture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_rampdown_rgb.tex"
                 meshRenderFlags: u8 = 0
                 colorLookUpScales: vec2 = { 0.5, 1 }
                 colorLookUpOffsets: vec2 = { 0.5, 0 }
@@ -1469,7 +1469,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Shared/Particles/common_blast_nova_bunny_04.tex"
+                texture: string = "assets/repath/shared/particles/common_blast_nova_bunny_04.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -1636,7 +1636,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.005
                 }
-                particleColorTexture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_z_rampdown_rgba.tex"
+                particleColorTexture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_rampdown_rgba.tex"
                 blendMode: u8 = 1
                 meshRenderFlags: u8 = 0
                 colorLookUpTypeY: u8 = 3
@@ -1667,7 +1667,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Shared/Particles/common_blurdrops.tex"
+                texture: string = "assets/repath/shared/particles/common_blurdrops.tex"
                 frameRate: f32 = 1
                 numFrames: u16 = 16
                 startFrame: u16 = 15
@@ -1841,7 +1841,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.005
                 }
-                particleColorTexture: string = "ASSETS/Repath/Shared/Particles/common_color-whiteweb32.tex"
+                particleColorTexture: string = "assets/repath/shared/particles/common_color-whiteweb32.tex"
                 blendMode: u8 = 1
                 meshRenderFlags: u8 = 0
                 colorLookUpTypeY: u8 = 3
@@ -1916,7 +1916,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Shared/Particles/common_0fluid.tex"
+                texture: string = "assets/repath/shared/particles/common_0fluid.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -2087,7 +2087,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.005
                 }
-                particleColorTexture: string = "ASSETS/Repath/Shared/Particles/common_color-whiteweb32.tex"
+                particleColorTexture: string = "assets/repath/shared/particles/common_color-whiteweb32.tex"
                 blendMode: u8 = 3
                 colorLookUpTypeY: u8 = 3
                 alphaRef: u8 = 15
@@ -2140,7 +2140,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Shared/Particles/common_0fluid.tex"
+                texture: string = "assets/repath/shared/particles/common_0fluid.tex"
                 texDiv: vec2 = { 2, 2 }
             }
             VfxEmitterDefinitionData {
@@ -2161,7 +2161,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Repath/Shared/Particles/common_color-hit-physical.tex"
+                particleColorTexture: string = "assets/repath/shared/particles/common_color-hit-physical.tex"
                 pass: i16 = 10
                 meshRenderFlags: u8 = 0
                 miscRenderFlags: u8 = 1
@@ -2211,7 +2211,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Shared/Particles/common_hiteffect.tex"
+                texture: string = "assets/repath/shared/particles/common_hiteffect.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -2379,7 +2379,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.005
                 }
-                particleColorTexture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_z_rampdown_rgba.tex"
+                particleColorTexture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_rampdown_rgba.tex"
                 blendMode: u8 = 1
                 meshRenderFlags: u8 = 0
                 colorLookUpTypeY: u8 = 3
@@ -2410,7 +2410,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Shared/Particles/common_blurdrops.tex"
+                texture: string = "assets/repath/shared/particles/common_blurdrops.tex"
                 frameRate: f32 = 1
                 numFrames: u16 = 16
                 startFrame: u16 = 15
@@ -2585,7 +2585,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.005
                 }
-                particleColorTexture: string = "ASSETS/Repath/Shared/Particles/common_color-whiteweb32.tex"
+                particleColorTexture: string = "assets/repath/shared/particles/common_color-whiteweb32.tex"
                 blendMode: u8 = 1
                 meshRenderFlags: u8 = 0
                 colorLookUpTypeY: u8 = 3
@@ -2660,7 +2660,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Shared/Particles/common_0fluid.tex"
+                texture: string = "assets/repath/shared/particles/common_0fluid.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -2957,7 +2957,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_P_Leap_Grass.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_p_leap_grass.tex"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
             }
@@ -3118,7 +3118,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_W_Heal_Spark_RGBA.tex"
+                particleColorTexture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_w_heal_spark_rgba.tex"
                 colorLookUpTypeY: u8 = 3
                 miscRenderFlags: u8 = 1
                 isLocalOrientation: flag = false
@@ -3143,7 +3143,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_W_Heal_Spark.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_w_heal_spark.tex"
             }
         }
         particleName: string = "Rengar_Base_W_Heal"
@@ -3311,7 +3311,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.005
                 }
-                particleColorTexture: string = "ASSETS/Repath/Shared/Particles/common_color-whiteweb32.tex"
+                particleColorTexture: string = "assets/repath/shared/particles/common_color-whiteweb32.tex"
                 blendMode: u8 = 3
                 colorLookUpTypeY: u8 = 3
                 alphaRef: u8 = 15
@@ -3364,7 +3364,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Shared/Particles/common_0fluid.tex"
+                texture: string = "assets/repath/shared/particles/common_0fluid.tex"
                 texDiv: vec2 = { 2, 2 }
             }
             VfxEmitterDefinitionData {
@@ -3390,7 +3390,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Repath/Shared/Particles/common_color-hit-physical.tex"
+                particleColorTexture: string = "assets/repath/shared/particles/common_color-hit-physical.tex"
                 pass: i16 = 10
                 meshRenderFlags: u8 = 0
                 miscRenderFlags: u8 = 1
@@ -3440,7 +3440,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Shared/Particles/common_hiteffect.tex"
+                texture: string = "assets/repath/shared/particles/common_hiteffect.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -3607,7 +3607,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.005
                 }
-                particleColorTexture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_z_rampdown_rgba.tex"
+                particleColorTexture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_rampdown_rgba.tex"
                 blendMode: u8 = 1
                 meshRenderFlags: u8 = 0
                 colorLookUpTypeY: u8 = 3
@@ -3638,7 +3638,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Shared/Particles/common_blurdrops.tex"
+                texture: string = "assets/repath/shared/particles/common_blurdrops.tex"
                 frameRate: f32 = 1
                 numFrames: u16 = 16
                 startFrame: u16 = 15
@@ -3813,7 +3813,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.005
                 }
-                particleColorTexture: string = "ASSETS/Repath/Shared/Particles/common_color-whiteweb32.tex"
+                particleColorTexture: string = "assets/repath/shared/particles/common_color-whiteweb32.tex"
                 blendMode: u8 = 1
                 meshRenderFlags: u8 = 0
                 colorLookUpTypeY: u8 = 3
@@ -3888,7 +3888,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Shared/Particles/common_0fluid.tex"
+                texture: string = "assets/repath/shared/particles/common_0fluid.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -4014,12 +4014,12 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.005
                 }
-                particleColorTexture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_Z_Rampdown_RGBA.tex"
+                particleColorTexture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_rampdown_rgba.tex"
                 blendMode: u8 = 1
                 meshRenderFlags: u8 = 0
                 colorLookUpTypeY: u8 = 3
                 isDirectionOriented: flag = true
-                texture: string = "ASSETS/Repath/Shared/Particles/common_blurdrops.tex"
+                texture: string = "assets/repath/shared/particles/common_blurdrops.tex"
                 frameRate: f32 = 16
                 numFrames: u16 = 16
                 texDiv: vec2 = { 4, 4 }
@@ -4181,12 +4181,12 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.005
                 }
-                particleColorTexture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_Z_Rampdown_RGBA.tex"
+                particleColorTexture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_rampdown_rgba.tex"
                 blendMode: u8 = 1
                 meshRenderFlags: u8 = 0
                 colorLookUpTypeY: u8 = 3
                 isDirectionOriented: flag = true
-                texture: string = "ASSETS/Repath/Shared/Particles/common_blurdrops.tex"
+                texture: string = "assets/repath/shared/particles/common_blurdrops.tex"
                 frameRate: f32 = 16
                 numFrames: u16 = 16
                 texDiv: vec2 = { 4, 4 }
@@ -4252,7 +4252,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_E_Net.scb"
+                        mSimpleMeshName: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_e_net.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -4261,7 +4261,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 80, 150 }
                 }
-                texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_E_Net.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_e_net.tex"
             }
         }
         particleName: string = "Rengar_Base_E_Max_Tar"
@@ -4303,7 +4303,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_E_Wrap.scb"
+                        mSimpleMeshName: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_e_wrap.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -4427,7 +4427,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_E_Wrap.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_e_wrap.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -4482,7 +4482,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_E_Bola.scb"
+                        mSimpleMeshName: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_e_bola.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -4561,7 +4561,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_E_Bola.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_e_bola.tex"
             }
         }
         particleName: string = "Rengar_Base_E_Tar"
@@ -4591,7 +4591,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "Base"
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_Z_RGB.tex"
+                particleColorTexture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_rgb.tex"
                 blendMode: u8 = 2
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { -90, 0, 1 }
@@ -4641,7 +4641,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_W_ShoutRing.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_w_shoutring.tex"
             }
         }
         particleName: string = "Rengar_Base_W_Tar"
@@ -4669,7 +4669,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_Z_RGB.tex"
+                particleColorTexture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_rgb.tex"
                 blendMode: u8 = 2
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { -90, 0, 1 }
@@ -4719,7 +4719,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_W_ShoutRing.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_w_shoutring.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -4787,7 +4787,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveRay {}
-                particleColorTexture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_Z_RGB.tex"
+                particleColorTexture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_rgb.tex"
                 blendMode: u8 = 2
                 miscRenderFlags: u8 = 1
                 birthRotation0: embed = ValueVector3 {
@@ -4875,7 +4875,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.005
                 }
-                texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Base/Particles/Rengar_Base_W_Barbs.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_w_barbs.tex"
             }
         }
         particleName: string = "Rengar_Base_W_Max_Tar"

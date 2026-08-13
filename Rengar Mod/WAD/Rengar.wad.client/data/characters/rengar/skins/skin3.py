@@ -2,10 +2,10 @@
 type: string = "PROP"
 version: u32 = 3
 linked: list[string] = {
-    "DATA/Characters/Rengar/Rengar.bin"
-    "DATA/Characters/Rengar/Old_Allskins.bin"
-    "DATA/Characters/Rengar/Animations/Skin0.bin"
-    "DATA/Characters/Rengar/Old_Base_SSW.bin"
+    "data/characters/rengar/rengar.bin"
+    "data/characters/rengar/animations/skin0.bin"
+    "data/characters/rengar/old_base_ssw.bin"
+    "data/characters/rengar/old_allskins.bin"
 }
 entries: map[hash,embed] = {
     "Characters/Rengar/Skins/Skin3" = SkinCharacterDataProperties {
@@ -13,7 +13,7 @@ entries: map[hash,embed] = {
         championSkinName: string = "rengarSkin03"
         metaDataTags: string = "gender:male,race:vastaya,faction:ixtal,skinline:esports,subskinline:ssw,appearance:feline"
         loadscreen: embed = CensoredImage {
-            image: file = "ASSETS/Repath/Characters/Rengar/Skins/Skin03/RengarLoadScreen_3.tex"
+            image: file = "assets/Repath/Characters/Rengar/Skins/Skin03/RengarLoadScreen_3.tex"
         }
         skinAudioProperties: embed = skinAudioProperties {
             tagEventList: list[string] = {
@@ -24,30 +24,30 @@ entries: map[hash,embed] = {
                 BankUnit {
                     name: string = "Old_SFX"
                     bankPath: list[string] = {
-                        "ASSETS/Repath/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Old/Old_SFX_audio.bnk"
-                        "ASSETS/Repath/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Old/Old_SFX_events.bnk"
+                        "assets/Repath/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Old/Old_SFX_audio.bnk"
+                        "assets/Repath/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Old/Old_SFX_events.bnk"
                     }
                 }
                 BankUnit {
                     name: string = "Rengar_Base_SFX"
                     bankPath: list[string] = {
-                        "ASSETS/Repath/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Base/Rengar_Base_SFX_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Base/Rengar_Base_SFX_events.bnk"
+                        "assets/Repath/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Base/Rengar_Base_SFX_audio.bnk"
+                        "assets/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Base/Rengar_Base_SFX_events.bnk"
                     }
                 }
                 BankUnit {
                     name: string = "Rengar_Skin01_SFX"
                     bankPath: list[string] = {
-                        "ASSETS/Repath/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Skin01/Rengar_Skin01_SFX_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Skin01/Rengar_Skin01_SFX_events.bnk"
+                        "assets/Repath/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Skin01/Rengar_Skin01_SFX_audio.bnk"
+                        "assets/Sounds/Wwise2016/SFX/Characters/Rengar/Skins/Skin01/Rengar_Skin01_SFX_events.bnk"
                     }
                 }
                 BankUnit {
                     name: string = "Rengar_Base_VO"
                     bankPath: list[string] = {
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Rengar/Skins/Base/Rengar_Base_VO_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Rengar/Skins/Base/Rengar_Base_VO_events.bnk"
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Rengar/Skins/Base/Rengar_Base_VO_audio.wpk"
+                        "assets/Sounds/Wwise2016/VO/en_US/Characters/Rengar/Skins/Base/Rengar_Base_VO_audio.bnk"
+                        "assets/Sounds/Wwise2016/VO/en_US/Characters/Rengar/Skins/Base/Rengar_Base_VO_events.bnk"
+                        "assets/Sounds/Wwise2016/VO/en_US/Characters/Rengar/Skins/Base/Rengar_Base_VO_audio.wpk"
                     }
                     events: list[string] = {
                         "Play_vo_Rengar_Attack2DGeneral"
@@ -82,9 +82,9 @@ entries: map[hash,embed] = {
             animationGraphData: link = "Characters/Rengar/Animations/Skin0"
         }
         skinMeshProperties: embed = SkinMeshDataProperties {
-            skeleton: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin03/rengar_Skin03.skl"
-            simpleSkin: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin03/rengar_Skin03.skn"
-            texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin03/rengar_Skin03_TX_CM.tex"
+            skeleton: string = "assets/Repath/Characters/Rengar/Skins/Skin03/rengar_Skin03.skl"
+            simpleSkin: string = "assets/Repath/Characters/Rengar/Skins/Skin03/rengar_Skin03.skn"
+            texture: string = "assets/Repath/Characters/Rengar/Skins/Skin03/rengar_Skin03_TX_CM.tex"
             skinScale: f32 = 0.95
             selfIllumination: f32 = 0.7
             overrideBoundingBox: option[vec3] = {
@@ -96,12 +96,12 @@ entries: map[hash,embed] = {
         armorMaterial: string = "Flesh"
         mContextualActionData: link = "Characters/Rengar/CAC/Rengar_Base"
         iconCircle: option[string] = {
-            "ASSETS/Repath/Characters/Rengar/HUD/Rengar_Circle_0.tex"
+            "assets/Repath/Characters/Rengar/HUD/Rengar_Circle_0.tex"
         }
         iconSquare: option[string] = {
-            "ASSETS/Repath/Characters/Rengar/HUD/Rengar_Square_0.tex"
+            "assets/Repath/Characters/Rengar/HUD/Rengar_Square_0.tex"
         }
-        iconAvatar: string = "ASSETS/Repath/Characters/Rengar/HUD/Rengar_Circle_3.tex"
+        iconAvatar: string = "assets/Repath/Characters/Rengar/HUD/Rengar_Circle_3.tex"
         healthBarData: embed = CharacterHealthBarDataRecord {
             unitHealthBarStyle: u8 = 12
         }
@@ -181,7 +181,7 @@ entries: map[hash,embed] = {
                 depthBiasFactors: vec2 = { -1, -4 }
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Repath/Characters/Rengar/Skins/Skin03/Rengar_Skin03_TX_CM.tex"
+                texture: string = "assets/Repath/Characters/Rengar/Skins/Skin03/Rengar_Skin03_TX_CM.tex"
             }
         }
         particleName: string = "Rengar_Skin3_R_Leap"
