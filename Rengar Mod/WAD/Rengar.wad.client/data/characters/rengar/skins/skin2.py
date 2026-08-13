@@ -124,8 +124,15 @@ entries: map[hash,embed] = {
         PersistentEffectConditions: list2[pointer] = {
             PersistentEffectConditionData {
                 OwnerCondition: pointer = DelayedBoolMaterialDriver {
-                    mBoolDriver: pointer = HasBuffDynamicMaterialBoolDriver {
-                        Spell: hash = "Characters/Rengar/Spells/RengarRAbility/RengarR"
+                    mBoolDriver: pointer = OneTrueMaterialDriver {
+                        mDrivers: list[pointer] = {
+                            HasBuffDynamicMaterialBoolDriver {
+                                Spell: hash = "Characters/Rengar/Spells/RengarRAbility/RengarR"
+                            }
+                            HasBuffDynamicMaterialBoolDriver {
+                                mScriptName: string = "RengarR"
+                            }
+                        }
                     }
                     mDelayOn: f32 = 2
                 }

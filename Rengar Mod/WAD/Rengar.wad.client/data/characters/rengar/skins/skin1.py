@@ -26,15 +26,15 @@ entries: map[hash,embed] = {
                 BankUnit {
                     name: string = "Old_SFX"
                     bankPath: list[string] = {
-                        "assets/repath/sounds/wwwise2016/sfx/characters/rengar/skins/old/old_sfx_audio.bnk"
-                        "assets/repath/sounds/wwwise2016/sfx/characters/rengar/skins/old/old_sfx_events.bnk"
+                        "assets/repath/sounds/wwise2016/sfx/characters/rengar/skins/old/old_sfx_audio.bnk"
+                        "assets/repath/sounds/wwise2016/sfx/characters/rengar/skins/old/old_sfx_events.bnk"
                     }
                 }
                 BankUnit {
                     name: string = "Rengar_Skin01_SFX"
                     bankPath: list[string] = {
                         "assets/repath/sounds/wwise2016/sfx/characters/rengar/skins/skin01/rengar_skin01_sfx_audio.bnk"
-                        "assets/sounds/wwise2016/sfx/characters/sengar/skins/skin01/rengar_skin01_sfx_events.bnk"
+                        "assets/sounds/wwise2016/sfx/characters/rengar/skins/skin01/rengar_skin01_sfx_events.bnk"
                     }
                     events: list[string] = {
                         "Play_sfx_RengarSkin01_RengarE_hit"
@@ -137,8 +137,15 @@ entries: map[hash,embed] = {
         PersistentEffectConditions: list2[pointer] = {
             PersistentEffectConditionData {
                 OwnerCondition: pointer = DelayedBoolMaterialDriver {
-                    mBoolDriver: pointer = HasBuffDynamicMaterialBoolDriver {
-                        Spell: hash = "Characters/Rengar/Spells/RengarRAbility/RengarR"
+                    mBoolDriver: pointer = OneTrueMaterialDriver {
+                        mDrivers: list[pointer] = {
+                            HasBuffDynamicMaterialBoolDriver {
+                                Spell: hash = "Characters/Rengar/Spells/RengarRAbility/RengarR"
+                            }
+                            HasBuffDynamicMaterialBoolDriver {
+                                mScriptName: string = "RengarR"
+                            }
+                        }
                     }
                     mDelayOn: f32 = 2
                 }

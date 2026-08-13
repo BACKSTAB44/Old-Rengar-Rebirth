@@ -221,8 +221,15 @@ entries: map[hash,embed] = {
             }
             "Spell5" = ConditionBoolClipData {
                 Updater: pointer = LogicDriverBoolParametricUpdater {
-                    driver: pointer = HasBuffDynamicMaterialBoolDriver {
-                        Spell: hash = "Characters/Rengar/Spells/RengarRAbility/RengarR"
+                    driver: pointer = OneTrueMaterialDriver {
+                        mDrivers: list[pointer] = {
+                            HasBuffDynamicMaterialBoolDriver {
+                                Spell: hash = "Characters/Rengar/Spells/RengarRAbility/RengarR"
+                            }
+                            HasBuffDynamicMaterialBoolDriver {
+                                mScriptName: string = "RengarR"
+                            }
+                        }
                     }
                 }
                 mTrueConditionClipName: hash = "Spell5_Ult"
@@ -308,6 +315,12 @@ entries: map[hash,embed] = {
                             }
                             HasBuffDynamicMaterialBoolDriver {
                                 Spell: hash = "Characters/Rengar/Spells/RengarQAbility/RengarQEmp"
+                            }
+                            HasBuffDynamicMaterialBoolDriver {
+                                mScriptName: string = "RengarQ"
+                            }
+                            HasBuffDynamicMaterialBoolDriver {
+                                mScriptName: string = "RengarQEmp"
                             }
                         }
                     }
