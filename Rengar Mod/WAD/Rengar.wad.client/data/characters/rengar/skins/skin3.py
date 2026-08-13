@@ -124,7 +124,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    mDelayOn: f32 = 2
+                    mDelayOn: f32 = 2.06
                 }
                 SubmeshesToShow: list2[hash] = {
                     "MinimalMesh"

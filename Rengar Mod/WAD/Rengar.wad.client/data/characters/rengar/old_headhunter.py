@@ -643,7 +643,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 2.6
+                    constantValue: f32 = 2.55
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "on_cast"
@@ -665,7 +665,7 @@ entries: map[hash,embed] = {
                 texture: string = "assets/repath/characters/rengar/skins/skin01/particles/rengar_skin01_z_avatar.tex"
             }
             VfxEmitterDefinitionData {
-                timeBeforeFirstEmission: f32 = 1.76
+                timeBeforeFirstEmission: f32 = 1.73
                 rate: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -685,7 +685,7 @@ entries: map[hash,embed] = {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
-                            0.0025
+                            0.003
                         }
                         values: list[vec4] = {
                             { 1, 1, 1, 0 }
@@ -704,7 +704,7 @@ entries: map[hash,embed] = {
                 }
             }
             VfxEmitterDefinitionData {
-                timeBeforeFirstEmission: f32 = 1.78
+                timeBeforeFirstEmission: f32 = 1.73
                 rate: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
