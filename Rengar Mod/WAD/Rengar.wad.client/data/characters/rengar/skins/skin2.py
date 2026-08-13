@@ -3368,7 +3368,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                SpawnShape: pointer = 0xee39916f {
+                SpawnShape: pointer = VfxShapeOdinCenterAltarChampionBuffEmptyCarveAPath {
                     emitOffset: vec3 = { 0, -10, 0 }
                 }
                 primitive: pointer = VfxPrimitiveRay {}
@@ -3507,7 +3507,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                SpawnShape: pointer = 0xee39916f {
+                SpawnShape: pointer = VfxShapeOdinCenterAltarChampionBuffEmptyCarveAPath {
                     emitOffset: vec3 = { 0, -10, 0 }
                 }
                 primitive: pointer = VfxPrimitiveRay {}
@@ -4314,7 +4314,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                SpawnShape: pointer = 0xee39916f {
+                SpawnShape: pointer = VfxShapeOdinCenterAltarChampionBuffEmptyCarveAPath {
                     emitOffset: vec3 = { 0, 75, -2.5 }
                 }
                 particleColorTexture: string = "assets/repath/characters/rengar/skins/skin02/particles/rengar_skin02_q_buf_blade_flame_rgb.tex"
@@ -4442,7 +4442,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Blade_Mesh_Flame_Dark"
-                SpawnShape: pointer = 0xee39916f {
+                SpawnShape: pointer = VfxShapeOdinCenterAltarChampionBuffEmptyCarveAPath {
                     emitOffset: vec3 = { 0, 75, -2.5 }
                 }
                 bindWeight: embed = ValueFloat {

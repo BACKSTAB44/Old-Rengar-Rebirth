@@ -20,7 +20,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                SpawnShape: pointer = 0xee39916f {
+                SpawnShape: pointer = VfxShapeOdinCenterAltarChampionBuffEmptyCarveAPath {
                     emitOffset: vec3 = { 0, 130, 0 }
                 }
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
@@ -52,7 +52,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                SpawnShape: pointer = 0xee39916f {
+                SpawnShape: pointer = VfxShapeOdinCenterAltarChampionBuffEmptyCarveAPath {
                     emitOffset: vec3 = { 0, 100, 0 }
                 }
                 birthColor: embed = ValueColor {
@@ -117,7 +117,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                SpawnShape: pointer = 0xee39916f {
+                SpawnShape: pointer = VfxShapeOdinCenterAltarChampionBuffEmptyCarveAPath {
                     emitOffset: vec3 = { 0, 120, 0 }
                 }
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
@@ -161,7 +161,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                SpawnShape: pointer = 0xee39916f {
+                SpawnShape: pointer = VfxShapeOdinCenterAltarChampionBuffEmptyCarveAPath {
                     emitOffset: vec3 = { 0, 120, 0 }
                 }
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
@@ -1336,7 +1336,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                SpawnShape: pointer = 0xee39916f {
+                SpawnShape: pointer = VfxShapeOdinCenterAltarChampionBuffEmptyCarveAPath {
                     emitOffset: vec3 = { 0, 50, 0 }
                 }
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
@@ -1412,7 +1412,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                SpawnShape: pointer = 0xee39916f {
+                SpawnShape: pointer = VfxShapeOdinCenterAltarChampionBuffEmptyCarveAPath {
                     emitOffset: vec3 = { 0, 50, 0 }
                 }
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
