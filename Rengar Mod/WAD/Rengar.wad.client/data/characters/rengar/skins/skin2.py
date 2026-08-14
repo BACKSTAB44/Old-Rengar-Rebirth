@@ -3368,7 +3368,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                SpawnShape: pointer = VfxShapeOdinCenterAltarChampionBuffEmptyCarveAPath {
+                SpawnShape: pointer = VfxShapePointDoNotUse {
                     emitOffset: vec3 = { 0, -10, 0 }
                 }
                 primitive: pointer = VfxPrimitiveRay {}
@@ -3507,7 +3507,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                SpawnShape: pointer = VfxShapeOdinCenterAltarChampionBuffEmptyCarveAPath {
+                SpawnShape: pointer = VfxShapePointDoNotUse {
                     emitOffset: vec3 = { 0, -10, 0 }
                 }
                 primitive: pointer = VfxPrimitiveRay {}
@@ -4314,7 +4314,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                SpawnShape: pointer = VfxShapeOdinCenterAltarChampionBuffEmptyCarveAPath {
+                SpawnShape: pointer = VfxShapePointDoNotUse {
                     emitOffset: vec3 = { 0, 75, -2.5 }
                 }
                 particleColorTexture: string = "assets/repath/characters/rengar/skins/skin02/particles/rengar_skin02_q_buf_blade_flame_rgb.tex"
@@ -4442,7 +4442,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Blade_Mesh_Flame_Dark"
-                SpawnShape: pointer = VfxShapeOdinCenterAltarChampionBuffEmptyCarveAPath {
+                SpawnShape: pointer = VfxShapePointDoNotUse {
                     emitOffset: vec3 = { 0, 75, -2.5 }
                 }
                 bindWeight: embed = ValueFloat {
@@ -5000,7 +5000,7 @@ entries: map[hash,embed] = {
             "Rengar_R_LeapMat" = "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin2_R_Leap"
             "Rengar_R_Primary_Target" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Primary_Target"
             "Rengar_R_Primary_Target_Enhanced" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Primary_Target_Enhanced"
-            "Rengar_R_Screen_Overlay_Target" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Screen_Overlay_Target"
+            "Rengar_R_Screen_Overlay_Target" = "Characters/Rengar/Skins/Skin0/TextureResources/Rengar_Base_R_screen_overlay_target"
             "Rengar_R_Secondary_Target_Sound_Off" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Secondary_Target_Sound_Off"
             "Rengar_R_Secondary_Target_Sound_On" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Secondary_Target_Sound_On"
             "Rengar_W_Heal" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_W_Heal"
