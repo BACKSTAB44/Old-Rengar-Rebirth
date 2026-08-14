@@ -13,9 +13,9 @@ entries: map[hash,embed] = {
         championSkinName: string = "RengarSkin07"
         skinParent: i32 = 1
         metaDataTags: string = "gender:male,skinline:headhunter"
-        0xc3a944e7: pointer = 0xe7ee4f28 {
-            0x7dd33afb: u32 = 2
-            0xa2cb8e03: map[string,u32] = {
+        ChromaData: pointer = PresetChromaData {
+            selectedPreset: u32 = 2
+            rarityOverrides: map[string,u32] = {
                 "riot" = 0
                 "TENCENT" = 1
             }
