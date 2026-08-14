@@ -5199,7 +5199,7 @@ entries: map[hash,embed] = {
                                             "Characters/Khazix/CharacterRecords/Root"
                                         }
                                     }
-                                    0xb6da23cb {}
+                                    ContextualConditionEnemyEncounterNumber {}
                                 }
                             }
                         }
