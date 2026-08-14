@@ -152,7 +152,7 @@ entries: map[hash,embed] = {
         }
         objectPath: hash = "Characters/Rengar/Skins/Skin3"
     }
-    "Characters/Rengar/Skins/Skin0/Particles/Rengar_Skin3_R_Leap" = VfxSystemDefinitionData {
+    "Characters/Rengar/Skins/Skin3/Particles/Rengar_Skin3_R_Leap" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -192,8 +192,8 @@ entries: map[hash,embed] = {
             }
         }
         particleName: string = "Rengar_Skin3_R_Leap"
-        particlePath: string = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Skin3_R_Leap"
-        objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Skin3_R_Leap"
+        particlePath: string = "Characters/Rengar/Skins/Skin3/Particles/Rengar_Skin3_R_Leap"
+        objectPath: hash = "Characters/Rengar/Skins/Skin3/Particles/Rengar_Skin3_R_Leap"
     }
     "Characters/Rengar/Skins/Skin3/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {
@@ -207,6 +207,7 @@ entries: map[hash,embed] = {
             "Rengar_E_Max_Tar" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_E_Max_Tar"
             "Rengar_E_Mis" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_E_Mis"
             "Rengar_E_Tar" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_E_Tar"
+            "Rengar_LeapSound_BV2" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_LeapSound"
             "Rengar_P_Buf_Max" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_P_Buf_Max_New"
             "Rengar_P_Buf_Enhanced_Ring" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_P_Buf_Enhanced_Ring"
             "Rengar_P_Leap_Grass" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_P_Leap_Grass"
@@ -220,7 +221,7 @@ entries: map[hash,embed] = {
             "Rengar_Q_Tar_Visuals" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_Q_Tar_Visuals"
             "Rengar_R_Armor_shred_tar" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Armor_shred_tar"
             "Rengar_R_Buf" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Buf"
-            "Rengar_R_LeapMat" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Skin3_R_Leap"
+            "Rengar_R_LeapMat" = "Characters/Rengar/Skins/Skin3/Particles/Rengar_Skin3_R_Leap"
             "Rengar_R_Primary_Target" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Primary_Target"
             "Rengar_R_Primary_Target_Enhanced" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Primary_Target_Enhanced"
             "Rengar_R_Screen_Overlay_Target" = "Characters/Rengar/Skins/Skin0/TextureResources/Rengar_Base_R_screen_overlay_target"
@@ -231,7 +232,6 @@ entries: map[hash,embed] = {
             "Rengar_W_Max_Tar" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_W_Max_Tar"
             "Rengar_W_Roar" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_W_Roar"
             "Rengar_W_Tar" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_W_Tar"
-            "Rengar_LeapSound_BV2" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_LeapSound"
         }
     }
 }

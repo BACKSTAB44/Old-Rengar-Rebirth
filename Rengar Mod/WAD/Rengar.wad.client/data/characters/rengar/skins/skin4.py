@@ -234,6 +234,7 @@ entries: map[hash,embed] = {
             "Rengar_E_Max_Tar" = "Characters/Rengar/Skins/Skin1/Particles/Rengar_Skin01_E_Max_Tar"
             "Rengar_E_Mis" = "Characters/Rengar/Skins/Skin1/Particles/Rengar_Skin01_E_Mis"
             "Rengar_E_Tar" = "Characters/Rengar/Skins/Skin1/Particles/Rengar_Skin01_E_Tar"
+            "Rengar_LeapSound_BV2" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_LeapSound"
             "Rengar_P_Buf_Enhanced_Ring" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_P_Buf_Enhanced_Ring"
             "Rengar_P_Buf_Max" = "Characters/Rengar/Skins/Skin1/Particles/Rengar_Skin01_P_Buf_Max"
             "Rengar_P_Leap_Grass" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_P_Leap_Grass"
@@ -258,7 +259,6 @@ entries: map[hash,embed] = {
             "Rengar_W_Max_Tar" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_W_Max_Tar"
             "Rengar_W_Roar" = "Characters/Rengar/Skins/Skin1/Particles/Rengar_Skin01_W_Roar"
             "Rengar_W_Tar" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_W_Tar"
-            "Rengar_LeapSound_BV2" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_LeapSound"
         }
     }
 }
