@@ -153,10 +153,10 @@ entries: map[hash,embed] = {
         }
         armorMaterial: string = "Flesh"
         mContextualActionData: link = "Characters/Rengar/CAC/Rengar_Base"
-        iconCircle: option[string] = {
+        iconCircle: option[file] = {
             "assets/repath/characters/rengar/hud/rengar_circle_0.tex"
         }
-        iconSquare: option[string] = {
+        iconSquare: option[file] = {
             "assets/repath/characters/rengar/hud/rengar_square_0.tex"
         }
         healthBarData: embed = CharacterHealthBarDataRecord {
