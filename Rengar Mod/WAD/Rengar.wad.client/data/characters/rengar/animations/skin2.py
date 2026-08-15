@@ -1569,5 +1569,6 @@ entries: map[hash,embed] = {
                 mTime: f32 = 0
             }
         }
+        objectPath: hash = "Characters/Rengar/Animations/Skin2"
     }
 }
