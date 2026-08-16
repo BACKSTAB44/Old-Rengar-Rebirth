@@ -3016,7 +3016,7 @@ entries: map[hash,embed] = {
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
-                    constantValue: f32 = -1
+                    constantValue: f32 = 1
                 }
                 lifetime: option[f32] = {
                     0.1
@@ -3917,7 +3917,7 @@ entries: map[hash,embed] = {
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
-                    constantValue: f32 = -1
+                    constantValue: f32 = 1
                 }
                 lifetime: option[f32] = {
                     0.1
