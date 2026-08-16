@@ -3154,7 +3154,7 @@ entries: map[hash,embed] = {
         complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
-                    constantValue: f32 = 600
+                    constantValue: f32 = 5
                 }
                 particleLifetime: embed = ValueFloat {
                     constantValue: f32 = 0.55
@@ -3182,12 +3182,16 @@ entries: map[hash,embed] = {
                     }
                 }
                 particleLinger: option[f32] = {
-                    10
+                    10.55
                 }
                 lifetime: option[f32] = {
                     0.1
                 }
+                isSingleParticle: flag = true
                 emitterName: string = "fluid"
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 85, 0 }
+                }
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 300, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -3279,7 +3283,7 @@ entries: map[hash,embed] = {
                                 }
                             }
                         }
-                        ValueFloat {
+                        valueFloat {
                             constantValue: f32 = 1
                             dynamics: pointer = VfxAnimatedFloatVariableData {
                                 probabilityTables: list[pointer] = {
@@ -3319,7 +3323,7 @@ entries: map[hash,embed] = {
                 isDirectionOriented: flag = true
                 isRandomStartFrame: flag = true
                 birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 20, 20, 0 }
+                    constantValue: vec3 = { 22.5, 22.5, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {
@@ -3348,7 +3352,7 @@ entries: map[hash,embed] = {
                             0
                         }
                         values: list[vec3] = {
-                            { 20, 20, 0 }
+                            { 22.5, 22.5, 0 }
                         }
                     }
                 }
@@ -3444,7 +3448,7 @@ entries: map[hash,embed] = {
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
-                    constantValue: f32 = 30
+                    constantValue: f32 = 10
                     dynamics: pointer = VfxAnimatedFloatVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {
@@ -3462,7 +3466,7 @@ entries: map[hash,embed] = {
                             0
                         }
                         values: list[f32] = {
-                            30
+                            10
                         }
                     }
                 }
@@ -3522,6 +3526,10 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "blood_drops"
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 85, 0 }
+                }
+                importance: u8 = 1
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 500, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -3704,6 +3712,9 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "soft"
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 85, 0 }
+                }
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 500, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
