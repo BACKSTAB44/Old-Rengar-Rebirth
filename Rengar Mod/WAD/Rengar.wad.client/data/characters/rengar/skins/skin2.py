@@ -2883,7 +2883,6 @@ entries: map[hash,embed] = {
                 }
                 blendMode: u8 = 1
                 color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -2960,7 +2959,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -3753,7 +3751,6 @@ entries: map[hash,embed] = {
                 }
                 blendMode: u8 = 1
                 color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -3861,7 +3858,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
