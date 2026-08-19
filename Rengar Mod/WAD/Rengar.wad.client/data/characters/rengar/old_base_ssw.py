@@ -622,7 +622,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "SlashAdd"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { -150, 120, 100 }
                 }
@@ -2908,7 +2908,6 @@ entries: map[hash,embed] = {
                 lifetime: option[f32] = {
                     0.1
                 }
-                importance: u8 = 2
                 isSingleParticle: flag = true
                 emitterName: string = "Slash"
                 EmitterPosition: embed = ValueVector3 {
@@ -3000,9 +2999,9 @@ entries: map[hash,embed] = {
                 lifetime: option[f32] = {
                     0.1
                 }
-                importance: u8 = 3
                 isSingleParticle: flag = true
                 emitterName: string = "SlashAdd"
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 20, 220 }
                 }

@@ -674,7 +674,6 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "body"
-                importance: u8 = 2
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -712,7 +711,6 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 2
                 }
                 emitterName: string = "avatarGlow"
-                importance: u8 = 2
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -975,7 +973,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveAttachedMesh {}
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0, 0, 0, 1 }
@@ -996,10 +994,10 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 4
                 }
                 emitterName: string = "Color_Hunter"
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveAttachedMesh {}
                 particleColorTexture: string = "assets/repath/characters/rengar/skins/skin01/particles/rengar_skin01_r_rgb.tex"
                 blendMode: u8 = 4
@@ -1698,7 +1696,7 @@ entries: map[hash,embed] = {
                     10.3
                 }
                 emitterName: string = "Claw_Glow_Hunter"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 100, 0 }
                 }
@@ -2289,6 +2287,7 @@ entries: map[hash,embed] = {
                     10.3
                 }
                 emitterName: string = "Sword_Hunter"
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 100, 0 }
                 }

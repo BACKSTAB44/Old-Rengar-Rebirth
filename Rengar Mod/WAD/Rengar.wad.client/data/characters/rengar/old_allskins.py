@@ -202,10 +202,10 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Base"
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveAttachedMesh {}
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.28, 0, 0, 1 }
@@ -226,10 +226,10 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 emitterName: string = "VeinsAdd"
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveAttachedMesh {}
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.6, 0, 0, 1 }
@@ -3526,10 +3526,10 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "blood_drops"
+                importance: u8 = 1
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 85, 0 }
                 }
-                importance: u8 = 1
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 500, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
