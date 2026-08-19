@@ -970,10 +970,10 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Base_Hunter"
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveAttachedMesh {}
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0, 0, 0, 1 }
