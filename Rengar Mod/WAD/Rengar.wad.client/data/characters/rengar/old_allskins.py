@@ -4059,10 +4059,10 @@ entries: map[hash,embed] = {
                             0.5
                             1
                         }
-                        values: list[vec3] = {
-                            { 1, 6, 1 }
-                            { 1, 1, 1 }
-                            { 1, 1, 1 }
+                        values: list[f32] = {
+                            15
+                            15
+                            15
                         }
                     }
                 }
@@ -4226,10 +4226,10 @@ entries: map[hash,embed] = {
                             0.5
                             1
                         }
-                        values: list[vec3] = {
-                            { 1, 6, 1 }
-                            { 1, 1, 1 }
-                            { 1, 1, 1 }
+                        values: list[f32] = {
+                            15
+                            15
+                            15
                         }
                     }
                 }
