@@ -721,349 +721,349 @@ entries: map[hash,embed] = {
             }
         }
         mBlendDataTable: map[u64,pointer] = {
-            13987674969707957024 = TimeBlendData {
+            13987674969707957024 = TimeBlendData { # "Joke" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            6521702300817345312 = TimeBlendData {
+            6521702300817345312 = TimeBlendData { # "Recall" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            893241263926594336 = TimeBlendData {
+            893241263926594336 = TimeBlendData { # "Attack3_BASE" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            7893826270353476384 = TimeBlendData {
+            7893826270353476384 = TimeBlendData { # "Attack2_BASE" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            7714889501781314336 = TimeBlendData {
+            7714889501781314336 = TimeBlendData { # "Attack1_Actions" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            7064088775459130144 = TimeBlendData {
+            7064088775459130144 = TimeBlendData { # "Raw_LionGuy_recall_idle" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            6929639312498674464 = TimeBlendData {
+            6929639312498674464 = TimeBlendData { # "Raw_LionGuy_recall" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            13590883338030205728 = TimeBlendData {
+            13590883338030205728 = TimeBlendData { # "taunt" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            1548379791253621536 = TimeBlendData {
+            1548379791253621536 = TimeBlendData { # "Spell5_Bush" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            7174843320459381536 = TimeBlendData {
+            7174843320459381536 = TimeBlendData { # "Spell5_Ult" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            13039675253965507360 = TimeBlendData {
+            13039675253965507360 = TimeBlendData { # "Spell3" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            10046748850188765984 = TimeBlendData {
+            10046748850188765984 = TimeBlendData { # "Spell3_Idle" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            17825496520931199776 = TimeBlendData {
+            17825496520931199776 = TimeBlendData { # "Spell3_Run" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            13111734578875255584 = TimeBlendData {
+            13111734578875255584 = TimeBlendData { # "Spell2" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            5488735964317666080 = TimeBlendData {
+            5488735964317666080 = TimeBlendData { # "Attack4_Actions" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            6427569502590913312 = TimeBlendData {
+            6427569502590913312 = TimeBlendData { # "Run2" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            934847977922546464 = TimeBlendData {
+            934847977922546464 = TimeBlendData { # "Run2_BASE" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            7794375147268393760 = TimeBlendData {
+            7794375147268393760 = TimeBlendData { # "Idle1_BASE" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            3084207951105280800 = TimeBlendData {
+            3084207951105280800 = TimeBlendData { # "Run" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            13156647004644887328 = TimeBlendData {
+            13156647004644887328 = TimeBlendData { # "Laugh" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            11302304929115327264 = TimeBlendData {
+            11302304929115327264 = TimeBlendData { # "Idle2" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            16132709915118586656 = TimeBlendData {
+            16132709915118586656 = TimeBlendData { # "Idle2_BASE" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            11374364254025075488 = TimeBlendData {
+            11374364254025075488 = TimeBlendData { # "Idle1" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            7794375147268393760 = TimeBlendData {
+            7794375147268393760 = TimeBlendData { # "Idle1_BASE" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            13630352412443200288 = TimeBlendData {
+            13630352412443200288 = TimeBlendData { # "death" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            17876238948193323808 = TimeBlendData {
+            17876238948193323808 = TimeBlendData { # "Dance" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            10832289108677675808 = TimeBlendData {
+            10832289108677675808 = TimeBlendData { # "Crit" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            6347110896687434528 = TimeBlendData {
+            6347110896687434528 = TimeBlendData { # "Crit_BASE" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            11831733633453968160 = TimeBlendData {
+            11831733633453968160 = TimeBlendData { # "Channel_Wndup" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            13022361218593114912 = TimeBlendData {
+            13022361218593114912 = TimeBlendData { # "Channel_Channel" To "Attack1_Actions"
                 mTime: f32 = 0.2
             }
-            13987674969749618987 = TimeBlendData {
+            13987674969749618987 = TimeBlendData { # "Joke" To "Attack2_BASE"
                 mTime: f32 = 0.2
             }
-            6521702300859007275 = TimeBlendData {
+            6521702300859007275 = TimeBlendData { # "Recall" To "Attack2_BASE"
                 mTime: f32 = 0.2
             }
-            893241263968256299 = TimeBlendData {
+            893241263968256299 = TimeBlendData { # "Recall" To "Attack2_BASE"
                 mTime: f32 = 0.2
             }
-            7893826270395138347 = TimeBlendData {
+            7893826270395138347 = TimeBlendData { # "Attack3_BASE" To "Attack2_BASE"
                 mTime: f32 = 0.2
             }
-            7714889501822976299 = TimeBlendData {
+            7714889501822976299 = TimeBlendData { # "Attack2_BASE" To "Attack2_BASE"
                 mTime: f32 = 0.2
             }
-            7064088775500792107 = TimeBlendData {
+            7064088775500792107 = TimeBlendData { # "Attack1_Actions" To "Attack2_BASE"
                 mTime: f32 = 0.2
             }
-            6929639312540336427 = TimeBlendData {
+            6929639312540336427 = TimeBlendData { # "Raw_LionGuy_recall_idle" To "Attack2_BASE"
                 mTime: f32 = 0.2
             }
-            13590883338071867691 = TimeBlendData {
+            13590883338071867691 = TimeBlendData { # "taunt" To "Attack2_BASE"
                 mTime: f32 = 0.2
             }
-            1548379791295283499 = TimeBlendData {
+            1548379791295283499 = TimeBlendData { # "Spell5_Bush" To "Attack2_BASE"
                 mTime: f32 = 0.2
             }
-            7174843320501043499 = TimeBlendData {
+            7174843320501043499 = TimeBlendData { # "Spell5_Ult" To "Attack2_BASE"
                 mTime: f32 = 0.2
             }
-            13039675254007169323 = TimeBlendData {
+            13039675254007169323 = TimeBlendData { # "Spell3" To "Attack2_BASE"
                 mTime: f32 = 0.2
             }
-            10046748850230427947 = TimeBlendData {
+            10046748850230427947 = TimeBlendData { # "Spell3_Idle" To "Attack2_BASE"
                 mTime: f32 = 0.2
             }
-            17825496520972861739 = TimeBlendData {
+            17825496520972861739 = TimeBlendData { # "Spell3_Run" To "Attack2_BASE"
                 mTime: f32 = 0.2
             }
-            5488735964359328043 = TimeBlendData {
+            5488735964359328043 = TimeBlendData { # "Attack4_Actions" To "Attack2_BASE"
                 mTime: f32 = 0.2
             }
-            6427569502632575275 = TimeBlendData {
+            6427569502632575275 = TimeBlendData { # "Run2" To "Attack2_BASE"
                 mTime: f32 = 0.2
             }
-            934847977964208427 = TimeBlendData {
+            934847977964208427 = TimeBlendData { # "Run2_BASE" To "Attack2_BASE"
                 mTime: f32 = 0.2
             }
-            3084207951146942763 = TimeBlendData {
+            3084207951146942763 = TimeBlendData { # "Run" To "Attack2_BASE"
                 mTime: f32 = 0.2
             }
-            13156647004686549291 = TimeBlendData {
+            13156647004686549291 = TimeBlendData { # "Laugh" To "Attack2_BASE"
                 mTime: f32 = 0.2
             }
-            11302304929156989227 = TimeBlendData {
+            11302304929156989227 = TimeBlendData { # "Idle2" To "Attack2_BASE"
                 mTime: f32 = 0.2
             }
-            16132709915160248619 = TimeBlendData {
+            16132709915160248619 = TimeBlendData { # "Idle2_BASE" To "Attack2_BASE"
                 mTime: f32 = 0.2
             }
-            11374364254066737451 = TimeBlendData {
+            11374364254066737451 = TimeBlendData { # "Idle1" To "Attack2_BASE"
                 mTime: f32 = 0.2
             }
-            7794375147310055723 = TimeBlendData {
+            7794375147310055723 = TimeBlendData { # "Idle1_BASE" To "Attack2_BASE"
                 mTime: f32 = 0.2
             }
-            13630352412484862251 = TimeBlendData {
+            13630352412484862251 = TimeBlendData { # "death" To "Attack2_BASE"
                 mTime: f32 = 0.2
             }
-            17876238948234985771 = TimeBlendData {
+            17876238948234985771 = TimeBlendData { # "Dance" To "Attack2_BASE"
                 mTime: f32 = 0.2
             }
-            6347110896729096491 = TimeBlendData {
+            6347110896729096491 = TimeBlendData { # "Channel_Wndup" To "Attack2_BASE"
                 mTime: f32 = 0.2
             }
-            11831733633495630123 = TimeBlendData {
+            11831733633495630123 = TimeBlendData { # "Channel_Wndup" To "Attack2_BASE"
                 mTime: f32 = 0.2
             }
-            13022361218634776875 = TimeBlendData {
+            13022361218634776875 = TimeBlendData { # "Channel_Wndup" To "Attack2_BASE"
                 mTime: f32 = 0.2
             }
-            13987674968119668274 = TimeBlendData {
+            13987674968119668274 = TimeBlendData { # "Joke" To "Attack3_BASE"
                 mTime: f32 = 0.2
             }
-            6521702299229056562 = TimeBlendData {
+            6521702299229056562 = TimeBlendData { # "Recall" To "Attack3_BASE"
                 mTime: f32 = 0.2
             }
-            893241262338305586 = TimeBlendData {
+            893241262338305586 = TimeBlendData { # "Attack3_BASE" To "Attack3_BASE"
                 mTime: f32 = 0.2
             }
-            7893826268765187634 = TimeBlendData {
+            7893826268765187634 = TimeBlendData { # "Attack2_BASE" To "Attack3_BASE"
                 mTime: f32 = 0.2
             }
-            7714889500193025586 = TimeBlendData {
+            7714889500193025586 = TimeBlendData { # "Attack1_Actions" To "Attack3_BASE"
                 mTime: f32 = 0.2
             }
-            7064088773870841394 = TimeBlendData {
+            7064088773870841394 = TimeBlendData { # "Raw_LionGuy_recall_idle" To "Attack3_BASE"
                 mTime: f32 = 0.2
             }
-            6929639310910385714 = TimeBlendData {
+            6929639310910385714 = TimeBlendData { # "Raw_LionGuy_recall" To "Attack3_BASE"
                 mTime: f32 = 0.2
             }
-            13590883336441916978 = TimeBlendData {
+            13590883336441916978 = TimeBlendData { # "taunt" To "Attack3_BASE"
                 mTime: f32 = 0.2
             }
-            1548379789665332786 = TimeBlendData {
+            1548379789665332786 = TimeBlendData { # "Spell5_Bush" To "Attack3_BASE"
                 mTime: f32 = 0.2
             }
-            7174843318871092786 = TimeBlendData {
+            7174843318871092786 = TimeBlendData { # "Spell5_Ult" To "Attack3_BASE"
                 mTime: f32 = 0.2
             }
-            13039675252377218610 = TimeBlendData {
+            13039675252377218610 = TimeBlendData { # "Spell3" To "Attack3_BASE"
                 mTime: f32 = 0.2
             }
-            10046748848600477234 = TimeBlendData {
+            10046748848600477234 = TimeBlendData { # "Spell3_Idle" To "Attack3_BASE"
                 mTime: f32 = 0.2
             }
-            17825496519342911026 = TimeBlendData {
+            17825496519342911026 = TimeBlendData { # "Spell3_Run" To "Attack3_BASE"
                 mTime: f32 = 0.2
             }
-            13111734577286966834 = TimeBlendData {
+            13111734577286966834 = TimeBlendData { # "Spell2" To "Attack3_BASE"
                 mTime: f32 = 0.2
             }
-            5488735962729377330 = TimeBlendData {
+            5488735962729377330 = TimeBlendData { # "Attack4_Actions" To "Attack3_BASE"
                 mTime: f32 = 0.2
             }
-            6427569501002624562 = TimeBlendData {
+            6427569501002624562 = TimeBlendData { # "Run2" To "Attack3_BASE"
                 mTime: f32 = 0.2
             }
-            934847976334257714 = TimeBlendData {
+            934847976334257714 = TimeBlendData { # "Run2_BASE" To "Attack3_BASE"
                 mTime: f32 = 0.2
             }
-            3084207949516992050 = TimeBlendData {
+            3084207949516992050 = TimeBlendData { # "Run" To "Attack3_BASE"
                 mTime: f32 = 0.2
             }
-            13156647003056598578 = TimeBlendData {
+            13156647003056598578 = TimeBlendData { # "Laugh" To "Attack3_BASE"
                 mTime: f32 = 0.2
             }
-            11302304927527038514 = TimeBlendData {
+            11302304927527038514 = TimeBlendData { # "Idle2" To "Attack3_BASE"
                 mTime: f32 = 0.2
             }
-            16132709913530297906 = TimeBlendData {
+            16132709913530297906 = TimeBlendData { # "Idle2_BASE" To "Attack3_BASE"
                 mTime: f32 = 0.2
             }
-            11374364252436786738 = TimeBlendData {
+            11374364252436786738 = TimeBlendData { # "Idle1" To "Attack3_BASE"
                 mTime: f32 = 0.2
             }
-            7794375145680105010 = TimeBlendData {
+            7794375145680105010 = TimeBlendData { # "Idle1_BASE" To "Attack3_BASE"
                 mTime: f32 = 0.2
             }
-            17876238946605035058 = TimeBlendData {
+            17876238946605035058 = TimeBlendData { # "Dance" To "Attack3_BASE"
                 mTime: f32 = 0.2
             }
-            6347110895099145778 = TimeBlendData {
+            6347110895099145778 = TimeBlendData { # "Crit_BASE" To "Attack3_BASE"
                 mTime: f32 = 0.2
             }
-            11831733631865679410 = TimeBlendData {
+            11831733631865679410 = TimeBlendData { # "Channel_Wndup" To "Attack3_BASE"
                 mTime: f32 = 0.2
             }
-            13022361217004826162 = TimeBlendData {
+            13022361217004826162 = TimeBlendData { # "Channel_Channel" To "Attack3_BASE"
                 mTime: f32 = 0.2
             }
-            13022361219970415949 = TimeBlendData {
+            13022361219970415949 = TimeBlendData { # "Channel_Channel" To "death"
                 mTime: f32 = 0
             }
-            11831733634831269197 = TimeBlendData {
+            11831733634831269197 = TimeBlendData { # "Channel_Wndup" To "death"
                 mTime: f32 = 0
             }
-            6347110898064735565 = TimeBlendData {
+            6347110898064735565 = TimeBlendData { # "Crit_BASE" To "death"
                 mTime: f32 = 0
             }
-            17876238949570624845 = TimeBlendData {
+            17876238949570624845 = TimeBlendData { # "Dance" To "death"
                 mTime: f32 = 0
             }
-            13630352413820501325 = TimeBlendData {
+            13630352413820501325 = TimeBlendData { # "death" To "death"
                 mTime: f32 = 0
             }
-            11374364255402376525 = TimeBlendData {
+            11374364255402376525 = TimeBlendData { # "Idle1" To "death"
                 mTime: f32 = 0
             }
-            7794375148645694797 = TimeBlendData {
+            7794375148645694797 = TimeBlendData { # "Idle1_BASE" To "death"
                 mTime: f32 = 0
             }
-            11302304930492628301 = TimeBlendData {
+            11302304930492628301 = TimeBlendData { # "Idle2" To "death"
                 mTime: f32 = 0
             }
-            16132709916495887693 = TimeBlendData {
+            16132709916495887693 = TimeBlendData { # "Idle2_BASE" To "death"
                 mTime: f32 = 0
             }
-            13156647006022188365 = TimeBlendData {
+            13156647006022188365 = TimeBlendData { # "Laugh" To "death"
                 mTime: f32 = 0
             }
-            3084207952482581837 = TimeBlendData {
+            3084207952482581837 = TimeBlendData { # "Run" To "death"
                 mTime: f32 = 0
             }
-            6427569503968214349 = TimeBlendData {
+            6427569503968214349 = TimeBlendData { # "Run2" To "death"
                 mTime: f32 = 0
             }
-            934847979299847501 = TimeBlendData {
+            934847979299847501 = TimeBlendData { # "Run2_BASE" To "death"
                 mTime: f32 = 0
             }
-            5488735965694967117 = TimeBlendData {
+            5488735965694967117 = TimeBlendData { # "Attack4_Actions" To "death"
                 mTime: f32 = 0
             }
-            13111734580252556621 = TimeBlendData {
+            13111734580252556621 = TimeBlendData { # "Spell2" To "death"
                 mTime: f32 = 0
             }
-            13039675255342808397 = TimeBlendData {
+            13039675255342808397 = TimeBlendData { # "Spell3" To "death"
                 mTime: f32 = 0
             }
-            10046748851566067021 = TimeBlendData {
+            10046748851566067021 = TimeBlendData { # "Spell3_Idle" To "death"
                 mTime: f32 = 0
             }
-            17825496522308500813 = TimeBlendData {
+            17825496522308500813 = TimeBlendData { # "Spell3_Run" To "death"
                 mTime: f32 = 0
             }
-            1548379792630922573 = TimeBlendData {
+            1548379792630922573 = TimeBlendData { # "Spell5_Bush" To "death"
                 mTime: f32 = 0
             }
-            7174843321836682573 = TimeBlendData {
+            7174843321836682573 = TimeBlendData { # "Spell5_Ult" To "death"
                 mTime: f32 = 0
             }
-            13590883339407506765 = TimeBlendData {
+            13590883339407506765 = TimeBlendData { # "taunt" To "death"
                 mTime: f32 = 0
             }
-            6929639313875975501 = TimeBlendData {
+            6929639313875975501 = TimeBlendData { # "Raw_LionGuy_recall" To "death"
                 mTime: f32 = 0
             }
-            7064088776836431181 = TimeBlendData {
+            7064088776836431181 = TimeBlendData { # "Raw_LionGuy_recall_idle" To "death"
                 mTime: f32 = 0
             }
-            7714889503158615373 = TimeBlendData {
+            7714889503158615373 = TimeBlendData { # "Attack1_Actions" To "death"
                 mTime: f32 = 0
             }
-            7893826271730777421 = TimeBlendData {
+            7893826271730777421 = TimeBlendData { # "Attack2_BASE" To "death"
                 mTime: f32 = 0
             }
-            893241265303895373 = TimeBlendData {
+            893241265303895373 = TimeBlendData { # "Attack3_BASE" To "death"
                 mTime: f32 = 0
             }
-            6521702302194646349 = TimeBlendData {
+            6521702302194646349 = TimeBlendData { # "Recall" To "death"
                 mTime: f32 = 0
             }
-            13987674971085258061 = TimeBlendData {
+            13987674971085258061 = TimeBlendData { # "Joke" To "death"
                 mTime: f32 = 0
             }
-            11230245605582880077 = TimeBlendData {
+            11230245605582880077 = TimeBlendData { # "Idle3" To "death"
                 mTime: f32 = 0
             }
-            8555650310791019853 = TimeBlendData {
+            8555650310791019853 = TimeBlendData { # "Idle3_BASE" To "death"
                 mTime: f32 = 0
             }
-            3405941504494583117 = TimeBlendData {
+            3405941504494583117 = TimeBlendData { # "Run1_Fast" To "death"
                 mTime: f32 = 0
             }
         }
