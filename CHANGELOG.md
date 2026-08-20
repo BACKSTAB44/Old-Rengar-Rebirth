@@ -109,6 +109,5 @@
 **-** "*Dance*" SFX [not looping](https://youtu.be/cZUFahMlOMA) along with the animation, fixed.  
 **- ULT**'s "eyes" indicator [is misplaced](https://youtu.be/XBhIWUZfxuk) on Nightbringer Yasuo, fixed.
 
-*More changes on the Runeforge* [***releases***](https://runeforge.dev/mods/b397d88f-d6da-47a7-821e-9acd2109fa89/releases) *page.*
+* *More changes on the Runeforge* [***releases***](https://runeforge.dev/mods/b397d88f-d6da-47a7-821e-9acd2109fa89/releases) *page.*
 
-*
