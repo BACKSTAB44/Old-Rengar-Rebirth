@@ -191,7 +191,7 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_avatar.tex"
                 birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1.17, 1.17, 1.17 }
+                    constantValue: vec3 = { 1.1, 1.1, 1.1 }
                 }
             }
         }
@@ -2241,7 +2241,7 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_avatar.tex"
                 birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1.17, 1.17, 1.17 }
+                    constantValue: vec3 = { 1.1, 1.1, 1.1 }
                 }
             }
         }
