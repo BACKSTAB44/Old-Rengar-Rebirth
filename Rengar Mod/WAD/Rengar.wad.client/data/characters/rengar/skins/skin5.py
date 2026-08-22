@@ -138,7 +138,6 @@ entries: map[hash,embed] = {
             }
         }
         mResourceResolver: link = "Characters/Rengar/Skins/Skin5/Resources"
-        objectPath: hash = "Characters/Rengar/Skins/Skin5"
         PersistentEffectConditions: list2[pointer] = {
             PersistentEffectConditionData {
                 OwnerCondition: pointer = DelayedBoolMaterialDriver {
