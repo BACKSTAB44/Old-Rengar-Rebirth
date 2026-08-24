@@ -58,7 +58,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.6667, 0, 1 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -319,7 +319,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.502 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -374,7 +374,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 80, 60, -50 }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.43, 0.24, 0.51, 0.41 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -457,7 +457,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 80, 60, -50 }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.3333, 0, 0, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -540,7 +540,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 80, 60, -50 }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -595,7 +595,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 80, 60, -50 }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.82 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -661,7 +661,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 80, 60, -50 }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.75 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -815,7 +815,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.9059, 0.3608, 0.4 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -940,9 +940,6 @@ entries: map[hash,embed] = {
                 particleLifetime: embed = ValueFloat {
                     constantValue: f32 = 0.75
                 }
-                lifetime: option[f32] = {
-                    100000
-                }
                 emitterName: string = "Ring"
                 importance: u8 = 3
                 bindWeight: embed = ValueFloat {
@@ -987,9 +984,6 @@ entries: map[hash,embed] = {
                             1
                         }
                     }
-                }
-                lifetime: option[f32] = {
-                    100000
                 }
                 emitterName: string = "Ring_FX"
                 importance: u8 = 3
@@ -1102,7 +1096,7 @@ entries: map[hash,embed] = {
         objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Secondary_Target_Sound_Off"
     }
     "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_BA_tar_crit_01" = VfxSystemDefinitionData {
-        ComplexEmitterDefinitionData: list[pointer] = {
+        complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
                     constantValue: f32 = 100
@@ -1260,7 +1254,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
-                    ScaleEmitOffsetByBoundObjectSize: f32 = 0.005
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.005
                 }
                 particleColorTexture: string = "assets/repath/shared/particles/common_color-whiteweb32.tex"
                 blendMode: u8 = 3
@@ -1268,7 +1262,7 @@ entries: map[hash,embed] = {
                 alphaRef: u8 = 15
                 censorModulateValue: vec4 = { 0, 0, 0, 1 }
                 isDirectionOriented: flag = true
-                IsRandomStartFrame: flag = true
+                isRandomStartFrame: flag = true
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 20, 20, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -1538,7 +1532,7 @@ entries: map[hash,embed] = {
                     }
                     fieldDragDefinitions: list[embed] = {
                         VfxFieldDragDefinitionData {
-                            position: embed = ValueVector3 {
+                            Position: embed = ValueVector3 {
                                 constantValue: vec3 = { 0, 300, 0 }
                             }
                             radius: embed = ValueFloat {
@@ -1719,7 +1713,7 @@ entries: map[hash,embed] = {
                     }
                     fieldDragDefinitions: list[embed] = {
                         VfxFieldDragDefinitionData {
-                            position: embed = ValueVector3 {
+                            Position: embed = ValueVector3 {
                                 constantValue: vec3 = { 0, 300, 0 }
                             }
                             radius: embed = ValueFloat {
@@ -1738,7 +1732,7 @@ entries: map[hash,embed] = {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {}
                             VfxProbabilityTableData {
-                                KeyTimes: list[f32] = {
+                                keyTimes: list[f32] = {
                                     0
                                     0.8
                                     1
@@ -1926,7 +1920,7 @@ entries: map[hash,embed] = {
         objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_BA_tar_crit_01"
     }
     "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_BA_tar_01" = VfxSystemDefinitionData {
-        ComplexEmitterDefinitionData: list[pointer] = {
+        complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
                     constantValue: f32 = 5
@@ -2055,7 +2049,7 @@ entries: map[hash,embed] = {
                                 }
                             }
                         }
-                        valueFloat {
+                        ValueFloat {
                             constantValue: f32 = 1
                             dynamics: pointer = VfxAnimatedFloatVariableData {
                                 probabilityTables: list[pointer] = {
@@ -2280,7 +2274,7 @@ entries: map[hash,embed] = {
                     }
                     fieldDragDefinitions: list[embed] = {
                         VfxFieldDragDefinitionData {
-                            position: embed = ValueVector3 {
+                            Position: embed = ValueVector3 {
                                 constantValue: vec3 = { 0, 300, 0 }
                             }
                             radius: embed = ValueFloat {
@@ -2463,7 +2457,7 @@ entries: map[hash,embed] = {
                     }
                     fieldDragDefinitions: list[embed] = {
                         VfxFieldDragDefinitionData {
-                            position: embed = ValueVector3 {
+                            Position: embed = ValueVector3 {
                                 constantValue: vec3 = { 0, 300, 0 }
                             }
                             radius: embed = ValueFloat {
@@ -3283,7 +3277,7 @@ entries: map[hash,embed] = {
                                 }
                             }
                         }
-                        valueFloat {
+                        ValueFloat {
                             constantValue: f32 = 1
                             dynamics: pointer = VfxAnimatedFloatVariableData {
                                 probabilityTables: list[pointer] = {
@@ -3513,7 +3507,7 @@ entries: map[hash,embed] = {
                     }
                     fieldDragDefinitions: list[embed] = {
                         VfxFieldDragDefinitionData {
-                            position: embed = ValueVector3 {
+                            Position: embed = ValueVector3 {
                                 constantValue: vec3 = { 0, 300, 0 }
                             }
                             radius: embed = ValueFloat {
@@ -3699,7 +3693,7 @@ entries: map[hash,embed] = {
                     }
                     fieldDragDefinitions: list[embed] = {
                         VfxFieldDragDefinitionData {
-                            position: embed = ValueVector3 {
+                            Position: embed = ValueVector3 {
                                 constantValue: vec3 = { 0, 300, 0 }
                             }
                             radius: embed = ValueFloat {
@@ -4320,7 +4314,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -4499,7 +4493,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0

@@ -381,7 +381,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -474,7 +474,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -578,7 +578,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -631,7 +631,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_weapontrail.scb"
                     }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -831,7 +831,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 colorLookUpTypeY: u8 = 3
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -1358,7 +1358,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -1468,7 +1468,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_weapontrail.scb"
                     }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -1545,7 +1545,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -1684,7 +1684,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -1777,7 +1777,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -2273,7 +2273,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -2370,7 +2370,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_c_weapontrail.scb"
                     }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -2480,7 +2480,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -2589,7 +2589,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_weapontrail.scb"
                     }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -2695,7 +2695,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -2745,7 +2745,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_weapontrail.scb"
                     }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -2804,7 +2804,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -2857,7 +2857,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_weapontrail.scb"
                     }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -2918,7 +2918,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -2942,7 +2942,7 @@ entries: map[hash,embed] = {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {
-                                keyTimes: list[f32] = { 
+                                keyTimes: list[f32] = {
                                     0
                                     1
                                 }
@@ -2954,11 +2954,11 @@ entries: map[hash,embed] = {
                             VfxProbabilityTableData {}
                             VfxProbabilityTableData {}
                         }
-                        times: list[f32] = { 
+                        times: list[f32] = {
                             0
                         }
-                        values: list[vec3] = { 
-                            { 200, 200, 200 } 
+                        values: list[vec3] = {
+                            { 200, 200, 200 }
                         }
                     }
                 }
@@ -2969,20 +2969,20 @@ entries: map[hash,embed] = {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {}
                             VfxProbabilityTableData {
-                                keyTimes: list[f32] = { 
+                                keyTimes: list[f32] = {
                                     0
                                     1
                                 }
-                                keyValues: list[f32] = { 
+                                keyValues: list[f32] = {
                                     0.8
                                     1
                                 }
                             }
                         }
-                        times: list[f32] = { 
+                        times: list[f32] = {
                             0
                         }
-                        values: list[vec2] = { 
+                        values: list[vec2] = {
                             { 0, -3 }
                         }
                     }
@@ -3009,7 +3009,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_q_slash.scb"
                     }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -3037,7 +3037,7 @@ entries: map[hash,embed] = {
                                     0
                                     1
                                 }
-                                keyValues: list[f32] = { 
+                                keyValues: list[f32] = {
                                     1
                                     1.3
                                 }
@@ -3045,10 +3045,10 @@ entries: map[hash,embed] = {
                             VfxProbabilityTableData {}
                             VfxProbabilityTableData {}
                         }
-                        times: list[f32] = { 
+                        times: list[f32] = {
                             0
                         }
-                        values: list[vec3] = { 
+                        values: list[vec3] = {
                             { 200, 200, 200 }
                         }
                     }
@@ -3269,11 +3269,11 @@ entries: map[hash,embed] = {
                 particleColorTexture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_red_rgb.tex"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_sphere.scb" 
+                        mSimpleMeshName: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_sphere.scb"
                     }
                 }
                 colorLookUpTypeY: u8 = 3
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -3515,7 +3515,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveRay {}
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 1, 0, 0, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -3622,7 +3622,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveRay {}
                 blendMode: u8 = 2
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.2392, 0.9255, 1, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
