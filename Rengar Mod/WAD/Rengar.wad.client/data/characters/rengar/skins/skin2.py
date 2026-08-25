@@ -1419,7 +1419,7 @@ entries: map[hash,embed] = {
                             0
                             0.001
                             0.035
-                            0.055
+                            0.05
                             1
                         }
                         values: list[vec4] = {
@@ -1432,6 +1432,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 pass: i16 = 9
+                meshRenderFlags: u8 = 0
                 depthBiasFactors: vec2 = { -1, -4 }
                 colorLookUpTypeY: u8 = 3
                 alphaRef: u8 = 0
@@ -1446,7 +1447,7 @@ entries: map[hash,embed] = {
                             values: list[f32] = {
                                 1
                                 0.2
-                                -0.5
+                                -1
                             }
                         }
                     }
@@ -1502,6 +1503,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Rengar_Skin02_R_Buf"
         particlePath: string = "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin02_R_Buf"
+        flags: u16 = 198
         objectPath: hash = "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin02_R_Buf"
     }
     "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin02_W_Max_Roar" = VfxSystemDefinitionData {
