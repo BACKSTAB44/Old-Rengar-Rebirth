@@ -3696,7 +3696,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Rengar_Base_P_Buf_Max_New"
         particlePath: string = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_P_Buf_Max_New"
-        soundOnCreateDefault: string = "Play_sfx_RengarSkin01_RengarPEmp_buffactivate"
+        soundOnCreateDefault: string = "Play_sfx_Rengar_RengarPEmp_buffactivate"
         objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_P_Buf_Max_New"
     }
 }

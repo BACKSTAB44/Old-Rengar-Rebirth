@@ -46,13 +46,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 BankUnit {
-                    name: string = "MaxFerocity_SFX"
-                    bankPath: list[string] = {
-                        "assets/repath/sounds/wwise2016/sfx/characters/rengar/skins/skin01/rengar_skin01_sfx_audio.bnk"
-                        "assets/sounds/wwise2016/sfx/characters/rengar/skins/skin01/rengar_skin01_sfx_events.bnk"
-                    }
-                }
-                BankUnit {
                     name: string = "Rengar_Base_VO"
                     bankPath: list[string] = {
                         "assets/sounds/wwise2016/vo/en_us/characters/rengar/skins/base/rengar_base_vo_audio.bnk"
@@ -4923,7 +4916,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Rengar_Skin02_P_Buf_Max"
         particlePath: string = "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin02_P_Buf_Max"
-        soundOnCreateDefault: string = "Play_sfx_RengarSkin01_RengarPEmp_buffactivate"
+        soundOnCreateDefault: string = "Play_sfx_Rengar_RengarPEmp_buffactivate"
         objectPath: hash = "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin02_P_Buf_Max"
     }
     "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin2_R_Leap" = VfxSystemDefinitionData {

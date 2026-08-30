@@ -36,13 +36,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 BankUnit {
-                    name: string = "MaxFerocity_SFX"
-                    bankPath: list[string] = {
-                        "assets/repath/sounds/wwise2016/sfx/characters/rengar/skins/skin01/rengar_skin01_sfx_audio.bnk"
-                        "assets/sounds/wwise2016/sfx/characters/rengar/skins/skin01/rengar_skin01_sfx_events.bnk"
-                    }
-                }
-                BankUnit {
                     name: string = "Rengar_Base_VO"
                     bankPath: list[string] = {
                         "assets/sounds/wwise2016/vo/en_us/characters/rengar/skins/base/rengar_base_vo_audio.bnk"
