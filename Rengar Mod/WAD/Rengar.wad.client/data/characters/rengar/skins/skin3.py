@@ -36,7 +36,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 BankUnit {
-                    name: string = "Rengar_Skin01_SFX"
+                    name: string = "MaxFerocity_SFX"
                     bankPath: list[string] = {
                         "assets/repath/sounds/wwise2016/sfx/characters/rengar/skins/skin01/rengar_skin01_sfx_audio.bnk"
                         "assets/sounds/wwise2016/sfx/characters/rengar/skins/skin01/rengar_skin01_sfx_events.bnk"
