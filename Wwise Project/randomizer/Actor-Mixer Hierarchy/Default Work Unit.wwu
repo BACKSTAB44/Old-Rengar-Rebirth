@@ -1721,6 +1721,44 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
+				<Sound Name="P_MaxFerocity" ID="{A1FCE8B3-43AE-4980-9A56-1C39D807AC41}" ShortID="754594476">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Priority" Type="int16">
+							<ValueList>
+								<Value>60</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Leap3D" ID="{7DBB1B48-E59C-4C84-AF63-F57B972F3AC8}" WorkUnitID="{ABB6F66D-BA03-4AA1-B1D4-3304648E6840}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="daad0rhm" ID="{276F46A2-31B2-482E-B165-34C0F1F8CA31}" WorkUnitID="{9F3FD127-E4D9-493B-AB8B-104C9269DD14}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="P_MaxFerocity" ID="{959779C1-91CA-43F3-8C47-FC38905F4BC8}">
+							<Language>SFX</Language>
+							<AudioFile>P_MaxFerocity.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="170615827"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="P_MaxFerocity" ID="{959779C1-91CA-43F3-8C47-FC38905F4BC8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

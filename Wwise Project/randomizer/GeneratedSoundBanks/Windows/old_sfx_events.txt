@@ -4,7 +4,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	134167867	Play_sfx_Rengar_RengarQEmpAttack_OnCast			\Default Work Unit\Play_sfx_Rengar_RengarQEmpAttack_OnCast	
 	238117148	Play_sfx_Old_RengarE_missilelaunch			\Default Work Unit\Play_sfx_Old_RengarE_missilelaunch	
 	265518677	Play_sfx_Rengar_RengarP_cast			\Default Work Unit\Play_sfx_Rengar_RengarP_cast	
+	991930672	Play_sfx_Rengar_RengarPEmp_buffactivate			\Default Work Unit\Play_sfx_Rengar_RengarPEmp_buffactivate	
 	1111803701	Stop_sfx_Rengar_RengarQ_buffactivate			\Default Work Unit\Stop_sfx_Rengar_RengarQ_buffactivate	
+	1121630842	Play_sfx_RengarSkin01_RengarPEmp_buffactivate			\Default Work Unit\Play_sfx_RengarSkin01_RengarPEmp_buffactivate	
 	1155544398	Play_sfx_Rengar_RengarEEmpmis_OnMissileLaunch			\Default Work Unit\Play_sfx_Rengar_RengarEEmpmis_OnMissileLaunch	
 	1308453653	Play_sfx_Rengar_RengarQAttack_OnCast			\Default Work Unit\Play_sfx_Rengar_RengarQAttack_OnCast	
 	1334206113	Play_sfx_Old_RengarP_Leap_Grass			\Default Work Unit\Play_sfx_Old_RengarP_Leap_Grass	

@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="573912311" Type="User" Language="SFX" Hash="{EFEB632C-F331-0195-7905-2EFDF355D161}">
+		<SoundBank Id="573912311" Type="User" Language="SFX" Hash="{9E70D1F1-D355-ABAD-E2D7-D6C79DA3F935}">
 			<ShortName>old_sfx_audio</ShortName>
 			<Path>old_sfx_audio.bnk</Path>
 			<Media>
@@ -48,6 +48,10 @@
 				<File Id="134591802" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>RengarEEmp_OH_1.wav</ShortName>
 					<CachePath>SFX/RengarEEmp_OH_1_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="170615827" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>P_MaxFerocity.wav</ShortName>
+					<CachePath>SFX/P_MaxFerocity_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="171613656" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>RengarE_OC_4.wav</ShortName>
@@ -198,7 +202,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="2389693464" Type="User" Language="SFX" Hash="{BD7FD514-E473-FB7E-0DAF-BB4840BCBE49}">
+		<SoundBank Id="2389693464" Type="User" Language="SFX" Hash="{7C57AE01-E7E6-99D1-0E47-7B11F1B33B01}">
 			<ShortName>old_sfx_events</ShortName>
 			<Path>old_sfx_events.bnk</Path>
 			<Media>
@@ -237,6 +241,10 @@
 				<File Id="134591802" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>RengarEEmp_OH_1.wav</ShortName>
 					<CachePath>SFX/RengarEEmp_OH_1_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="170615827" Language="SFX" Streaming="false" Location="OtherBank">
+					<ShortName>P_MaxFerocity.wav</ShortName>
+					<CachePath>SFX/P_MaxFerocity_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="171613656" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>RengarE_OC_4.wav</ShortName>
@@ -458,6 +466,11 @@
 						<MediaRef Id="315600868"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="991930672" Name="Play_sfx_Rengar_RengarPEmp_buffactivate">
+					<MediaRefs>
+						<MediaRef Id="170615827"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1937486073" Name="Play_sfx_Rengar_RengarQ_OnBuffDeactivate"/>
 				<Event Id="1696751273" Name="Play_sfx_Rengar_RengarQ_OnCast">
 					<MediaRefs>
@@ -513,9 +526,14 @@
 				</Event>
 				<Event Id="1373063554" Name="Play_sfx_RengarSkin01_RengarEEmpmis_OnHit"/>
 				<Event Id="3418013488" Name="Play_sfx_RengarSkin01_RengarEEmpmis_OnMissileLaunch"/>
+				<Event Id="1121630842" Name="Play_sfx_RengarSkin01_RengarPEmp_buffactivate">
+					<MediaRefs>
+						<MediaRef Id="170615827"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1111803701" Name="Stop_sfx_Rengar_RengarQ_buffactivate"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F831245F-CE7D-EEBA-17D6-9471468BF918}</FileHash>
+	<FileHash>{937CEA00-60FE-2137-B4DF-4BADAF426A54}</FileHash>
 </SoundBanksInfo>
