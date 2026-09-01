@@ -4,7 +4,7 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     "Characters/Rengar/Skins/Skin0/TextureResources/Rengar_Base_R_screen_overlay_target" = TextureResource {
-        texturePath: string = "assets/repath/characters/rengar/hud/rengar_base_r_screen_overlay_target.tex"
+        texturePath: file = "assets/repath/characters/rengar/hud/rengar_base_r_screen_overlay_target.tex"
     }
     "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Primary_Target" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
