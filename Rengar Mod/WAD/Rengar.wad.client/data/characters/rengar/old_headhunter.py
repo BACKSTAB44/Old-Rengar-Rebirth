@@ -3961,7 +3961,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Rengar_Skin01_P_Buf_Max"
         particlePath: string = "Characters/Rengar/Skins/Skin1/Particles/Rengar_Skin01_P_Buf_Max"
-        soundOnCreateDefault: string = "Play_sfx_Rengar_RengarPEmp_buffactivate"
+        soundOnCreateDefault: string = "Play_sfx_Old_RengarP_MaxFerocity"
         objectPath: hash = "Characters/Rengar/Skins/Skin1/Particles/Rengar_Skin01_P_Buf_Max"
     }
 }

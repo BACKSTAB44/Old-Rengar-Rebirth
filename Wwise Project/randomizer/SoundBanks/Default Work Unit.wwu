@@ -29,7 +29,6 @@
 				<SoundBank Name="old_sfx_events" ID="{19994558-0773-4151-A315-296DE26C939B}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_sfx_Rengar_RengarQEmp_OnBuffDeactivate" ID="{2020FA2A-5DE1-40A6-BADD-9F5323307063}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
-						<ObjectRef Name="Play_sfx_RengarSkin01_RengarPEmp_buffactivate" ID="{0D28C8A7-051F-40F9-A057-6559AE58B8FC}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="Play_sfx_Old_RengarP_Leap_Grass" ID="{36A171A8-7D72-4186-BDC9-F256D947D131}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="Stop_sfx_Rengar_RengarQ_buffactivate" ID="{E7E1ECB9-47C8-4234-8809-0D7420A9BDE2}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="Play_sfx_RengarSkin01_RengarEEmpmis_OnMissileLaunch" ID="{86968558-4A84-4296-AE6F-45A48612A862}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
@@ -51,9 +50,9 @@
 						<ObjectRef Name="Play_sfx_Rengar_RengarQAttack_OnHit" ID="{772A2038-F06B-4C49-9B05-A55CB47D11FC}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="Play_sfx_Old_RengarE_hit" ID="{7BA61CDF-885E-4C5F-853A-1A8285963E47}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="Play_sfx_Old_RengarE_missilelaunch" ID="{5D47E5E2-E66A-4CA2-BE58-50BCE0B8546C}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="Play_sfx_Old_RengarP_MaxFerocity" ID="{4B8354AE-612E-4CBF-9DA5-8937D9A85D34}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="Play_sfx_Old_RengarQ_Stab" ID="{FD099423-1E9A-4CCB-B62B-D3CD9371C095}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="Play_sfx_Rengar_RengarQEmp_OnCast" ID="{17241C1D-2B14-4DE0-832C-7D3F7EA46F06}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
-						<ObjectRef Name="Play_sfx_Rengar_RengarPEmp_buffactivate" ID="{06A367AC-5918-4E1E-84EE-E4BB58E581EE}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="Play_sfx_Rengar_RengarW_OnCast" ID="{AAFF0DE3-1DA0-4E61-93A8-EAB3B5498771}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="Play_sfx_Rengar_RengarQEmpAttack_OnCast" ID="{7987F6D2-87CF-4EFF-BD87-D57D89202DB3}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="Play_sfx_Rengar_RengarEEmpmis_OnHit" ID="{98C0D9F2-4F6C-4FD3-AE4E-046E70D525BD}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>

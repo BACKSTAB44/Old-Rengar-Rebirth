@@ -241,20 +241,9 @@
 				</Event>
 				<Event Name="Play_sfx_Rengar_RengarQEmp_OnBuffDeactivate" ID="{2020FA2A-5DE1-40A6-BADD-9F5323307063}"/>
 				<Event Name="Play_sfx_Rengar_RengarQ_OnBuffDeactivate" ID="{5B36DD3A-F848-4B95-BC7D-DEB58488F7DE}"/>
-				<Event Name="Play_sfx_RengarSkin01_RengarPEmp_buffactivate" ID="{0D28C8A7-051F-40F9-A057-6559AE58B8FC}">
+				<Event Name="Play_sfx_Old_RengarP_MaxFerocity" ID="{4B8354AE-612E-4CBF-9DA5-8937D9A85D34}">
 					<ChildrenList>
-						<Action Name="" ID="{07072C4E-EB9A-4FD5-BE39-16ACC05B3E26}" ShortID="48165908">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="P_MaxFerocity" ID="{A1FCE8B3-43AE-4980-9A56-1C39D807AC41}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_sfx_Rengar_RengarPEmp_buffactivate" ID="{06A367AC-5918-4E1E-84EE-E4BB58E581EE}">
-					<ChildrenList>
-						<Action Name="" ID="{77E8C8F0-7317-49B0-9941-74AE282A368A}" ShortID="790478595">
+						<Action Name="" ID="{D6D7C6D4-1C43-455B-AA64-6E9F8F13B07E}" ShortID="362419139">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="P_MaxFerocity" ID="{A1FCE8B3-43AE-4980-9A56-1C39D807AC41}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}"/>

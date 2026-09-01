@@ -4916,7 +4916,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Rengar_Skin02_P_Buf_Max"
         particlePath: string = "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin02_P_Buf_Max"
-        soundOnCreateDefault: string = "Play_sfx_Rengar_RengarPEmp_buffactivate"
+        soundOnCreateDefault: string = "Play_sfx_Old_RengarP_MaxFerocity"
         objectPath: hash = "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin02_P_Buf_Max"
     }
     "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin2_R_Leap" = VfxSystemDefinitionData {

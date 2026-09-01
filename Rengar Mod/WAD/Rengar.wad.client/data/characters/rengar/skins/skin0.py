@@ -30,6 +30,7 @@ entries: map[hash,embed] = {
                     }
                     events: list[string] = {
                         "Play_sfx_Old_RengarP_Leap_Grass"
+                        "Play_sfx_Old_RengarP_MaxFerocity"
                         "Play_sfx_Old_RengarQ_Stab"
                         "Play_sfx_Old_RengarQEmp_Stab"
                         "Play_sfx_Old_RengarE_hit"
