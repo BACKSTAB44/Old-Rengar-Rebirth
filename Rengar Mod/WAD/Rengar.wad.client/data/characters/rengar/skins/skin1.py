@@ -255,6 +255,22 @@ entries: map[hash,embed] = {
             "Rengar_W_Max_Tar" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_W_Max_Tar"
             "Rengar_W_Roar" = "Characters/Rengar/Skins/Skin1/Particles/Rengar_Skin01_W_Roar"
             "Rengar_W_Tar" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_W_Tar"
+            "Rengar_P_Buf_Dash_01" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_EmptyVFX"
+            "Rengar_P_Leap_tar_crit_sound" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_EmptyVFX"
+            "Rengar_P_Leap_tar_sound" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_EmptyVFX"
+            "Rengar_Q_AS_Buf" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_EmptyVFX"
+            "Rengar_Q_Cas" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_EmptyVFX"
+            "Rengar_Q_Cas_Max" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_EmptyVFX"
+            "Rengar_Q_Strike" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_EmptyVFX"
+            "Rengar_R_Secondary_Target" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_EmptyVFX"
+            "Rengar_W_Emp_Buf2" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_EmptyVFX"
+            "Rengar_W_Max_Buf" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_EmptyVFX"
+            "rengar_emote_dance_sound_BV2" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_EmptyVFX"
+            "rengar_emote_death_sound_BV2" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_EmptyVFX"
+            "rengar_emote_joke_sound_BV2" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_EmptyVFX"
+            "rengar_emote_laugh_sound_BV2" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_EmptyVFX"
+            "rengar_emote_taunt_sound_BV2" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_EmptyVFX"
+            "Rengar_VO_Seen_BV2" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_EmptyVFX"
         }
     }
 }

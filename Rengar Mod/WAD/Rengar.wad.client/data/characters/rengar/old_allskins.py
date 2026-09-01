@@ -4889,6 +4889,11 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_W_Max_Tar"
         objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_W_Max_Tar"
     }
+    "Characters/Rengar/Skins/Skin0/Particles/Rengar_EmptyVFX" = VfxSystemDefinitionData {
+        particleName: string = "Rengar_Base_EmptyVFX"
+        particlePath: string = "Characters/Rengar/Skins/Skin0/Particles/Rengar_EmptyVFX"
+        objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_EmptyVFX"
+    }
     "Characters/Rengar/CAC/Rengar_Base" = ContextualActionData {
         mCooldown: f32 = 15
         mSituations: map[hash,embed] = {
