@@ -1,6 +1,14 @@
 {
   "Name": "Old Rengar Rebirth",
   "Author": "BACKSTAB ZedVeZed Renghub",
-  "Version": "1.3.2",
-  "Description": "Season 6 Experience"
+  "Version": "1.3.3",
+  "Description": "Season 6 Experience",
+  "Hashtables": [
+    {
+      "Path": "META/hashes/game.hashes.txt",
+      "Category": "game",
+      "Algorithm": "xxh64",
+      "Bits": 64
+    }
+  ]
 }
