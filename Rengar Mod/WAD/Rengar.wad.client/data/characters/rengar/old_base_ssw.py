@@ -2194,7 +2194,7 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_avatar.tex"
                 birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1.095, 1.095, 1.095 }
+                    constantValue: vec3 = { 1.1, 1.1, 1.1 }
                 }
                 scale0: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -2206,9 +2206,9 @@ entries: map[hash,embed] = {
                         }
                         values: list[vec3] = {
                             { 1, 1, 1 }
-                            { 1.69, 1.69, 1.69 }
-                            { 1.88, 1.88, 1.88 }
-                            { 1.99, 1.99, 1.99 }
+                            { 1.7, 1.7, 1.7 }
+                            { 1.9, 1.9, 1.9 }
+                            { 2, 2, 2 }
                         }
                     }
                 }
