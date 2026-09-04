@@ -37,6 +37,10 @@ entries: map[hash,embed] = {
                         "assets/repath/sounds/wwise2016/sfx/characters/rengar/skins/old/old_sfx_audio.bnk"
                         "assets/repath/sounds/wwise2016/sfx/characters/rengar/skins/old/old_sfx_events.bnk"
                     }
+                    events: list[string] = {
+                        "Play_sfx_OldHH_RengarEEmp_OnHit"
+                        "Play_sfx_OldHH_RengarEEmp_missilelaunch"
+                    }
                 }
                 BankUnit {
                     name: string = "Rengar_Skin01_SFX"
@@ -58,8 +62,6 @@ entries: map[hash,embed] = {
                         "Stop_sfx_RengarSkin01_RengarR_buffactivateheartbeat"
                         "Stop_sfx_RengarSkin01_RengarR_OnBuffActivate"
                         "Stop_sfx_RengarSkin01_RengarR_OnBuffDeactivate"
-                        "Play_sfx_OldHH_RengarEEmp_OnHit"
-                        "Play_sfx_OldHH_RengarEEmp_missilelaunch"
                     }
                 }
                 BankUnit {
