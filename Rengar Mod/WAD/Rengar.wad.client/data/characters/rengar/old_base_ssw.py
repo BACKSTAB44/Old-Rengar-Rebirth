@@ -1532,7 +1532,7 @@ entries: map[hash,embed] = {
                 lifetime: option[f32] = {
                     0.15
                 }
-                emitterName: string = "SlashAdd_Hunter"
+                emitterName: string = "SlashBase_Hunter"
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
@@ -1592,7 +1592,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 2, 1 }
                 }
-                texture: string = "assets/repath/characters/rengar/skins/skin01/particles/rengar_skin01_z_weapontrail.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_weapontrail_02.tex"
                 numFrames: u16 = 4
                 startFrame: u16 = 1
                 birthUvScrollRate: embed = ValueVector2 {

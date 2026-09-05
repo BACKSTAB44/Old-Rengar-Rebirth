@@ -48,7 +48,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 300, 50, 100 }
                 }
-                texture: string = "assets/repath/characters/rengar/skins/skin01/particles/rengar_skin01_z_weapontrail.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_weapontrail_02.tex"
                 numFrames: u16 = 4
                 startFrame: u16 = 1
                 birthUvScrollRate: embed = ValueVector2 {
@@ -98,7 +98,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 300, 50, 100 }
                 }
-                texture: string = "assets/repath/characters/rengar/skins/skin01/particles/rengar_skin01_z_weapontrail.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_weapontrail_02.tex"
                 numFrames: u16 = 4
                 startFrame: u16 = 1
                 birthUvScrollRate: embed = ValueVector2 {
@@ -1075,7 +1075,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 2, 2 }
                 }
-                texture: string = "assets/repath/characters/rengar/skins/skin01/particles/rengar_skin01_z_weapontrail.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_weapontrail_02.tex"
                 numFrames: u16 = 4
                 startFrame: u16 = 1
                 birthUvScrollRate: embed = ValueVector2 {
@@ -1129,7 +1129,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 2, 2 }
                 }
-                texture: string = "assets/repath/characters/rengar/skins/skin01/particles/rengar_skin01_z_weapontrail.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_weapontrail_02.tex"
                 numFrames: u16 = 4
                 startFrame: u16 = 1
                 birthUvScrollRate: embed = ValueVector2 {
@@ -1552,7 +1552,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 2, 2 }
                 }
-                texture: string = "assets/repath/characters/rengar/skins/skin01/particles/rengar_skin01_z_weapontrail.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_weapontrail_02.tex"
                 numFrames: u16 = 4
                 startFrame: u16 = 1
                 birthUvScrollRate: embed = ValueVector2 {
@@ -1649,7 +1649,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 2, 2 }
                 }
-                texture: string = "assets/repath/characters/rengar/skins/skin01/particles/rengar_skin01_z_weapontrail.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_weapontrail_02.tex"
                 numFrames: u16 = 4
                 startFrame: u16 = 1
                 birthUvScrollRate: embed = ValueVector2 {
@@ -2139,7 +2139,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 2, 1 }
                 }
-                texture: string = "assets/repath/characters/rengar/skins/skin01/particles/rengar_skin01_z_weapontrail.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_weapontrail_02.tex"
                 numFrames: u16 = 4
                 startFrame: u16 = 1
                 texDiv: vec2 = { 4, 1 }
@@ -2218,7 +2218,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 2, 1 }
                 }
-                texture: string = "assets/repath/characters/rengar/skins/skin01/particles/rengar_skin01_z_weapontrail.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_weapontrail_02.tex"
                 numFrames: u16 = 4
                 startFrame: u16 = 1
                 texDiv: vec2 = { 4, 1 }
@@ -3009,7 +3009,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "assets/repath/characters/rengar/skins/skin01/particles/rengar_skin01_z_weapontrail.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_weapontrail_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -3 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -3099,7 +3099,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "assets/repath/characters/rengar/skins/skin01/particles/rengar_skin01_z_weapontrail.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_weapontrail_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -3 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -3535,7 +3535,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 2, 1 }
                 }
-                texture: string = "assets/repath/characters/rengar/skins/skin01/particles/rengar_skin01_z_weapontrail.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_weapontrail_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 4, 1 }
                 birthUvScrollRate: embed = ValueVector2 {
@@ -3613,7 +3613,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 2, 1 }
                 }
-                texture: string = "assets/repath/characters/rengar/skins/skin01/particles/rengar_skin01_z_weapontrail.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_weapontrail_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 4, 1 }
                 birthUvScrollRate: embed = ValueVector2 {
@@ -3698,7 +3698,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.5, 1.5, 1.5 }
                 }
-                texture: string = "assets/repath/characters/rengar/skins/skin01/particles/rengar_skin01_z_weapontrail.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_weapontrail_02.tex"
                 numFrames: u16 = 4
                 startFrame: u16 = 1
                 birthUvScrollRate: embed = ValueVector2 {
@@ -3751,7 +3751,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.5, 1.5, 1.5 }
                 }
-                texture: string = "assets/repath/characters/rengar/skins/skin01/particles/rengar_skin01_z_weapontrail.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_weapontrail_02.tex"
                 numFrames: u16 = 4
                 startFrame: u16 = 1
                 birthUvScrollRate: embed = ValueVector2 {
