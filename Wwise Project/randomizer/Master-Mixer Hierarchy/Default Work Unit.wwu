@@ -10,11 +10,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="SFX" ID="{BC7B90EC-C09A-4E88-B1EE-4E786070DEF5}">
-							<ChildrenList>
-								<Bus Name="daad0rhm" ID="{276F46A2-31B2-482E-B165-34C0F1F8CA31}"/>
-							</ChildrenList>
-						</Bus>
+						<Bus Name="daad0rhm" ID="{276F46A2-31B2-482E-B165-34C0F1F8CA31}"/>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>
