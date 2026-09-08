@@ -11,15 +11,14 @@
 
 # Installation
 
-  1. Go to the [**latest release**](https://github.com/BACKSTAB44/Old-Rengar-Rebirth/releases/latest) and download the `.fantome` file.
-  2. Download [**LTK Manager**](https://github.com/LeagueToolkit/ltk-manager) (Mod-Loader).
-  3. After installing LTK Manager, launch it and drag the downloaded `.fantome` into it.
-  4. Make sure the mod is toggled on, then press "Start Patcher" at the top right of LTK Manager.
-  5. Keep LTK Manager running in the background while playing.
+  1. Download [**LTK Manager**](https://github.com/LeagueToolkit/ltk-manager) and install it.
+  2. Go to mod's [**latest release**](https://github.com/BACKSTAB44/Old-Rengar-Rebirth/releases/latest) and download `.fantome` or `.modpkg` file.
+  3. After installing **LTK Manager**, **launch it** and drag the downloaded `file` into it.
+  4. Make sure the mod is toggled on and press **Start Patcher** at the top right of **LTK Manager**.
+  5. Keep **LTK Manager** running in background while playing.
 
-**For Developers:** If you wish to edit the mod, Source and released `.zip` contain all the raw data.
-   
-[**Installation Tutorial**](https://youtu.be/_UNsweJ9h-g)
+ **For Developers:** If you wish to edit the mod, Source and released `.zip` contain all the raw data.
+### [Installation Tutorial](https://youtu.be/_UNsweJ9h-g)
 
 #
 
@@ -46,7 +45,7 @@ To secure the longevity of the Rebirth mod, I'm publishing its archive and a rep
 Hopefully this will be useful someday.
  - [**Archive**](https://drive.google.com/drive/folders/1fdFs-jmjTvH34S1yLzE9JP-wabCWr38X) _(mod & wwise iterations)_
  - [**Extra**](https://drive.google.com/drive/folders/17wvzPI16-7v2034s4K1XfgrLlE1PdZ7m) _(very useful stuff)_
- - [**Backup Link**](https://web.archive.org/web/20260826093447/https://codeload.github.com/BACKSTAB44/Old-Rengar-Rebirth/zip/refs/heads/main) _(WebArchive, direct)_
+ - [**Backup Link**](https://web.archive.org/web/20260907202904/https://codeload.github.com/BACKSTAB44/Old-Rengar-Rebirth/zip/refs/heads/main) _(WebArchive, direct)_
 #
 ## Legal
 
