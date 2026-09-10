@@ -1,0 +1,13 @@
+data/characters/rengar/animations/skin0.py
+data/characters/rengar/animations/skin2.py
+data/characters/rengar/old_allskins.py
+data/characters/rengar/old_base_ssw.py
+data/characters/rengar/old_headhunter.py
+data/characters/rengar/skins/skin0.py
+data/characters/rengar/skins/skin1.py
+data/characters/rengar/skins/skin2.py
+data/characters/rengar/skins/skin3.py
+data/characters/rengar/skins/skin4.py
+data/characters/rengar/skins/skin5.py
+data/characters/rengar/skins/skin6.py
+data/characters/rengar/skins/skin7.py
