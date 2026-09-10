@@ -5,12 +5,6 @@
   "Description": "Season 6 Experience",
   "Hashtables": [
     {
-      "Path": "META/hashes/game.hashes.txt",
-      "Category": "game",
-      "Algorithm": "xxh64",
-      "Bits": 64
-    },
-    {
       "Path": "META/hashes/game.harvested.hashes.txt",
       "Category": "game",
       "Algorithm": "xxh64",
