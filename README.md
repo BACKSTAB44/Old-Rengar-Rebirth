@@ -24,8 +24,8 @@
 
 # Credits
 
- - **Animations:** [ZedVeZed](https://www.reddit.com/u/ZedveZed/s/QkHzyq8OmH)
- - **Visuals:** [Renghub](https://youtube.com/@renghub?si=3_gHb5NiVaICRaB-)
+ - **Animations:** [ZedVeZed](https://www.reddit.com/u/ZedveZed/s/QkHzyq8OmH), [BACKSTAB](https://youtube.com/@backstab44?si=c0_3TbJ7E0hWylRW)
+ - **Visuals:** [Renghub](https://youtube.com/@renghub?si=3_gHb5NiVaICRaB-), [BACKSTAB](https://youtube.com/@backstab44?si=c0_3TbJ7E0hWylRW)
  - **Sounds & Misc:** [BACKSTAB](https://youtube.com/@backstab44?si=c0_3TbJ7E0hWylRW)
  - **Honorable Mentions:** [Riot KDan](https://x.com/riotkdan?s=21), [Runeforge Community](https://discord.com/invite/runeforge), [Vespertine](https://www.reddit.com/u/Vespertine_F/s/wGGvQGGTmn)
 
