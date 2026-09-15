@@ -10,6 +10,7 @@ linked: list[string] = {
 entries: map[hash,embed] = {
     "Characters/Rengar/Skins/Skin3" = SkinCharacterDataProperties {
         skinClassification: u32 = 1
+        championSkinId: i32 = 107003
         championSkinName: string = "rengarSkin03"
         metaDataTags: string = "gender:male,race:vastaya,faction:ixtal,skinline:esports,subskinline:ssw,appearance:feline"
         loadscreen: embed = CensoredImage {
