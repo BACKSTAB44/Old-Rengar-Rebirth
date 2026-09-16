@@ -519,31 +519,35 @@ entries: map[hash,embed] = {
                     }
                     "Attack1_BASE" = StopAnimationEventData {
                         mStopAnimationName: hash = "Attack1_BASE"
-                        mEndFrame: f32 = 1
+                        mEndFrame: f32 = 2
                     }
                     "Attack2" = StopAnimationEventData {
                         mStopAnimationName: hash = "Attack2"
-                        mEndFrame: f32 = 1
+                        mEndFrame: f32 = 2
                     }
                     "Attack3" = StopAnimationEventData {
                         mStopAnimationName: hash = "Attack3"
-                        mEndFrame: f32 = 1
+                        mEndFrame: f32 = 2
                     }
                     "Attack4_Actions" = StopAnimationEventData {
                         mStopAnimationName: hash = "Attack4_Actions"
-                        mEndFrame: f32 = 1
+                        mEndFrame: f32 = 2
                     }
                     "Attack4_Default" = StopAnimationEventData {
                         mStopAnimationName: hash = "Attack4_Default"
-                        mEndFrame: f32 = 1
+                        mEndFrame: f32 = 2
                     }
                     "Crit" = StopAnimationEventData {
                         mStopAnimationName: hash = "Crit"
-                        mEndFrame: f32 = 1
+                        mEndFrame: f32 = 2
                     }
-                    "Spell5" = StopAnimationEventData {
-                        mStopAnimationName: hash = "Spell5"
-                        mEndFrame: f32 = 1
+                    "Spell5_BASE" = StopAnimationEventData {
+                        mStopAnimationName: hash = "Spell5_BASE"
+                        mEndFrame: f32 = 2
+                    }
+                    "Spell5_Null" = StopAnimationEventData {
+                        mStopAnimationName: hash = "Spell5_Null"
+                        mEndFrame: f32 = 2
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
