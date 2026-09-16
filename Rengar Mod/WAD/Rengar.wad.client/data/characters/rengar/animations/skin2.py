@@ -30,7 +30,7 @@ entries: map[hash,embed] = {
             "Channel_Channel" = AtomicClipData {
                 mTrackDataName: hash = "Channel"
                 mEventDataMap: map[hash,pointer] = {
-                    "StopChannel_A" = StopAnimationEventData {
+                    "Channel_Actions" = StopAnimationEventData {
                         mStopAnimationName: hash = "Channel_Actions"
                         mStartFrame: f32 = 1
                     }
@@ -82,10 +82,10 @@ entries: map[hash,embed] = {
                     "Audio_Dance" = SoundEventData {
                         mSoundName: string = "Play_sfx_Rengar_Dance3D_buffactivate"
                     }
-                    "StopW" = StopAnimationEventData {
+                    "Spell2" = StopAnimationEventData {
                         mStopAnimationName: hash = "Spell2"
                     }
-                    "StopE" = StopAnimationEventData {
+                    "Spell3" = StopAnimationEventData {
                         mStopAnimationName: hash = "Spell3"
                     }
                 }
@@ -96,10 +96,10 @@ entries: map[hash,embed] = {
             "death" = AtomicClipData {
                 mTrackDataName: hash = "Recall"
                 mEventDataMap: map[hash,pointer] = {
-                    "StopChannel" = StopAnimationEventData {
+                    "Channel" = StopAnimationEventData {
                         mStopAnimationName: hash = "Channel"
                     }
-                    "StopChannel_W" = StopAnimationEventData {
+                    "Channel_Wndup" = StopAnimationEventData {
                         mStopAnimationName: hash = "Channel_Wndup"
                     }
                     "Audio_Death" = SoundEventData {
@@ -133,10 +133,10 @@ entries: map[hash,embed] = {
                         mSoundName: string = "Play_sfx_Rengar_Laugh3D_buffactivate"
                         mIsLoop: bool = false
                     }
-                    "StopW" = StopAnimationEventData {
+                    "Spell2" = StopAnimationEventData {
                         mStopAnimationName: hash = "Spell2"
                     }
-                    "StopE" = StopAnimationEventData {
+                    "Spell3" = StopAnimationEventData {
                         mStopAnimationName: hash = "Spell3"
                     }
                 }
@@ -148,7 +148,7 @@ entries: map[hash,embed] = {
                 mFlags: u32 = 2
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
-                    "StopE2" = StopAnimationEventData {
+                    "Spell3" = StopAnimationEventData {
                         mStopAnimationName: hash = "Spell3_Idle"
                     }
                 }
@@ -216,7 +216,7 @@ entries: map[hash,embed] = {
             }
             "Spell3_Midair" = AtomicClipData {
                 mMaskDataName: hash = "empty"
-                mTrackDataName: hash = "Midair"
+                mTrackDataName: hash = "Stop"
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_spell3.anm"
                 }
@@ -259,7 +259,7 @@ entries: map[hash,embed] = {
                 mClipNameList: list[hash] = {
                     "Spell5_Null"
                     "Spell5_BASE"
-                    "TransparencyFix"
+                    "Override"
                 }
             }
             "Spell5_BASE" = AtomicClipData {
@@ -274,11 +274,11 @@ entries: map[hash,embed] = {
                 mMaskDataName: hash = "empty"
                 mTrackDataName: hash = "Null"
                 mEventDataMap: map[hash,pointer] = {
-                    "StopE" = StopAnimationEventData {
+                    "Spell3" = StopAnimationEventData {
                         mStopAnimationName: hash = "Spell3"
                         mEndFrame: f32 = 24
                     }
-                    "LockSpell3" = LockRootOrientationEventData {
+                    "StopTurn" = LockRootOrientationEventData {
                         JointName: hash = "root"
                         mEndFrame: f32 = 20
                     }
@@ -287,10 +287,10 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_dash1.anm"
                 }
             }
-            "TransparencyFix" = AtomicClipData {
+            "Override" = AtomicClipData {
                 mFlags: u32 = 4
                 mMaskDataName: hash = "empty"
-                mTrackDataName: hash = "TransFix"
+                mTrackDataName: hash = "Override"
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_laugh.anm"
                 }
@@ -474,10 +474,10 @@ entries: map[hash,embed] = {
                         mSoundName: string = "Play_sfx_Rengar_Joke3D_buffactivate"
                         mIsLoop: bool = false
                     }
-                    "StopW" = StopAnimationEventData {
+                    "Spell2" = StopAnimationEventData {
                         mStopAnimationName: hash = "Spell2"
                     }
-                    "StopE" = StopAnimationEventData {
+                    "Spell3" = StopAnimationEventData {
                         mStopAnimationName: hash = "Spell3"
                     }
                 }
@@ -496,7 +496,7 @@ entries: map[hash,embed] = {
                 mFlags: u32 = 3
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
-                    "StopE2" = StopAnimationEventData {
+                    "Spell3" = StopAnimationEventData {
                         mStopAnimationName: hash = "Spell3_Idle"
                     }
                 }
@@ -517,31 +517,31 @@ entries: map[hash,embed] = {
                         mSoundName: string = "Play_sfx_Rengar_Recall3D_buffactivate"
                         mIsLoop: bool = false
                     }
-                    "StopAttack1" = StopAnimationEventData {
+                    "Attack1_BASE" = StopAnimationEventData {
                         mStopAnimationName: hash = "Attack1_BASE"
                         mEndFrame: f32 = 1
                     }
-                    "StopAttack2" = StopAnimationEventData {
+                    "Attack2" = StopAnimationEventData {
                         mStopAnimationName: hash = "Attack2"
                         mEndFrame: f32 = 1
                     }
-                    "StopAttack3" = StopAnimationEventData {
+                    "Attack3" = StopAnimationEventData {
                         mStopAnimationName: hash = "Attack3"
                         mEndFrame: f32 = 1
                     }
-                    "StopAttack4_A" = StopAnimationEventData {
+                    "Attack4_Actions" = StopAnimationEventData {
                         mStopAnimationName: hash = "Attack4_Actions"
                         mEndFrame: f32 = 1
                     }
-                    "StopAttack4_D" = StopAnimationEventData {
+                    "Attack4_Default" = StopAnimationEventData {
                         mStopAnimationName: hash = "Attack4_Default"
                         mEndFrame: f32 = 1
                     }
-                    "StopCrit" = StopAnimationEventData {
+                    "Crit" = StopAnimationEventData {
                         mStopAnimationName: hash = "Crit"
                         mEndFrame: f32 = 1
                     }
-                    "StopLeap1" = StopAnimationEventData {
+                    "Spell5" = StopAnimationEventData {
                         mStopAnimationName: hash = "Spell5"
                         mEndFrame: f32 = 1
                     }
@@ -1172,10 +1172,10 @@ entries: map[hash,embed] = {
             "Null" = TrackData {
                 mPriority: u8 = 7
             }
-            "Midair" = TrackData {
+            "Stop" = TrackData {
                 mPriority: u8 = 8
             }
-            "TransFix" = TrackData {
+            "Override" = TrackData {
                 mPriority: u8 = 9
             }
         }

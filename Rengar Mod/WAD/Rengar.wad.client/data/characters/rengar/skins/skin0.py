@@ -182,7 +182,7 @@ entries: map[hash,embed] = {
                     mDrivers: list[pointer] = {
                         IsAnimationPlayingDynamicMaterialBoolDriver {
                             mAnimationNames: list[hash] = {
-                                "TransparencyFix"
+                                "Override"
                             }
                         }
                         NotMaterialDriver {
