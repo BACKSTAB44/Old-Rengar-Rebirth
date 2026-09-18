@@ -978,13 +978,16 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0, 0, 0, 1 }
                 }
+                pass: i16 = -2001
                 meshRenderFlags: u8 = 0
                 blendMode: u8 = 1
-                alphaRef: u8 = 0
                 depthBiasFactors: vec2 = { -1, -4 }
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
                 texture: string = "assets/repath/shared/particles/3161common_color-hold.tex"
+                uvMode: u8 = 1
+                numFrames: u16 = 16
+                texDiv: vec2 = { 0.5, 0.5 }
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -993,30 +996,35 @@ entries: map[hash,embed] = {
                 particleLifetime: embed = ValueFloat {
                     constantValue: f32 = 4
                 }
+                particleLinger: option[f32] = {
+                    1
+                }
                 emitterName: string = "Color_Hunter"
-                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
+                SpawnShape: pointer = VfxShapeLegacy {}
                 primitive: pointer = VfxPrimitiveAttachedMesh {}
                 particleColorTexture: string = "assets/repath/characters/rengar/skins/skin01/particles/rengar_skin01_r_rgb.tex"
-                blendMode: u8 = 4
+                Color: embed = ValueColor {
+                    constantValue: vec4 = { 0.5, 0.5, 0.5, 1 }
+                }
                 pass: i16 = 5
                 meshRenderFlags: u8 = 0
                 colorLookUpTypeY: u8 = 3
+                alphaRef: u8 = 0
                 isRandomStartFrame: flag = true
+                useNavmeshMask: flag = true
+                depthBiasFactors: vec2 = { -1, -4 }
                 particleIsLocalOrientation: flag = true
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.02, 1.02, 1.02 }
                 }
                 texture: string = "assets/repath/characters/rengar/skins/skin01/particles/rengar_skin01_r.tex"
-                numFrames: u16 = 16
                 uvMode: u8 = 1
+                numFrames: u16 = 16
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.1, 0 }
-                }
-                birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 0.6, 0.6, 0.6, 0.6 }
                 }
                 texDiv: vec2 = { 2, 2 }
             }
@@ -1024,6 +1032,7 @@ entries: map[hash,embed] = {
         particleName: string = "Rengar_Skin01_R_Primary_Target_Enhanced"
         particlePath: string = "Characters/Rengar/Skins/Skin1/Particles/Rengar_Skin01_R_Primary_Target_Enhanced"
         soundPersistentDefault: string = "Play_sfx_Rengar_RengarR_buffactivateheartbeat"
+        flags: u16 = 213
         objectPath: hash = "Characters/Rengar/Skins/Skin1/Particles/Rengar_Skin01_R_Primary_Target_Enhanced"
     }
     "Characters/Rengar/Skins/Skin1/Particles/Rengar_Skin01_BA1_Cas" = VfxSystemDefinitionData {

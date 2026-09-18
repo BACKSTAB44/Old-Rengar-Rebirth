@@ -262,6 +262,7 @@ entries: map[hash,embed] = {
         particleName: string = "Rengar_Base_R_Primary_Target_Enhanced"
         particlePath: string = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Primary_Target_Enhanced"
         soundPersistentDefault: string = "Play_sfx_Rengar_RengarR_buffactivateheartbeat"
+        flags: u16 = 213
         objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Primary_Target_Enhanced"
     }
     "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Secondary_Target_Sound_On" = VfxSystemDefinitionData {
