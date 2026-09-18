@@ -210,9 +210,9 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.28, 0, 0, 1 }
                 }
+                pass: i16 = -2001
                 meshRenderFlags: u8 = 0
                 blendMode: u8 = 1
-                alphaRef: u8 = 0
                 depthBiasFactors: vec2 = { -1, -4 }
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
