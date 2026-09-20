@@ -54,11 +54,11 @@ entries: map[hash,embed] = {
             }
             "Crit" = ParallelClipData {
                 mClipNameList: list[hash] = {
-                    "Crit_BASE"
+                    "Crit_Base"
                     "Tiamat_Logic_Off"
                 }
             }
-            "Crit_BASE" = AtomicClipData {
+            "Crit_Base" = AtomicClipData {
                 mTrackDataName: hash = "Actions"
                 mEventDataMap: map[hash,pointer] = {
                     "Crit" = ParticleEventData {
@@ -726,7 +726,7 @@ entries: map[hash,embed] = {
             11831733634831269197 = TimeBlendData { # "Channel_Wndup" To "death"
                 mTime: f32 = 0
             }
-            6347110898064735565 = TimeBlendData { # "Crit_BASE" To "death"
+            6347110898064735565 = TimeBlendData { # "Crit_Base" To "death"
                 mTime: f32 = 0
             }
             17876238949570624845 = TimeBlendData { # "Dance" To "death"

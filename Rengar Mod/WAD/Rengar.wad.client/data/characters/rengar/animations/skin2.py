@@ -54,11 +54,11 @@ entries: map[hash,embed] = {
             }
             "Crit" = ParallelClipData {
                 mClipNameList: list[hash] = {
-                    "Crit_BASE"
+                    "Crit_Base"
                     "Tiamat_Logic_Off"
                 }
             }
-            "Crit_BASE" = AtomicClipData {
+            "Crit_Base" = AtomicClipData {
                 mTrackDataName: hash = "Actions"
                 mEventDataMap: map[hash,pointer] = {
                     "Crit" = ParticleEventData {
@@ -75,7 +75,7 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_crit.anm"
                 }
             }
-            "Dance_BASE" = AtomicClipData {
+            "Dance_Base" = AtomicClipData {
                 mFlags: u32 = 2
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
@@ -111,14 +111,14 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_death.anm"
                 }
             }
-            "Idle1_BASE" = AtomicClipData {
+            "Idle1_Base" = AtomicClipData {
                 mFlags: u32 = 3
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_idle1.anm"
                 }
             }
-            "Idle2_BASE" = AtomicClipData {
+            "Idle2_Base" = AtomicClipData {
                 mFlags: u32 = 1
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
@@ -338,7 +338,7 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_attack4.anm"
                 }
             }
-            "Taunt_BASE" = AtomicClipData {
+            "Taunt_Base" = AtomicClipData {
                 mFlags: u32 = 1
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
@@ -602,7 +602,7 @@ entries: map[hash,embed] = {
             }
             "taunt" = ParallelClipData {
                 mClipNameList: list[hash] = {
-                    "Taunt_BASE"
+                    "Taunt_Base"
                     "Taunt_TASSEL"
                 }
             }
@@ -622,7 +622,7 @@ entries: map[hash,embed] = {
             }
             "Dance" = ParallelClipData {
                 mClipNameList: list[hash] = {
-                    "Dance_BASE"
+                    "Dance_Base"
                     "Dance_TASSEL"
                 }
             }
@@ -702,13 +702,13 @@ entries: map[hash,embed] = {
             }
             "Idle1" = ParallelClipData {
                 mClipNameList: list[hash] = {
-                    "Idle1_BASE"
+                    "Idle1_Base"
                     "Idle1_TASSEL"
                 }
             }
             "Idle2" = ParallelClipData {
                 mClipNameList: list[hash] = {
-                    "Idle2_BASE"
+                    "Idle2_Base"
                     "Idle2_TASSEL"
                 }
             }
@@ -1193,13 +1193,13 @@ entries: map[hash,embed] = {
             13630352413954706408 = TimeBlendData { # "death" To "Idle2_TASSEL"
                 mTime: f32 = 0
             }
-            13630352414403126833 = TimeBlendData { # "death" To "Idle2_BASE"
+            13630352414403126833 = TimeBlendData { # "death" To "Idle2_Base"
                 mTime: f32 = 0
             }
             13630352412948705419 = TimeBlendData { # "death" To "Idle1_TASSEL"
                 mTime: f32 = 0
             }
-            13630352412461706982 = TimeBlendData { # "death" To "Idle1_BASE"
+            13630352412461706982 = TimeBlendData { # "death" To "Idle1_Base"
                 mTime: f32 = 0
             }
             6521702300975292661 = TimeBlendData { # "Recall" To "Idle3_TASSEL"
@@ -1211,13 +1211,13 @@ entries: map[hash,embed] = {
             6521702302328851432 = TimeBlendData { # "Recall" To "Idle2_TASSEL"
                 mTime: f32 = 0
             }
-            6521702302777271857 = TimeBlendData { # "Recall" To "Idle2_BASE"
+            6521702302777271857 = TimeBlendData { # "Recall" To "Idle2_Base"
                 mTime: f32 = 0
             }
             6521702301322850443 = TimeBlendData { # "Recall" To "Idle1_TASSEL"
                 mTime: f32 = 0
             }
-            6521702300835852006 = TimeBlendData { # "Recall" To "Idle1_BASE"
+            6521702300835852006 = TimeBlendData { # "Recall" To "Idle1_Base"
                 mTime: f32 = 0
             }
             6521702301854066283 = TimeBlendData { # "Recall" To "Recall_Winddown"
@@ -1232,16 +1232,16 @@ entries: map[hash,embed] = {
             11831733634831269197 = TimeBlendData { # "Channel_Wndup" To "death"
                 mTime: f32 = 0
             }
-            6347110898064735565 = TimeBlendData { # "Crit_BASE" To "death"
+            6347110898064735565 = TimeBlendData { # "Crit_Base" To "death"
                 mTime: f32 = 0
             }
-            6664513967696166221 = TimeBlendData { # "Dance_BASE" To "death"
+            6664513967696166221 = TimeBlendData { # "Dance_Base" To "death"
                 mTime: f32 = 0
             }
             13630352413820501325 = TimeBlendData { # "death" To "death"
                 mTime: f32 = 0
             }
-            7794375148645694797 = TimeBlendData { # "Idle1_BASE" To "death"
+            7794375148645694797 = TimeBlendData { # "Idle1_Base" To "death"
                 mTime: f32 = 0
             }
             16132709916495887693 = TimeBlendData { # Idle2_BASE" To "death"
@@ -1277,7 +1277,7 @@ entries: map[hash,embed] = {
             7174843321836682573 = TimeBlendData { # "Spell5_Ult" To "death"
                 mTime: f32 = 0
             }
-            897461255355809101 = TimeBlendData { # "Taunt_BASE" To "death"
+            897461255355809101 = TimeBlendData { # "Taunt_Base" To "death"
                 mTime: f32 = 0
             }
             7714889503158615373 = TimeBlendData { # "Attack1_Actions" To "death"
