@@ -28,6 +28,9 @@
 				<Event Name="Play_sfx_Old_RengarQEmp_Stab" ID="{F3093717-CFAA-46C8-923B-400AB44C035D}">
 					<ChildrenList>
 						<Action Name="" ID="{349B2CF1-A19C-4F99-ACA2-60778AC3D740}" ShortID="954505763">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.023"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="QEmp_Stab" ID="{D1362494-2C7F-4F75-AD96-C58FF81DB285}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}"/>
@@ -42,6 +45,9 @@
 				<Event Name="Play_sfx_Rengar_RengarW_OnCast" ID="{AAFF0DE3-1DA0-4E61-93A8-EAB3B5498771}">
 					<ChildrenList>
 						<Action Name="" ID="{BBE17B31-CE3E-430E-AF49-BD2DB6673930}" ShortID="640297441">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="W_Armor" ID="{C454E10D-CE56-49A2-B5E2-F9A877E2DB3C}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}"/>
@@ -60,6 +66,9 @@
 				<Event Name="Play_sfx_Rengar_RengarQ_OnCast" ID="{D3814E8F-0B78-44EF-A8FF-94AB79C09D1F}">
 					<ChildrenList>
 						<Action Name="" ID="{88BA5031-F35A-4168-8660-A5E8F0C6AF98}" ShortID="970888959">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.018"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Q_OnCast" ID="{4F727C24-790A-4517-AC68-7C16725406E0}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}"/>
@@ -82,6 +91,9 @@
 				<Event Name="Play_sfx_Rengar_RengarQAttack_OnCast" ID="{095F9C75-F69C-4920-9472-8E58CC9C70DF}">
 					<ChildrenList>
 						<Action Name="" ID="{D54894CA-7396-48A5-8BE6-06D4A46733BC}" ShortID="527095373">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.057"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Q_OnAttack" ID="{D366819F-4870-4629-BF39-E288FFF1BCB4}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}"/>
@@ -93,6 +105,9 @@
 				<Event Name="Play_sfx_Rengar_RengarQEmpAttack_OnCast" ID="{7987F6D2-87CF-4EFF-BD87-D57D89202DB3}">
 					<ChildrenList>
 						<Action Name="" ID="{652253F1-AD88-43BC-A289-9D5790E42942}" ShortID="577125061">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.057"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Q_OnAttack" ID="{D366819F-4870-4629-BF39-E288FFF1BCB4}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}"/>
@@ -104,6 +119,9 @@
 				<Event Name="Play_sfx_Rengar_RengarWEmp_OnCast" ID="{D76D0221-8671-4933-8EFC-ED7167ADB732}">
 					<ChildrenList>
 						<Action Name="" ID="{D66280F4-F439-4FAF-A594-16B6091370C5}" ShortID="98147574">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="W_Armor" ID="{C454E10D-CE56-49A2-B5E2-F9A877E2DB3C}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}"/>
@@ -129,6 +147,9 @@
 				<Event Name="Play_sfx_Rengar_RengarQEmp_OnCast" ID="{17241C1D-2B14-4DE0-832C-7D3F7EA46F06}">
 					<ChildrenList>
 						<Action Name="" ID="{E722222E-CDF5-47AF-A2B6-C5855B3DB677}" ShortID="113119799">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.018"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Q_OnCast" ID="{4F727C24-790A-4517-AC68-7C16725406E0}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}"/>
@@ -159,7 +180,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_sfx_Old_RengarE_missilelaunch" ID="{5D47E5E2-E66A-4CA2-BE58-50BCE0B8546C}">
+				<Event Name="Play_sfx_Old_RengarE_OML" ID="{5D47E5E2-E66A-4CA2-BE58-50BCE0B8546C}">
 					<ChildrenList>
 						<Action Name="" ID="{6305BE2D-856F-4E15-A3D6-7FA8BDE22062}" ShortID="633869108">
 							<ReferenceList>
@@ -170,7 +191,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_sfx_Old_RengarE_hit" ID="{7BA61CDF-885E-4C5F-853A-1A8285963E47}">
+				<Event Name="Play_sfx_Old_RengarE_OH" ID="{7BA61CDF-885E-4C5F-853A-1A8285963E47}">
 					<ChildrenList>
 						<Action Name="" ID="{A149C2DC-9654-4D55-AF05-B73E0E0233A7}" ShortID="687043681">
 							<ReferenceList>
@@ -181,7 +202,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_sfx_Old_RengarEEmp_OnHit" ID="{4E031159-56CD-4663-A204-B0B8684E8638}">
+				<Event Name="Play_sfx_Old_RengarEEmp_OH" ID="{4E031159-56CD-4663-A204-B0B8684E8638}">
 					<ChildrenList>
 						<Action Name="" ID="{852256AC-70FC-4E53-8730-8898D8F61011}" ShortID="553908893">
 							<ReferenceList>
@@ -193,18 +214,8 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_sfx_Rengar_RengarEEmpmis_OnHit" ID="{98C0D9F2-4F6C-4FD3-AE4E-046E70D525BD}"/>
-				<Event Name="Play_sfx_Rengar_RengarEEmpmis_OnMissileLaunch" ID="{E3DCE0EA-355A-444C-BAF5-3B4FDA12FDCD}">
-					<ChildrenList>
-						<Action Name="" ID="{C0DEE2FE-08D8-4ED9-9DD3-47B1578D6D2D}" ShortID="989350104">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="EEmp_MissileLaunch" ID="{E86A8F8A-D7CB-4741-A20E-41D5F7C61970}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_sfx_Old_RengarEEmp_missilelaunch" ID="{F241709F-420B-44DE-8957-A88EDF103847}">
+				<Event Name="Play_sfx_Rengar_RengarEEmpmis_OnMissileLaunch" ID="{E3DCE0EA-355A-444C-BAF5-3B4FDA12FDCD}"/>
+				<Event Name="Play_sfx_Old_RengarEEmp_OML" ID="{F241709F-420B-44DE-8957-A88EDF103847}">
 					<ChildrenList>
 						<Action Name="" ID="{C942F5CD-77DD-4F1B-BB3B-EDD22B9F7F50}" ShortID="1064714561">
 							<ReferenceList>
@@ -217,7 +228,7 @@
 				</Event>
 				<Event Name="Play_sfx_RengarSkin01_RengarEEmpmis_OnMissileLaunch" ID="{86968558-4A84-4296-AE6F-45A48612A862}"/>
 				<Event Name="Play_sfx_RengarSkin01_RengarEEmpmis_OnHit" ID="{7E8287C0-D552-4B7F-890F-EFA40C14B848}"/>
-				<Event Name="Play_sfx_OldHH_RengarEEmp_OnHit" ID="{F51B8D2F-6B6E-4A72-9032-CA296201CB01}">
+				<Event Name="Play_sfx_OldHH_RengarEEmp_OH" ID="{F51B8D2F-6B6E-4A72-9032-CA296201CB01}">
 					<ChildrenList>
 						<Action Name="" ID="{1F4609DA-1B51-42D9-BB12-6E4F2A840F98}" ShortID="235392615">
 							<ReferenceList>
@@ -228,7 +239,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_sfx_OldHH_RengarEEmp_missilelaunch" ID="{F104F9D7-A0DB-4B56-979F-DA80E18C3DF8}">
+				<Event Name="Play_sfx_OldHH_RengarEEmp_OML" ID="{F104F9D7-A0DB-4B56-979F-DA80E18C3DF8}">
 					<ChildrenList>
 						<Action Name="" ID="{BB70CF42-50E5-4832-A964-14B2A49F514A}" ShortID="448723199">
 							<ReferenceList>

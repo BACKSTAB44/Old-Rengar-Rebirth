@@ -31,8 +31,8 @@ entries: map[hash,embed] = {
                         "assets/repath/sounds/wwise2016/sfx/characters/rengar/skins/old/old_sfx_events.bnk"
                     }
                     events: list[string] = {
-                        "Play_sfx_OldHH_RengarEEmp_OnHit"
-                        "Play_sfx_OldHH_RengarEEmp_missilelaunch"
+                        "Play_sfx_OldHH_RengarEEmp_OH"
+                        "Play_sfx_OldHH_RengarEEmp_OML"
                     }
                 }
                 BankUnit {

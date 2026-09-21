@@ -201,7 +201,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="2389693464" Type="User" Language="SFX" Hash="{6BD1E242-8F3A-6294-FDA4-2C13DD08785B}">
+		<SoundBank Id="2389693464" Type="User" Language="SFX" Hash="{752B48F4-A3B6-0962-C85C-FC8B8BD9C7A6}">
 			<ShortName>old_sfx_events</ShortName>
 			<Path>old_sfx_events.bnk</Path>
 			<Media>
@@ -379,27 +379,27 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2587660758" Name="Play_sfx_Old_RengarE_hit">
+				<Event Id="3205705902" Name="Play_sfx_Old_RengarE_OH">
 					<MediaRefs>
 						<MediaRef Id="348165191"/>
 						<MediaRef Id="480788489"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="238117148" Name="Play_sfx_Old_RengarE_missilelaunch">
+				<Event Id="1983225181" Name="Play_sfx_Old_RengarE_OML">
 					<MediaRefs>
 						<MediaRef Id="529024126"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1355561910" Name="Play_sfx_Old_RengarEEmp_missilelaunch">
-					<MediaRefs>
-						<MediaRef Id="813652005"/>
-						<MediaRef Id="847154451"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3515841041" Name="Play_sfx_Old_RengarEEmp_OnHit">
+				<Event Id="2836688288" Name="Play_sfx_Old_RengarEEmp_OH">
 					<MediaRefs>
 						<MediaRef Id="126200230"/>
 						<MediaRef Id="134591802"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3492322003" Name="Play_sfx_Old_RengarEEmp_OML">
+					<MediaRefs>
+						<MediaRef Id="813652005"/>
+						<MediaRef Id="847154451"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1334206113" Name="Play_sfx_Old_RengarP_Leap_Grass">
@@ -429,20 +429,20 @@
 						<MediaRef Id="793965013"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4198442286" Name="Play_sfx_OldHH_RengarEEmp_missilelaunch">
-					<MediaRefs>
-						<MediaRef Id="248233133"/>
-						<MediaRef Id="381930791"/>
-						<MediaRef Id="757986132"/>
-						<MediaRef Id="991365751"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="2176551737" Name="Play_sfx_OldHH_RengarEEmp_OnHit">
+				<Event Id="4074191928" Name="Play_sfx_OldHH_RengarEEmp_OH">
 					<MediaRefs>
 						<MediaRef Id="13442858"/>
 						<MediaRef Id="352864373"/>
 						<MediaRef Id="475043371"/>
 						<MediaRef Id="867374308"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2245252203" Name="Play_sfx_OldHH_RengarEEmp_OML">
+					<MediaRefs>
+						<MediaRef Id="248233133"/>
+						<MediaRef Id="381930791"/>
+						<MediaRef Id="757986132"/>
+						<MediaRef Id="991365751"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3256281805" Name="Play_sfx_Rengar_RengarE_OnCast">
@@ -458,12 +458,7 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="2044568096" Name="Play_sfx_Rengar_RengarEEmpmis_OnHit"/>
-				<Event Id="1155544398" Name="Play_sfx_Rengar_RengarEEmpmis_OnMissileLaunch">
-					<MediaRefs>
-						<MediaRef Id="813652005"/>
-						<MediaRef Id="847154451"/>
-					</MediaRefs>
-				</Event>
+				<Event Id="1155544398" Name="Play_sfx_Rengar_RengarEEmpmis_OnMissileLaunch"/>
 				<Event Id="265518677" Name="Play_sfx_Rengar_RengarP_cast">
 					<MediaRefs>
 						<MediaRef Id="57693046"/>
@@ -529,5 +524,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9AF4EA14-755C-927E-CF16-A635A01651DC}</FileHash>
+	<FileHash>{DEB1573D-5B9F-554E-E6BE-28DFA0C3C4B9}</FileHash>
 </SoundBanksInfo>

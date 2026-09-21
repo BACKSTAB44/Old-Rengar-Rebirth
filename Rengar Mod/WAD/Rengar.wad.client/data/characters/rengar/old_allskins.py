@@ -4277,7 +4277,7 @@ entries: map[hash,embed] = {
         overrideScaleCap: option[f32] = {
             500
         }
-        soundOnCreateDefault: string = "Play_sfx_Old_RengarEEmp_OnHit"
+        soundOnCreateDefault: string = "Play_sfx_Old_RengarEEmp_OH"
         flags: u16 = 198
         objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_E_Max_Tar"
     }
@@ -4577,7 +4577,7 @@ entries: map[hash,embed] = {
         overrideScaleCap: option[f32] = {
             375
         }
-        soundOnCreateDefault: string = "Play_sfx_Old_RengarE_hit"
+        soundOnCreateDefault: string = "Play_sfx_Old_RengarE_OH"
         flags: u16 = 198
         objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_E_Tar"
     }
