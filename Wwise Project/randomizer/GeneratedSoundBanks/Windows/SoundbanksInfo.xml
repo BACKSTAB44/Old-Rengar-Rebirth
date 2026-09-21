@@ -187,7 +187,7 @@
 				</File>
 			</Media>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{869CBFE6-54C7-7F9A-CA9F-EA0DA00AF03C}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{72B41AFD-4249-8721-B4BA-AC68169FC838}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -197,11 +197,12 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="211064428" Name="aazx97pe"/>
 				<Bus Id="1259461568" Name="daad0rhm"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="2389693464" Type="User" Language="SFX" Hash="{752B48F4-A3B6-0962-C85C-FC8B8BD9C7A6}">
+		<SoundBank Id="2389693464" Type="User" Language="SFX" Hash="{6D2CBE35-58B3-014D-245E-7B6C991474E7}">
 			<ShortName>old_sfx_events</ShortName>
 			<Path>old_sfx_events.bnk</Path>
 			<Media>
@@ -524,5 +525,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DEB1573D-5B9F-554E-E6BE-28DFA0C3C4B9}</FileHash>
+	<FileHash>{68020865-859D-B69E-C37B-EE083F1C938A}</FileHash>
 </SoundBanksInfo>

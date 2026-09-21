@@ -879,7 +879,7 @@
 						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
 						<Property Name="Priority" Type="int16">
 							<ValueList>
-								<Value>60</Value>
+								<Value>56</Value>
 							</ValueList>
 						</Property>
 						<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
@@ -897,7 +897,7 @@
 							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="daad0rhm" ID="{276F46A2-31B2-482E-B165-34C0F1F8CA31}" WorkUnitID="{9F3FD127-E4D9-493B-AB8B-104C9269DD14}"/>
+							<ObjectRef Name="aazx97pe" ID="{58360C94-F984-48AE-B600-1D9B19645606}" WorkUnitID="{9F3FD127-E4D9-493B-AB8B-104C9269DD14}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
