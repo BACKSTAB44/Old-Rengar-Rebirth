@@ -6,15 +6,16 @@
 				<RandomSequenceContainer Name="P_Leap_Grass" ID="{5B144A0C-0F1C-4F5E-BFCC-0097C69D4C84}" ShortID="955547889">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>-6</Value>
+								<Value>-7</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>
-								<Value>2</Value>
+								<Value>4</Value>
 							</ValueList>
 						</Property>
 						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -33,7 +34,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="Leap3D" ID="{7DBB1B48-E59C-4C84-AF63-F57B972F3AC8}" WorkUnitID="{ABB6F66D-BA03-4AA1-B1D4-3304648E6840}"/>
+							<ObjectRef Name="League3D" ID="{861C6025-4E27-43AB-972D-4BFE4796F5F0}" WorkUnitID="{ABB6F66D-BA03-4AA1-B1D4-3304648E6840}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -95,10 +96,11 @@
 				<RandomSequenceContainer Name="Q_Stab" ID="{3A52AAA0-7A32-4DCC-9EAA-70E81DF319F7}" ShortID="979416574">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>-6</Value>
+								<Value>-10</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MaxSoundPerInstance" Type="int16">
@@ -255,11 +257,11 @@
 				<RandomSequenceContainer Name="QEmp_Stab" ID="{D1362494-2C7F-4F75-AD96-C58FF81DB285}" ShortID="767024194">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
-						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>-3</Value>
+								<Value>-7</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MaxSoundPerInstance" Type="int16">
@@ -424,15 +426,16 @@
 				<RandomSequenceContainer Name="W_Armor" ID="{C454E10D-CE56-49A2-B5E2-F9A877E2DB3C}" ShortID="862572970">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>-2</Value>
+								<Value>-6</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>
-								<Value>2</Value>
+								<Value>4</Value>
 							</ValueList>
 						</Property>
 						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -510,10 +513,11 @@
 				<RandomSequenceContainer Name="W_Roar" ID="{7ABD76D2-1222-45AB-8231-8E9812C5BC8E}" ShortID="468892268">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>-3</Value>
+								<Value>-7</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MaxSoundPerInstance" Type="int16">
@@ -619,25 +623,29 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
-				<Sound Name="WEmp_Heal" ID="{6974BFF9-61A1-4903-B4AB-E50D2360E022}" ShortID="411060512">
+				<RandomSequenceContainer Name="P_Dash" ID="{970529E7-3645-4130-8376-0E1AA07EDDEB}" ShortID="571078839">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>-3.5</Value>
+								<Value>-6</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>
-								<Value>2</Value>
+								<Value>4</Value>
 							</ValueList>
 						</Property>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
 						<Property Name="Priority" Type="int16">
 							<ValueList>
 								<Value>60</Value>
 							</ValueList>
 						</Property>
+						<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
 						<Property Name="UseMaxSoundPerInstance" Type="bool">
 							<ValueList>
 								<Value>True</Value>
@@ -647,56 +655,6 @@
 					<ReferenceList>
 						<Reference Name="Attenuation">
 							<ObjectRef Name="League3D" ID="{861C6025-4E27-43AB-972D-4BFE4796F5F0}" WorkUnitID="{ABB6F66D-BA03-4AA1-B1D4-3304648E6840}"/>
-						</Reference>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="daad0rhm" ID="{276F46A2-31B2-482E-B165-34C0F1F8CA31}" WorkUnitID="{9F3FD127-E4D9-493B-AB8B-104C9269DD14}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="wheal" ID="{4ABF92A2-2ABD-436C-A9DC-7C535CCC4872}">
-							<Language>SFX</Language>
-							<AudioFile>wheal.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="1015963750"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="wheal" ID="{4ABF92A2-2ABD-436C-A9DC-7C535CCC4872}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<RandomSequenceContainer Name="P_Dash" ID="{970529E7-3645-4130-8376-0E1AA07EDDEB}" ShortID="571078839">
-					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="1"/>
-						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
-						<Property Name="MakeUpGain" Type="Real64">
-							<ValueList>
-								<Value>-5</Value>
-							</ValueList>
-						</Property>
-						<Property Name="MaxSoundPerInstance" Type="int16">
-							<ValueList>
-								<Value>4</Value>
-							</ValueList>
-						</Property>
-						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
-						<Property Name="Priority" Type="int16">
-							<ValueList>
-								<Value>60</Value>
-							</ValueList>
-						</Property>
-						<Property Name="UseMaxSoundPerInstance" Type="bool">
-							<ValueList>
-								<Value>True</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Attenuation">
-							<ObjectRef Name="Leap3D" ID="{7DBB1B48-E59C-4C84-AF63-F57B972F3AC8}" WorkUnitID="{ABB6F66D-BA03-4AA1-B1D4-3304648E6840}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -755,10 +713,11 @@
 				<RandomSequenceContainer Name="Q_OnCast" ID="{4F727C24-790A-4517-AC68-7C16725406E0}" ShortID="771461540">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>-4</Value>
+								<Value>-10</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MaxSoundPerInstance" Type="int16">
@@ -867,7 +826,7 @@
 						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>-6</Value>
+								<Value>-9</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MaxSoundPerInstance" Type="int16">
@@ -891,7 +850,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="League3D" ID="{861C6025-4E27-43AB-972D-4BFE4796F5F0}" WorkUnitID="{ABB6F66D-BA03-4AA1-B1D4-3304648E6840}"/>
+							<ObjectRef Name="Longer3D" ID="{A3C65B8A-E2F7-4334-877C-EC5A9FA988DA}" WorkUnitID="{ABB6F66D-BA03-4AA1-B1D4-3304648E6840}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -994,10 +953,11 @@
 				<RandomSequenceContainer Name="E_OnCast" ID="{8FD838EC-355F-46C9-BB8C-08A98DF78227}" ShortID="762709638">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>-5</Value>
+								<Value>-10</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MaxSoundPerInstance" Type="int16">
@@ -1080,10 +1040,11 @@
 				<RandomSequenceContainer Name="E_MissileLaunch" ID="{956763E7-4E53-4E30-949F-0CDFA41F16D8}" ShortID="593144324">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>-6</Value>
+								<Value>-11</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MaxSoundPerInstance" Type="int16">
@@ -1143,15 +1104,16 @@
 				<RandomSequenceContainer Name="E_OnHit" ID="{266C2510-1578-4D44-92A4-5CF82B621963}" ShortID="620775827">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>-5</Value>
+								<Value>-10</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>
-								<Value>4</Value>
+								<Value>2</Value>
 							</ValueList>
 						</Property>
 						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -1225,51 +1187,14 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
-				<Sound Name="P_MaxFerocity" ID="{A1FCE8B3-43AE-4980-9A56-1C39D807AC41}" ShortID="754594476">
-					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
-						<Property Name="MakeUpGain" Type="Real64">
-							<ValueList>
-								<Value>-8</Value>
-							</ValueList>
-						</Property>
-						<Property Name="Priority" Type="int16">
-							<ValueList>
-								<Value>60</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Attenuation">
-							<ObjectRef Name="Leap3D" ID="{7DBB1B48-E59C-4C84-AF63-F57B972F3AC8}" WorkUnitID="{ABB6F66D-BA03-4AA1-B1D4-3304648E6840}"/>
-						</Reference>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="daad0rhm" ID="{276F46A2-31B2-482E-B165-34C0F1F8CA31}" WorkUnitID="{9F3FD127-E4D9-493B-AB8B-104C9269DD14}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="P_MaxFerocity" ID="{959779C1-91CA-43F3-8C47-FC38905F4BC8}">
-							<Language>SFX</Language>
-							<AudioFile>P_MaxFerocity.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="170615827"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="P_MaxFerocity" ID="{959779C1-91CA-43F3-8C47-FC38905F4BC8}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<RandomSequenceContainer Name="(HH( EEmp_MissileLaunch" ID="{A410B6D6-2346-4104-8669-BF12EE3CDAEC}" ShortID="807425802">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>-6</Value>
+								<Value>-11</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MaxSoundPerInstance" Type="int16">
@@ -1395,10 +1320,11 @@
 				<RandomSequenceContainer Name="(HH) EEmp_OnHit" ID="{E78827ED-E035-47F4-9E15-E79215D09FE2}" ShortID="802507544">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>-5</Value>
+								<Value>-10</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MaxSoundPerInstance" Type="int16">
@@ -1524,10 +1450,11 @@
 				<RandomSequenceContainer Name="EEmp_OnHit" ID="{D5665AEE-977B-46BB-BEB5-D055881F9366}" ShortID="626956285">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>-3</Value>
+								<Value>-8</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MaxSoundPerInstance" Type="int16">
@@ -1609,10 +1536,11 @@
 				<RandomSequenceContainer Name="EEmp_MissileLaunch" ID="{E86A8F8A-D7CB-4741-A20E-41D5F7C61970}" ShortID="262217399">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>-6</Value>
+								<Value>-11</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MaxSoundPerInstance" Type="int16">
@@ -1687,6 +1615,141 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="RengarEEmp_OML_4" ID="{29E52092-854B-4738-A100-D8EB2F7EBE17}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="P_Max_Ferocity" ID="{B5C55272-75D7-449C-B9DD-D4F13FEC8A09}" ShortID="862149829">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>-11</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>4</Value>
+							</ValueList>
+						</Property>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Priority" Type="int16">
+							<ValueList>
+								<Value>60</Value>
+							</ValueList>
+						</Property>
+						<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="League3D" ID="{861C6025-4E27-43AB-972D-4BFE4796F5F0}" WorkUnitID="{ABB6F66D-BA03-4AA1-B1D4-3304648E6840}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="daad0rhm" ID="{276F46A2-31B2-482E-B165-34C0F1F8CA31}" WorkUnitID="{9F3FD127-E4D9-493B-AB8B-104C9269DD14}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="P_MaxFerocity" ID="{A1FCE8B3-43AE-4980-9A56-1C39D807AC41}" ShortID="754594476">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9F3FD127-E4D9-493B-AB8B-104C9269DD14}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P_MaxFerocity" ID="{959779C1-91CA-43F3-8C47-FC38905F4BC8}">
+									<Language>SFX</Language>
+									<AudioFile>P_MaxFerocity.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="170615827"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P_MaxFerocity" ID="{959779C1-91CA-43F3-8C47-FC38905F4BC8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="W_Emp_Heal" ID="{870E9BDF-1AC0-488F-A15E-BBBC943951E4}" ShortID="923006355">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>4</Value>
+							</ValueList>
+						</Property>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Priority" Type="int16">
+							<ValueList>
+								<Value>60</Value>
+							</ValueList>
+						</Property>
+						<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="League3D" ID="{861C6025-4E27-43AB-972D-4BFE4796F5F0}" WorkUnitID="{ABB6F66D-BA03-4AA1-B1D4-3304648E6840}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="daad0rhm" ID="{276F46A2-31B2-482E-B165-34C0F1F8CA31}" WorkUnitID="{9F3FD127-E4D9-493B-AB8B-104C9269DD14}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="WEmp_Heal" ID="{6974BFF9-61A1-4903-B4AB-E50D2360E022}" ShortID="411060512">
+							<PropertyList>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9F3FD127-E4D9-493B-AB8B-104C9269DD14}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wheal" ID="{4ABF92A2-2ABD-436C-A9DC-7C535CCC4872}">
+									<Language>SFX</Language>
+									<AudioFile>wheal.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1015963750"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="wheal" ID="{4ABF92A2-2ABD-436C-A9DC-7C535CCC4872}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
