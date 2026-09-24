@@ -559,10 +559,10 @@ entries: map[hash,embed] = {
             }
             "Idle3_PAR_44" = ParallelClipData {
                 mClipNameList: list[hash] = {
-                    "Idle3_Base_44"
+                    "Idle3_BASE_44"
                 }
             }
-            "Idle3_Base_44" = AtomicClipData {
+            "Idle3_BASE_44" = AtomicClipData {
                 mFlags: u32 = 4
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
@@ -863,7 +863,7 @@ entries: map[hash,embed] = {
             11230245605582880077 = TimeBlendData { # "Idle3" To "death"
                 mTime: f32 = 0
             }
-            13551376349023223117 = TimeBlendData { # "Idle3_Base_44" To "death"
+            13551376349023223117 = TimeBlendData { # "Idle3_BASE_44" To "death"
                 mTime: f32 = 0
             }
             3405941504494583117 = TimeBlendData { # "Run1_Fast" To "death"
