@@ -508,23 +508,76 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_attack4.anm"
                 }
             }
-            "Idle1" = AtomicClipData {
-                mFlags: u32 = 2
+            "Idle1" = SequencerClipData {
+                mClipNameList: list[hash] = {
+                    "Idle1_PAR_44"
+                }
+            }
+            "Idle1_PAR_44" = ParallelClipData {
+                mClipNameList: list[hash] = {
+                    "Idle1_Base_44"
+                }
+            }
+            "Idle1_Base_44" = AtomicClipData {
+                mFlags: u32 = 6
                 mTrackDataName: hash = "Default"
+                mEventDataMap: map[hash,pointer] = {
+                    "Spell4_Idle" = StopAnimationEventData {
+                        mStopAnimationName: hash = "Spell4_Idle"
+                    }
+                }
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_idle1.anm"
                 }
             }
-            "Idle2" = AtomicClipData {
+            "Idle2" = SequencerClipData {
+                mClipNameList: list[hash] = {
+                    "Idle2_PAR_44"
+                }
+            }
+            "Idle2_PAR_44" = ParallelClipData {
+                mClipNameList: list[hash] = {
+                    "Idle2_Base_44"
+                }
+            }
+            "Idle2_Base_44" = AtomicClipData {
+                mFlags: u32 = 4
                 mTrackDataName: hash = "Default"
+                mEventDataMap: map[hash,pointer] = {
+                    "Spell4_Idle" = StopAnimationEventData {
+                        mStopAnimationName: hash = "Spell4_Idle"
+                    }
+                }
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_idle2.anm"
                 }
             }
-            "Idle3" = AtomicClipData {
+            "Idle3" = SequencerClipData {
+                mClipNameList: list[hash] = {
+                    "Idle3_PAR_44"
+                }
+            }
+            "Idle3_PAR_44" = ParallelClipData {
+                mClipNameList: list[hash] = {
+                    "Idle3_Base_44"
+                }
+            }
+            "Idle3_Base_44" = AtomicClipData {
+                mFlags: u32 = 4
                 mTrackDataName: hash = "Default"
+                mEventDataMap: map[hash,pointer] = {
+                    "Spell4_Idle" = StopAnimationEventData {
+                        mStopAnimationName: hash = "Spell4_Idle"
+                    }
+                }
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_idle3.anm"
+                }
+            }
+            "Spell4_Idle" = AtomicClipData {
+                mTrackDataName: hash = "Default"
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_idle1.anm"
                 }
             }
         }
@@ -720,6 +773,9 @@ entries: map[hash,embed] = {
             }
         }
         mBlendDataTable: map[u64,pointer] = {
+            10974883660664716621 = TimeBlendData { # "ArenaGateFix" To "death"
+                mTime: f32 = 0
+            }
             13022361219970415949 = TimeBlendData { # "Channel_Channel" To "death"
                 mTime: f32 = 0
             }
@@ -738,13 +794,16 @@ entries: map[hash,embed] = {
             11374364255402376525 = TimeBlendData { # "Idle1" To "death"
                 mTime: f32 = 0
             }
-            7794375148645694797 = TimeBlendData { # "Idle1_BASE" To "death"
+            3322271190766632269 = TimeBlendData { # "Idle1_Base_44" To "death"
+                mTime: f32 = 0
+            }
+            13093444449137638733 = TimeBlendData { # "Spell4_Idle" To "death"
                 mTime: f32 = 0
             }
             11302304930492628301 = TimeBlendData { # "Idle2" To "death"
                 mTime: f32 = 0
             }
-            16132709916495887693 = TimeBlendData { # "Idle2_BASE" To "death"
+            17676182181831556429 = TimeBlendData { # "Idle2_Base_44" To "death"
                 mTime: f32 = 0
             }
             13156647006022188365 = TimeBlendData { # "Laugh" To "death"
@@ -774,10 +833,7 @@ entries: map[hash,embed] = {
             17825496522308500813 = TimeBlendData { # "Spell3_Run" To "death"
                 mTime: f32 = 0
             }
-            1548379792630922573 = TimeBlendData { # "Spell5_Bush" To "death"
-                mTime: f32 = 0
-            }
-            7174843321836682573 = TimeBlendData { # "Spell5_Ult" To "death"
+            11994809827913678157 = TimeBlendData { # "Spell5_BASE" To "death"
                 mTime: f32 = 0
             }
             13590883339407506765 = TimeBlendData { # "taunt" To "death"
@@ -807,7 +863,7 @@ entries: map[hash,embed] = {
             11230245605582880077 = TimeBlendData { # "Idle3" To "death"
                 mTime: f32 = 0
             }
-            8555650310791019853 = TimeBlendData { # "Idle3_BASE" To "death"
+            13551376349023223117 = TimeBlendData { # "Idle3_Base_44" To "death"
                 mTime: f32 = 0
             }
             3405941504494583117 = TimeBlendData { # "Run1_Fast" To "death"
