@@ -126,11 +126,6 @@ entries: map[hash,embed] = {
             "Idle2_Base_44" = AtomicClipData {
                 mFlags: u32 = 4
                 mTrackDataName: hash = "Default"
-                mEventDataMap: map[hash,pointer] = {
-                    "Spell4_Idle" = StopAnimationEventData {
-                        mStopAnimationName: hash = "Spell4_Idle"
-                    }
-                }
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_idle2.anm"
                 }
@@ -498,11 +493,6 @@ entries: map[hash,embed] = {
             "Idle3_BASE_44" = AtomicClipData {
                 mFlags: u32 = 4
                 mTrackDataName: hash = "Default"
-                mEventDataMap: map[hash,pointer] = {
-                    "Spell4_Idle" = StopAnimationEventData {
-                        mStopAnimationName: hash = "Spell4_Idle"
-                    }
-                }
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_idle3.anm"
                 }
@@ -720,26 +710,26 @@ entries: map[hash,embed] = {
                     "Idle1_PAR_44"
                 }
             }
+            "Idle2" = SequencerClipData {
+                mClipNameList: list[hash] = {
+                    "Idle2_PAR_44"
+                }
+            }
+            "Idle3" = SequencerClipData {
+                mClipNameList: list[hash] = {
+                    "Idle3_PAR_44"
+                }
+            }
             "Idle1_PAR_44" = ParallelClipData {
                 mClipNameList: list[hash] = {
                     "Idle1_Base_44"
                     "Idle1_TASSEL_44"
                 }
             }
-            "Idle2" = SequencerClipData {
-                mClipNameList: list[hash] = {
-                    "Idle2_PAR_44"
-                }
-            }
             "Idle2_PAR_44" = ParallelClipData {
                 mClipNameList: list[hash] = {
                     "Idle2_Base_44"
                     "Idle2_TASSEL_44"
-                }
-            }
-            "Idle3" = SequencerClipData {
-                mClipNameList: list[hash] = {
-                    "Idle3_PAR_44"
                 }
             }
             "Idle3_PAR_44" = ParallelClipData {
