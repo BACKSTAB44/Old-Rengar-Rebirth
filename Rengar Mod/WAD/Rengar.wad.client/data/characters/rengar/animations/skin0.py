@@ -85,9 +85,6 @@ entries: map[hash,embed] = {
                     "Spell2" = StopAnimationEventData {
                         mStopAnimationName: hash = "Spell2"
                     }
-                    "Spell3" = StopAnimationEventData {
-                        mStopAnimationName: hash = "Spell3"
-                    }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_dance.anm"
@@ -120,9 +117,6 @@ entries: map[hash,embed] = {
                     }
                     "Spell2" = StopAnimationEventData {
                         mStopAnimationName: hash = "Spell2"
-                    }
-                    "Spell3" = StopAnimationEventData {
-                        mStopAnimationName: hash = "Spell3"
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
@@ -290,9 +284,6 @@ entries: map[hash,embed] = {
                     "Spell2" = StopAnimationEventData {
                         mStopAnimationName: hash = "Spell2"
                     }
-                    "Spell3" = StopAnimationEventData {
-                        mStopAnimationName: hash = "Spell3"
-                    }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_taunt.anm"
@@ -444,9 +435,6 @@ entries: map[hash,embed] = {
                     }
                     "Spell2" = StopAnimationEventData {
                         mStopAnimationName: hash = "Spell2"
-                    }
-                    "Spell3" = StopAnimationEventData {
-                        mStopAnimationName: hash = "Spell3"
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
