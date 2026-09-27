@@ -263,6 +263,15 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_sfx_Rengar_RengarE_hit" ID="{873F3922-8602-4B8C-9F31-56C9C081A33F}"/>
+				<Event Name="Play_sfx_Rengar_RengarE_missilelaunch" ID="{19334108-1670-401A-8CD5-B5DE969B41D6}"/>
+				<Event Name="Play_sfx_Rengar_RengarP_leaphit" ID="{F3CE4A57-C987-4144-936E-4BFAFE58B3C6}"/>
+				<Event Name="Play_sfx_Rengar_RengarPEmp_buffactivate" ID="{B1A377FB-6816-4A03-8DEF-C62083C5C24D}"/>
+				<Event Name="Play_sfx_Rengar_RengarQ_buffactivate" ID="{A5015767-8556-4BF1-A404-2FC9C1FEC05E}"/>
+				<Event Name="Play_sfx_Rengar_RengarWBuff_buffactivate" ID="{E85CC73B-6722-4272-A06C-4C4648E22248}"/>
+				<Event Name="Play_sfx_RengarSkin01_RengarE_hit" ID="{168667E5-59B3-4BEB-9C47-A3DC8D2E5329}"/>
+				<Event Name="Play_sfx_RengarSkin01_RengarE_missilelaunch" ID="{63E39E80-3D98-44F6-8784-00BE87E6A537}"/>
+				<Event Name="Play_sfx_RengarSkin01_RengarPEmp_buffactivate" ID="{D985DE13-F9A0-4378-ABA4-43D7E90D15E0}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

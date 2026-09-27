@@ -41,6 +41,11 @@ entries: map[hash,embed] = {
                     events: list[string] = {
                         "Play_sfx_OldHH_RengarEEmp_OH"
                         "Play_sfx_OldHH_RengarEEmp_OML"
+                        "Play_sfx_RengarSkin01_RengarE_hit"
+                        "Play_sfx_RengarSkin01_RengarE_missilelaunch"
+                        "Play_sfx_RengarSkin01_RengarEEmpmis_OnHit"
+                        "Play_sfx_RengarSkin01_RengarEEmpmis_OnMissileLaunch"
+                        "Play_sfx_RengarSkin01_RengarPEmp_buffactivate"
                     }
                 }
                 BankUnit {

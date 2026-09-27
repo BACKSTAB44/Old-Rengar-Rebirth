@@ -202,7 +202,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="2389693464" Type="User" Language="SFX" Hash="{33444197-113E-B01C-5257-9ECFECEB0513}">
+		<SoundBank Id="2389693464" Type="User" Language="SFX" Hash="{491A2471-666D-50DA-6A3B-542DBE17091C}">
 			<ShortName>old_sfx_events</ShortName>
 			<Path>old_sfx_events.bnk</Path>
 			<Media>
@@ -446,6 +446,8 @@
 						<MediaRef Id="991365751"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="475683270" Name="Play_sfx_Rengar_RengarE_hit"/>
+				<Event Id="665040588" Name="Play_sfx_Rengar_RengarE_missilelaunch"/>
 				<Event Id="3256281805" Name="Play_sfx_Rengar_RengarE_OnCast">
 					<MediaRefs>
 						<MediaRef Id="171613656"/>
@@ -466,6 +468,9 @@
 						<MediaRef Id="315600868"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2443327857" Name="Play_sfx_Rengar_RengarP_leaphit"/>
+				<Event Id="991930672" Name="Play_sfx_Rengar_RengarPEmp_buffactivate"/>
+				<Event Id="3571565091" Name="Play_sfx_Rengar_RengarQ_buffactivate"/>
 				<Event Id="1937486073" Name="Play_sfx_Rengar_RengarQ_OnBuffDeactivate"/>
 				<Event Id="1696751273" Name="Play_sfx_Rengar_RengarQ_OnCast">
 					<MediaRefs>
@@ -509,6 +514,7 @@
 						<MediaRef Id="280434090"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="15700760" Name="Play_sfx_Rengar_RengarWBuff_buffactivate"/>
 				<Event Id="3957301585" Name="Play_sfx_Rengar_RengarWEmp_OnCast">
 					<MediaRefs>
 						<MediaRef Id="390969"/>
@@ -519,11 +525,14 @@
 						<MediaRef Id="1015963750"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1819660892" Name="Play_sfx_RengarSkin01_RengarE_hit"/>
+				<Event Id="3300392674" Name="Play_sfx_RengarSkin01_RengarE_missilelaunch"/>
 				<Event Id="1373063554" Name="Play_sfx_RengarSkin01_RengarEEmpmis_OnHit"/>
 				<Event Id="3418013488" Name="Play_sfx_RengarSkin01_RengarEEmpmis_OnMissileLaunch"/>
+				<Event Id="1121630842" Name="Play_sfx_RengarSkin01_RengarPEmp_buffactivate"/>
 				<Event Id="1111803701" Name="Stop_sfx_Rengar_RengarQ_buffactivate"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{31C40F9C-E8F0-76E3-E880-03268DE8D644}</FileHash>
+	<FileHash>{1CADCA3A-6026-EA43-6096-1736BD2393D4}</FileHash>
 </SoundBanksInfo>
