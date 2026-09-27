@@ -1217,6 +1217,9 @@ entries: map[hash,embed] = {
             6521702300539534768 = TimeBlendData { # "Recall" To "Recall"
                 mTime: f32 = 0
             }
+            10974883660664716621 = TimeBlendData { # "ArenaGateFix" To "death"
+                mTime: f32 = 0
+            }
             13022361219970415949 = TimeBlendData { # "Channel_Channel" To "death"
                 mTime: f32 = 0
             }
@@ -1235,7 +1238,7 @@ entries: map[hash,embed] = {
             7794375148645694797 = TimeBlendData { # "Idle1_Base" To "death"
                 mTime: f32 = 0
             }
-            16132709916495887693 = TimeBlendData { # Idle2_BASE" To "death"
+            16132709916495887693 = TimeBlendData { # "Idle2_Base" To "death"
                 mTime: f32 = 0
             }
             11409204720869883213 = TimeBlendData { # "Laugh_BASE" To "death"
@@ -1262,10 +1265,7 @@ entries: map[hash,embed] = {
             17825496522308500813 = TimeBlendData { # "Spell3_Run" To "death"
                 mTime: f32 = 0
             }
-            1548379792630922573 = TimeBlendData { # "Spell5_Bush" To "death"
-                mTime: f32 = 0
-            }
-            7174843321836682573 = TimeBlendData { # "Spell5_Ult" To "death"
+            11994809827913678157 = TimeBlendData { # "Spell5_BASE" To "death"
                 mTime: f32 = 0
             }
             897461255355809101 = TimeBlendData { # "Taunt_Base" To "death"

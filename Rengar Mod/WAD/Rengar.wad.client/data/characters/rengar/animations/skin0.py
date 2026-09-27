@@ -708,6 +708,9 @@ entries: map[hash,embed] = {
             }
         }
         mBlendDataTable: map[u64,pointer] = {
+            10974883660664716621 = TimeBlendData { # "ArenaGateFix" To "death"
+                mTime: f32 = 0
+            }
             13022361219970415949 = TimeBlendData { # "Channel_Channel" To "death"
                 mTime: f32 = 0
             }
@@ -726,13 +729,13 @@ entries: map[hash,embed] = {
             11374364255402376525 = TimeBlendData { # "Idle1" To "death"
                 mTime: f32 = 0
             }
-            7794375148645694797 = TimeBlendData { # "Idle1_BASE" To "death"
+            7794375148645694797 = TimeBlendData { # "Idle1_Base" To "death"
                 mTime: f32 = 0
             }
             11302304930492628301 = TimeBlendData { # "Idle2" To "death"
                 mTime: f32 = 0
             }
-            16132709916495887693 = TimeBlendData { # "Idle2_BASE" To "death"
+            16132709916495887693 = TimeBlendData { # "Idle2_Base" To "death"
                 mTime: f32 = 0
             }
             13156647006022188365 = TimeBlendData { # "Laugh" To "death"
@@ -762,10 +765,7 @@ entries: map[hash,embed] = {
             17825496522308500813 = TimeBlendData { # "Spell3_Run" To "death"
                 mTime: f32 = 0
             }
-            1548379792630922573 = TimeBlendData { # "Spell5_Bush" To "death"
-                mTime: f32 = 0
-            }
-            7174843321836682573 = TimeBlendData { # "Spell5_Ult" To "death"
+            11994809827913678157 = TimeBlendData { # "Spell5_BASE" To "death"
                 mTime: f32 = 0
             }
             13590883339407506765 = TimeBlendData { # "taunt" To "death"
