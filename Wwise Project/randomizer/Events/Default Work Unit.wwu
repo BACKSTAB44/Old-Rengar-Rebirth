@@ -224,17 +224,6 @@
 				</Event>
 				<Event Name="Play_sfx_Rengar_RengarQEmp_OnBuffDeactivate" ID="{2020FA2A-5DE1-40A6-BADD-9F5323307063}"/>
 				<Event Name="Play_sfx_Rengar_RengarQ_OnBuffDeactivate" ID="{5B36DD3A-F848-4B95-BC7D-DEB58488F7DE}"/>
-				<Event Name="Play_sfx_Old_RengarP_MaxFerocity" ID="{F267E9AA-B020-40EC-941C-E0D429AAA767}">
-					<ChildrenList>
-						<Action Name="" ID="{EC97AC52-273A-408E-9B85-8D572B9F841F}" ShortID="767828278">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="P_Max_Ferocity" ID="{B5C55272-75D7-449C-B9DD-D4F13FEC8A09}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_sfx_Rengar_RengarWEmp_OnCast" ID="{29BAADD2-3820-47C0-8FCB-1D1EBAA8753D}">
 					<ChildrenList>
 						<Action Name="" ID="{365056A0-A6AE-4119-8763-7AE900E06407}" ShortID="132866921">
@@ -272,6 +261,20 @@
 				<Event Name="Play_sfx_RengarSkin01_RengarE_hit" ID="{168667E5-59B3-4BEB-9C47-A3DC8D2E5329}"/>
 				<Event Name="Play_sfx_RengarSkin01_RengarE_missilelaunch" ID="{63E39E80-3D98-44F6-8784-00BE87E6A537}"/>
 				<Event Name="Play_sfx_RengarSkin01_RengarPEmp_buffactivate" ID="{D985DE13-F9A0-4378-ABA4-43D7E90D15E0}"/>
+				<Event Name="Play_sfx_Old_RengarP_MaxFerocity" ID="{1F3E6473-F08D-4AC2-B8BD-476C9F20F3A3}">
+					<ChildrenList>
+						<Action Name="" ID="{90EBC204-4D5E-4A87-AC55-7FAF4555A12A}" ShortID="543452757">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="P_MaxFerocity" ID="{B0D00CAE-63C0-4C40-B586-B69872AA838E}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

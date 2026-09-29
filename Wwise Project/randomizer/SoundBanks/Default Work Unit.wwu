@@ -12,6 +12,7 @@
 						<ObjectRef Name="Q_OC_1" ID="{0B7668E0-C923-41AD-AFE6-E66CC7632F75}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}" Origin="Manual" Filter="4"/>
 						<ObjectRef Name="HeadhunterEEmp_OH_3" ID="{59FE4F50-92A4-41C6-A499-32412EE6284A}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}" Origin="Manual" Filter="4"/>
 						<ObjectRef Name="RengarEEmp_OML_4" ID="{98011692-6A5F-4244-9184-EFB0B319E367}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}" Origin="Manual" Filter="4"/>
+						<ObjectRef Name="P_FeroNEW" ID="{1115ADD1-98CD-4267-80C7-6F991E0A4321}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}" Origin="Manual" Filter="4"/>
 						<ObjectRef Name="HeadhunterEEmp_OML_1" ID="{16F3CA20-B4AF-42F6-AF89-9D8551C5F1A6}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}" Origin="Manual" Filter="4"/>
 						<ObjectRef Name="HeadhunterEEmp_OML_4" ID="{2210D35B-39DA-4328-AC2C-A921499D1DB9}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}" Origin="Manual" Filter="4"/>
 						<ObjectRef Name="RengarE_OC_4" ID="{8A15CB75-B41A-437E-B593-3B99ED6669E4}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}" Origin="Manual" Filter="4"/>
@@ -25,7 +26,6 @@
 						<ObjectRef Name="Q_OnAttack_4" ID="{76099219-9B87-4911-80D0-A88BD7538185}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}" Origin="Manual" Filter="4"/>
 						<ObjectRef Name="HeadhunterEEmp_OH_4" ID="{6CB82B2B-2764-495F-BEE1-CFC9FFA7A632}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}" Origin="Manual" Filter="4"/>
 						<ObjectRef Name="W_ArmrNEW_1" ID="{FA5ABF90-7E58-4962-AD5A-1A0A71FB568E}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}" Origin="Manual" Filter="4"/>
-						<ObjectRef Name="P_MaxFerocity" ID="{A1FCE8B3-43AE-4980-9A56-1C39D807AC41}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}" Origin="Manual" Filter="4"/>
 						<ObjectRef Name="QEmp_Stab_2" ID="{D6B64D93-2D3A-49AA-A9C5-BE15A3522A91}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}" Origin="Manual" Filter="4"/>
 						<ObjectRef Name="W_RoarNEW_1" ID="{5E30D4BF-08CD-49AF-8123-7D54C47A9B5E}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}" Origin="Manual" Filter="4"/>
 						<ObjectRef Name="QEmp_Stab_3" ID="{EDFB04EB-C619-4A38-B57F-5A2BCAB2A5C7}" WorkUnitID="{8F1ADD94-7557-4202-8DD0-A3582BA51514}" Origin="Manual" Filter="4"/>
@@ -56,7 +56,6 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_sfx_Rengar_RengarE_missilelaunch" ID="{19334108-1670-401A-8CD5-B5DE969B41D6}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="Play_sfx_Rengar_RengarQEmp_OnBuffDeactivate" ID="{2020FA2A-5DE1-40A6-BADD-9F5323307063}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
-						<ObjectRef Name="Play_sfx_Old_RengarP_MaxFerocity" ID="{F267E9AA-B020-40EC-941C-E0D429AAA767}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="Play_sfx_Rengar_RengarP_leaphit" ID="{F3CE4A57-C987-4144-936E-4BFAFE58B3C6}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="Play_sfx_Old_RengarP_Leap_Grass" ID="{36A171A8-7D72-4186-BDC9-F256D947D131}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="Stop_sfx_Rengar_RengarQ_buffactivate" ID="{E7E1ECB9-47C8-4234-8809-0D7420A9BDE2}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
@@ -76,6 +75,7 @@
 						<ObjectRef Name="Play_sfx_Rengar_RengarPEmp_buffactivate" ID="{B1A377FB-6816-4A03-8DEF-C62083C5C24D}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="Play_sfx_OldHH_RengarEEmp_OH" ID="{F51B8D2F-6B6E-4A72-9032-CA296201CB01}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="Play_sfx_Rengar_RengarQEmpAttack_OnHit" ID="{E96012DC-6F17-4AB8-811F-317B12FBEDF5}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="Play_sfx_Old_RengarP_MaxFerocity" ID="{1F3E6473-F08D-4AC2-B8BD-476C9F20F3A3}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="Play_sfx_OldHH_RengarEEmp_OML" ID="{F104F9D7-A0DB-4B56-979F-DA80E18C3DF8}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="Play_sfx_RengarSkin01_RengarEEmpmis_OnHit" ID="{7E8287C0-D552-4B7F-890F-EFA40C14B848}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="Play_sfx_Rengar_RengarE_hit" ID="{873F3922-8602-4B8C-9F31-56C9C081A33F}" WorkUnitID="{850A68C7-47CA-4262-8F78-D00EFC6ACE45}" Origin="Manual" Filter="3"/>

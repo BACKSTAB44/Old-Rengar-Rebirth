@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="573912311" Type="User" Language="SFX" Hash="{9E70D1F1-D355-ABAD-E2D7-D6C79DA3F935}">
+		<SoundBank Id="573912311" Type="User" Language="SFX" Hash="{F670263F-1215-7D7A-58BC-299B8F1D7069}">
 			<ShortName>old_sfx_audio</ShortName>
 			<Path>old_sfx_audio.bnk</Path>
 			<Media>
@@ -48,10 +48,6 @@
 				<File Id="134591802" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>RengarEEmp_OH_1.wav</ShortName>
 					<CachePath>SFX/RengarEEmp_OH_1_3F75BDB9.wem</CachePath>
-				</File>
-				<File Id="170615827" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>P_MaxFerocity.wav</ShortName>
-					<CachePath>SFX/P_MaxFerocity_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="171613656" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>RengarE_OC_4.wav</ShortName>
@@ -96,6 +92,10 @@
 				<File Id="356096601" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_Leap_RengarP_Leap_Grass_1.wav</ShortName>
 					<CachePath>SFX/sfx_Leap_RengarP_Leap_Grass_1_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="376126023" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>P_FeroNEW.wav</ShortName>
+					<CachePath>SFX/P_FeroNEW_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="381930791" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>HeadhunterEEmp_OML_1.wav</ShortName>
@@ -202,7 +202,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="2389693464" Type="User" Language="SFX" Hash="{491A2471-666D-50DA-6A3B-542DBE17091C}">
+		<SoundBank Id="2389693464" Type="User" Language="SFX" Hash="{57AD4378-B2BD-C223-B9CD-A325E66DF65F}">
 			<ShortName>old_sfx_events</ShortName>
 			<Path>old_sfx_events.bnk</Path>
 			<Media>
@@ -241,10 +241,6 @@
 				<File Id="134591802" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>RengarEEmp_OH_1.wav</ShortName>
 					<CachePath>SFX/RengarEEmp_OH_1_3F75BDB9.wem</CachePath>
-				</File>
-				<File Id="170615827" Language="SFX" Streaming="false" Location="OtherBank">
-					<ShortName>P_MaxFerocity.wav</ShortName>
-					<CachePath>SFX/P_MaxFerocity_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="171613656" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>RengarE_OC_4.wav</ShortName>
@@ -289,6 +285,10 @@
 				<File Id="356096601" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>sfx_Leap_RengarP_Leap_Grass_1.wav</ShortName>
 					<CachePath>SFX/sfx_Leap_RengarP_Leap_Grass_1_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="376126023" Language="SFX" Streaming="false" Location="OtherBank">
+					<ShortName>P_FeroNEW.wav</ShortName>
+					<CachePath>SFX/P_FeroNEW_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="381930791" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>HeadhunterEEmp_OML_1.wav</ShortName>
@@ -411,7 +411,7 @@
 				</Event>
 				<Event Id="360531173" Name="Play_sfx_Old_RengarP_MaxFerocity">
 					<MediaRefs>
-						<MediaRef Id="170615827"/>
+						<MediaRef Id="376126023"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3688010255" Name="Play_sfx_Old_RengarQ_Stab">
@@ -534,5 +534,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1CADCA3A-6026-EA43-6096-1736BD2393D4}</FileHash>
+	<FileHash>{6EA79434-6AEF-4E70-B210-B8100DE454D9}</FileHash>
 </SoundBanksInfo>
