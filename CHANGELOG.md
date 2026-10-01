@@ -78,7 +78,7 @@
 **-** More compact code (25.000+ lines thinner).  
 **-** Many flags corrected from 8-bit to 16-bit.  
 **-** Mod thumbnail added for supported mod-loaders.  
-**-** Open sourced, check [Github](https://github.com/BACKSTAB44/Old-Rengar-Rebirth) and [GDrive](https://drive.google.com/drive/folders/17wvzPI16-7v2034s4K1XfgrLlE1PdZ7m).  
+**-** Open sourced, check [Github](https://github.com/BACKSTAB44/Old-Rengar-Rebirth.git) and [GDrive](https://drive.google.com/drive/folders/17wvzPI16-7v2034s4K1XfgrLlE1PdZ7m).  
 **-** Disabled skin-hacking.  
 **-** Fixed FPS issues while in ULT.  
 **-** Cracked all hashed info.  
