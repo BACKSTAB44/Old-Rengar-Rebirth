@@ -1,0 +1,2 @@
+Attenuation[0] ID 133066238 Volume: 0->0 (Constant) | 1350->0 (Linear) | 2412->-1 (Linear)
+Attenuation[1] ID 609179396 Volume: 0->0 (Constant) | 1750->0 (Log1) | 2000->-0.748811 (Log1) | 2300->-0.936904 (Log1) | 2750->-1 (Constant) | 3000->-1 (Linear)
