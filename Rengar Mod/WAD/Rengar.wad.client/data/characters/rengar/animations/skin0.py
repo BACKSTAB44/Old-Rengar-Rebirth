@@ -455,22 +455,21 @@ entries: map[hash,embed] = {
             }
             "Attack4" = ParallelClipData {
                 mClipNameList: list[hash] = {
-                    "Tiamat_Logic_On"
                     "Attack4_Actions"
-                    "Attack4_Default"
+                    "Tiamat_Logic_On"
                 }
             }
             "Attack4_Actions" = AtomicClipData {
-                mFlags: u32 = 1
                 mTrackDataName: hash = "Actions"
                 mTickDuration: f32 = 0.034
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_attack4.anm"
                 }
             }
-            "Attack4_Default" = AtomicClipData {
-                mFlags: u32 = 1
-                mTrackDataName: hash = "Default"
+            "Tiamat_Logic_On" = AtomicClipData {
+                mFlags: u32 = 6
+                mMaskDataName: hash = "empty"
+                mTrackDataName: hash = "Null"
                 mEventDataMap: map[hash,pointer] = {
                     "Q" = ParticleEventData {
                         mStartFrame: f32 = 4
@@ -482,15 +481,6 @@ entries: map[hash,embed] = {
                         mIsKillEvent: bool = false
                     }
                 }
-                mTickDuration: f32 = 0.034
-                mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_attack4.anm"
-                }
-            }
-            "Tiamat_Logic_On" = AtomicClipData {
-                mFlags: u32 = 6
-                mMaskDataName: hash = "empty"
-                mTrackDataName: hash = "Null"
                 mTickDuration: f32 = 0.034
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_attack4.anm"
