@@ -238,7 +238,7 @@ entries: map[hash,embed] = {
                 mClipNameList: list[hash] = {
                     "Spell5_Null"
                     "Spell5_BASE"
-                    "Override"
+                    "Body_Visibility"
                 }
             }
             "Spell5_BASE" = AtomicClipData {
@@ -266,10 +266,10 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_dash1.anm"
                 }
             }
-            "Override" = AtomicClipData {
+            "Body_Visibility" = AtomicClipData {
                 mFlags: u32 = 4
                 mMaskDataName: hash = "empty"
-                mTrackDataName: hash = "Override"
+                mTrackDataName: hash = "BodyVisibility"
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_laugh.anm"
                 }
@@ -693,7 +693,7 @@ entries: map[hash,embed] = {
             "Stop" = TrackData {
                 mPriority: u8 = 5
             }
-            "Override" = TrackData {
+            "BodyVisibility" = TrackData {
                 mPriority: u8 = 6
             }
         }
