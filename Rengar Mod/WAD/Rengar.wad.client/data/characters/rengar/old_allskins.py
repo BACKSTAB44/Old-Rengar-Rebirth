@@ -4035,7 +4035,7 @@ entries: map[hash,embed] = {
                 }
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 15, 15, 15 }
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {
                                 keyTimes: list[f32] = {
@@ -4055,10 +4055,10 @@ entries: map[hash,embed] = {
                             0.5
                             1
                         }
-                        values: list[f32] = {
-                            15
-                            15
-                            15
+                        values: list[vec3] = {
+                            { 15, 15, 15 }
+                            { 15, 15, 15 }
+                            { 15, 15, 15 }
                         }
                     }
                 }
@@ -4203,7 +4203,7 @@ entries: map[hash,embed] = {
                 }
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 15, 15, 15 }
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {
                                 keyTimes: list[f32] = {
@@ -4223,10 +4223,10 @@ entries: map[hash,embed] = {
                             0.5
                             1
                         }
-                        values: list[f32] = {
-                            15
-                            15
-                            15
+                        values: list[vec3] = {
+                            { 15, 15, 15 }
+                            { 15, 15, 15 }
+                            { 15, 15, 15 }
                         }
                     }
                 }
