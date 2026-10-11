@@ -4052,12 +4052,8 @@ entries: map[hash,embed] = {
                         }
                         times: list[f32] = {
                             0
-                            0.5
-                            1
                         }
                         values: list[vec3] = {
-                            { 15, 15, 15 }
-                            { 15, 15, 15 }
                             { 15, 15, 15 }
                         }
                     }
@@ -4220,12 +4216,8 @@ entries: map[hash,embed] = {
                         }
                         times: list[f32] = {
                             0
-                            0.5
-                            1
                         }
                         values: list[vec3] = {
-                            { 15, 15, 15 }
-                            { 15, 15, 15 }
                             { 15, 15, 15 }
                         }
                     }
