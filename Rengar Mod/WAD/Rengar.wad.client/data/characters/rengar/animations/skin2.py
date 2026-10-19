@@ -695,6 +695,75 @@ entries: map[hash,embed] = {
                     "Idle3_BASE"
                 }
             }
+            "Spawn" = SelectorClipData {
+                mSelectorPairDataList: list[embed] = {
+                    SelectorPairData {
+                        mClipName: hash = "Idle_Var01"
+                        mProbability: f32 = 50
+                    }
+                    SelectorPairData {
+                        mClipName: hash = "Idle2_PAR"
+                        mProbability: f32 = 25
+                    }
+                    SelectorPairData {
+                        mClipName: hash = "Idle3_PAR"
+                        mProbability: f32 = 25
+                    }
+                }
+            }
+            "Idle_Var01" = AtomicClipData {
+                mTrackDataName: hash = "BodyVisibility"
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_idle1.anm"
+                }
+                startFrame: f32 = 60
+            }
+            "Idle2_PAR" = ParallelClipData {
+                mClipNameList: list[hash] = {
+                    "Idle_Var02"
+                    "Idle_Alt2"
+                }
+            }
+            "Idle3_PAR" = ParallelClipData {
+                mClipNameList: list[hash] = {
+                    "Idle_Alt3"
+                    "Idle_Var03"
+                }
+            }
+            "Idle_Var02" = AtomicClipData {
+                mFlags: u32 = 1
+                mTrackDataName: hash = "Default"
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_idle2.anm"
+                }
+                startFrame: f32 = 133
+            }
+            "Idle_Alt2" = AtomicClipData {
+                mFlags: u32 = 4
+                mMaskDataName: hash = "Tassel"
+                mTrackDataName: hash = "Tassel"
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: file = "assets/repath/characters/rengar/skins/skin02/animations/rengar_skin02_idle2.anm"
+                }
+                startFrame: f32 = 133
+            }
+            "Idle_Var03" = AtomicClipData {
+                mFlags: u32 = 1
+                mTrackDataName: hash = "Default"
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_idle3.anm"
+                }
+                startFrame: f32 = 54
+            }
+            "Idle_Alt3" = AtomicClipData {
+                mFlags: u32 = 4
+                mMaskDataName: hash = "Tassel"
+                mTrackDataName: hash = "Tassel"
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: file = "assets/repath/characters/rengar/skins/skin02/animations/rengar_skin02_idle3.anm"
+                }
+                startFrame: f32 = 54
+            }
         }
         mMaskDataMap: map[hash,embed] = {
             "UpperBody" = MaskData {

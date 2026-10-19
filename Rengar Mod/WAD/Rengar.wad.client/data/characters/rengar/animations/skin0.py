@@ -505,6 +505,43 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_idle3.anm"
                 }
             }
+            "Spawn" = SelectorClipData {
+                mSelectorPairDataList: list[embed] = {
+                    SelectorPairData {
+                        mClipName: hash = "Idle_Var01"
+                        mProbability: f32 = 50
+                    }
+                    SelectorPairData {
+                        mClipName: hash = "Idle_Var02"
+                        mProbability: f32 = 25
+                    }
+                    SelectorPairData {
+                        mClipName: hash = "Idle_Var03"
+                        mProbability: f32 = 25
+                    }
+                }
+            }
+            "Idle_Var01" = AtomicClipData {
+                mTrackDataName: hash = "BodyVisibility"
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_idle1.anm"
+                }
+                startFrame: f32 = 60
+            }
+            "Idle_Var02" = AtomicClipData {
+                mTrackDataName: hash = "Default"
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_idle2.anm"
+                }
+                startFrame: f32 = 133
+            }
+            "Idle_Var03" = AtomicClipData {
+                mTrackDataName: hash = "Default"
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_idle3.anm"
+                }
+                startFrame: f32 = 54
+            }
         }
         mMaskDataMap: map[hash,embed] = {
             "UpperBody" = MaskData {
