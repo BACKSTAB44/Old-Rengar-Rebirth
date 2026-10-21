@@ -62,6 +62,7 @@
 **- R** Ambient SFX reverted back to the old one on all skins (Base, HH, NH, SSW).  
 **- R** Activation SFX reverted back to the old one on Base/NH/SSW skins.  
 **- R** Heartbeats SFX no longer stops after casting Q on Base/NH/SSW skins.  
+**-** Kha'Zix Interaction VO changed to the old behavior.  
 **- Every other sound:** higher quality + minor adjustments to match Season 6.
 
 **- MISCELLANEOUS -**
@@ -111,4 +112,5 @@
 **-** **Q** [stopping Base **R** Heartbeats SFX](https://youtu.be/rFUvTCrUKn4). fixed.‎  
 **-** "*Dance*" SFX [not looping](https://youtu.be/cZUFahMlOMA) along with the animation, fixed.  
 **- ULT**'s "eyes" indicator [is misplaced](https://youtu.be/XBhIWUZfxuk) on Nightbringer Yasuo, fixed.  
-**-** *Skin5/6/7* (HH chromas) don't have all metaDataTags (like *faction/apperance*), fixed.
+**-** *Skin5/6/7* (HH chromas) don't have all metaDataTags (like *faction/apperance*), fixed.  
+**-** Missing Bonetooth VO on winning "The Hunt is On!", fixed.
