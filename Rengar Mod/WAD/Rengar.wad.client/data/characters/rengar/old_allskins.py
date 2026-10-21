@@ -5190,34 +5190,6 @@ entries: map[hash,embed] = {
                     }
                 }
             }
-            "EnemyEncounter" = ContextualSituation {
-                mCoolDownTime: f32 = 15
-                mRules: list[embed] = {
-                    ContextualRule {
-                        mRuleName: string = "First Encounter - Khazix"
-                        mConditions: list[pointer] = {
-                            ContextualConditionCharacter {
-                                mCharacterType: u8 = 1
-                                mChildConditions: list[pointer] = {
-                                    ContextualConditionCharacterName {
-                                        mCharacters: list[hash] = {
-                                            "Characters/Khazix/CharacterRecords/Root"
-                                        }
-                                    }
-                                    ContextualConditionEnemyEncounterNumber {}
-                                }
-                            }
-                        }
-                        mAudioAction: pointer = ContextualActionPlayVO {
-                            mMaxOccurences: u32 = 1
-                            mSelfEventName: string = "FirstEncounter3DKhazix"
-                        }
-                        CooldownModifications: pointer = ContextualActionCooldownModifications {
-                            IgnoreTimer: bool = true
-                        }
-                    }
-                }
-            }
             "SpellBuffCast" = ContextualSituation {
                 mRules: list[embed] = {
                     ContextualRule {
@@ -5311,6 +5283,47 @@ entries: map[hash,embed] = {
                             mMaxOccurences: u32 = 1
                             mSelfEventName: string = "Spell3DPStackFive"
                             mEnemyEventName: string = "Spell3DPStackFive"
+                        }
+                        CooldownModifications: pointer = ContextualActionCooldownModifications {
+                            IgnoreTimer: bool = true
+                        }
+                    }
+                }
+            }
+            "Khazix_Ongoing" = ContextualSituation {
+                mRules: list[embed] = {
+                    ContextualRule {
+                        mRuleName: string = "Khazix Spotted"
+                        mConditions: list[pointer] = {
+                            ContextualConditionCharacter {
+                                mChildConditions: list[pointer] = {
+                                    ContextualConditionIsSelf {
+                                        IsSelf: bool = true
+                                    }
+                                    ContextualConditionCharacterHasSpellBuff {
+                                        SpellBuff: hash = "Characters/Rengar/Spells/RengarRAbility/RengarR"
+                                    }
+                                }
+                            }
+                            ContextualConditionAnyOtherHero {
+                                mChildConditions: list[pointer] = {
+                                    ContextualConditionCharacterName {
+                                        mCharacters: list[hash] = {
+                                            "Characters/Khazix/CharacterRecords/Root"
+                                        }
+                                    }
+                                    ContextualConditionCharacterHasSpellBuff {
+                                        SpellBuff: hash = "Characters/Khazix/Spells/KhazixRAbility/KhazixRStealth"
+                                    }
+                                    ContextualConditionCharacterDistance {
+                                        mDistance: f32 = 2500
+                                    }
+                                }
+                            }
+                        }
+                        mAudioAction: pointer = ContextualActionPlayVO {
+                            mSelfEventName: string = "FirstEncounter3DKhazix"
+                            mEnemyEventName: string = "FirstEncounter3DKhazix"
                         }
                         CooldownModifications: pointer = ContextualActionCooldownModifications {
                             IgnoreTimer: bool = true

@@ -486,11 +486,10 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_attack4.anm"
                 }
             }
-            "Idle1" = AtomicClipData {
-                mFlags: u32 = 2
-                mTrackDataName: hash = "Default"
-                mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_idle1.anm"
+            "Idle1" = ParallelClipData {
+                mClipNameList: list[hash] = {
+                    "Idle1_Base"
+                    "Idle1_PAR"
                 }
             }
             "Idle2" = AtomicClipData {
@@ -503,6 +502,28 @@ entries: map[hash,embed] = {
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_idle3.anm"
+                }
+            }
+            "Idle1_Base" = AtomicClipData {
+                mFlags: u32 = 3
+                mTrackDataName: hash = "Default"
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_idle1.anm"
+                }
+            }
+            "Idle1_PAR" = SequencerClipData {
+                mFlags: u32 = 6
+                mClipNameList: list[hash] = {
+                    "Khazix_Ongoing"
+                }
+            }
+            "Khazix_Ongoing" = AtomicClipData {
+                mFlags: u32 = 4
+                mMaskDataName: hash = "empty"
+                mTrackDataName: hash = "Loop"
+                mTickDuration: f32 = 0.006
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_idle1.anm"
                 }
             }
             "Spawn" = SelectorClipData {
@@ -732,6 +753,9 @@ entries: map[hash,embed] = {
             }
             "BodyVisibility" = TrackData {
                 mPriority: u8 = 6
+            }
+            "Loop" = TrackData {
+                mPriority: u8 = 7
             }
         }
         mBlendDataTable: map[u64,pointer] = {

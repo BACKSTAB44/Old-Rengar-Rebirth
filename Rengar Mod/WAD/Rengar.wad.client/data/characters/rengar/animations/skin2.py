@@ -681,6 +681,7 @@ entries: map[hash,embed] = {
                 mClipNameList: list[hash] = {
                     "Idle1_Base"
                     "Idle1_TASSEL"
+                    "Idle1_PAR"
                 }
             }
             "Idle2" = ParallelClipData {
@@ -693,6 +694,21 @@ entries: map[hash,embed] = {
                 mClipNameList: list[hash] = {
                     "Idle3_TASSEL"
                     "Idle3_BASE"
+                }
+            }
+            "Idle1_PAR" = SequencerClipData {
+                mFlags: u32 = 6
+                mClipNameList: list[hash] = {
+                    "Khazix_Ongoing"
+                }
+            }
+            "Khazix_Ongoing" = AtomicClipData {
+                mFlags: u32 = 4
+                mMaskDataName: hash = "empty"
+                mTrackDataName: hash = "Loop"
+                mTickDuration: f32 = 0.006
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_idle1.anm"
                 }
             }
             "Spawn" = SelectorClipData {
@@ -1227,6 +1243,9 @@ entries: map[hash,embed] = {
             }
             "BodyVisibility" = TrackData {
                 mPriority: u8 = 9
+            }
+            "Loop" = TrackData {
+                mPriority: u8 = 10
             }
         }
         mBlendDataTable: map[u64,pointer] = {
