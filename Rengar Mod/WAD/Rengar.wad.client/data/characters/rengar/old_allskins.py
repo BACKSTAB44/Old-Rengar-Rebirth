@@ -5300,6 +5300,22 @@ entries: map[hash,embed] = {
                             IgnoreTimer: bool = true
                         }
                     }
+                    ContextualRule {
+                        mRuleName: string = "P Stack Six"
+                        mConditions: list[pointer] = {
+                            ContextualConditionSpellBuffName {
+                                SpellBuff: hash = "Characters/Rengar/Spells/RengarPassiveBonetoothBuffKhazix"
+                            }
+                        }
+                        mAudioAction: pointer = ContextualActionPlayVO {
+                            mMaxOccurences: u32 = 1
+                            mSelfEventName: string = "Spell3DPStackFive"
+                            mEnemyEventName: string = "Spell3DPStackFive"
+                        }
+                        CooldownModifications: pointer = ContextualActionCooldownModifications {
+                            IgnoreTimer: bool = true
+                        }
+                    }
                 }
             }
         }
