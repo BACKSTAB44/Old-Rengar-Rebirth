@@ -87,7 +87,7 @@
 
 ‎
 
-*The mod fixes a total of* ***24 live bugs*** *from the* [***RENGAR BUGS LIST***](https://www.reddit.com/r/Rengarmains/comments/1loa2ad/megapost_all_rengar_bugs/) *as well:‎*
+*The mod fixes a total of* ***25 live bugs*** *from the* [***RENGAR BUGS LIST***](https://www.reddit.com/r/Rengarmains/comments/1loa2ad/megapost_all_rengar_bugs/) *as well:‎*
 
 >**- E** and **W** animations [play during the **Leap**](https://youtu.be/8d1e-Zh8EWo?t=32).  
 **- W** animation [not lingering](https://youtu.be/8d1e-Zh8EWo?t=9) if Rengar casts **W** together with other actions.  
