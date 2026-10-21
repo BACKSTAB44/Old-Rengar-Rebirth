@@ -2,6 +2,7 @@
 
 | Version | Release Date |
 |---|---|
+| [v1.3.5](https://github.com/BACKSTAB44/Old-Rengar-Rebirth/releases/tag/v1.3.5) | October 21, 2026 |
 | [v1.3.4](https://github.com/BACKSTAB44/Old-Rengar-Rebirth/releases/tag/v1.3.4) | September 27, 2026 |
 | [v1.3.3](https://github.com/BACKSTAB44/Old-Rengar-Rebirth/releases/tag/v1.3.3) | September 10, 2026 |
 | [v1.3.2](https://github.com/BACKSTAB44/Old-Rengar-Rebirth/releases/tag/v1.3.2) | August 26, 2026 |
