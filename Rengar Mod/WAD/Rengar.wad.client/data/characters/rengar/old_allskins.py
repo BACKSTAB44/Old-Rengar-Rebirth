@@ -5318,6 +5318,7 @@ entries: map[hash,embed] = {
                                     ContextualConditionCharacterDistance {
                                         mDistance: f32 = 2500
                                     }
+                                    ContextualConditionIsAlly {}
                                 }
                             }
                         }
