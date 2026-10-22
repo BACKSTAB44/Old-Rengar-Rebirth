@@ -5201,8 +5201,8 @@ entries: map[hash,embed] = {
                         }
                         mAudioAction: pointer = ContextualActionPlayVO {
                             mMaxOccurences: u32 = 1
-                            mSelfEventName: string = "Spell3DPStackOne"
-                            mEnemyEventName: string = "Spell3DPStackOne"
+                            mSelfEventName: string = "Spell3DPStackTwo"
+                            mEnemyEventName: string = "Spell3DPStackTwo"
                         }
                         CooldownModifications: pointer = ContextualActionCooldownModifications {
                             IgnoreTimer: bool = true
@@ -5217,8 +5217,8 @@ entries: map[hash,embed] = {
                         }
                         mAudioAction: pointer = ContextualActionPlayVO {
                             mMaxOccurences: u32 = 1
-                            mSelfEventName: string = "Spell3DPStackTwo"
-                            mEnemyEventName: string = "Spell3DPStackTwo"
+                            mSelfEventName: string = "Spell3DPStackOne"
+                            mEnemyEventName: string = "Spell3DPStackOne"
                         }
                         CooldownModifications: pointer = ContextualActionCooldownModifications {
                             IgnoreTimer: bool = true
@@ -5265,8 +5265,8 @@ entries: map[hash,embed] = {
                         }
                         mAudioAction: pointer = ContextualActionPlayVO {
                             mMaxOccurences: u32 = 1
-                            mSelfEventName: string = "Spell3DPStackFive"
-                            mEnemyEventName: string = "Spell3DPStackFive"
+                            mSelfEventName: string = "Spell3DPStackFour"
+                            mEnemyEventName: string = "Spell3DPStackFour"
                         }
                         CooldownModifications: pointer = ContextualActionCooldownModifications {
                             IgnoreTimer: bool = true

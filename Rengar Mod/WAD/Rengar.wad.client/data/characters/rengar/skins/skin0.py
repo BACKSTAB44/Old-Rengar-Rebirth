@@ -19,7 +19,6 @@ entries: map[hash,embed] = {
         skinAudioProperties: embed = skinAudioProperties {
             tagEventList: list[string] = {
                 "Rengar"
-                "Rengar_FUTURE"
                 "Old"
             }
             bankUnits: list2[embed] = {
