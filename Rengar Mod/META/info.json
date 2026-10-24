@@ -10,17 +10,14 @@
         "modules": [
           {
             "name": "Q_SnapFacing",
-            "target": "data/characters/rengar/rengar.bin",
-            "edits": [
-              {
-                "Characters/Rengar/Spells/RengarQAbility/RengarQEmpAttack": {
-                  "mSpell.alwaysSnapFacing": false
-                },
-                "Characters/Rengar/Spells/RengarQAbility/RengarQAttack": {
-                  "mSpell.alwaysSnapFacing": false
-                }
+            "entries": {
+              "Characters/Rengar/Spells/RengarQAbility/RengarQEmpAttack": {
+                "mSpell.alwaysSnapFacing": false
+              },
+              "Characters/Rengar/Spells/RengarQAbility/RengarQAttack": {
+                "mSpell.alwaysSnapFacing": false
               }
-            ],
+            },
             "origin": {
               "manifest": "game_data.yaml",
               "source": null,
