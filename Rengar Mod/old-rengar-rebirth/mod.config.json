@@ -1,0 +1,17 @@
+{
+  "name": "old-rengar-rebirth",
+  "display_name": "Old Rengar Rebirth",
+  "version": "1.3.5",
+  "description": "Season 6 Experience",
+  "authors": [
+    "BACKSTAB ZedVeZed Renghub"
+  ],
+  "layers": [
+    {
+      "name": "base",
+      "priority": 0,
+      "description": ""
+    }
+  ],
+  "thumbnail": "thumbnail.webp"
+}
