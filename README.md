@@ -12,12 +12,12 @@
 # Installation
 
   1. Download [**LTK Manager**](https://github.com/LeagueToolkit/ltk-manager) and install it.
-  2. Go to mod's [**latest release**](https://github.com/BACKSTAB44/Old-Rengar-Rebirth/releases/latest) and download `.fantome` or `.modpkg` file.
-  3. After installing **LTK Manager**, **launch it** and drag the downloaded `file` into it.
-  4. Make sure the mod is toggled on and press **Start Patcher** at the top right of **LTK Manager**.
+  2. Go to [**latest release**](https://github.com/BACKSTAB44/Old-Rengar-Rebirth/releases/latest) and download `.modpkg` file.
+  3. After installing **LTK Manager**, **launch it** and drag the downloaded `.modpkg` into it.
+  4. Make sure the mod is toggled on and press **Start** at the top right of **LTK Manager**.
   5. Keep **LTK Manager** running in background while playing.
 
- **For Developers:** If you wish to edit the mod, Source and released `.zip` contain all the raw data.
+ **For Developers:** To edit the mod, use Source as it contains all the raw data.
 ### [Installation Tutorial](https://youtu.be/_UNsweJ9h-g)
 
 #
