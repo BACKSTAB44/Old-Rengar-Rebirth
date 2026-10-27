@@ -5,11 +5,9 @@
       "name": "Q_SnapFacing",
       "entries": {
         "Characters/Rengar/Spells/RengarQAbility/RengarQEmpAttack": {
-          "links": [],
           "mSpell.alwaysSnapFacing": false
         },
         "Characters/Rengar/Spells/RengarQAbility/RengarQAttack": {
-          "links": [],
           "mSpell.alwaysSnapFacing": false
         }
       }
