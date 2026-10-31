@@ -2898,6 +2898,7 @@ entries: map[hash,embed] = {
     "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_Q_Cas2" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.035
                 rate: embed = ValueFloat {
                     constantValue: f32 = 3
                 }
@@ -2989,6 +2990,7 @@ entries: map[hash,embed] = {
                 }
             }
             VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.035
                 rate: embed = ValueFloat {
                     constantValue: f32 = 3
                 }
