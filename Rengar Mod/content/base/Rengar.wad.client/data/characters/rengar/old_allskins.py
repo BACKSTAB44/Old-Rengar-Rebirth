@@ -4754,7 +4754,9 @@ entries: map[hash,embed] = {
                 lifetime: option[f32] = {
                     0.2
                 }
-                emitterLinger: option[f32] = {}
+                emitterLinger: option[f32] = {
+                    1
+                }
                 emitterName: string = "Zap"
                 SpawnShape: pointer = VfxShapeLegacy {
                     emitOffset: embed = ValueVector3 {
