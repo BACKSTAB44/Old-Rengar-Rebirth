@@ -964,7 +964,11 @@ entries: map[hash,embed] = {
                 }
                 blendMode: u8 = 1
                 pass: i16 = 10
+                miscRenderFlags: u8 = 1
                 doesCastShadow: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 30, 0, 0 }
+                }
                 birthRotationalVelocity0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -600, 0 }
                 }
@@ -1786,7 +1790,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "assets/repath/characters/rengar/skins/skin02/particles/rengar_skin02_w_groundring_sub.tex"
                 birthUvScrollRate: embed = ValueVector2 {
-                    constantValue: vec2 = { 0, 1.75 }
+                    constantValue: vec2 = { 0, 1.8 }
                 }
                 texDiv: vec2 = { 0.7, 1 }
             }
@@ -2885,7 +2889,7 @@ entries: map[hash,embed] = {
                 lifetime: option[f32] = {
                     0.15
                 }
-                emitterName: string = "SlashSkin2"
+                emitterName: string = "SlashSkin02"
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
@@ -3027,6 +3031,118 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0, -1.5 }
                 }
                 texDiv: vec2 = { 4, 1 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 80
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.75
+                }
+                particleLinger: option[f32] = {
+                    10.75
+                }
+                lifetime: option[f32] = {
+                    0.15
+                }
+                emitterName: string = "SlashSkin02_Hunter"
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 50, 0 }
+                }
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
+                    scaleEmitOffsetByBoundObjectSize: f32 = 0.005
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_weapontrail.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                Color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                censorModulateValue: vec4 = { 0, 0, 0, 1 }
+                disableBackfaceCull: bool = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 180, 90, -45 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
+                                    -1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 180, 90, -45 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 300, 50, 100 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1.5
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1.5
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 300, 50, 100 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 2, 2, 1 }
+                }
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_weapontrail_02.tex"
+                numFrames: u16 = 4
+                startFrame: u16 = 1
+                texDiv: vec2 = { 4, 1 }
+                birthUvScrollRate: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, -1.5 }
+                }
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -3257,7 +3373,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "assets/repath/characters/rengar/skins/skin02/particles/rengar_skin02_w_groundring_sub.tex"
                 birthUvScrollRate: embed = ValueVector2 {
-                    constantValue: vec2 = { 0, 1.75 }
+                    constantValue: vec2 = { 0, 1.8 }
                 }
                 texDiv: vec2 = { 0.7, 1 }
             }
@@ -3484,138 +3600,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 texture: string = "assets/repath/characters/rengar/skins/skin02/particles/rengar_skin02_q_flames_add_4x4.tex"
-                numFrames: u16 = 16
-                texDiv: vec2 = { 4, 4 }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.75
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.75
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[f32] = {
-                            0.75
-                        }
-                    }
-                }
-                particleLinger: option[f32] = {
-                    10.75
-                }
-                emitterName: string = "Blue_Glow_Sub"
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                SpawnShape: pointer = VfxShapePointDoNotUse {
-                    emitOffset: vec3 = { 0, -10, 0 }
-                }
-                primitive: pointer = VfxPrimitiveRay {}
-                blendMode: u8 = 2
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.1
-                            0.5
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 0 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 0.75 }
-                            { 0, 0, 0, 0 }
-                        }
-                    }
-                }
-                pass: i16 = -50
-                isLocalOrientation: flag = false
-                isRandomStartFrame: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1, 1, 1 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -90
-                                    -90
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 1 }
-                            { 1, 1, 1 }
-                        }
-                    }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 10, 25, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    0.5
-                                    0.5
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1
-                                    1.5
-                                    -1.5
-                                    -1
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 10, 25, 0 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.5
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 3, 0, 0 }
-                            { 4, 3, 0 }
-                            { 5, 6, 0 }
-                        }
-                    }
-                }
-                texture: string = "assets/repath/characters/rengar/skins/skin02/particles/rengar_skin02_flames_sub_4x4.tex"
                 numFrames: u16 = 16
                 texDiv: vec2 = { 4, 4 }
             }
@@ -4061,7 +4045,9 @@ entries: map[hash,embed] = {
                 lifetime: option[f32] = {
                     0.2
                 }
-                emitterLinger: option[f32] = {}
+                emitterLinger: option[f32] = {
+                    1
+                }
                 emitterName: string = "Zap"
                 SpawnShape: pointer = VfxShapeLegacy {
                     emitOffset: embed = ValueVector3 {
@@ -4228,7 +4214,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                emitterName: string = "Blue_Flames_Parent"
+                emitterName: string = "Blue_Flames_Parent" # here
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -4348,14 +4334,14 @@ entries: map[hash,embed] = {
                 texture: string = "assets/repath/characters/rengar/skins/skin02/particles/rengar_skin02_q_buf_blade_flame_2x2.tex"
                 numFrames: u16 = 4
                 birthUvScrollRate: embed = ValueVector2 {
-                    constantValue: vec2 = { 0.2, 0.3 }
+                    constantValue: vec2 = { 0.15, 0.25 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {
                                 keyTimes: list[f32] = {
                                     0
-                                    0.5001
-                                    0.5002
+                                    0.5
+                                    0.5
                                     1
                                 }
                                 keyValues: list[f32] = {
@@ -4368,8 +4354,8 @@ entries: map[hash,embed] = {
                             VfxProbabilityTableData {
                                 keyTimes: list[f32] = {
                                     0
-                                    0.5001
-                                    0.5002
+                                    0.5
+                                    0.5
                                     1
                                 }
                                 keyValues: list[f32] = {
@@ -4485,8 +4471,8 @@ entries: map[hash,embed] = {
                             VfxProbabilityTableData {
                                 keyTimes: list[f32] = {
                                     0
-                                    0.5001
-                                    0.5002
+                                    0.5
+                                    0.5
                                     1
                                 }
                                 keyValues: list[f32] = {
@@ -4499,8 +4485,8 @@ entries: map[hash,embed] = {
                             VfxProbabilityTableData {
                                 keyTimes: list[f32] = {
                                     0
-                                    0.5001
-                                    0.5002
+                                    0.5
+                                    0.5
                                     1
                                 }
                                 keyValues: list[f32] = {
