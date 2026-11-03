@@ -4092,9 +4092,7 @@ entries: map[hash,embed] = {
                 lifetime: option[f32] = {
                     0.3
                 }
-                emitterLinger: option[f32] = {
-                    -1
-                }
+                emitterLinger: option[f32] = {}
                 emitterName: string = "blood_02"
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 100, 0 }
@@ -4754,9 +4752,7 @@ entries: map[hash,embed] = {
                 lifetime: option[f32] = {
                     0.2
                 }
-                emitterLinger: option[f32] = {
-                    1
-                }
+                emitterLinger: option[f32] = {}
                 emitterName: string = "Zap"
                 SpawnShape: pointer = VfxShapeLegacy {
                     emitOffset: embed = ValueVector3 {
