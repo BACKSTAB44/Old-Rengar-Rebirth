@@ -3548,6 +3548,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_weapontrail_02.tex"
                 numFrames: u16 = 4
+                startFrame: u16 = 1
                 texDiv: vec2 = { 4, 1 }
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -1.5 }

@@ -1529,6 +1529,9 @@ entries: map[hash,embed] = {
                 particleLifetime: embed = ValueFloat {
                     constantValue: f32 = 0.75
                 }
+                particleLinger: option[f32] = {
+                    10.75
+                }
                 lifetime: option[f32] = {
                     0.15
                 }
@@ -1559,7 +1562,6 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                alphaRef: u8 = 0
                 disableBackfaceCull: bool = true
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 180, 90, -45 }
@@ -1588,6 +1590,37 @@ entries: map[hash,embed] = {
                 }
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 300, 50, 100 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1.5
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1.5
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 300, 50, 100 }
+                        }
+                    }
                 }
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 2, 1 }
@@ -1595,10 +1628,10 @@ entries: map[hash,embed] = {
                 texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_weapontrail_02.tex"
                 numFrames: u16 = 4
                 startFrame: u16 = 1
+                texDiv: vec2 = { 4, 1 }
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -1.5 }
                 }
-                texDiv: vec2 = { 4, 1 }
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
