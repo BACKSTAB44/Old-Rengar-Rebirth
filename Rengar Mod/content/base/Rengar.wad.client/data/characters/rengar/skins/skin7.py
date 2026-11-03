@@ -185,6 +185,7 @@ entries: map[hash,embed] = {
                 }
             }
         }
+        0x55d3758e: string = "assets/repath/characters/rengar/skins/skin07/chromapreview.tex"
         objectPath: hash = "Characters/Rengar/Skins/Skin7"
     }
     "Characters/Rengar/Skins/Skin7/Particles/Rengar_Skin7_R_Leap" = VfxSystemDefinitionData {
