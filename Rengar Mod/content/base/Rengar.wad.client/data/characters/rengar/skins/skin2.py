@@ -2383,7 +2383,7 @@ entries: map[hash,embed] = {
                                 }
                                 keyValues: list[f32] = {
                                     1
-                                    1.3
+                                    1.25
                                 }
                             }
                             VfxProbabilityTableData {}
@@ -2478,7 +2478,7 @@ entries: map[hash,embed] = {
                                 }
                                 keyValues: list[f32] = {
                                     1
-                                    1.3
+                                    1.25
                                 }
                             }
                             VfxProbabilityTableData {}
