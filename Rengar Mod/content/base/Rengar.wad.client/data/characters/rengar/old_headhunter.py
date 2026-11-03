@@ -1831,6 +1831,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
                 particleLinger: option[f32] = {
                     0.3
                 }
@@ -1890,19 +1893,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 3, 3, 3 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 1 }
-                            { 1, 1, 1 }
-                        }
-                    }
+                    constantValue: vec3 = { 2.5, 2.5, 2.5 }
                 }
                 texture: string = "assets/repath/characters/rengar/skins/skin01/particles/rengar_skin01_z_glow_2x2.tex"
                 numFrames: u16 = 4
@@ -2062,7 +2053,7 @@ entries: map[hash,embed] = {
                 lifetime: option[f32] = {
                     0.15
                 }
-                emitterName: string = "SlashBase"
+                emitterName: string = "SlashBase_Hunter"
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
@@ -2173,7 +2164,7 @@ entries: map[hash,embed] = {
                 lifetime: option[f32] = {
                     0.15
                 }
-                emitterName: string = "SlashAdd"
+                emitterName: string = "SlashAdd_Hunter"
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
@@ -2300,7 +2291,6 @@ entries: map[hash,embed] = {
                     10.3
                 }
                 emitterName: string = "Sword_Hunter"
-                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 100, 0 }
                 }
@@ -2495,18 +2485,6 @@ entries: map[hash,embed] = {
                 }
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 3, 3, 3 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 1 }
-                            { 1, 1, 1 }
-                        }
-                    }
                 }
                 texture: string = "assets/repath/characters/rengar/skins/skin01/particles/rengar_skin01_z_glow_2x2.tex"
                 numFrames: u16 = 4
@@ -3184,7 +3162,7 @@ entries: map[hash,embed] = {
                     0.2
                 }
                 isSingleParticle: flag = true
-                emitterName: string = "HitFlash"
+                emitterName: string = "HitFlash_Hunter"
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 80, 0 }
                 }
@@ -3269,7 +3247,7 @@ entries: map[hash,embed] = {
                     0.2
                 }
                 isSingleParticle: flag = true
-                emitterName: string = "HitSlash"
+                emitterName: string = "HitSlash_Hunter"
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 80, 0 }
                 }
@@ -3375,7 +3353,7 @@ entries: map[hash,embed] = {
                     0.2
                 }
                 isSingleParticle: flag = true
-                emitterName: string = "HitFlashFast"
+                emitterName: string = "HitFlashFast_Hunter"
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 80, 0 }
                 }
@@ -3571,7 +3549,7 @@ entries: map[hash,embed] = {
                 lifetime: option[f32] = {
                     0.15
                 }
-                emitterName: string = "SlashAdd"
+                emitterName: string = "SlashAdd_Hunter"
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
@@ -3818,11 +3796,9 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveRay {}
+                particleColorTexture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_rgb.tex"
                 blendMode: u8 = 2
                 pass: i16 = 100
-                Color: embed = ValueColor {
-                    constantValue: vec4 = { 0.3255, 0.6196, 1, 1 }
-                }
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 1 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -3914,10 +3890,8 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveRay {}
+                particleColorTexture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_z_red_rgb.tex"
                 pass: i16 = 100
-                Color: embed = ValueColor {
-                    constantValue: vec4 = { 0.75, 0, 0, 1 }
-                }
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 1 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
