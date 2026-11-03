@@ -391,6 +391,26 @@ entries: map[hash,embed] = {
                 }
                 particleLifetime: embed = ValueFloat {
                     constantValue: f32 = 1
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            1
+                        }
+                    }
                 }
                 particleLinger: option[f32] = {
                     1
@@ -525,7 +545,7 @@ entries: map[hash,embed] = {
                 texture: string = "assets/repath/characters/rengar/skins/skin02/particles/rengar_skin02_q_buf_blade_flame_2x2.tex"
                 numFrames: u16 = 4
                 birthUvScrollRate: embed = ValueVector2 {
-                    constantValue: vec2 = { -0.2, 0.3 }
+                    constantValue: vec2 = { -0.15, 0.25 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {
@@ -639,7 +659,7 @@ entries: map[hash,embed] = {
                 texture: string = "assets/repath/characters/rengar/skins/skin02/particles/rengar_skin02_q_buf_blade_flame_2x2_sub.tex"
                 numFrames: u16 = 4
                 birthUvScrollRate: embed = ValueVector2 {
-                    constantValue: vec2 = { 0.2, 0.3 }
+                    constantValue: vec2 = { 0.15, 0.25 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {
