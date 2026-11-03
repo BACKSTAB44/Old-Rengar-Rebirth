@@ -573,7 +573,7 @@ entries: map[hash,embed] = {
                             0
                         }
                         values: list[vec2] = {
-                            { -0.2, 0.3 }
+                            { -0.15, 0.25 }
                         }
                     }
                 }
@@ -687,7 +687,7 @@ entries: map[hash,embed] = {
                             0
                         }
                         values: list[vec2] = {
-                            { 0.2, 0.3 }
+                            { 0.15, 0.25 }
                         }
                     }
                 }
@@ -4046,7 +4046,7 @@ entries: map[hash,embed] = {
                     0.2
                 }
                 emitterLinger: option[f32] = {
-                    1
+                    -1
                 }
                 emitterName: string = "Zap"
                 SpawnShape: pointer = VfxShapeLegacy {
@@ -4214,7 +4214,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                emitterName: string = "Blue_Flames_Parent" # here
+                emitterName: string = "Blue_Flames_Parent"
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -4370,7 +4370,7 @@ entries: map[hash,embed] = {
                             0
                         }
                         values: list[vec2] = {
-                            { 0.2, 0.3 }
+                            { 0.15, 0.25 }
                         }
                     }
                 }
@@ -4465,7 +4465,7 @@ entries: map[hash,embed] = {
                 texture: string = "assets/repath/characters/rengar/skins/skin02/particles/rengar_skin02_q_buf_blade_flame_2x2_sub.tex"
                 numFrames: u16 = 4
                 birthUvScrollRate: embed = ValueVector2 {
-                    constantValue: vec2 = { -0.2, 0.3 }
+                    constantValue: vec2 = { -0.15, 0.25 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {
@@ -4501,7 +4501,7 @@ entries: map[hash,embed] = {
                             0
                         }
                         values: list[vec2] = {
-                            { -0.2, 0.3 }
+                            { -0.15, 0.25 }
                         }
                     }
                 }

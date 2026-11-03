@@ -352,7 +352,11 @@ entries: map[hash,embed] = {
                 }
                 blendMode: u8 = 1
                 pass: i16 = 10
+                miscRenderFlags: u8 = 1
                 doesCastShadow: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 30, 0, 0 }
+                }
                 birthRotationalVelocity0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -600, 0 }
                 }
@@ -817,6 +821,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
                 particleLinger: option[f32] = {
                     0.3
                 }
@@ -936,6 +943,9 @@ entries: map[hash,embed] = {
                             10
                         }
                     }
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 2
                 }
                 particleLinger: option[f32] = {
                     0.3
