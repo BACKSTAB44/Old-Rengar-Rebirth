@@ -1,6 +1,12 @@
 version: 1
 modules:
-  - entries: {
-      Characters/Rengar/Spells/RengarQAbility/RengarQEmpAttack: &snapOff {mSpell.alwaysSnapFacing: false},
+  - entries:
+      Characters/Rengar/Spells/RengarEEmpAbility/RengarEEmp:
+        mSpell.mAmmoRechargeTime: !ref Characters/Rengar/Spells/RengarEAbility/RengarE:mSpell.mAmmoRechargeTime
+      Characters/Rengar/Spells/RengarWAbility/RengarWEmp:
+        mSpell.mAmmoRechargeTime: !ref Characters/Rengar/Spells/RengarWAbility/RengarW:mSpell.mAmmoRechargeTime
+      Characters/Rengar/Spells/RengarQAbility/RengarQEmpAttack: &snapOff
+        mSpell.alwaysSnapFacing: false
       Characters/Rengar/Spells/RengarQAbility/RengarQAttack: *snapOff
-    }
+      Characters/Rengar/Spells/RengarQAbility/RengarQEmp:
+        mSpell.mAmmoRechargeTime: !ref Characters/Rengar/Spells/RengarQAbility/RengarQ:mSpell.mAmmoRechargeTime
