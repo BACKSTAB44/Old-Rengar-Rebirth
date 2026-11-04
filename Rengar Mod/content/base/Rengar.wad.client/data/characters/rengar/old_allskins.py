@@ -111,6 +111,31 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = -1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Base"
+                importance: u8 = 3
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveAttachedMesh {}
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.28, 0, 0, 1 }
+                }
+                pass: i16 = -2001
+                meshRenderFlags: u8 = 0
+                blendMode: u8 = 1
+                depthBiasFactors: vec2 = { -1, -4 }
+                particleIsLocalOrientation: flag = true
+                isUniformScale: flag = true
+                texture: string = "assets/repath/shared/particles/3161common_color-hold.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
                 emitterName: string = "Heart"
@@ -192,31 +217,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_r_heart.tex"
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = -1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Base"
-                importance: u8 = 3
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                primitive: pointer = VfxPrimitiveAttachedMesh {}
-                birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 0.28, 0, 0, 1 }
-                }
-                pass: i16 = -2001
-                meshRenderFlags: u8 = 0
-                blendMode: u8 = 1
-                depthBiasFactors: vec2 = { -1, -4 }
-                particleIsLocalOrientation: flag = true
-                isUniformScale: flag = true
-                texture: string = "assets/repath/shared/particles/3161common_color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
