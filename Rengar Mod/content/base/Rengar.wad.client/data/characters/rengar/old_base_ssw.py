@@ -2537,6 +2537,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
+                disableBackfaceCull: bool = true
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 180, 90, -90 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -3045,7 +3046,6 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "SlashAdd"
-                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 20, 220 }
                 }
