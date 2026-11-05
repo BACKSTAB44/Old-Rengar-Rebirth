@@ -55,7 +55,7 @@ entries: map[hash,embed] = {
             "Crit" = ParallelClipData {
                 mClipNameList: list[hash] = {
                     "Crit_Base"
-                    "Tiamat_Logic_Off"
+                    "Crit_Null"
                 }
             }
             "Crit_Base" = AtomicClipData {
@@ -71,6 +71,13 @@ entries: map[hash,embed] = {
                         mIsKillEvent: bool = false
                     }
                 }
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_crit.anm"
+                }
+            }
+            "Crit_Null" = AtomicClipData {
+                mMaskDataName: hash = "empty"
+                mTrackDataName: hash = "Null"
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_crit.anm"
                 }
@@ -332,7 +339,7 @@ entries: map[hash,embed] = {
             "Attack1_BASE" = ParallelClipData {
                 mClipNameList: list[hash] = {
                     "Attack1_Actions"
-                    "Tiamat_Logic_Off"
+                    "Attack1_Null"
                 }
             }
             "Attack1_Actions" = AtomicClipData {
@@ -352,17 +359,17 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_attack1.anm"
                 }
             }
-            "Tiamat_Logic_Off" = AtomicClipData {
+            "Attack1_Null" = AtomicClipData {
                 mMaskDataName: hash = "empty"
                 mTrackDataName: hash = "Null"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_channel.anm"
+                    mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_attack1.anm"
                 }
             }
             "Attack2" = ParallelClipData {
                 mClipNameList: list[hash] = {
                     "Attack2_BASE"
-                    "Tiamat_Logic_Off"
+                    "Attack2_Null"
                 }
             }
             "Attack2_BASE" = AtomicClipData {
@@ -382,10 +389,17 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_attack2.anm"
                 }
             }
+            "Attack2_Null" = AtomicClipData {
+                mMaskDataName: hash = "empty"
+                mTrackDataName: hash = "Null"
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_attack2.anm"
+                }
+            }
             "Attack3" = ParallelClipData {
                 mClipNameList: list[hash] = {
                     "Attack3_BASE"
-                    "Tiamat_Logic_Off"
+                    "Attack3_Null"
                 }
             }
             "Attack3_BASE" = AtomicClipData {
@@ -401,6 +415,13 @@ entries: map[hash,embed] = {
                         mIsKillEvent: bool = false
                     }
                 }
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_attack3.anm"
+                }
+            }
+            "Attack3_Null" = AtomicClipData {
+                mMaskDataName: hash = "empty"
+                mTrackDataName: hash = "Null"
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: file = "assets/repath/characters/rengar/skins/base/animations/rengar_attack3.anm"
                 }
