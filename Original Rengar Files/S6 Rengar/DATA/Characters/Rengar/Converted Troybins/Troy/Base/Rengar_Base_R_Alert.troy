@@ -1,0 +1,42 @@
+[System]
+GroupPart1="yikes"
+GroupPart1Type="Simple"
+GroupPart2="yikes2"
+GroupPart2Type="Simple"
+SimulateEveryFrame=1
+
+[yikes]
+e-life=25000.0
+e-local-orient=0
+e-rate=1.0
+flag-disable-z=1
+p-bindtoemitter=1.0 1.0
+p-life=1.0
+p-linger=0
+p-offset=0.0 90.0 0.0
+p-scale=30.0
+p-texture="Rengar_Base_R_Exclamation.dds"
+pass=1
+rendermode=1
+single-particle=1
+
+[yikes2]
+e-disabled=1
+e-life=25000.0
+e-local-orient=0
+e-rate=1.0
+p-alphaslicerange=0.2
+p-bindtoemitter=1.0 1.0
+p-life=1.0
+p-linger=0
+p-offset=0.0 90.0 0.0
+p-scale=30.0
+p-texture="Rengar_Base_R_Slice.dds"
+p-texture-pixelate=1
+pass=2
+rendermode=1
+single-particle=1
+
+;UNKNOWN_HASH 859369167=1000.0
+;UNKNOWN_HASH 2059491802=1
+;UNKNOWN_HASH 4087768689=3.0

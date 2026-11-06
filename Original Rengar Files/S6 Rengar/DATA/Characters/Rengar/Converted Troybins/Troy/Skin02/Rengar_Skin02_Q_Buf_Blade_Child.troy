@@ -1,0 +1,76 @@
+[Blue_Glow]
+e-local-orient=0
+e-rate=2.0
+p-bindtoemitter=1.0 0.0
+p-life=0.8
+p-lifeP1=0.0 0.75
+p-lifeP2=1.0 1.0
+p-linger=1.0
+p-numframes=16
+p-offset=0.0 -10.0 0.0
+p-quadrot=1.0 1.0 1.0
+p-quadrotXP1=0.0 -90.0
+p-quadrotXP2=1.0 -90.0
+p-randomstartframe=1
+p-scale=10.0 35.0 0.0
+p-scaleXP1=0.0 1.0
+p-scaleXP2=0.5000100135803223 1.5
+p-scaleXP3=0.5000200271606445 -1.5
+p-scaleXP4=1.0 -1.0
+p-scaleYP1=0.0 0.5
+p-scaleYP2=1.0 1.0
+p-texdiv=4.0 4.0
+p-texture="Rengar_Skin02_Q_Flames_add_4x4.dds"
+p-type=2
+p-xrgba=1.0 1.0 1.0 1.0
+p-xrgba1=0.0 1.0 1.0 1.0 1.0
+p-xrgba2=0.35 1.0 1.0 1.0 1.0
+p-xrgba3=0.8 0.0 0.0 1.0 0.2
+p-xrgba4=1.0 0.0 0.0 1.0 0.0
+p-xscale=1.0 1.0 1.0
+p-xscale1=0.0 3.0 1.0 0.0
+p-xscale2=0.5 3.5 3.0 0.0
+p-xscale3=1.0 4.0 6.0 0.0
+pass=-40
+rendermode=4
+
+[Blue_Glow_Sub]
+e-disabled=1
+e-local-orient=0
+e-rate=1.0
+p-bindtoemitter=1.0 0.0
+p-life=0.75
+p-lifeP1=0.0 0.75
+p-lifeP2=1.0 1.0
+p-numframes=16
+p-offset=0.0 -10.0 0.0
+p-quadrot=1.0 1.0 1.0
+p-quadrotXP1=0.0 -90.0
+p-quadrotXP2=1.0 -90.0
+p-randomstartframe=1
+p-scale=10.0 25.0 0.0
+p-scaleXP1=0.0 1.0
+p-scaleXP2=0.5000100135803223 1.5
+p-scaleXP3=0.5000200271606445 -1.5
+p-scaleXP4=1.0 -1.0
+p-texdiv=4.0 4.0
+p-texture="Rengar_Skin02_Flames_sub_4x4.dds"
+p-type=2
+p-xrgba=1.0 1.0 1.0 1.0
+p-xrgba1=0.0 1.0 1.0 1.0 0.0
+p-xrgba2=0.1 1.0 1.0 1.0 1.0
+p-xrgba3=0.5 1.0 1.0 1.0 0.75
+p-xrgba4=1.0 0.0 0.0 0.0 0.0
+p-xscale=1.0 1.0 1.0
+p-xscale1=0.0 3.0 0.0 0.0
+p-xscale2=0.5 4.0 3.0 0.0
+p-xscale3=1.0 5.0 6.0 0.0
+pass=-50
+rendermode=2
+
+[System]
+GroupPart1="Blue_Glow"
+GroupPart2="Blue_Glow_Sub"
+PersistThruDeath=1
+SimulateEveryFrame=1
+

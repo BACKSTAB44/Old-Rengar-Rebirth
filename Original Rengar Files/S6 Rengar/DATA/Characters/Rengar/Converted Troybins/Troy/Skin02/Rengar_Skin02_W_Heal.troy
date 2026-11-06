@@ -1,0 +1,50 @@
+[System]
+GroupPart1="healspark"
+GroupPart1Type="Complex"
+SimulateEveryFrame=1
+SoundOnCreate="Play_sfx_Rengar_RengarWBuff_buffactivate"
+
+[healspark]
+e-life=0.25
+e-linger=0
+e-local-orient=0
+e-rate=75
+flag-disable-z=1
+p-bindtoemitter=0
+p-colortype=1.0 3.0
+p-drag=3.0 1.0 3.0
+p-life=0.3
+p-lifeP1=0.0 1.0
+p-lifeP2=1.0 3.0
+p-offset=60.0 25.0 60.0
+p-offsetXP1=0.0 -1.0
+p-offsetXP2=0.5 -0.5
+p-offsetXP3=0.51 0.5
+p-offsetXP4=1.0 1.0
+p-offsetZP1=0.0 -1.0
+p-offsetZP2=0.5 -0.5
+p-offsetZP3=0.51 0.5
+p-offsetZP4=1.0 1.0
+p-orbitvel=0.0 3.0 0.0
+p-orbitvelYP1=0.0 -1.0
+p-orbitvelYP2=1.0 1.0
+p-rgba="Rengar_Skin02_W_Heal_Spark_RGBA.tga"
+p-scale=25.0 25.0 25.0
+p-texture="Rengar_Skin02_W_Heal_Spark.tga"
+p-type=0
+p-vel=0.0 800.0 0.0
+p-velXP1=0.0 -1.0
+p-velXP2=1.0 1.0
+p-velYP1=0.0 0.1
+p-velYP2=1.0 1.0
+p-velZP1=0.0 -1.0
+p-velZP2=1.0 1.0
+p-xscale=1.0 1.0 1.0
+p-xscale1=0.0 0.1 0.1 0.1
+p-xscale2=0.1 0.3 0.3 0.3
+p-xscale3=0.3 1.0 10.0 1.0
+p-xscale4=0.6 0.3 0.3 0.3
+p-xscale5=1.0 0.1 0.1 0.1
+rendermode=0
+
+;UNKNOWN_HASH 1148960942=0

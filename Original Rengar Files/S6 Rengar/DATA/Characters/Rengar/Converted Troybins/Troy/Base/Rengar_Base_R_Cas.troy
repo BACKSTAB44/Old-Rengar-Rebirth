@@ -1,0 +1,35 @@
+[Stealth_Swirls]
+e-life=3
+e-linger=0
+e-local-orient=1
+e-rate=200
+e-uvoffset=1.0 1.0
+e-uvoffsetXP1=0.0 0.0
+e-uvoffsetXP2=1.0 10.0
+e-uvoffsetYP1=0.0 0.0
+e-uvoffsetYP2=1.0 10.0
+p-backfaceon=1
+p-bindtoemitter=0.0 0.0
+p-colortype=1.0 3.0
+p-life=0.25
+p-linger=0.3
+p-local-orient=1
+p-mesh="Rengar_Base_Z_Sphere.sco"
+p-meshtex="Rengar_Base_R_Cas.tga"
+p-offset=0.0 150.0 0.0
+p-quadrot=1.0 -90.0 90.0
+p-quadrotXP1=0.0 0.0
+p-quadrotXP2=1.0 360.0
+p-rgba="Rengar_Base_Z_RGB.tga"
+p-scale=8.0 8.0 8.0
+p-type=3
+p-uvscroll-rgb=-0.25 0.1
+p-vel=0.0 0.0 -100.0
+p-xscale1=0.0 1.0 1.0 1.0
+p-xscale2=1.0 1.0 2.0 1.0
+rendermode=2
+
+[System]
+GroupPart1="Stealth_Swirls"
+SimulateEveryFrame=1
+

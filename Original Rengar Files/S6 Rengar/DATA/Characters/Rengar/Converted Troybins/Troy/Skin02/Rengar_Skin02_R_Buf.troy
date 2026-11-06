@@ -1,0 +1,112 @@
+[Avatar]
+'p-backfaceon=1
+'p-texture-mult="Rengar_Skin02_R_Avatar_Mask.tga"
+e-life=1
+e-linger=0
+e-rate=1
+p-colorscale=1.0 1.0
+p-colortype=1.0 3.0
+p-life=7
+p-linger=0.4
+p-local-orient=1
+p-rgba="color-hold.tga"
+p-scale=1.1 1.1 1.1
+p-simpleorient=3
+p-texture="Rengar_Skin02_R_MatOverride_Self.tga"
+p-type=11
+p-uvscroll-rgb-mult=1.0 1.0
+rendermode=1
+
+[Glows]
+MaterialOverride1Priority=2000
+MaterialOverride1Texture="Rengar_Skin02_R_MatOverride_Self.tga"
+MaterialOverrideTransMap="Rengar_Skin02_R_MaterialOverrideTrans.tga"
+e-life=7
+e-rate=1
+p-colorscale=1.0 1.0
+p-colortype=1.0 0.0
+p-life=7
+p-linger=1
+p-rgba="color-bellcurve3.tga"
+p-trans-sample=128
+rendermode=4
+
+[Stealth_Swirls]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=40
+e-rate1=0.0 0.5
+e-rate2=1.0 1.0
+e-uvoffset=1.0 1.0
+e-uvoffsetXP1=0.0 0.0
+e-uvoffsetXP2=1.0 10.0
+e-uvoffsetYP1=0.0 0.0
+e-uvoffsetYP2=1.0 10.0
+p-backfaceon=1
+p-bindtoemitter=1
+p-colortype=1.0 3.0
+p-life=1
+p-linger=0.3
+p-local-orient=1
+p-mesh="Rengar_Skin02_Z_Sphere.sco"
+p-meshtex="Rengar_Skin02_R_Cas.tga"
+p-offset=0.0 150.0 0.0
+p-quadrot=1.0 -90.0 90.0
+p-quadrotXP1=0.0 0.0
+p-quadrotXP2=1.0 360.0
+p-rgba="Rengar_Skin02_Z_RGB.tga"
+p-scale=8.0 8.0 8.0
+p-type=3
+p-uvscroll-rgb=-0.25 0.1
+p-vel=0.0 0.0 -100.0
+p-xscale1=0.0 1.0 1.0 1.0
+p-xscale2=1.0 1.0 2.0 1.0
+rendermode=2
+
+[Stealth_Swirls_Add]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=50
+e-rate1=0.0 0.5
+e-rate2=1.0 1.0
+e-uvoffset=1.0 1.0
+e-uvoffsetXP1=0.0 0.0
+e-uvoffsetXP2=1.0 10.0
+e-uvoffsetYP1=0.0 0.0
+e-uvoffsetYP2=1.0 10.0
+p-backfaceon=0
+p-bindtoemitter=1
+p-colortype=1.0 3.0
+p-fresnel=0.05
+p-fresnel-color=-1.0 -1.0 -1.0 -1.0
+p-life=1
+p-linger=0.3
+p-local-orient=1
+p-mesh="Rengar_Skin02_Z_Sphere.sco"
+p-meshtex="Rengar_Skin02_R_Cas.tga"
+p-offset=0.0 150.0 0.0
+p-quadrot=1.0 -90.0 90.0
+p-quadrotXP1=0.0 0.0
+p-quadrotXP2=1.0 360.0
+p-rgba="Rengar_Skin02_Z_RGB_add.tga"
+p-scale=8.0 8.0 8.0
+p-type=3
+p-uvscroll-rgb=-0.25 0.1
+p-vel=0.0 0.0 -100.0
+p-xscale1=0.0 1.0 1.0 1.0
+p-xscale2=1.0 1.0 2.0 1.0
+rendermode=0
+
+[System]
+'GroupPart4="Avatar"
+GroupPart1="Stealth_Swirls"
+GroupPart2="Stealth_Swirls_Add"
+GroupPart3="Glows"
+GroupPart3Type="Simple"
+GroupPart4Type="Simple"
+SimulateEveryFrame=1
+
+;UNKNOWN_HASH 3730924980="Simple"
+;UNKNOWN_HASH 3884977210=1
