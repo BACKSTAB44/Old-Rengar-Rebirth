@@ -16,7 +16,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = -1
                 }
                 isSingleParticle: flag = true
-                emitterName: string = "eyes"
+                emitterName: string = "yikes"
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -34,7 +34,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 45, 45, 0 }
                 }
-                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_r_tar_vision_eye.tex"
+                texture: string = "assets/repath/characters/rengar/skins/base/particles/rengar_base_r_exclamation.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
