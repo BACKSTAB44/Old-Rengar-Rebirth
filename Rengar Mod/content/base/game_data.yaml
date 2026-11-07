@@ -5,8 +5,17 @@ modules:
         mSpell.mAmmoRechargeTime: !ref Characters/Rengar/Spells/RengarEAbility/RengarE:mSpell.mAmmoRechargeTime
       Characters/Rengar/Spells/RengarWAbility/RengarWEmp:
         mSpell.mAmmoRechargeTime: !ref Characters/Rengar/Spells/RengarWAbility/RengarW:mSpell.mAmmoRechargeTime
-      Characters/Rengar/Spells/RengarQAbility/RengarQEmpAttack: &snapOff
-        mSpell.alwaysSnapFacing: false
-      Characters/Rengar/Spells/RengarQAbility/RengarQAttack: *snapOff
       Characters/Rengar/Spells/RengarQAbility/RengarQEmp:
         mSpell.mAmmoRechargeTime: !ref Characters/Rengar/Spells/RengarQAbility/RengarQ:mSpell.mAmmoRechargeTime
+
+      Characters/Rengar/Spells/RengarQAbility/RengarQEmpAttack: &QAttack
+        mSpell.alwaysSnapFacing: false
+        mSpell.castFrame: 8
+      Characters/Rengar/Spells/RengarQAbility/RengarQAttack: *QAttack
+
+      Characters/Rengar/Spells/RengarBasicAttack: &Attack
+        mSpell.castFrame: 8.4
+      Characters/Rengar/Spells/RengarBasicAttack2: *Attack
+      Characters/Rengar/Spells/RengarBasicAttack3: *Attack
+      Characters/Rengar/Spells/RengarCritAttack: *Attack
+
