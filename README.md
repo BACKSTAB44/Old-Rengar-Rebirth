@@ -29,7 +29,6 @@
  - **Sounds & Misc:** [BACKSTAB](https://youtube.com/@backstab44?si=c0_3TbJ7E0hWylRW)
  - **Honorable Mentions:** [Riot KDan](https://x.com/riotkdan?s=21), [Runeforge Community](https://discord.com/invite/Hmc3n2cewt), [Vespertine](https://www.reddit.com/u/Vespertine_F/s/wGGvQGGTmn)
 
-**Special thanks to [Renghub](https://youtube.com/@renghub?si=3_gHb5NiVaICRaB-) for discovering and sharing the method used to fix animations.**
 #
 # Socials
  - **Twitter:** [@BACKSTAB44](https://x.com/BACKSTAB44)
