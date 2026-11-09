@@ -18,4 +18,3 @@ modules:
       Characters/Rengar/Spells/RengarBasicAttack2: *Attack
       Characters/Rengar/Spells/RengarBasicAttack3: *Attack
       Characters/Rengar/Spells/RengarCritAttack: *Attack
-
