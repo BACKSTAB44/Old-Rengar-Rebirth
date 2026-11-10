@@ -1,18 +1,21 @@
 # CHANGELOG:
 
-*Changes done on Renghub's mod:*
+*Compared to Renghub's mod, this one changes the following:*
 
 **- ANIMATIONS -**
 
->**-** Emote animations are now smooth rather than snappy, matching the Season 6.  
-**-** Bush/ULT Idle Animation reverted back to S6 functionality (moved to Regular Idle animations).  
+>**- Attack** animations fully restored to the old ones.  
+**-** Emote animations are now smooth rather than snappy, matching the Season 6.  
+**-** Bush/ULT Idle animation reverted back to S6 functionality (moved to Regular Idle animations).  
 **-** Tail Physics removed, as old Rengar didn't have it.  
 **-** Recall animation once again plays during **Leap**.  
 **- Tiamat** animation once again plays during **Leap**.  
+**- Tiamat** once again copies the full **Q** animation.  
 **- Leap** no longer glitches towards its animation end.  
 **- Q** animation fully restored to the old one.  
 **- Q** no longer snaps Rengar to the target, now he properly turns around, matching the S6 **Q**.  
 **- Q/W/E** animations no longer play during death.  
+**- W** animation fully restored to the old one.  
 **- W** animation no longer plays on top of "*emote*" animations (CTRL + 1/2/3/4).  
 **- E** animation once again plays after **Q** / **AA**.  
 **- E** no longer changes Rengar's facing direction during the Leap.  
@@ -22,11 +25,15 @@
 
 **- VISUALS -**
 
->**-** Increased visibility of **Leap**, **Q**, **W** and **R** visuals on Very Low settings.  
+>**-** Increased visibility of **Leap** and **W** VFX on low settings, matching S6.  
 **- Leap** range indicator reverted back to the old one for Night Hunter skin.  
 **- Leap** range no longer disappears at screen's edge.  
 **- Q** on-hit visuals' positioning adjusted.  
+**- Q** Trails VFX size reduced to the old one.  
+**- Q** Trails VFX timing adjusted to match Season 6 behavior.  
 **- Q** Trails VFX no longer fails to play if **Q** is used multiple times in a same sequence.  
+**- Q** Trails VFX no longer plays at the start of **Leap** if **Emp Q** is activated prior to the jump.  
+**- Q** Trails VFX no longer plays twice for **Emp Q**.  
 **- Emp Q** Attack Speed "Glow" VFX removed.  
 **- W** Glow VFX size reduced to match the old one.  
 **- Emp W** Glow VFX duration changed to 2s to match the Empowered MS.  
@@ -35,8 +42,9 @@
 **- R** Heart VFX removed for Headhunter skin, as old Headhunter didn't have it.  
 **- R** Target Glow VFX improved to match the old looks.  
 **- R** Activation VFX on Headhunter and Night Hunter reverted to the old one.  
-**- R** Activation VFX no longer keeps playing even if you cancel **R**.  
+**- R** Activation VFX on Headhunter no longer keeps playing even if you cancel **R**.  
 **- R** Activation VFX no longer turns Headhunter chromas into Base Headhunter for a moment.  
+**- R** Exclamation Mark size slightly reduced.  
 **- R** Exclamation Mark no longer pulsates and moves around.  
 **- R** Exclamation Mark is no longer misplaced for some champs (e.g. Nightbringer Yasuo).  
 **- R** Body texture on Headhunter reverted to the old one.  
@@ -49,7 +57,7 @@
 **-** MAX Ferocity SFX now matches the old one, with improved quality.  
 **- Leap** SFX more variations and its functionality reverted back to the old one.  
 **- Q** Stab sounds significantly improved, matching the old one, with all 4 SFX variations.  
-**- Q** Stab SFX timing adjusted to better match Season 6 behavior.  
+**- Q** Stab SFX timing adjusted to match Season 6 behavior.  
 **- Q** Stab SFX no longer fails to play if **E** is used right after **Q**.  
 **- Q** Stab SFX no longer fails to play if **Q** is used multiple times in a same sequence.  
 **- Q** On-Attack SFX restored. It once again uses the old one.  
@@ -58,36 +66,36 @@
 **- Emp Q** Activation now has all 3 SFX variations.  
 **- Emp Q** Attack Speed SFX no longer incorrectly plays on the Night Hunter skin.  
 **- W** SFX improved, matching the S6 one and it no longer fires twice each cast.  
-**- E** SFX reverted back to the old one.  
+**- E** SFX reverted back to the old ones.  
 **- R** Ambient SFX reverted back to the old one on all skins (Base, HH, NH, SSW).  
 **- R** Activation SFX reverted back to the old one on Base/NH/SSW skins.  
 **- R** Heartbeats SFX no longer stops after casting Q on Base/NH/SSW skins.  
 **-** Kha'Zix Interaction VO changed to the old behavior.  
+**-** Restored VO line for winning "*The Hunt is On*".  
 **- Every other sound:** higher quality + minor adjustments to match Season 6.
 
 **- MISCELLANEOUS -**
 
 >**-** Mod restructured, made it way easier to work on for someone new. I want to ensure the Rebirth mod stays around, so this is for the people who might continue the work after me.  
 **-** Other skins are no longer affected by the mod, only the 4 OG ones (Base, HH, NH and SSW).  
-**-** Skins no longer use Classic skin's icon in the HUD.  
+**-** Skins no longer use Base skin's icon in the HUD.  
 **-** Enforced changes to make sure the mod stays working long-term.  
 **-** Mod fully debloated.  
-**-** File count reduced from 417 to 181.  
+**-** File count reduced from 417 to 186.  
 **-** All .DDS converted to .TEX (modern format).  
 **-** All .SCO converted to .SCB (modern format).  
 **-** Rewritten a lot of code to modern Riot standards.  
 **-** More compact code (25.000+ lines thinner).  
-**-** Many flags corrected from 8-bit to 16-bit.  
 **-** Mod thumbnail added for supported mod-loaders.  
 **-** Open sourced, check [Github](https://github.com/BACKSTAB44/Old-Rengar-Rebirth.git) and [GDrive](https://drive.google.com/drive/folders/17wvzPI16-7v2034s4K1XfgrLlE1PdZ7m).  
 **-** Disabled skin-hacking.  
-**-** Fixed FPS issues while in ULT.  
+**-** Better optimization for low-end PCs.  
 **-** Cracked all hashed info.  
 **-** Restored *region (Ixtal)*, *race (Vastaya)* and *apperance (Feline)* traits for Headhunter chromas. They're now properly recognized for special interactions with other champions.
 
 ‎
 
-*The mod fixes a total of* ***25 live bugs*** *from the* [***RENGAR BUGS LIST***](https://www.reddit.com/r/Rengarmains/comments/1loa2ad/megapost_all_rengar_bugs/) *as well:‎*
+*The mod fixes a total of* ***26 live bugs*** *from the* [***RENGAR BUGS LIST***](https://www.reddit.com/r/Rengarmains/comments/1loa2ad/megapost_all_rengar_bugs/) *as well:‎*
 
 >**- E** and **W** animations [play during the **Leap**](https://youtu.be/8d1e-Zh8EWo?t=32).  
 **- W** animation [not lingering](https://youtu.be/8d1e-Zh8EWo?t=9) if Rengar casts **W** together with other actions.  
@@ -113,4 +121,6 @@
 **-** "*Dance*" SFX [not looping](https://youtu.be/cZUFahMlOMA) along with the animation, fixed.  
 **- ULT**'s "eyes" indicator [is misplaced](https://youtu.be/XBhIWUZfxuk) on Nightbringer Yasuo, fixed.  
 **-** *Skin5/6/7* (HH chromas) don't have all metaDataTags (like *faction/apperance*), fixed.  
-**-** Missing Bonetooth VO on winning "The Hunt is On!", fixed.
+**-** Missing Bonetooth VO on winning "The Hunt is On!", fixed.  
+**-** Empowered tooltips [not displaying cooldown](https://github.com/ArdaSenyurek/Rengar-Bugs/issues/68), fixed.
+
