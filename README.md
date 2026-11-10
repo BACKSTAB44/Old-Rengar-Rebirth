@@ -41,7 +41,6 @@ _The mod is managed by me (BACKSTAB), if you find any bugs you can contact me._
 
 To secure the longevity of the Rebirth mod, I'm publishing its archive and a repository containing files related to it. In case I'm unable to maintain it, others will be able to continue the work and keep the mod alive. 
 
-Hopefully this will be useful someday.
  - [**Archive**](https://drive.google.com/drive/folders/1fdFs-jmjTvH34S1yLzE9JP-wabCWr38X) _(mod & wwise iterations)_
  - [**Extra**](https://drive.google.com/drive/folders/17wvzPI16-7v2034s4K1XfgrLlE1PdZ7m) _(very useful stuff)_
  - [**Backup Link**](https://web.archive.org/web/https://codeload.github.com/BACKSTAB44/Old-Rengar-Rebirth/zip/refs/heads/main) _(WebArchive, direct)_
