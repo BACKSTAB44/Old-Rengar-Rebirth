@@ -1450,11 +1450,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                pass: i16 = 9
                 meshRenderFlags: u8 = 0
                 depthBiasFactors: vec2 = { -1, -4 }
                 colorLookUpTypeY: u8 = 3
-                alphaRef: u8 = 0
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionDriveCurve: embed = ValueFloat {
                         dynamics: pointer = VfxAnimatedFloatVariableData {
