@@ -105,7 +105,7 @@ entries: map[hash,embed] = {
         iconSquare: option[file] = {
             "assets/repath/characters/rengar/hud/rengar_square_0.tex"
         }
-        iconAvatar: file = "assets/repath/characters/rengar/hud/rengar_circle_2.tex"
+        iconAvatar: file = "assets/repath/characters/rengar/hud/rengar_circle_0.tex"
         healthBarData: embed = CharacterHealthBarDataRecord {
             unitHealthBarStyle: u8 = 12
         }
