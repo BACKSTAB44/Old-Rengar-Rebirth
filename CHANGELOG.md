@@ -78,7 +78,7 @@
 
 >**-** Mod restructured, made it way easier to work on for someone new. I want to ensure the Rebirth mod stays around, so this is for the people who might continue the work after me.  
 **-** Other skins are no longer affected by the mod, only the 4 OG ones (Base, HH, NH and SSW).  
-**-** Skins no longer use Base skin's icon in the HUD.  
+**-** Added Bonetooth stack count in HUD.  
 **-** Enforced changes to make sure the mod stays working long-term.  
 **-** Mod fully debloated.  
 **-** File count reduced from 417 to 186.  
