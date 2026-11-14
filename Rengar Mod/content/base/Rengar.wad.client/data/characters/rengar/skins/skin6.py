@@ -199,7 +199,6 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Leap6"
-                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -229,6 +228,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Rengar_Skin6_R_Leap"
         particlePath: string = "Characters/Rengar/Skins/Skin6/Particles/Rengar_Skin6_R_Leap"
+        0x9836cd87: u8 = 1
         objectPath: hash = "Characters/Rengar/Skins/Skin6/Particles/Rengar_Skin6_R_Leap"
     }
     "Characters/Rengar/Skins/Skin6/Resources" = ResourceResolver {
