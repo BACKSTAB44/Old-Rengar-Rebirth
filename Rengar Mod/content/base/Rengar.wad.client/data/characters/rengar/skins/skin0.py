@@ -220,7 +220,7 @@ entries: map[hash,embed] = {
         }
         objectPath: hash = "Characters/Rengar/Skins/Skin0"
     }
-    "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Leap" = VfxSystemDefinitionData {
+    "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_LeapMat" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -258,10 +258,10 @@ entries: map[hash,embed] = {
                 texture: string = "assets/repath/characters/rengar/skins/base/rengar_base_tx_cm.tex"
             }
         }
-        particleName: string = "Rengar_Base_R_Leap"
-        particlePath: string = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Leap"
+        particleName: string = "Rengar_Base_R_LeapMat"
+        particlePath: string = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_LeapMat"
         0x9836cd87: u8 = 1
-        objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Leap"
+        objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_LeapMat"
     }
     "Characters/Rengar/Skins/Skin0/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {
@@ -315,7 +315,7 @@ entries: map[hash,embed] = {
             "Rengar_R_Screen_Overlay_Target" = "Characters/Rengar/Skins/Skin0/TextureResources/Rengar_Base_R_screen_overlay_target"
             "Rengar_Q_Cas2" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_Q_Cas2"
             "Rengar_Q_Tar_Visuals" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_Q_Tar_Visuals"
-            "Rengar_R_LeapMat" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_Leap"
+            "Rengar_R_LeapMat" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_R_LeapMat"
         }
     }
 }

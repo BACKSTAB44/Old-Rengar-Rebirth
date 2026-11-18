@@ -156,6 +156,49 @@ entries: map[hash,embed] = {
         }
         objectPath: hash = "Characters/Rengar/Skins/Skin2"
     }
+    "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin2_R_LeapMat" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Leap2"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveAttachedMesh {}
+                Color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.3
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -2001
+                meshRenderFlags: u8 = 0
+                blendMode: u8 = 1
+                depthBiasFactors: vec2 = { -1, -4 }
+                particleIsLocalOrientation: flag = true
+                isUniformScale: flag = true
+                texture: string = "assets/repath/characters/rengar/skins/skin02/rengar_skin02_tx_cm.tex"
+            }
+        }
+        particleName: string = "Rengar_Skin2_R_LeapMat"
+        particlePath: string = "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin2_R_LeapMat"
+        0x9836cd87: u8 = 1
+        objectPath: hash = "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin2_R_LeapMat"
+    }
     "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin02_BA3_Cas" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
@@ -4811,49 +4854,6 @@ entries: map[hash,embed] = {
         soundOnCreateDefault: string = "Play_sfx_Old_RengarP_MaxFerocity"
         objectPath: hash = "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin02_P_Buf_Max"
     }
-    "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin2_R_Leap" = VfxSystemDefinitionData {
-        complexEmitterDefinitionData: list[pointer] = {
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Leap2"
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                primitive: pointer = VfxPrimitiveAttachedMesh {}
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.3
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 0 }
-                        }
-                    }
-                }
-                pass: i16 = -2001
-                meshRenderFlags: u8 = 0
-                blendMode: u8 = 1
-                depthBiasFactors: vec2 = { -1, -4 }
-                particleIsLocalOrientation: flag = true
-                isUniformScale: flag = true
-                texture: string = "assets/repath/characters/rengar/skins/skin02/rengar_skin02_tx_cm.tex"
-            }
-        }
-        particleName: string = "Rengar_Skin2_R_Leap"
-        particlePath: string = "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin2_R_Leap"
-        0x9836cd87: u8 = 1
-        objectPath: hash = "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin2_R_Leap"
-    }
     "Characters/Rengar/Skins/Skin2/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {
             "Rengar_BA1_Cas" = "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin02_BA1_Cas"
@@ -4908,7 +4908,7 @@ entries: map[hash,embed] = {
             "rengar_recall_start_sound" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_EmptyVFX"
             "Rengar_Q_Cas2" = "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin02_Q_Cas2"
             "Rengar_Q_Tar_Visuals" = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_Q_Tar_Visuals"
-            "Rengar_R_LeapMat" = "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin2_R_Leap"
+            "Rengar_R_LeapMat" = "Characters/Rengar/Skins/Skin2/Particles/Rengar_Skin2_R_LeapMat"
         }
     }
 }
