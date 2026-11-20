@@ -941,6 +941,9 @@ entries: map[hash,embed] = {
                 particleLifetime: embed = ValueFloat {
                     constantValue: f32 = 0.75
                 }
+                particleLinger: option[f32] = {
+                    0.5
+                }
                 emitterName: string = "Ring"
                 importance: u8 = 3
                 bindWeight: embed = ValueFloat {
@@ -985,6 +988,9 @@ entries: map[hash,embed] = {
                             1
                         }
                     }
+                }
+                particleLinger: option[f32] = {
+                    0.5
                 }
                 emitterName: string = "Ring_FX"
                 importance: u8 = 3
@@ -1057,7 +1063,7 @@ entries: map[hash,embed] = {
                 texDiv: vec2 = { 2, 2 }
             }
         }
-        visibilityRadius: f32 = 2000
+        visibilityRadius: f32 = 4000
         particleName: string = "Rengar_Base_P_Buf_Enhanced_Ring"
         particlePath: string = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_P_Buf_Enhanced_Ring"
         objectPath: hash = "Characters/Rengar/Skins/Skin0/Particles/Rengar_Base_P_Buf_Enhanced_Ring"
