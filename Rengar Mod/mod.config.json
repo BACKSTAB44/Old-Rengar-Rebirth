@@ -9,7 +9,8 @@
   "layers": [
     {
       "name": "base",
-      "priority": 0
+      "priority": 0,
+      "description": ""
     }
   ],
   "thumbnail": "thumbnail.webp"
