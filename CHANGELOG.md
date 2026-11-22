@@ -71,7 +71,7 @@
 **- R** Activation SFX reverted back to the old one on Base/NH/SSW skins.  
 **- R** Heartbeats SFX no longer stops after casting Q on Base/NH/SSW skins.  
 **-** Kha'Zix Interaction VO changed to the old behavior.  
-**-** Restored VO line for winning "*The Hunt is On*".  
+**-** Restored VO line for winning "*The Hunt is On!*".  
 **- Every other sound:** higher quality + minor adjustments to match Season 6.
 
 **- MISCELLANEOUS -**
