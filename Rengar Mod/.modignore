@@ -6,7 +6,6 @@
 *.fbx
 *.glb
 *.gltf
-*.json
 *.kra
 *.ma
 *.max
@@ -26,6 +25,7 @@
 *.tmp
 *.txt
 *.xcf
+*pyntex.json
 *~
 ._*
 .DS_Store
