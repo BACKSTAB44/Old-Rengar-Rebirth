@@ -81,7 +81,7 @@
 **-** Added Bonetooth stack count in HUD.  
 **-** Enforced changes to make sure the mod stays working long-term.  
 **-** Mod fully debloated.  
-**-** File count reduced from 417 to 189.  
+**-** File count reduced from 417 to 190.  
 **-** All .DDS converted to .TEX (modern format).  
 **-** All .SCO converted to .SCB (modern format).  
 **-** Rewritten a lot of code to modern Riot standards.  
